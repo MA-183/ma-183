@@ -22,8 +22,8 @@ export default {
       quote: "Quote",
     },
     backlinks: {
-      title: "Tilknyttede sider",
-      noBacklinksFound: "Ingen tilknyttede sider funnet",
+      title: "Backlinks",
+      noBacklinksFound: "No backlinks found",
     },
     themeToggle: {
       lightMode: "Light mode",

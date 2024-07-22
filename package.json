@@ -4,12 +4,12 @@
   "private": true,
   "version": "4.2.4",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "André Martiny",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "homepage": "https://github.com/MA-183/MA-183",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/MA-183/MA-183"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
