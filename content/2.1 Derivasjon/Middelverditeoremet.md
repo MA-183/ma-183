@@ -1,0 +1,34 @@
+
+> [!tip] Middelverditeoremet
+> Anta at en funksjon $f$ er kontinuerlig på et lokka, endelig intervall $[a,b]$ og at $f$ er deriverbar på det åpne intervallet $(a,b)$. Da eksisterer det et punkt $c$ i $(a,b)$, slik at 
+> $$\frac{f(b)-f(a) }{b-a } = f'(c).$$
+
+For å bevise dette bruker vi et spesialtilfelle der $f(a) = f(b)$, som kalles [Rolles teorem](2.1%20Derivasjon/Rolles%20teorem.md).
+
+> [!note] Argument 
+> 
+
+Vi ønsker å vise at det finnes et punkt på $f$ som har samme stigning som gjennomsnittsstigningen mellom $a$ og $b$.
+
+<iframe src="https://www.desmos.com/calculator/jrlscgp3mb?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+Ser på vi på grafen over kan vi tenke oss at vi kan lage funksjonen som viser avstanden mellom den lineære funksjonen som går gjennom $f(a)$ og $f(b)$. Den funksjonen uttrykkes slik
+$$\begin{aligned} 
+  g(x) &= f(x) - \text{den lineære funksjonen} \\
+  &= f(x)- \frac{f(b)-f(a) }{b-a }(x-a)+f(a)
+\end{aligned} $$
+
+Den ser slik ut
+<iframe src="https://www.desmos.com/calculator/8oto3entns?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+Ideen er at [Rolles teorem](2.1%20Derivasjon/Rolles%20teorem.md) teorem forteller oss at denne funksjonen har et punkt $c$ der $g'(c) = 0$. Det er denne $c$-en som også bør være punktet vi er på jakt etter for $f$.
+
+For å bekrefte det så deriverer vi $g$ og får
+$$
+g'(x)=f'(x)- \frac{f(b)-f(a) }{b-a }.
+$$
+Spesielt får vi at hvis $g'(c) = 0$ så er 
+$$
+g'(c) = f'(c)-\frac{f(b)-f(a) }{b-a }=0.
+$$
+Som betyr at $f'(c) = \frac{f(b)-f(a) }{b-a }$ akkurat som forventet.

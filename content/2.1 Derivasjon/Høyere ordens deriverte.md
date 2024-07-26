@@ -1,0 +1,13 @@
+
+Hvis den deriverte $y' = f'(x)$ av en funksjon $f(x)$ også er deriverbar i $x$ kan vi beregne dens deriverte. Vi kaller denne for den andrederiverte av $f(x)$, og skriver $y'' = f''(x)$. Her finnes det også flere skrivemåter
+
+> [!info] Notasjon 
+> Vi har følgende måter å skrive den andrederiverte til en funksjon $f$.
+> $y'' = f''(x) = \frac{d^2y}{dx^2} = \frac{d}{dx}\frac{d}{dx}f(x) = \frac{d^2}{dx^2}f(x)$
+
+På samme måte kan vi snakke om tredje-, fjerde-,..., n-te deriverte.
+
+> [!info] Notasjon
+> For den n-te deriverte til en funksjon $f$ bruker vi følgende skrivemåte
+> $y^{(n)} = f^{(n)}(x) = \frac{d^{(n)}}{dx^{(n)}}$ og så videre..
+
