@@ -1,3 +1,17 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #505877;
+    border: 1px solid #505877;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #2c3e50;
+}

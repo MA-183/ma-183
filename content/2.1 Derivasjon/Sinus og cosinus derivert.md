@@ -38,8 +38,6 @@ Merk at vi bruker [Kjerneregelen](2.1%20Derivasjon/Kjerneregelen.md) her, i till
 > 2. $x^3\sin(x^2)$
 > 3. $\frac{\cos(x) }{1+\sin(x) }$.
 
-
-
 > [!check] 1
 > 
 
