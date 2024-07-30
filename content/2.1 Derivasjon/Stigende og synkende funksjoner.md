@@ -7,7 +7,7 @@
 
 Det skal ikke mye til før vi innser at dersom en funksjon er deriverbar på et intervall, så kan det fortelle oss noe om hvor den stiger og synker. Spesielt er det lett å overbevise oss om følgende.
 
-> [!tip] Teorem 
+> [!tip] Teorem 12
 >   La $J$ være et åpent intervall, og la $I$ være et intervall som består av alle punktene i $J$ (potensielt inkludert endepunktene i $J$). Anta at $f$ er kontinuerlig på $I$ og deriverbar på $J$.
 >   a. Hvis $f'(x) > 0$ for alle $x$ i $J$, så er $f$ stigende på $I$.
 >   b. Hvis $f'(x) < 0$ for alle $x$ i $J$, så er $f$ synkende på $I$.
@@ -23,7 +23,3 @@ $$
 Litt omstokking gir $f(x_2) - f(x_1) = (x_2-x_1)f'(c)$. Siden $x_2-x_1>0$, har $f(x_2)-f(x_1)$ samme fortegn som $f'(c)$. 
 
 Det er nå klart at hvis $f'(x)$ har samme fortegn på hele intervallet, så må også resultatet følge. 
-
-> [!tip] Teorem 13 (side 142)
-> Hvis $f$ er kontinuerlig på et intervall $I$, og $f'(x) = 0$ på alle indre punkt i $I$ (altså de som ikke er endepunkt), da er $f(x) = C$, en konstant, på $I$.
-

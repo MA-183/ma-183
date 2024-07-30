@@ -1,5 +1,5 @@
 
-> [!tip] Produktregelen
+> [!tip] Produktregelen, Teorem 3
 > Hvis $f$ og $g$ er deriverbare i $x$, da er $f\cdot g$ også deriverbare i $x$ og 
 > $$(fg)'(x) = f'(x)g(x)+f(x)+g'(x)$$ 
 
@@ -36,8 +36,3 @@ $$
   &= 5x^4 +3x^2+8.
 \end{aligned} 
 $$
-
-## Kvotientregelen
-
-Vi kan nå også spørre oss hva
-<br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> 

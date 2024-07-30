@@ -2,7 +2,8 @@
 > [!tip] Teorem 1, kapittel 2.3
 >  Hvis $f$ er deriverbar i $x$ så er $f$ kontinuerlig i $x$.
 
-> [!abstract] Argument. 
+> [!note] Argument 
+> 
 
 At $f$ er deriverbar i $x$ betyr at
 $$
