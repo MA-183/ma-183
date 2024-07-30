@@ -1,3 +1,7 @@
+---
+draft: "true"
+---
+
 # Trigonometri
 
 Trigonon (trekanter) metric (måling), gir opphav til trigonometri, altså måling av trekanter. Selv om utgangspunktet for trigonometri er trekanter så finnes det også en side av trekanter som er fra et sirkelperspektiv. Det er nyttig å ha kontroll på *begge* perspektivene!

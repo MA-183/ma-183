@@ -1,3 +1,7 @@
+---
+draft: "true"
+---
+
 # Komplekse tall
 
 ```python {pre}

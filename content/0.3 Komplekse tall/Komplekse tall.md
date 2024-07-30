@@ -39,7 +39,7 @@ $$
 
 Hvis dette skal være sant må
 
-> **[Addisjonsformlene](Trigonometri.md#Identiteter)**
+> **[Addisjonsformlene](0.2%20Trigonometri/Trigonometri.md#Identiteter)**
 > $\cos(s+t) = \cos(s)\cos(t)-\sin(s)\sin(t)$
 > og
 > $\sin(s+t) = \cos(s)\sin(t)+\cos (t)\sin(s)$.
