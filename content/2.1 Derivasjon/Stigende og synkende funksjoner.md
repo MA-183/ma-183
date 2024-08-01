@@ -1,4 +1,4 @@
-> [!info] Stigende og synkende funksjoner
+ [!info] Stigende og synkende funksjoner
 > Anta at funksjonen $f$ er definert på et interval $I$ og at $x_1$ og $x_2$ er to punkter i $I$.  
 > a. Hvis $f(x_2) > f(x_1)$ hver gang $x_2 > x_1$ sier vi at $f$ stiger på $I$.
 > b. Hvis $f(x_2) < f(x_1)$ hver gang $x_2 > x_1$ sier vi at $f$ synker på $I$.
