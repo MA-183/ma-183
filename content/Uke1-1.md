@@ -2,20 +2,23 @@
 draft: "true"
 ---
 
-# Funksjoner
+## Funksjoner
 
 Hva er en funksjon? Funksjoner er noe vi alle kjenner til, fra forskjellige kontekster.
 
 Fra matematikken:
-$$
-\begin{align} 
-  f(x) & = x -1 & \\
-  g(x) & = x^2 \\
-  y &= 3x^3 
-\end{align} 
-$$
-Fra programmering:
-```python
+
+- Funksjonsuttrykk
+    - $f(x) = x-1$
+    - $g(x) = x^2$
+    - $y = 3+x^3$
+- Graf 
+
+![400](Files/grafer%204.svg)
+
+Fra programmering
+
+```python {pre}
 def f(x):
     return x-1
 def g(x):
@@ -23,24 +26,31 @@ def g(x):
 ```
 
 Fra situasjoner.
-- Funksjonen $g$ beskriver (for positive verdier) arealet av et kvadrat med sidelengde $x$. Arealet er da $x\cdot x$.  
+- Funksjonen $g$ beskriver (for positive verdier) arealet av et kvadrat med sidelengde $x$. Arealet er da $x\cdot x$. 
 
-> **Definisjon**
->  En funksjon er en regel som tar noe inn og spytter noe ut (det som kommer ut må være entydig).
+Det viktige vi skal ta ut fra eksemplene over er at funksjoner fungerer som en regel som vet hva den skal gjøre. Vi kan visualisere funksjoner som noe som sendes inn til en regel $f$, der $f$ sender noe entydig ut, $f(x)$. Det kan vi visualisere som figuren under.
+ 
+![500](Files/funksjoner.svg)
+
+> [!info] Funksjoner, definisjon 1
+> En funksjon er en regel som tar noe inn og spytter noe ut (det som kommer ut må være entydig).
 >
 > Dersom vi har en funksjon $f$, 
 > - sier vi at alt funksjonen kan ta inn skal kalles definisjonsmengden, og det noteres $D(f)$.
 > - sier vi at alt funksjonen kan spytte ut skal kalles verdimengden, notert $V(f)$. Merk at boka bruker $R(f)$, rekkevidden til $f$.
 
-> **Merk**
->  Definisjonsmengde er alltid størst mulig, om inne annet er sagt.
->  I kalkulus 1 jobber vi med reelle funksjoner, det vil si $D(f)$ er i $\mathbb R$ og $R(f)$ er i $\mathbb R$. 
+En viktig konvensjon (noe vi har blitt matematikkmiljøet har blitt enige om) er den følgende konvensjonen.
+
+> [!info] Definisjon 1.5
+> Definisjonsmengde er alltid størst mulig hvis ingenting annet er sagt.
+> I Kalkulus 1 jobber vi med reelle funksjoner. Det vil si $D(f)$ er alltid i $\mathbb{R}$, og $V(f)$ er i $\mathbb{R}$. 
+>  
 
 ## De fire regneartene
 
 På samme måte som med tall, kan vi lage nye funksjoner. La $f$ og $g$ være to funksjoner. Da har vi at
 
-> **Definisjon** (P.5.3)
+> [!info] Definisjon 3 (P.5.3)
 >  1. $(f+g)(x) = f(x)+g(x)$.
 >  2. $(f-g)(x) = f(x) - g(x)$
 >  3. $(f\cdot g)(x) =f(x)\cdot g(x)$
@@ -58,114 +68,133 @@ La $f(x) =x-1$ og $g(x) = x^2$. Merk at begge har samme definisjonsområde, alts
 
 ## Komposisjoner av funksjoner
 
-Vi kan også lage en ny funksjon ved å sette de sammen.
-$x \overset{-1}{\longrightarrow} x-1 \overset{(\ \ )^2}{\longrightarrow} (x-1)^2$
+Som vi ser på illustrasjonen under kan man tenke oss at vi kan sette sammen funksjoner ved å først bruke en funksjon $f$, og deretter sende resultatet fra første funksjon, $f(x)$, og sende den inn i en ny funksjon $g$. Resultatet blir at $g$ får inn verdien $f(x)$, vi får altså $g(f(x))$.
+![Komposisjoner](Files/komposisjoner.svg)
 
-Hvis vi nå sier at $f(x) = x-1$ og $g(x) = x^2$, så gjør sammensettingen. 
+Tenker vi for eksempel på funksjonen $f(x) = x-1$ og $g(x) = x^2$
+$x \overset{ -1 }{\longrightarrow  } x-1 \overset{ (\quad )^2 }{\longrightarrow  } (x-1)^2$
 
-$(g\ \circ \ f)( x) = g(f(x)) = g(x-1) =(x-1)^2$. 
+Vi noterer ofte dette slik $(g\ \circ f)(x)$ og det er lik $g(f(x))$. Vi har sett over at $(g\ \circ f)(x) = g(f(x)) = g(x-1) = (x-1)^2$. 
 
-> **Merk**
->  $f \ \circ \ g$ er ikke det samme som $g \ \circ \ f$.
+> [!warning] Merk
+> $f\ \circ g$ er ikke det samme som $g \ \circ f$. 
 
-$(g \ \circ \ f) (x) = (x-1)^2$
-$(f \ \circ \ g)(x) = f(g(x)) = f(x^2) = x^2 - 1$. 
+Det kan vi enkelt bekrefte ved å bare undersøke.
+$(f\ \circ g)(x) = f(g(x)) = f(x^2) = x^2-1$.
 
-Ofte kan vi også tenke "baklengs" ved å dekomponere.
+#### Flere eksempler
 
-#### Eksempel
-
-Hvis $h(x) = \sqrt{x+1}$. Kan tenke oss at vi "ser" to funksjoner. $f(x) = x+1, g(x) = \sqrt x$. Da ser vi at vi kan lese det som skjer slik
-
+Hvis $h(x) = \sqrt{x+1}$, så kan vi tenke oss at vi "ser" to funksjoner. Den ene er rotfunksjonen. La oss kalle den $g(x)=\sqrt x$. Den andre er den som legges til 1, altså $f(x) = x+1$. Vi får nå at 
 $$
-x\overset{f}{\rightarrow} x+1 \overset{g}{\rightarrow} \sqrt{x+1}.
+x \overset{ +1 }{\longrightarrow  } x+1 \overset{ \sqrt{\quad} }{\longrightarrow  } \sqrt{x+1}
 $$
-Vi ser da at $h(x) = g(f(x)) = (g \ \circ \ f)(x)$.
+Vi kan altså skrive $h$ som en komposisjon av $f$ og $g$ slik
+$$
+h(x) = g(f(x))  = (g\ \circ f)(x).
+$$
 
-Hvis $t(x) = \frac{1}{x-1} \longrightarrow F(x) = x-1, G(x) = \frac{1}{x}$. 
-Da får vi 
+Kan vi nå si noe om definisjonsområdet til $t$? Jo, vi ser at $\sqrt x$ må få positive verdier, altså at $x\geq 0$. For $\sqrt{x+1}$ så må jo $x+1 \geq 0$, det gir
 $$
-x\overset{F}{\rightarrow} x-1 \overset{G}{\rightarrow} \frac{1}{x-1}.
+\begin{aligned} 
+  x+1& \geq 0 \\
+  x+1-1 &\geq 0-1 \\
+  x & \geq -1.
+\end{aligned} 
 $$
-Altså at $t(x) = G(F(x))$.
-Hva er $D(h)$.? Vel $\sqrt x$, da har vi at $x$ må være større enn 0. For $\sqrt{x+1}$, så må $x+1\geq 0$. 
+Definisjonsområdet blir da $D(h) = [-1,\infty).$
+
+Hvis vi tar $t(x) = \frac{1}{x-1}$. Hvordan kan vi bryte ned denne funksjonen ned i en komposisjon av enklere funksjoner?
+
+Jo, vi ser at
 $$
-\begin{align} 
-  x+1 & \geq 0 \\
-  x+1-1 & \geq 0 -1 \\
-  x & \geq -1. 
-\end{align} 
+x \longrightarrow x-1 \longrightarrow \frac{1}{x-1}
 $$
-Vi skriver $D(h) = [-1,\infty)$.
+så det første som skjer er at vi trekker fra 1. Deretter deler vi 1 på det vi har. Vi har at $t(x) = F(G(x))$, der $G(x)  = x-1$ og $F(x) = \frac{1}{x}$. 
 
 ## Stykkvise funksjoner
 
-Absoluttverdien til et tall er "den positive verdien" til tallet, eller tallets avstand fra $0$. 
+#### Absoluttverdifunksjonen
+
+Stykkvise funksjoner er et slags lappverk av flere funksjoner. La oss begynne med å se på absoluttverdifunksjonen $|x|$(funksjonen som forteller oss et talls avstand fra 0).
+
+![600](/Files/absoluttfunksjonen.svg)
+> **Merk**
+> $|x-3|$ er funksjonen som forteller tallet $x$ sin avstand fra $3$. For et tall $a$ forteller $|x-a|$ oss avstanden fra $x$ til $a$.
+
+#### Fortegnsfunksjonen
+
+Fortegnsfunksjonen er funksjonen som forteller oss om et tall er positivt eller negativt. For eksempel er $-3$ negativt, så funksjonen vil gi oss $-1$ tilbake. Er tallet positivt, for eksempel $\pi$, så vil funksjonen gi oss $1$ tilbake. Funksjonens graf ser derfor slik ut. 
+![](/Files/fortegnsfunksjone.svg)
+Vi kan nå ganske greit se at funksjonen er stykket opp i to biter, den ene der $x\leq 0$, da er funksjonen $-1$. Den andre der $x \geq 0$, da er funksjonen $1$. 
 $$
-f(x) = |x| =\begin{cases}
-x \quad \text{når } x\geq 0 \\ \\
-x \quad \text{når } x <0 
+sgn(x) = \begin{cases} 1 & \text{ når } x \geq 0 \\
+-1 & \text{ når } x \leq 0 \\
+\text{udefinert} & \text{ når } x = 0
 \end{cases}
 $$
 
-Eks: 
+### Generelt
 
-<br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br> Eks: 
-Fortegnsfunksjonen. Noen ganger trenger vi en funksjon som ser på et tall, og returnerer fortegnet til tallet, altså om det er positivt (+1) eller negativt (-1). Vi kaller denne funksjonen signum funksjonen. 
-<br><br> <br><br> <br><br> <br><br> <br><br> 
-$$
-\text{sgn}(x) = \frac{x}{|x|} = \begin{cases}
-1  &  & \text{ når}  &  x>0 \\ \\ -1  &  & \text{når}  &  x<0
-\end{cases} 
-$$
-<br><br> <br><br>
+Hvis vi ønsker at funksjonen vår skal oppføre seg forskjellig på forskjellige områder kan vi "klippe og lime" sammen funksjonen vår fra andre funksjoner for å oppnå dette. Vi kaller slike funksjoner for stykkvis definerte funksjoner.
+
+Ta for eksempel funksjonene under
+
+![](/Files/stykkvisefunk.svg)
 
 ## P6. Polynomer og rasjonale funksjoner
 
-Polynomer kjenner vi til.
-Eksempler er $x$, $x-1$, $x^2$, $x^3 + 5x$, $x^8+x^5+3x+7$ og så videre...
+### Polynomer
+
+Polynomer, det kjenner vi til.
+Eksempler er $x$, $x+2$, $x^2$, $x^3 + 6x+3$, $x^8+x^3$ og så videre.
+
 > **Definisjon** P.6.5
-> Et polynom er en funksjon $P(x) = a_n x^n+a_{n-1}x^{n-1} + \ldots + a_{1} x^1 + a_0$, der $a_0, a_1, \ldots, a_n$ er koeffisienter til polynomet. Hvis $a_n \neq 0$, så har polynomet grad $n$. 
-> 
+>  Et polynom er en funksjon
+>  $P(x) = a_nx^n + a_{n-1}x^{n-1}+\ldots+a_2x^2+a_1x^1+a_0$, der $a_0,\ldots,a_n$ er koeffisienter til polynomet. Hvis $a_n \neq 0$, så sier vi at polynomet har grad $n$. 
 
-Rasjonale funksjoner er brøker med polynomer som teller og nevner.
+Ser vi på eksemplene over er $x$ og $x+2$ av grad 1. $x^2$ er av grad 2. $x^8 +x^3$ er av grad 8.
 
-For eksempel
-$f(x) = \frac{x+2}{x-5}$. $f$ er en rasjonal funksjon fordi $x+2$ og $x-5$ er polynomer. Vi ser nå at nullpunktet til $x-5$ er nå $x$ er 5. Dermed får vi at definisjonsmengden til funksjonen er $D(f) = \mathbb R \setminus \{5\}$. Helt konkret har vi
+### Rasjonale funksjoner
 
-> **Definisjon**: P.6.6
-> Hvis $P$ og $Q$ er polynomer, så kalles $\frac{P(x)}{Q(x)}$ en rasjonal funksjon. Definisjonsmengden, $D\left( \frac{P}{Q} \right)$ er alle tall der $Q(x)\neq 0$.
+Rasjonale funksjoner er ganske enkelt brøker, der teller og nevner er polynomer. 
 
-## Forenkling av rasjonale funksjoner
+For eksempel $f(x) = \frac{x+2}{x-5}$, er en rasjonal funksjon, fordi $x+2$ (teller) og $x-5$ (nevner) er polynomer. Vi ser nå at nullpunktet til $x-5$ er $5$. Konvensjonen for definisjonsmengder gir oss nå er $D(f) = \mathbb{R}\setminus\{5\}$.
 
-Se på $\displaystyle \frac{x^2-x}{x-1} = \frac{x(x-1)}{x-1} \overset{{\color{grey}{\text{når }}x\neq1}}{=}x$. 
+> **Definisjon** P.6.6
+>  Hvis $P$ og $Q$ er polynomer, så kalles $\frac{P(x)}{Q(x)}$ en rasjonal funksjon. Definisjonsmengden, $D\left( \frac{P}{Q} \right)$ er alle tall der $Q(x) \neq 0$. 
 
-Vi kan faktisk dele polynomer på hverandre hvis "grad opp" > "grad nede".
+### Faktorer, røtter og nullpunkt. 
 
-Eks: Frihånd.
+Se på $\frac{x^2-x}{x-1} =\frac{x\cancel{ (x-1) }}{\cancel{ x-1 }} \overset{ {\color{grey} \text{når } x\neq0 } }{=  } x$.
 
-### Generelt
+Vi kan faktisk dele polynomer på hverandre hvis "grad oppe" > "grad nede".
+
+![](/Files/polydivi.svg)
 
 > **Generelt**
->  La $A_n(x)$ være et polynom av grad m, 
->  $B_n(x)$ være et polynom av grad n, der $n < m$. 
->  Da er $\frac{A_m(x)}{B_n(x)} = Q_{m-n} + \frac{R_k(x)}{B_n(x)}$, der $k<n$ og $Q_{m-n}$ har grad $m-n$. 
->  **Merk** Vi sier at $B_n(x)$ er faktor i $A_m(x)$ hvis $R_k(x) = 0$. 
+>  La $A_m(x)$ være et polynom av grad $m$, 
+>  $B_n(x)$ være et polynom av grad $n$ der $n < m$.
+>  Da er $\frac{A_m(x)}{B_n(x)} =Q_{m-n}(x) + \frac{R_k(x)}{B_n(x)}$, der $Q_{m-n}$ har grad $m-n$, og $R_k$ har grad $k<n$.
+>      **Merk** Vi sier at $B_n(x)$ er en faktor i $A_m(x)$ hvis $R_k(x) = 0$ (altså at vi har 0 i rest etter divisjon).
 
-Hvis $A_m(r ) = 0$, da kaller vi $r$ en rot av $A_m$. For eksempel ser vi at $-1$ er en rot av $P(x) = x^2 - 1$ fordi $P(-1) = (-1)^2 -1 = 1-1 = 0$. 
+Hvis vi har at $A_m(r) = 0$ for en verdi $r$, kaller vi $r$ en rot av $A_m$. For eksempel ser vi at $3$ er en rot av $P(x)= x^2-6x+9$ fordi $P(3) = 3^2-6\cdot3+9 = 9 -18+9 = 0$.
 
 > **Teorem** P.6.1
-> La $P$ være et polynom, der graden til $P$ er $\geq 1$. Da er $r$ en rot av $P$ hvis og bare hvis $x-r$ er en faktor i $P$. 
+> La $P$ være et polynom, der graden til $P$ er større enn $1$. Da er $r$ en rot av $P$, hvis og bare hvis $x-r$ er en faktor i $P$. 
 
-> **Argument**
->  Siden $x-r$ har grad 1, så er $R_k(x)$ av grad $0$, som må bety at $R_k(x) = c$, alts et tall.
->
->Altså er 
-> $$\begin{flalign} \frac{P(x)}{x-r} = Q_{n-1}(x) + \frac{c}{x-e,} \end{flalign}  $$
- > eller, hvis vi ganger gjennom med $x-r$, så får vi
-> $$P(x) = Q_{n-1}(x)(x-r)+c$$
-> Hvis $r$ er en rot, betyr det at $P(r) =0$, altså at $P(r) = Q_{n-1}(r)(r-r)+c = c = 0$.
-> Med andre ord er $R_k(x)= 0$ når $r$ er en rot av $P(x)$. 
+> [!note] Argument 
+> 
+
+Siden $x-r$ er av grad $1$, så vil divisjonsalgoritmen gi at vi får en rest $R_k$ som har grad 0, altså bare et tall.
+
+Så $\frac{P(x)}{x-r} = Q(x)+\frac{c}{x-r}$. Gang gjennom med $x-r$ på begge sider.
+
+$P(x) = Q(x)(x-r)+ c$. 
+Setter vi inn $r$ får vi
+
+$P(r) = Q(r)(0) + c = c$. Altså at $P(r) = c$. 
+
+Det må bety at $P(r) = 0$ nøyaktig når $c = 0$, altså når resten $R_k(x) = 0$.
 
 ## Andregradspolynomer
 

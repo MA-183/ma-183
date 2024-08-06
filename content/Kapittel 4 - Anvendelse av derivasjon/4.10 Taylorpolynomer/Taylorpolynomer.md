@@ -1,0 +1,88 @@
+
+Da vi så på [lineær approksimasjon](Kapittel%204%20-%20Anvendelse%20av%20derivasjon/4.9%20Lineær%20approksimasjon/Tilnærming%20av%20funksjonsverdier.md) så vi at vi kunne tilnærme en deriverbar funksjon $f$ rundt et punkt $a$ med tangenten til $f$ som går gjennom $f(a)$, nemlig
+$$
+P_1(x) = L(x) = f(a)+f'(a)(x-a).
+$$
+Vi kan merke oss at $P_1$ er den beste tilnærmingen til $f$ rund $a$ vi kan lage med et polynom av grad $1$, siden $P_1'(a) = f'(a)$ samtidig som $P(a) = f(a)$.
+
+Det går da an å tenke seg (dersom $f$ kan deriveres to ganger) at det kunne være bedre å prøve å tilnærme $f$ rundt $a$ med et polynom, $P_2(x)$, av grad $2$, som oppfyller at
+$$
+\begin{aligned} 
+  1.  & P_2(a) = f(a) \\
+  2.  & P_2'(a) = f'(a) \\
+  3.  & P_2''(a) = f''(a).
+\end{aligned} 
+$$
+
+Vi skal at hvis vi tenker på $P_2$ som et polynom translert mot $a$, så vil $P_2$ være på formen $P_2(x) = a_2(x-a)^2+ a_1 (x-a)+a_0$. Hvorfor vi gjør dette blir tydelig når vi prøver å beskrive $P_2$ ved hjelp av $f$. La oss nå undersøke og se hvilke kriterier vi ønsker og hvordan sammenhengene da blir:
+$$
+\begin{aligned} 
+  1. & P_2(x) = a_2(x-a)^2+ a_1(x-a)+a_0 \quad && \text{ og } P_2(a)=a_0 = f(a)\\
+  2. & P_2'(x) = 2a_2(x-a)+ a_1 \quad &&\text{ og } P_2'(a) = a_1 = f'(a)\\
+  3. & P_2''(x) = 2a_2  \quad && \text{ og } P_2''(a) = 2a_2 = f''(a).
+\end{aligned} 
+$$
+Vi ser altså at koeffisientene $a_2$, $a_1$ og $a_0$ kan beskrives ved hjelp av $f$, nemlig slik
+
+> [!tip] Taylorpolynom av grad 2   
+$$P_2(x) = \frac{f''(a) }{2 } (x-a)^2 + f'(a)(x-a) + f(a).$$
+
+La oss tenke oss at $f$ er fem ganger deriverbar. Hvis vi skal finne et polynom av grad 5 som stemmer overens med $f$ i og dens deriverte i $a$ får vi
+$$
+\begin{aligned} 
+  1. \ & P_5^{\phantom{(a)}}(x) = a_2(x-a)^2+ a_1(x-a)+a_0 \\
+  &  P_5^{\phantom{(a)}}(a)=a_0 = f(a)\\
+  2.\ & P_5^{(1)}(x) = 5\cdot a_5(x-a)^4+4\cdot a_4(x-a)^3+3\cdot a_3(x-a)^2+ 2\cdot a_2(x-a)+ a_1\\
+  & P_5^{(1)}(a) = a_1 = f^{(1)}(a)\\
+  3.\ & P_5^{(2)}(x) = 5\cdot4\cdot a_5(x-a)^3+ 4\cdot3\cdot a_4(x-a)^2+ 3\cdot2\cdot a_3(x-a)^2+ 2!a_2 \\  
+  & P_5^{(2)}(a) = 2a_2 = f^{(2)}(a) \\
+  4. \ & P_5^{(3)}(x) = 5\cdot4\cdot3\cdot a_5(x-a)^2+4\cdot3\cdot2 \cdot a_4(x-a) + 3! a_3 \\
+  & P_5^{(3)}(a) = a_3 = f^{(3)}(a) \\
+  5. \ & P_5^{(4)}(x) = 5! a_5(x-a) +4!a_4 \\
+   \ & P_5^{(4)}(a) = 4!a_4 = f^{(4)}(a) \\
+6. \ & P_5^{(5)}(x) = 5!a_5 \\
+\ & P_5^{(5)}(a) = 5!a_5 = f^{(5)}(a).
+\end{aligned} 
+$$
+Løser vi nå for koeffisientene kommer det frem et tydelig mønster som vi også kan overbevise oss om at gjelder generelt. Nemlig
+$$
+\begin{aligned} 
+ P_5 = \frac{f^{(5)}(a) }{5! } (x-a)^5& +\frac{f^{(4)} (a)}{4! }(x-a)^4+\frac{f^{(3)}(a) }{3! } (x-a)^3   \\ & +\frac{f^{(2)}(a) }{2! } (x-a)^2+\frac{f'(a) }{1! } (x-a)+f(a).
+\end{aligned} 
+$$
+
+Helt generelt får vi også at hvis $f^{(n)}$ eksisterer så kan vi lage et polynom $P_n$ som stemmer overens med $f$ rundt $a$ på alle sine deriverte. Vi kaller det Taylorpolynomet av grad $n$
+
+> [!tip] Taylorpolynom av grad $n$
+> Dersom $f^{(n)}(a)$ eksisterer så vil $P_n$ definert som
+>  $$\begin{aligned} P_n(x) = f(a) & + \frac{f'(a) }{1! } (x-a) + \frac{f^{(2)}(a) }{2! } (x-a)^2 + \frac{f^{(3)}(a) }{3! } (x-a)^3 \\ & + \ldots + \frac{f^{(n-1)} (a)}{(n-1)! }(x-a)^{n-1} + \frac{f^{(n)}(a) }{ n!}(x-a)^n,   \end{aligned}$$ 
+>  stemme overens med $f$ og dens $n$ første deriverte i $x = a$
+
+
+Det kan være greit med noen eksempler
+> [!info] Eksempel 1
+> Finn de følgende Taylor-polynomene: 
+> 1.  $P_2(x)$ for $f(x) = \sqrt{x}$ rundt $x = 25$. 
+> 2. $P_3(x)$ for $g(x) = \ln x$ rundt $x = e$.  
+
+> [!abstract]  1
+> 
+
+Vi har at $f'(x) = (1/2)x^{-1/2}$, $f''(x) = -(1/4)x^{-3/2}$. Så
+$$ \begin{aligned} P_2(x) &= f(25) + f'(25)(x - 25) + \frac{f''(25)}{2!} (x - 25)^2 \\ &= 5 + \frac{1}{10}(x - 25) - \frac{1}{1000}(x - 25)^2. \end{aligned} $$ 
+
+
+> [!abstract]  2
+> 
+
+
+Først har vi at $g'(x) = \frac{1}{x}$, $g''(x) = -\frac{1}{x^2}$, $g'''(x) = \frac{2}{x^3}$. Så, $$ \begin{aligned} P_3(x) &= g(e) + g'(e)(x - e) + \frac{g''(e)}{2!}(x - e)^2 + \frac{g'''(e)}{3!}(x - e)^3 \\ &= 1 + \frac{1}{e}(x - e) - \frac{1}{2e^2}(x - e)^2 + \frac{2}{6e^3}(x - e)^3. \end{aligned} $$
+
+> [!info] Eksempel 2
+> Finn det Taylorpolynomet, $P_7$, rundt $0$ for $e^x$. Bruk $P_0(1)$, $P_1(1)$, $P_2(1)$, ... til å beregne tilnærmede verdier for $e = e^1$. 
+
+Siden hver deriverte av $e^x$ er $e^x$ og $e^0$ er 1 ved $x = 0$, er det n-te ordens Maclaurin-polynomet for $e^x$ (dvs. Taylor-polynomet ved $x = 0$) $$ P_n(x) = 1 + \frac{x}{1!} + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots + \frac{x^n}{n!}. $$ Så, vi har for $x = 1$, å legge til ett ledd mer hver gang: $$ \begin{aligned} P_0(1) &= 1 \\ P_1(1) &= P_0(1) + \frac{1}{1!} = 1 + 1 = 2 \\ P_2(1) &= P_1(1) + \frac{1}{2!} = 2 + \frac{1}{2} = 2.5 \\ P_3(1) &= P_2(1) + \frac{1}{3!} = 2.5 + \frac{1}{6} = 2.6666 \\ P_4(1) &= P_3(1) + \frac{1}{4!} = 2.6666 + \frac{1}{24} = 2.7083 \\ P_5(1) &= P_4(1) + \frac{1}{5!} = 2.7083 + \frac{1}{120} = 2.7166 \\ P_6(1) &= P_5(1) + \frac{1}{6!} = 2.7166 + \frac{1}{720} = 2.7180 \\ P_7(1) &= P_6(1) + \frac{1}{7!} = 2.7180 + \frac{1}{5040} = 2.7182. \end{aligned} $$ Det ser ut til at $e \approx 2.718$ til 3 desimaler.
+
+> [!warning] Merk
+> Taylorpolynomer rundt 0 kalles *Maclaurinpolynomer* 
+>  
