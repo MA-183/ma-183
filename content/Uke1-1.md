@@ -32,7 +32,7 @@ Det viktige vi skal ta ut fra eksemplene over er at funksjoner fungerer som en r
  
 ![500](Files/funksjoner.svg)
 
-> [!info] Funksjoner, definisjon 1
+> [!info] Funksjoner, definisjon P.4.1
 > En funksjon er en regel som tar noe inn og spytter noe ut (det som kommer ut må være entydig).
 >
 > Dersom vi har en funksjon $f$, 
@@ -60,6 +60,13 @@ På samme måte som med tall, kan vi lage nye funksjoner. La $f$ og $g$ være to
 #### Eksempler
 
 La $f(x) =x-1$ og $g(x) = x^2$. Merk at begge har samme definisjonsområde, altså at $D(f) = \mathbb{R} = D(g)$.
+
+> [!question] Spørsmål 
+> Hva er
+> 1. $(f+g)(x)$?
+> 2. $(f-g)(x)$?
+> 3. $(f\cdot g)(x)$?
+> 4. $\left( \frac{f}{g} \right)(x)$?
 
 1. $(f+g)(x)=(x-1) + x^2 = x^2+x-1$.
 2. $(f-g)(x) = (x-1)-x^2 = -x^2+x-1$.

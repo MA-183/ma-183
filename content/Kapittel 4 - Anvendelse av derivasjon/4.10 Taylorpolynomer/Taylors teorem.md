@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 > [!tip] Taylors teorem, teorem 4.10.12
 > Hvis det $(n+1)$-te deriverte, $f^{(n+1)}(t)$ eksisterer for alle $t$ i et intervall som inneholder $a$ og $x$, og hvis $P_n(x)$ er det $n$-te ordens Taylorpolynomet til $f$ rundt $a$, det vil si
 > $$P_n(x) = f(a) + f'(a)(x-a) + \frac{f''(x) }{2! } (x-a)^2+\ldots+ \frac{f^{(n)} }{n! } (x-a)^n.$$

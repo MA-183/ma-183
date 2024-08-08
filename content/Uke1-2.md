@@ -7,7 +7,7 @@ draft: "true"
 Trigonon (trekanter) metric (måling), gir opphav til trigonometri, altså måling av trekanter. Selv om utgangspunktet for trigonometri er trekanter så finnes det også en side av trekanter som er fra et sirkelperspektiv. Det er nyttig å ha kontroll på *begge* perspektivene!
 
 Spesielt vil man merke at rettvinklede trekanter dukker opp ofte når man er ute etter lengder (ofte på grunn av Pytagoras setning). På grunn av formlikhet får vi for eksempel at forholdene mellom sidene i trekantene er konstante.
-<br><br> <br><br> <br><br> <br><br> 
+<br> 
 Ved hjelp av Pytagoras får vi nå at $x^2 + \left( \frac{1}{2} \right)^2 = 1^2$, eller at $x^2 = 1- \frac{1}{4} = \frac{3}{4}$. Tar vi kvadratroten får vi at $x = \frac{\sqrt{ 3 }}{2}$. Vi kan jo også spørre oss om hvilken rettvinklet trekant dette er?
 <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> Speiler vi trekanter om seg selv får vi en likesidet trekant, altså en $60-60-60$ trekant, som også gir oss vinklene i den originale trekanten en $30-60-90$ trekant. 
 
@@ -24,7 +24,7 @@ Det betyr også rett og slett av disse forholdene er funksjoner av vinklene, og 
 2. $\cos t = \frac{\text{hosliggende katet}}{\text{hypotenus}}$
 3. $\tan t = \frac{\text{motstående katet}}{\text{hosliggende katet}}$ 
 
-Vi har nå definer $\cos t, \sin t, \tan t$ for vinkler $t \in (0, 90^\circ)$. ${\color{grey} \text{Les dette som t i mengden 0 til 90} }$.
+Vi har nå definert $\cos t, \sin t, \tan t$ for vinkler $t \in (0, 90^\circ)$. ${\color{grey} \text{Les dette som t i mengden 0 til 90} }$.
 
 Merk at vi kan legge trekantene våre inn i en sirkel med radius 1, **enhetssirkelen**. 
 <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> Vi ser at når trekanten legges inn slik, der den hosliggende kateten legges langs $x-$aksen, så er skjæringspunktet mellom trekanten vår og enhetssirkelen faktisk $(\cos t, \sin t)$. 
@@ -108,7 +108,6 @@ Vi argumenterer ved hjelp av rotasjon. Vinklene $s-t$ kan uttrykkes på to måte
 
 ![](../Files/shapes%20at%2024-07-15%2013.18.41.svg)
 
-%% 
 På begge bildene over ser vi at den røde streken er like lang, fordi den skjærer av like stor sirkelbue. Målet er nå å regne ut lengden på den røde linjen på to måter. Denne vil gi oss en sammenheng vi skal utnytte.
 
 VS: Vi bruker Pytagoras for å finne rød linje og får at korteste katet er $1-\cos(s-t)$ og lengste katet er $\sin(s-t)$. Pytagoras gir oss nå at $(1-\cos(s-t))^2+\sin^2(s-t) = \text{rød linje}$.

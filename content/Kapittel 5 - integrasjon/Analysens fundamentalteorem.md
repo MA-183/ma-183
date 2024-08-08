@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 > [!tip] Analysens fundamentalteorem, AFT, teorem 5.5.5
 > Anta at funksjonen $f$ er kontinuerlig på et interval $I$ som inneholder punktet $a$.
 >  

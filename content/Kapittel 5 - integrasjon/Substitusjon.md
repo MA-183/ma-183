@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 > [!tip] Substitusjon av bestemte integral, teorem 5.6.6
 >  
 >   Anta at $g$ er en deriverbar funksjon på $[a,b]$ og at $g(a) = A$ og $g(b) =B$. Anta også at $f$ er kontinuerlig i verdimengden til $g$. Da
@@ -6,7 +9,7 @@
 > [!note] Argument 
 > 
 
-La $F$ være en antiderivert til $f$, altså at $F'(u) = f(u)$. Da har vi fra [kjerneregelen](Kapittel%202%20-%20derivasjon/2.1%20Derivasjon/Kjerneregelen.md) at
+La $F$ være en antiderivert til $f$, altså at $F'(u) = f(u)$. Da har vi fra [kjerneregelen](Kapittel%202%20-%20derivasjon/2.4.1%20Kjerneregelen.md) at
 $$
 \frac{d}{dx}  F(g(x)) = F'(g(x))g'(x) = f(g(x))g'(x).
 $$

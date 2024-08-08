@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 Vi skal tenke på de trigonometriske funksjonene fra sirkelperspektivet når vi ser på grafene deres. 
 
 | t         | $0$                  | $30^\circ$                      | $45^\circ$                      | $60^\circ$                      | $90^\circ$                      | $120^\circ$                      | $135^\circ$                        | $150^\circ$                       | $180^\circ$              |

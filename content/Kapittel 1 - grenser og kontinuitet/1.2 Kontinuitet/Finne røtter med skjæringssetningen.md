@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 
 Fra skjæringssetningen vet vi at hvis en funksjon $f$ er kontinuerlig og positiv i $a$ og negativ i $b$, så må den være lik $0$ mellom $a$ og $b$. Det er fordi skjæringssetningen sier at $f$ oppnår alle sine verdier mellom $f(a)$ og $f(b)$.
 

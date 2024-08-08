@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 
 > [!info] Noen elementære integral
 > $$\begin{array}{rlrl} 1. & \int 1 \, dx = x + C & 2. & \int x \, dx = \frac{1}{2} x^2 + C \\[10pt] 3. & \int x^2 \, dx = \frac{1}{3} x^3 + C & 4. & \int \frac{1}{x^2} \, dx = -\frac{1}{x} + C \\[10pt] 5. & \int \sqrt{x} \, dx = \frac{2}{3} x^{3/2} + C & 6. & \int \frac{1}{\sqrt{x}} \, dx = 2 \sqrt{x} + C \\[10pt] 7. & \int x^r \, dx = \frac{1}{r+1} x^{r+1} + C \quad (r \neq -1) & 8. & \int \frac{1}{x} \, dx = \ln |x| + C \\[10pt] 9. & \int \sin ax \, dx = -\frac{1}{a} \cos ax + C & 10. & \int \cos ax \, dx = \frac{1}{a} \sin ax + C \\[10pt] 11. & \int \sec^2 ax \, dx = \frac{1}{a} \tan ax + C & 12. & \int \csc^2 ax \, dx = -\frac{1}{a} \cot ax + C \\[10pt] 13. & \int \sec ax \tan ax \, dx = \frac{1}{a} \sec ax + C & 14. & \int \csc ax \cot ax \, dx = -\frac{1}{a} \csc ax + C \\[10pt] 15. & \int \frac{1}{\sqrt{a^2 - x^2}} \, dx = \sin^{-1} \frac{x}{a} + C \quad (a > 0) & 16. & \int \frac{1}{a^2 + x^2} \, dx = \frac{1}{a} \tan^{-1} \frac{x}{a} + C \\[10pt] 17. & \int e^{ax} \, dx = \frac{1}{a} e^{ax} + C & 18. & \int b^{ax} \, dx = \frac{1}{a \ln b} b^{ax} + C \\[10pt] 19. & \int \cosh ax \, dx = \frac{1}{a} \sinh ax + C & 20. & \int \sinh ax \, dx = \frac{1}{a} \cosh ax + C \\[10pt] \end{array}$$  

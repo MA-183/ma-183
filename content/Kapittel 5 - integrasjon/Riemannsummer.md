@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 La $P$ være en endelig mengde med punkter sortert i stigende rekkefølge fra $a$ til $b$. Det vil si
 $$
 P = \{x_0, x_1, x_2, \ldots, x_{n-1}, x_n\},

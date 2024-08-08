@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 
 > [!tip] Regler
 > La $a >0$ og $a\neq 0$ og la $x$ og $y$ være positive reelle tall. Da er

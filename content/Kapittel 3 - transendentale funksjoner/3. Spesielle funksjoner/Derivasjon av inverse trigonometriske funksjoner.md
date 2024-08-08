@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 
 > [!tip] Derivasjon av inverse trigonometriske funksjoner 
 > 1. $\displaystyle\frac{d}{dx}\sin^{-1}(x) = \frac{d}{dx}\arcsin(x) = \frac{1 }{\sqrt{1-x^2} }.$
@@ -18,14 +21,12 @@ $$
 > [!abstract]  2
 > 
 
-Vi at $\frac{d}{dx}\tan(x) = \frac{1}{\cos^2(x)}$ fra [slutten av dette notatet](Kapittel%202%20-%20derivasjon/2.1%20Derivasjon/Derivasjon%20av%20andre%20trigonometriske%20funksjoner.md). Som i argumentet over får vi derfor at  
+Vi at $\frac{d}{dx}\tan(x) = \frac{1}{\cos^2(x)}$ fra [slutten av dette notatet](Kapittel%202%20-%20derivasjon/2.5.3%20Derivasjon%20av%20andre%20trigonometriske%20funksjoner.md). Som i argumentet over får vi derfor at  
 $$
 \frac{d}{dx} \tan^{-1}(x) = \frac{1}{\frac{1}{\cos^2(\tan^{-1}(x))}}.
 $$
 Det kan virke naturlig å skrive dette som $\cos^2(\tan^{-1}(x))$, men vi må huske at vi ønsker å uttrykke $\cos (x)$ ved hjelp av $\tan (x)$ og vi gjør derfor følgende.
-$$
-\frac{1}{\frac{1}{\cos^2(\tan^{-1}(x))}} = \frac{1 }{\frac{\cos^2(\tan^{-1}(x))+\sin^2(\tan^{-1}(x)) }{\cos^2(\tan^{-1}(x)) }  }  = \frac{1 }{1+ \tan^2(\tan^{-1}(x))   } = \frac{1 }{1+x^2 }  
-$$og vi har resultatet vi ønsker.
+$$ \frac{1}{\frac{1}{\cos^2(\tan^{-1}(x))}} = \frac{1 }{\frac{\cos^2(\tan^{-1}(x))+\sin^2(\tan^{-1}(x)) }{\cos^2(\tan^{-1}(x)) }  }  = \frac{1 }{1+ \tan^2(\tan^{-1}(x))   } = \frac{1 }{1+x^2 }  $$og vi har resultatet vi ønsker. Merk at vi bruker [sammenhengen](Kapittel%200%20-%20innledende%20kapittel/0.2%20Trigonometri/P.7.4%20Viktige%20identiteter.md) $\cos^2(x)+\sin^2(x) =1$ som dere  
 
 
 > [!tip] Viktige antideriverte
@@ -41,17 +42,13 @@ Vi kan enkelt argumentere for disse identitetene ved å bruke de deriverte samme
 
 > [!abstract]  1
 
-Vi deriverer og bruker [kjerneregelen](Kapittel%202%20-%20derivasjon/2.1%20Derivasjon/Kjerneregelen.md) på $\sin^{-1}\left( \frac{x}{a} \right)$. Da får vi 
-$$
-\frac{d}{dx} \sin^{-1}\left( \frac{x}{a} \right)= \frac{1}{a}\cdot \frac{1}{\sqrt{1-\left( \frac{x}{a} \right)^2} } = \frac{1 }{\sqrt{a^2-a\cdot\left( \frac{x}{a} \right)^2}  }  = \frac{1 }{\sqrt{a^2-x^2}  }.
-$$
+Vi deriverer og bruker [kjerneregelen](Kapittel%202%20-%20derivasjon/2.4.1%20Kjerneregelen.md) på $\sin^{-1}\left( \frac{x}{a} \right)$. Da får vi 
+$$ \frac{d}{dx} \sin^{-1}\left( \frac{x}{a} \right)= \frac{1}{a}\cdot \frac{1}{\sqrt{1-\left( \frac{x}{a} \right)^2} } = \frac{1 }{\sqrt{a^2-a\cdot\left( \frac{x}{a} \right)^2}  }  = \frac{1 }{\sqrt{a^2-x^2}  }. $$
 
 
 > [!abstract]  2
 > 
 
 Vi gjør det samme som i 1. og får
-$$
-\frac{d}{dx} \frac{1}{a} \tan^{-1}\left( \frac{x}{a} \right)=\frac{1}{a} \cdot\frac{1}{a}\cdot \frac{1}{1+\frac{x^2}{a^2}} = \frac{1}{a^2+x^2}.
-$$
+$$ \frac{d}{dx} \frac{1}{a} \tan^{-1}\left( \frac{x}{a} \right)=\frac{1}{a} \cdot\frac{1}{a}\cdot \frac{1}{1+\frac{x^2}{a^2}} = \frac{1}{a^2+x^2}. $$
  

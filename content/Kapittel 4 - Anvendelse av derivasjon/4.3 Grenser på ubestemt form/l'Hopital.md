@@ -1,18 +1,19 @@
+---
+draft: "true"
+---
 
 Vi har allerede vist at 
 $$
 \lim_{x \longrightarrow  0 } \frac{\sin(x) }{x }  = 1, 
 $$
-da vi så på [spesielle trigonometriske grenser](Kapittel%202%20-%20derivasjon/2.1%20Derivasjon/Spesielle%20trigonometriske%20grenser.md).
+da vi så på [spesielle trigonometriske grenser](Kapittel%202%20-%20derivasjon/2.5.1%20Spesielle%20trigonometriske%20grenser.md).
 
 Denne grensen var krevende å vurdere fordi at vi ville ende med $\frac{0 }{0 }$ dersom vi satte inn $x=0$. 
 
 > [!info] Ubestemt form, s 231 
 >  Under ser du en liste med grenser som er på det vi kaller *ubestemt form*.
->  $$\begin{array}{rlrl}
->   & \text{Type} & & & & \text{ Eksempel}  \\
->   & \left[ \frac{0 }{0 }  \right] & & & &\displaystyle \lim_{x \longrightarrow  0 } \frac{\sin(x) }{x }  \\  & \left[ \frac{\infty }{\infty }  \right] &&&& \displaystyle\lim_{x \longrightarrow  \infty } \frac{(\ln(x))^2 }{e^{2x} } \\ & [0\cdot\infty] &&&& \displaystyle\lim_{x \longrightarrow  0+ } x\ln\left( \frac{1}{x} \right) \\ & [\infty - \infty]  &&&& \displaystyle \lim_{x \longrightarrow  \left( \frac{\pi}{2} \right)- } \left( \tan(x)-\frac{1 }{\pi-2x }  \right)   \\ & [0^0] &&&& \displaystyle \lim_{x \longrightarrow  0+ } x^x \\ & [\infty^0] &&&& \displaystyle \lim_{x \longrightarrow  \left( \frac{\pi}{2} \right)- } \tan(x)^{\cos(x)} \\ & [1^\infty] &&&& \lim_{x \longrightarrow  \infty }\left( 1+\frac{1}{x} \right)^x  
-\end{array}$$
+>  
+>  $$\begin{array}{rlrl} & \text{Type}  & \text{ Eksempel}  \\ & \phantom{x} \\    & \left[ \frac{0 }{0 }  \right]  &\displaystyle \lim_{x \longrightarrow  0 } \frac{\sin(x) }{x }\\ & \phantom{x}  \\  & \left[ \frac{\infty }{\infty }  \right] & \displaystyle\lim_{x \longrightarrow  \infty } \frac{(\ln(x))^2 }{e^{2x} }\\ & \phantom{x} \\ & [0\cdot\infty] & \displaystyle\lim_{x \longrightarrow  0+ } x\ln\left( \frac{1}{x} \right)\\ & \phantom{x} \\ & [\infty - \infty] \quad\quad\quad\quad \quad\quad\quad\quad & \displaystyle \lim_{x \longrightarrow  \left( \frac{\pi}{2} \right)- } \left( \tan(x)-\frac{1 }{\pi-2x }  \right) \\ & \phantom{x}  \\ & [0^0] & \displaystyle \lim_{x \longrightarrow  0+ } x^x \\ & \phantom{x}\\ & [\infty^0] & \displaystyle \lim_{x \longrightarrow  \left( \frac{\pi}{2} \right)- } \tan(x)^{\cos(x)}\\ & \phantom{x}  \\ &  [1^\infty] &  \lim_{x \longrightarrow  \infty }\left( 1+\frac{1}{x} \right)^x \end{array}$$
 
 Ved hjelp av l'Hoptials regel skal vi utvikle en metode for håndtere grenser på ubestemt form.
 
@@ -38,7 +39,7 @@ G(x) = \begin{cases} g(x), & \text{hvis } a < x < b \\ 0, & \text{hvis } x = a
 \end{cases}
 $$
 
-Da er $F$ og $G$ kontinuerlige på intervallet $[a,x]$ og deriverbare på intervallet $(a,x)$ for alle $x$ i $(a,b)$. Fra [det generaliserte middelverditeoremet](Kapittel%202%20-%20derivasjon/2.8%20Middelteoremet/Det%20generaliserte%20middelverditeoremet.md) vet vi at det eksisterer et tall $c$ i $(a,b)$ slik at
+Da er $F$ og $G$ kontinuerlige på intervallet $[a,x]$ og deriverbare på intervallet $(a,x)$ for alle $x$ i $(a,b)$. Fra [det generaliserte middelverditeoremet](Kapittel%202%20-%20derivasjon/2.8.5%20Det%20generaliserte%20middelverditeoremet.md) vet vi at det eksisterer et tall $c$ i $(a,b)$ slik at
 $$
 \frac{f(x) }{g(x) }  = \frac{F(x) }{G(x) }  = \frac{F(x)-F(a) }{G(x)-G(a) } = \frac{F'(c) }{ G'(c) } = \frac{f'(c) }{g'(c) }. 
 $$

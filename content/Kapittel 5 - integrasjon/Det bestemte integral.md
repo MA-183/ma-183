@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 > [!info] Det bestemte integral, definisjon 5.1.3
 > Anta at det finnes nøyaktig ett tall $I$ slik at uansett partisjon $P$ på $[a,b]$ så har vi
 > $$\begin{aligned} L(f,P) \leq I \leq U(f,P)  \end{aligned}$$.
