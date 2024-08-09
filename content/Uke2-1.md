@@ -55,10 +55,12 @@ Når vi begynner å studere nye problemer dukker det opp mangler ved de rasjonal
 
 For de aller fleste, virker de reelle tallene til å løse alle våre problemer. Men, vi har vel faktisk alle møtt noen likninger vi ikke kan løse allerede. Hva med likningen $x^2 = -1$. De fleste har vel hørt at man kan ikke ta roten av et negativt tall, og derfor sier vi at likningen ikke har noen løsning. Mer presist blir det å si at løsningen har ingen løsning blant de reelle tallene. Vi tenker oss nå at de finnes et tall som er løsningen på likningen over. Vi sier at tallet $i$ er tallet slik at $i^2 = -1$, altså et tall som løser $x^2 = -1$. 
 
-> **Definisjon**
+> [!info] Komplekse tall, definisjon A.1 
+>  
 >  Et *komplekst* tall er et tall på formen
 >  $a+bi$ eller $a + ib$
 >  der $a$ og $b$ er *reelle* tall og $i$ er den imaginære enheten.
+>  Ofte skriver vi $z = a+bi$.
 
 Siden vi vil at komplekse tall skal være en utvidelse av de reelle tallene, bør de også oppfylle regnereglene vi kjenner. 
 
@@ -68,7 +70,7 @@ Helt konkret må vi ha at
 
 $(a+bi) +(c+di) = (a+c)+(b+d)i$.
 
-Ofte er det nyttig og snakke om komplekse tall i to deler. For $a+bi$, kaller vi $a$ den reelle delen og $b$ for den imaginære delen. 
+Ofte er det nyttig og snakke om komplekse tall i to deler. For  $z=a+bi$, kaller vi $a$ den reelle delen og $b$ for den imaginære delen. Boka bruker $\text{Re}(z)=\text{Re}(x+yi)=x$ og $\text{Im}(z)=\text{Im}(x+yi)=y$.
 
 Vi har nå sett at addisjon (og tilsvarende subtraksjon) er enkelt for komplekse tall. Vi vil også at multiplikasjon skal fungere slik som de gjør for de reelle tallene. Blant annet bør den distributive lov $(a+b)c =ac+bc$ og $a(b+c)=ab+ac$ holde. Hvis det er tilfellet må vi få at
 

@@ -1,6 +1,3 @@
----
-draft: "true"
----
 Som vi ser på illustrasjonen under kan man tenke oss at vi kan sette sammen funksjoner ved å først bruke en funksjon $f$, og deretter sende resultatet fra første funksjon, $f(x)$, og sende den inn i en ny funksjon $g$. Resultatet blir at $g$ får inn verdien $f(x)$, vi får altså $g(f(x))$.
 ![Komposisjoner](Files/komposisjoner.svg)
 
@@ -44,3 +41,5 @@ $$
 x \longrightarrow x-1 \longrightarrow \frac{1}{x-1}
 $$
 så det første som skjer er at vi trekker fra 1. Deretter deler vi 1 på det vi har. Vi har at $t(x) = F(G(x))$, der $G(x)  = x-1$ og $F(x) = \frac{1}{x}$. 
+
+En tredje måte vi kan lage nye funksjoner er ved å "klippe og lime" sammen flere forskjellige funksjoner. De kaller vi [P.5.3 Stykkevis definerte funksjoner](Kapittel%200%20-%20innledende%20kapittel/P.5.3%20Stykkevis%20definerte%20funksjoner.md)

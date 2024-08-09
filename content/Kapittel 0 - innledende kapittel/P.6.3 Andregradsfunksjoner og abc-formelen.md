@@ -1,6 +1,3 @@
----
-draft: "true"
----
 
 Faktorer og røtter: Vi vet at andregradsfunksjoner ser slik ut, $ax^2 + bx+c$, der $a\neq 0$.
 

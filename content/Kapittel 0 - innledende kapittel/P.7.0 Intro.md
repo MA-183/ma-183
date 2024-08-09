@@ -1,6 +1,3 @@
----
-draft: "true"
----
 Trigonon (trekanter) metric (måling), gir opphav til trigonometri, altså måling av trekanter. Selv om utgangspunktet for trigonometri er trekanter så finnes det også en side av trekanter som er fra et sirkelperspektiv. Det er nyttig å ha kontroll på *begge* perspektivene!
 
 Spesielt vil man merke at rettvinklede trekanter dukker opp ofte når man er ute etter lengder (ofte på grunn av Pytagoras setning). På grunn av formlikhet får vi for eksempel at forholdene mellom sidene i trekantene er konstante.
@@ -32,4 +29,4 @@ Det betyr også rett og slett av disse forholdene er funksjoner av vinklene, og 
 
 Vi har nå definert $\cos t, \sin t, \tan t$ for vinkler $t \in (0, 90^\circ)$. ${\color{grey} \text{Les dette som t i mengden 0 til 90} }$.
 
-Vi tenker på denne definisjonen som trigonometriske funksjoner definert fra *trekantperspektivet*. Det neste vi skal se er at et  [*sirkelperspektiv*](Kapittel%200%20-%20innledende%20kapittel/0.2%20Trigonometri/P.7.2%20Trigonometriske%20funksjoner%20definert%20med%20sirkler.md) gir oss en annen, og veldig nyttig måte å utvide definisjonen for de trigonometriske funksjonene.
+Vi tenker på denne definisjonen som trigonometriske funksjoner definert fra *trekantperspektivet*. Det neste vi skal se er at et  *sirkelperspektiv* gir oss en annen, og veldig nyttig måte å utvide definisjonen for de trigonometriske funksjonene. Før vi se på de trigonometriske funksjonene fra sirkelperspektivet så skal vi først se på hvordan vi måler [vinkler](Kapittel%200%20-%20innledende%20kapittel/P.7.1%20Vinkelmål.md).

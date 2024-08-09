@@ -1,6 +1,3 @@
----
-draft: "true"
----
 Den vanlige måten å måle vinkler på er ved å dele inn sirkelen i 360 grader. I Kalkulus 1 kommer vi til å kun bruke radianer fremover. 
 
 > [!info] Radianer
@@ -26,3 +23,5 @@ Disse to identitetene kan vi enkelt komme frem til selv, men de gir oss også en
 1. Vi vet at $1^\circ = \frac{2\pi}{360}$, gang gjennom med $60$ og få $60^\circ = \frac{2\pi}{6 } \text{ radianer}=\frac{\pi}{3} \text{ radianer}$.
 2. $1^\circ \cdot 135 = \frac{3\pi\cdot135}{360} \text{ radianer} = \frac{3}{8}\pi \text{ radianer}$.
 3. $1 \text{ radian} \cdot \frac{3\pi}{2} = \frac{360^\circ}{2\pi}\cdot \frac{3\pi}{2} = 270^\circ$
+
+Nå som vi har avklart at vi skal bruke radianer fremover, og hva radianer er. Kan vi se hvordan vi kan utvide vår definisjon av trigonometriske funksjoner ved hjelp av [*sirkelperspektivet*](Kapittel%200%20-%20innledende%20kapittel/P.7.2%20Trigonometriske%20funksjoner%20definert%20med%20sirkler.md).

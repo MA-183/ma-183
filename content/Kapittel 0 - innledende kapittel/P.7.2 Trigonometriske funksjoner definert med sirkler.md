@@ -1,7 +1,4 @@
----
-draft: "true"
----
-Vi skal nå se hvordan vi kan definere $\cos$ og $\sin$ ved hjelp av sirkler istedenfor trekanter. Det vi gjør videre er å måle vinkler i [radianer](Kapittel%200%20-%20innledende%20kapittel/0.2%20Trigonometri/P.7.1%20Vinkelmål.md), $t$, og ikke i grader.
+Vi skal nå se hvordan vi kan definere $\cos$ og $\sin$ ved hjelp av sirkler istedenfor trekanter. Det vi gjør videre er å måle vinkler i [radianer](Kapittel%200%20-%20innledende%20kapittel/P.7.1%20Vinkelmål.md), $t$, og ikke i grader.
 
 Det første vi gjør er å ta en rettvinklet trekant, med en vinkel $t$, og plasserer den inn i en sirkel (for enkelhetens skyld lar vi sirkelen ha radius $1$). Da må hypotenusen til trekanten være lik $1$, som vi ser i figuren under.
 
@@ -18,3 +15,4 @@ Siden hypotenusen i trekanten nå er $1$, så må $\sin (t)$ fortelle oss høyde
 
 Vi ser nå at vi også kan for en vinkel $v$ mål i radianer, la $v$ være større en $\frac{\pi}{2}\text{radianer} =90^\circ$ og likevel få $\cos (v)$ og $\sin (v)$ til å være meningsfullt, samtidig som det stemmer overens med definisjonen av $\cos$ og $\sin$ ved hjelp av trekanter (se figuren under). 
 ![](Files/shapes%20at%2024-08-07%2013.46.06.svg)
+Nå som vi har utvidet vår definisjon av $\cos$ og $\sin$ bør vi også få kontroll på noen av verdiene som [funksjonene spytter ut](Kapittel%200%20-%20innledende%20kapittel/P.7.3%20Trigonometriske%20verdier.md).

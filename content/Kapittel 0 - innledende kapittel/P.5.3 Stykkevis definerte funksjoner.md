@@ -1,9 +1,6 @@
----
-draft: "true"
----
 #### Absoluttverdifunksjonen
 
-Stykkvise funksjoner er et slags lappverk av flere funksjoner. La oss begynne med å se på absoluttverdifunksjonen $|x|$(funksjonen som forteller oss et talls avstand fra 0).
+Stykkevis funksjoner er et slags lappverk av flere funksjoner. La oss begynne med å se på absoluttverdifunksjonen $|x|$(funksjonen som forteller oss et talls avstand fra 0).
 
 ![600](/Files/absoluttfunksjonen.svg)
 > **Merk**

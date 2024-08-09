@@ -1,6 +1,3 @@
----
-draft: "true"
----
 > [!tip] Halvvinkel formlene
 > For alle vinkler $t$ har vi at
 > $$\begin{aligned} \cos^2(t) = \frac{1+\cos(2t) }{2 }   \end{aligned}$$ 
@@ -9,11 +6,11 @@ draft: "true"
 
 > [!note] Argument 
 
-Fra [P.7.6 Dobbeltvinkel-formlene](Kapittel%200%20-%20innledende%20kapittel/0.2%20Trigonometri/P.7.6%20Dobbeltvinkel-formlene.md) har vi at 
+Fra [P.7.6 Dobbeltvinkel-formlene](Kapittel%200%20-%20innledende%20kapittel/P.7.6%20Dobbeltvinkel-formlene.md) har vi at 
 $$
 \cos(2t)= \cos^2(t)-\sin^2(t) \text{ og } \sin(2t) = 2\sin (t)\cos(t).
 $$
-Siden $\cos^2(t)+\sin^2(t)=1$ (fra [1.](Kapittel%200%20-%20innledende%20kapittel/0.2%20Trigonometri/P.7.4%20Viktige%20identiteter.md)) får vi
+Siden $\cos^2(t)+\sin^2(t)=1$ (fra [1.](Kapittel%200%20-%20innledende%20kapittel/P.7.4%20Viktige%20identiteter.md)) får vi
 $$
 \begin{aligned} 
   \cos(2t) 

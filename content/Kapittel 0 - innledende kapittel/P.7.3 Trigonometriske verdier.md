@@ -1,6 +1,3 @@
----
-draft: "true"
----
 
 Vi vet at for en $30-60-90$ trekant, så er $\cos\left( \frac{\pi}{6} \right) = \frac{\sqrt{3}}{2}$ (husk at vi måler i radianer og $\frac{\pi}{6} \text{radianer}=30^\circ$).
 
@@ -45,3 +42,5 @@ Her dreier vi halve sirkelen og ser at $\cos(\pi)=-1$ og $\sin(\pi)= 0$.
 > 
 
 På grunn av symmetrien i sirkelen ser vi også i figuren at å rotere $\frac{3\pi}{4}$ er det samme som å rotere $\frac{\pi}{4}$ og deretter speile om $y-$aksen. Noe som gir at $\cos\left( \frac{3\pi}{4} \right)= -\frac{\sqrt{2}}{2}$ og at $\sin\left( \frac{3\pi}{4} \right)=\frac{\sqrt{2}}{2}$.
+
+Som vi har sett små tegn til, for eksempel i 2., så har $\cos$ og $\sin$ flere symmetrier og egenskaper som gjør at de henger tett sammen med hverandre. Det er viktig å ha kontroll på flere [viktige identiteter](Kapittel%200%20-%20innledende%20kapittel/P.7.4%20Viktige%20identiteter.md).

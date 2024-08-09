@@ -1,6 +1,3 @@
----
-draft: "true"
----
 
 > [!tip] Addisjonsformlene, Teorem 2
 > 1. $\cos(s+t) =\cos(s)\cos(t)-\sin(s)\sin(t)$
@@ -8,7 +5,7 @@ draft: "true"
 > 3. $\cos(s-t) = \cos(s)\cos(t)+\sin(s)\sin(t)$
 > 4. $\sin(s-t)=\sin(s)\cos (t) - \cos(s)\sin(t)$
 
-I all hovedsak er det 1. og 2. som er viktige å kunne. De to andre kan da utledes ved hjelp av [disse identitetene](Kapittel%200%20-%20innledende%20kapittel/0.2%20Trigonometri/P.7.4%20Viktige%20identiteter.md)
+I all hovedsak er det 1. og 2. som er viktige å kunne. De to andre kan da utledes ved hjelp av [disse identitetene](Kapittel%200%20-%20innledende%20kapittel/P.7.4%20Viktige%20identiteter.md)
 
 > [!note] Argument 
 > 
@@ -35,7 +32,7 @@ $$
 \end{aligned} 
 $$
 
-Merk nå at (ved å bruke [P.7.4 Viktige identiteter](Kapittel%200%20-%20innledende%20kapittel/0.2%20Trigonometri/P.7.4%20Viktige%20identiteter.md)) $\cos(s+t) = \cos(s-(-t)) = \cos(s)\cos(-t)+\sin(s)\sin(-t) = \cos(t)\cos(s)-\sin(s)\sin(t).$
+Merk nå at (ved å bruke [P.7.4 Viktige identiteter](Kapittel%200%20-%20innledende%20kapittel/P.7.4%20Viktige%20identiteter.md)) $\cos(s+t) = \cos(s-(-t)) = \cos(s)\cos(-t)+\sin(s)\sin(-t) = \cos(t)\cos(s)-\sin(s)\sin(t).$
 
 Siden $\cos\left( \frac{\pi}{2}-t \right) = \sin(t)$ har vi at
 $$
@@ -46,3 +43,5 @@ $$
    & = \sin(s)\cos(t)+\cos(s)\sin(t).
 \end{aligned} 
 $$
+
+Addisjonsformlene fører også til noen spesielle ved å la $s = t$, nemlig [dobbeltvinkel-formlene](Kapittel%200%20-%20innledende%20kapittel/P.7.6%20Dobbeltvinkel-formlene.md).

@@ -26,7 +26,7 @@ $$
 \frac{d}{dx} \tan^{-1}(x) = \frac{1}{\frac{1}{\cos^2(\tan^{-1}(x))}}.
 $$
 Det kan virke naturlig å skrive dette som $\cos^2(\tan^{-1}(x))$, men vi må huske at vi ønsker å uttrykke $\cos (x)$ ved hjelp av $\tan (x)$ og vi gjør derfor følgende.
-$$ \frac{1}{\frac{1}{\cos^2(\tan^{-1}(x))}} = \frac{1 }{\frac{\cos^2(\tan^{-1}(x))+\sin^2(\tan^{-1}(x)) }{\cos^2(\tan^{-1}(x)) }  }  = \frac{1 }{1+ \tan^2(\tan^{-1}(x))   } = \frac{1 }{1+x^2 }  $$og vi har resultatet vi ønsker. Merk at vi bruker [sammenhengen](Kapittel%200%20-%20innledende%20kapittel/0.2%20Trigonometri/P.7.4%20Viktige%20identiteter.md) $\cos^2(x)+\sin^2(x) =1$ som dere  
+$$ \frac{1}{\frac{1}{\cos^2(\tan^{-1}(x))}} = \frac{1 }{\frac{\cos^2(\tan^{-1}(x))+\sin^2(\tan^{-1}(x)) }{\cos^2(\tan^{-1}(x)) }  }  = \frac{1 }{1+ \tan^2(\tan^{-1}(x))   } = \frac{1 }{1+x^2 }  $$og vi har resultatet vi ønsker. Merk at vi bruker [sammenhengen](Kapittel%200%20-%20innledende%20kapittel/P.7.4%20Viktige%20identiteter.md) $\cos^2(x)+\sin^2(x) =1$ som dere  
 
 
 > [!tip] Viktige antideriverte

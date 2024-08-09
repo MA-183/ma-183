@@ -1,6 +1,3 @@
----
-draft: "true"
----
 Hva er en funksjon? Funksjoner er noe vi alle kjenner til, fra forskjellige kontekster.
 
 Fra matematikken:

@@ -1,6 +1,3 @@
----
-draft: "true"
----
 ### Polynomer
 
 Polynomer, det kjenner vi til.
@@ -22,3 +19,4 @@ For eksempel $f(x) = \frac{x+2}{x-5}$, er en rasjonal funksjon, fordi $x+2$ (tel
 >  
 >  Hvis $P$ og $Q$ er polynomer, så kalles $\frac{P(x)}{Q(x)}$ en rasjonal funksjon. Definisjonsmengden, $D\left( \frac{P}{Q} \right)$ er alle tall der $Q(x) \neq 0$. 
 
+Polynomer skal vise seg og være viktige i kurset. Vi skal derfor se mer på [P.6.2 Faktorer, røtter og nullpunkt](Kapittel%200%20-%20innledende%20kapittel/P.6.2%20Faktorer,%20røtter%20og%20nullpunkt.md)
