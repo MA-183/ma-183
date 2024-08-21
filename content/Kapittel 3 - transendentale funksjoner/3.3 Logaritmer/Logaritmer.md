@@ -1,5 +1,5 @@
 ---
-draft: "true"
+{}
 ---
 > [!info] Logaritmer, definisjon 5
 > Hvis $a>0$ og $a\neq 1$, så er funksjonen $\log_a(x)$ logaritmen til $x$ med base $a$. Logaritmen $\log_a(x)$ er inversfunksjonen til eksponentialfunksjonen $f(x)=a^x$.

@@ -1,5 +1,5 @@
 ---
-draft: "true"
+{}
 ---
 
 > [!tip] Derivasjon av inverse trigonometriske funksjoner 

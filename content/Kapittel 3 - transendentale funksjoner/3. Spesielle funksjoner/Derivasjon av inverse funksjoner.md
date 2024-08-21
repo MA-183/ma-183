@@ -1,5 +1,5 @@
 ---
-draft: "true"
+{}
 ---
 Anta at $f$ er deriverbar i et åpent interval $(a,b)$ og at enten $f'(x) > 0$ for $x$ i $(a,b)$ (slik at $f$ er [stigende](Kapittel%202%20-%20derivasjon/2.8.1%20Stigende%20og%20synkende%20funksjoner.md)). Eller, motsatt, at $f'(x) < 0$ for $x$ i $(a,b)$ (slik at $f$ er [synkende](Kapittel%202%20-%20derivasjon/2.8.1%20Stigende%20og%20synkende%20funksjoner.md)). I begge tilfellene er $f$ [en-til-en](Kapittel%203%20-%20transendentale%20funksjoner/3.%20Spesielle%20funksjoner/En-til-en%20funksjoner.md) fra [Teorem 12](Kapittel%202%20-%20derivasjon/2.8.1%20Stigende%20og%20synkende%20funksjoner.md), og har en invers $f^{-1}$. Vi kan derfor bruke [kjerneregelen](Kapittel%202%20-%20derivasjon/2.4.1%20Kjerneregelen.md) på [identiteten](Kapittel%203%20-%20transendentale%20funksjoner/3.%20Spesielle%20funksjoner/Inverse%20funksjoner.md) 
 $$

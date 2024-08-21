@@ -2,7 +2,7 @@
 {}
 ---
 > [!info] Sigma-notasjon, definisjon 5.1.1
-> Hvis $m$ og $n$ er heltall der $m\leq n$, og hvis $f$ er en funksjon definert for tallene $m, m+1, m+2, \ldots, n$. Da skal symbolet $\sum_{i=m}^n f(i)$ representere summen av verdiene til $f$ på de heltallene. Med andre ord er
+> Hvis $m$ og $n$ er heltall der $m\leq n$, og hvis $f$ er en funksjon definert for tallene $m, m+1, m+2, \ldots, n$. Da skal symbolet $\displaystyle\sum_{i=m}^n f(i)$ representere summen av verdiene til $f$ på de heltallene. Med andre ord er
 > $$\sum_{i=m}^n = f(m)+f(m+1)+\ldots+f(n).$$ 
 >  Den eksplisitte summen som vi ser på høyre siden av likheten over kaller vi *utvidelsen* av summen som er representert med sigma-notasjon på venstre side. 
 

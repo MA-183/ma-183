@@ -32,5 +32,6 @@ for i in range(50):
     # Hvis ikke har f(b) og f(c) samme fortegn og vi ønsker å bytte b med c
     else:
         b = c
+    # Formater verdiene til å bruke 20 desimaler
     print(f"Verdiene er nå {f(a):.20f} og {f(b):.20f}")
 ```

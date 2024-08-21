@@ -206,12 +206,79 @@ $\frac{x^2+1 }{x+1 }$ er en rasjonal funksjon fordi $x^2+1$ er et polynom og $x+
 > 
 > $P$ er polynom med grad $>1$.
 > 
-> Da er $r$ en rot $P$ hvis og bare hvis
+> Da er $r$ en rot i $P$ hvis og bare hvis
 > $x-r$ er en faktor i $P$. 
+
+
+> [!warning] Merk 
+> Du kan splitte en påstand med *hvis og bare hvis* (slik som over) i to påstander på denne måten:
 > 
+> 1. Hvis $x-r$ er en faktor i $P$, da er $r$ en rot i $P$
+> 2. Hvis $r$ er en rot i $P$, da er $x-r$ en faktor i $P$.
+
+Nyttig fordi: 
+
+> [!question] Spørsmål 
+> Finn røttene:  
+$f(x) = x^3-4x^2+3$. 
+
+$f(1) = 1-4+3 = 0$, så $x-1$ er faktor
+
+Hvis vi utfører divisjonen får vi
+$$
+f(x) = Q(x)(x-1) = (x^2-3x-3)(x-1).
+$$
+
+> [!note] Argument
 > 
 
-Hvis $P(r)= 0$, så går divisjonen $\frac{P(x)}{x-r}$ opp.    
+Vi har
+$$\frac{P(x)}{x-r} = Q(x)+\frac{R(x) }{x-r }.$$ $R(x)$ har grad 0, fordi $x-r$ har grad 1.
+
+Det betyr at 
+$$
+\frac{P(x)}{x-r}= Q(x)+\frac{c}{x-r}.
+$$
+Gang gjennom med $x-r$:
+$$
+P(x) = Q(x)(x-r) + c.
+$$
+
+$x = r$ gir:
+$$
+P(r)=Q(r)(r-r)+c = Q(r)\cdot 0 + c =c.
+$$
+
+1. Hvis $P(r)  = 0 \longrightarrow P(r) = c = 0$ altså er resten 0 som betyr at $x-r$ er en faktor i $P(x)$. 
+2. Hvis $x-r$ er en faktor, da har vi 0 i rest. Som betyr at $c = 0$ som gir at $P(r) = c = 0$, altså er $r$ en rot. 
+
+
+### Andregradspolynomer
+
+Andregradsfunksjoner: $ax^2+bx+c$. 
+
+> [!tip] abc-formelen.
+> Hvis
+> $ax^2+bx+c$, der $a\neq 0$ 
+> 
+> Da er røttene gitt ved
+> $$x = \frac{-b\pm \sqrt{b^2-4ac} }{ 2a}$$
+>   
+
+
+> [!note] Argument 
+> 
+
+Vi ønsker å løse likningen $ax^2+bx+c = 0$ for å finne nullpunktene.
+
+$$
+\begin{aligned} 
+  ax^2 + bx + c &= 0\quad\quad\quad\quad  &&|:a  \\ x^2+\frac{b}{a}x + \frac{c}{a} & = 0 &&\text{Fullfør kvadrat} \\ \underbrace{ x^2+2\cdot \frac{b}{2a}x + \left( \frac{b}{2a} \right)^2  }_{ \text{fullstendig kvadrat*} }+\frac{c}{a} & = \left( \frac{b}{2a} \right)^2 \\ \left( x+\frac{b}{2a} \right)^2+\frac{c}{a} &=\frac{b^2}{4a^2} \\ \left( x+\frac{b}{2a} \right)^2 &= \frac{b^2}{4a^2}- \frac{c}{a} \\ {\left( x+\frac{b}{2a} \right)^2}  &= {\frac{b^2-4ac }{4a^2 } } &&\text{ Tar kvadratrot} \\ x+\frac{b}{2a} &= \pm\frac{\sqrt{b^2-4ac}}{2a} \\ x &= -\frac{b\pm\sqrt{b^2-4ac}}{2a}
+\end{aligned} 
+$$
+
+\* Merk at vi her bruker at $\left( x+\frac{b}{2a} \right)^2 = x^2+2\cdot \frac{b}{2a}x + (\frac{b}{2a})^2$. Det er dette vi kaller å fullføre kvadratet, fordi vi har lagt til $\left( \frac{b}{2a} \right)^2$ for å få et fullstendig kvadrat. 
+
 
 
 
