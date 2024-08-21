@@ -8,15 +8,15 @@ export type SortFn = (f1: QuartzPluginData, f2: QuartzPluginData) => number
 
 export function byDateAndAlphabetical(cfg: GlobalConfiguration): SortFn {
   return (f1, f2) => {
-    if (f1.dates && f2.dates) {
-      // sort descending
-      return getDate(cfg, f2)!.getTime() - getDate(cfg, f1)!.getTime()
-    } else if (f1.dates && !f2.dates) {
-      // prioritize files with dates
-      return -1
-    } else if (!f1.dates && f2.dates) {
-      return 1
-    }
+    // if (f1.dates && f2.dates) {
+    //   // sort descending
+    //   return getDate(cfg, f2)!.getTime() - getDate(cfg, f1)!.getTime()
+    // } else if (f1.dates && !f2.dates) {
+    //   // prioritize files with dates
+    //   return -1
+    // } else if (!f1.dates && f2.dates) {
+    //   return 1
+    // }
 
     // otherwise, sort lexographically by title
     const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
@@ -48,7 +48,7 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
             <div class="section">
               {page.dates && (
                 <p class="meta">
-                  <Date date={getDate(cfg, page)!} locale={cfg.locale} />
+                  {/* <Date date={getDate(cfg, page)!} locale={cfg.locale} /> */}
                 </p>
               )}
               <div class="desc">

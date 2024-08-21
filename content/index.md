@@ -9,9 +9,15 @@ Alle notatene bygger på pensumboka "Adams/Essex: _Calculus_. Pearson, 10. edit
 
 Foreløpig innhold er
 
-- Innledende kapittel (P-kapitlene)
+- Innledende kapittel ([P-kapitlene](Kapittel-0---innledende-kapittel/)). 
     - [P.3](Kapittel%200%20-%20innledende%20kapittel/P.3.1%20Forskyvning%20av%20grafer.md)
     - [P.5](Kapittel%200%20-%20innledende%20kapittel/P.5.1%20De%20fire%20regneartene.md)
     - [P.6](Kapittel%200%20-%20innledende%20kapittel/P.6.1%20Polynomer%20og%20rasjonale%20funksjoner.md)
     - [P.7](Kapittel%200%20-%20innledende%20kapittel/P.7.0%20Intro.md)
 - Kapittel 1
+- Kapittel 2
+- Kapittel 3
+- Kapittel 4
+- Kapittel 5
+- Kapittel 6
+- Kapittel 7

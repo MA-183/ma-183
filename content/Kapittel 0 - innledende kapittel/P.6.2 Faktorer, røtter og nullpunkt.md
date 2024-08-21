@@ -1,3 +1,6 @@
+---
+{}
+---
 Se på $\displaystyle \frac{x^2-x}{x-1} =\frac{x\cancel{ (x-1) }}{\cancel{ x-1 }} \overset{ {\color{grey} \text{når } x\neq 1 } }{=  } x$.
 
 Ser vi på eksempelet over, så kan vi se at hvis $x = 5$ så står det $\frac{5^2-5 }{4 } = \frac{20}{4}$ altså et helt vanlig delestykke. Det vi gjorde over viste oss at svaret blir $5$. Det vi skal legge merke til er at når vi setter inn en verdi for $x$ får vi et vanlig delestykke. Da går det an å stille seg spørsmålet. Kan vi utføre divisjonen før vi setter inn en verdi for $x$? Eller med andre ord, kan vi utføre divisjonen for alle $x$'er samtidig? Svaret er ja, og vi kaller dette polynomdivisjon.

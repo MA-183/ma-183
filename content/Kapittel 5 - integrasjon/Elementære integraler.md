@@ -1,5 +1,5 @@
 ---
-draft: "true"
+{}
 ---
 
 > [!info] Noen elementære integral

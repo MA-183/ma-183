@@ -1,3 +1,6 @@
+---
+{}
+---
 Som vi ser på illustrasjonen under kan man tenke oss at vi kan sette sammen funksjoner ved å først bruke en funksjon $f$, og deretter sende resultatet fra første funksjon, $f(x)$, og sende den inn i en ny funksjon $g$. Resultatet blir at $g$ får inn verdien $f(x)$, vi får altså $g(f(x))$.
 ![Komposisjoner](Files/komposisjoner.svg)
 

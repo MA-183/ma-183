@@ -1,3 +1,6 @@
+---
+{}
+---
 
 > [!tip] Addisjonsformlene, Teorem 2
 > 1. $\cos(s+t) =\cos(s)\cos(t)-\sin(s)\sin(t)$

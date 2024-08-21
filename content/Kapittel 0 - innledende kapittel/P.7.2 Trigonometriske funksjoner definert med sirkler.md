@@ -1,3 +1,6 @@
+---
+{}
+---
 Vi skal nå se hvordan vi kan definere $\cos$ og $\sin$ ved hjelp av sirkler istedenfor trekanter. Det vi gjør videre er å måle vinkler i [radianer](Kapittel%200%20-%20innledende%20kapittel/P.7.1%20Vinkelmål.md), $t$, og ikke i grader.
 
 Det første vi gjør er å ta en rettvinklet trekant, med en vinkel $t$, og plasserer den inn i en sirkel (for enkelhetens skyld lar vi sirkelen ha radius $1$). Da må hypotenusen til trekanten være lik $1$, som vi ser i figuren under.

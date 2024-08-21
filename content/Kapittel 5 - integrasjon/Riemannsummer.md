@@ -1,5 +1,5 @@
 ---
-draft: "true"
+{}
 ---
 La $P$ være en endelig mengde med punkter sortert i stigende rekkefølge fra $a$ til $b$. Det vil si
 $$

@@ -1,3 +1,6 @@
+---
+{}
+---
 ### Polynomer
 
 Polynomer, det kjenner vi til.

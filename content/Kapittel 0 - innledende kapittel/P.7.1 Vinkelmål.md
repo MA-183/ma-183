@@ -1,3 +1,6 @@
+---
+{}
+---
 Den vanlige måten å måle vinkler på er ved å dele inn sirkelen i 360 grader. I Kalkulus 1 kommer vi til å kun bruke radianer fremover. 
 
 > [!info] Radianer

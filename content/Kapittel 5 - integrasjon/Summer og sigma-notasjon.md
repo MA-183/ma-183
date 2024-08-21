@@ -1,5 +1,5 @@
 ---
-draft: "true"
+{}
 ---
 > [!info] Sigma-notasjon, definisjon 5.1.1
 > Hvis $m$ og $n$ er heltall der $m\leq n$, og hvis $f$ er en funksjon definert for tallene $m, m+1, m+2, \ldots, n$. Da skal symbolet $\sum_{i=m}^n f(i)$ representere summen av verdiene til $f$ på de heltallene. Med andre ord er

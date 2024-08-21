@@ -59,26 +59,26 @@ export default {
   },
   pages: {
     rss: {
-      recentNotes: "Recent notes",
-      lastFewNotes: ({ count }) => `Last ${count} notes`,
+      recentNotes: "Seneste notater",
+      lastFewNotes: ({ count }) => `Seneste ${count} notater`,
     },
     error: {
-      title: "Not Found",
-      notFound: "Either this page is private or doesn't exist.",
-      home: "Return to Homepage",
+      title: "Side ikke funnet",
+      notFound: "Finner ikke siden.",
+      home: "Returner til hjemmesiden",
     },
     folderContent: {
       folder: "Folder",
       itemsUnderFolder: ({ count }) =>
-        count === 1 ? "1 item under this folder." : `${count} items under this folder.`,
+        count === 1 ? "1 side i denne mappen." : `${count} sider i denne mappen.`,
     },
     tagContent: {
       tag: "Tag",
       tagIndex: "Tag Index",
       itemsUnderTag: ({ count }) =>
-        count === 1 ? "1 item with this tag." : `${count} items with this tag.`,
-      showingFirst: ({ count }) => `Showing first ${count} tags.`,
-      totalTags: ({ count }) => `Found ${count} total tags.`,
+        count === 1 ? "1 side i med denne taggen." : `${count} sider i med denne taggen.`,
+      showingFirst: ({ count }) => `Viser de ${count} første taggene.`,
+      totalTags: ({ count }) => `Fant ${count} tagger.`,
     },
   },
 } as const satisfies Translation

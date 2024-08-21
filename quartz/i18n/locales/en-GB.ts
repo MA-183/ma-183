@@ -70,15 +70,15 @@ export default {
     folderContent: {
       folder: "Folder",
       itemsUnderFolder: ({ count }) =>
-        count === 1 ? "1 item under this folder." : `${count} items under this folder.`,
+        count === 1 ? "1 sider i denne mappen." : `${count} sider i denne mappen.`,
     },
     tagContent: {
       tag: "Tag",
       tagIndex: "Tag Index",
       itemsUnderTag: ({ count }) =>
-        count === 1 ? "1 item with this tag." : `${count} items with this tag.`,
-      showingFirst: ({ count }) => `Showing first ${count} tags.`,
-      totalTags: ({ count }) => `Found ${count} total tags.`,
+        count === 1 ? "1 sider i med denne taggen." : `${count} sider i med denne taggen.`,
+      showingFirst: ({ count }) => `Viser de ${count} første taggene.`,
+      totalTags: ({ count }) => `Fant ${count} tagger.`,
     },
   },
 } as const satisfies Translation

@@ -1,3 +1,6 @@
+---
+{}
+---
 På samme måte som med tall, kan vi lage nye funksjoner. La $f$ og $g$ være to funksjoner. Da har vi at
 
 > [!info] Definisjon P.5.3

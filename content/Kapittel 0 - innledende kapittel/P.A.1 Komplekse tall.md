@@ -1,3 +1,6 @@
+---
+{}
+---
 De første tallene vi blir kjent med er de naturlige tallene, også kjent som telle-tallene.
 
 $\mathbb{N} = \{1,2,3,4,5,6,\ldots\}$.
@@ -21,5 +24,17 @@ For de aller fleste, virker de reelle tallene til å løse alle våre problemer.
 >  $a+bi$ eller $a + ib$
 >  der $a$ og $b$ er *reelle* tall og $i$ er den imaginære enheten.
 >  Ofte skriver vi $z = a+bi$.
+>
+> Vi sier at tallet $z$ skrives på *kartesisk form* når vi skriver $z = a+bi$.
 
-Vi ønsker at komplekse tall skal være en utvidelse av de reelle tallene. Derfor ønsker vi også at de skal oppføre seg likt med hensyn til de grunnleggende operasjonene som [addisjon](Kapittel%200%20-%20innledende%20kapittel/P.A.2%20Addisjon%20av%20komplekse%20tall.md) og multiplikasjon. 
+> [!warning] Merk 
+> I boka bruker de $\text{Re}(a+bi) = a$ og $\text{Im}(a+bi)=b$ når de snakker om reelle og imaginære delen av et komplekst tall
+> 
+
+De reelle tallene representeres ofte på en tallinje. Da får vi en naturlig ordning på tallene, og det er enkelt å avgjøre hvilket tall av to tall som er størst. Siden de komplekse tallene er skapt som et par bestående av en reel del og en imaginær del er det også naturlig at en bruker det kartesiske planet til å representere punktene.
+
+På koordinatsystemet under, ser du et noen komplekse tall representert i det kartesiske planet. For eksempel tenker vi $3+4i$ som tallet som er $3$ enheter mot høyre på førsteaksen, og $4$ enheter oppover på andreaksen. Vi kaller ofte en slik representasjon for det komplekse planet.
+
+![](Files/shapes%20at%2024-08-12%2013.19.24.svg)
+
+Vi ønsker at komplekse tall skal være en utvidelse av de reelle tallene. Derfor ønsker vi også at de skal ha de samme [grunnleggende egenskapene](Kapittel%200%20-%20innledende%20kapittel/P.A.3%20Regning%20med%20komplekse%20tall.md) som de reelle tallene også har. 
