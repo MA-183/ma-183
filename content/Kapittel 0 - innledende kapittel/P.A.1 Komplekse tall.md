@@ -1,5 +1,5 @@
 ---
-{}
+draft: "true"
 ---
 De første tallene vi blir kjent med er de naturlige tallene, også kjent som telle-tallene.
 

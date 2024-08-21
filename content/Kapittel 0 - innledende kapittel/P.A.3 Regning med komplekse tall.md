@@ -1,5 +1,5 @@
 ---
-{}
+draft: "true"
 ---
 Siden de komplekse tallene skal være en utvidelse av de reelle tallene, bør de også oppføre seg slik vi forventer med tanke på addisjon og multiplikasjon. Komplekse tall består av en reell del og en imaginær del. Det blir da naturlig å tenke seg at når vi legger sammen komplekse tall, så vil de reelle delene legges sammen, og de imaginære delene legges sammen.
 

@@ -1,5 +1,5 @@
 ---
-{}
+draft: "true"
 ---
 
 Vi vet at for en $30-60-90$ trekant, så er $\cos\left( \frac{\pi}{6} \right) = \frac{\sqrt{3}}{2}$ (husk at vi måler i radianer og $\frac{\pi}{6} \text{radianer}=30^\circ$).

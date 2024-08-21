@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 > [!info] Jevne og odde funksjoner
 > La $f$ være en funksjon med definisjonsmengde $D(f)$. Hvis $-x$ er med i $D(f)$ hver gang $x$ er i $D(f)$ 
 >

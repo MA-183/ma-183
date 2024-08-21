@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 > [!info] Funksjoner, definisjon P.4.1
 > En funksjon er en regel, på en mengde $D$, som tar noe inn og spytter noe ut (det som kommer ut må være entydig).
 >

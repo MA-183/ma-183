@@ -1,5 +1,5 @@
 ---
-{}
+draft: "true"
 ---
 > [!tip] Substitusjon av bestemte integral, teorem 5.6.6
 >  

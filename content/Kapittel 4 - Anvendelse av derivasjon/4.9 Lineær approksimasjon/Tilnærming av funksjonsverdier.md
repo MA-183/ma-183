@@ -1,5 +1,5 @@
 ---
-{}
+draft: "true"
 ---
 > [!info] Linearisering av funksjoner, definisjon 4.9.8
 > *Lineariseringen* av funksjonen $f$ rundt punktet $a$ er funksjonen $L$ definert ved

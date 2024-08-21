@@ -10,7 +10,8 @@ På samme måte som med tall, kan vi lage nye funksjoner. La $f$ og $g$ være to
 >  4. $\left( \frac{f}{g} \right)(x)= \frac{f(x)}{g(x)}$, merk at $g(x)$ ikke kan være 0. Hvis $g(x) = 0$ så må vi gjøre noe med $D\left( \frac{f}{g} \right)$, det gjør vi enkelt ved å bare redusere definisjonsmengden til alle plasser der $g$ ikke er 0.
 >
 
-#### Eksempler
+> [!info] Eksempel 
+> 
 
 La $f(x) =x-1$ og $g(x) = x^2$. Merk at begge har samme definisjonsområde, altså at $D(f) = \mathbb{R} = D(g).$
 

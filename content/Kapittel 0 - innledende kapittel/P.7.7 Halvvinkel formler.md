@@ -1,5 +1,5 @@
 ---
-{}
+draft: "true"
 ---
 > [!tip] Halvvinkel formlene
 > For alle vinkler $t$ har vi at

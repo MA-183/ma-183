@@ -23,7 +23,7 @@ $$
 
 ### Generelt
 
-Hvis vi ønsker at funksjonen vår skal oppføre seg forskjellig på forskjellige områder kan vi "klippe og lime" sammen funksjonen vår fra andre funksjoner for å oppnå dette. Vi kaller slike funksjoner for stykkvis definerte funksjoner.
+Hvis vi ønsker at funksjonen vår skal oppføre seg forskjellig på forskjellige områder kan vi "klippe og lime" sammen funksjonen vår fra andre funksjoner for å oppnå dette. Vi kaller slike funksjoner for stykkevis definerte funksjoner.
 
 Ta for eksempel funksjonene under
 
