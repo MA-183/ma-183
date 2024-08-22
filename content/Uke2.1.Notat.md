@@ -191,7 +191,7 @@ Gjentar vi multiplikasjonen ser vi at
 > $(\cos(\theta)+i\sin(\theta))^n=\cos(n\theta)+i\sin(n\theta)$.
 > 
 
-Det blir kjedelig å skrive $\cos(theta)+i\sin(\theta)$ i lengden. 
+Det blir kjedelig å skrive $\cos(\theta)+i\sin(\theta)$ i lengden. 
 
 > [!tip] Eksponentialform 
 >   Hvis $z= r(\cos(\theta)+i\sin(\theta))$ kan vi skrive $z = re^{i\theta}$. 

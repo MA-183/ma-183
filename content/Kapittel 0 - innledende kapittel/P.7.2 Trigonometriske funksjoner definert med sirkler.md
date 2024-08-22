@@ -1,5 +1,5 @@
 ---
-draft: "true"
+{}
 ---
 Vi skal nå se hvordan vi kan definere $\cos$ og $\sin$ ved hjelp av sirkler istedenfor trekanter. Det vi gjør videre er å måle vinkler i [radianer](Kapittel%200%20-%20innledende%20kapittel/P.7.1%20Vinkelmål.md), $t$, og ikke i grader.
 

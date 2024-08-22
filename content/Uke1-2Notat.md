@@ -28,9 +28,11 @@ Trigonon (trekanter) metric (måling), gir opphav til trigonometri, altså måli
 > 
 
 > [!info] Radianer, definisjon P.7.1
-> Buelengde av en sirkel med radius 1.    
+> En vinkel $t$ målt i radianer er en buelengde som er $t$ lang i en sirkel med radius 1.    
 > ![undefined](Files/shapes%20at%2024-08-14%2014.09.51.svg)
-> Vinkelen over er $t$ radianer.
+> Vinkelen over er $t$ radianer (fordi buelengden er $t$). 
+>
+>(formelt er $t\text{ radianer} =\frac{\text{buelengde} }{\text{radius} }$)
 
 Det betyr at $2\pi$ radianer er $360^\circ$. Det vil si $\pi$ er 180 grader.
 
@@ -52,7 +54,7 @@ $1^\circ$ er $\frac{2\pi}{360}$.
 >  $C$ er punkt på enhetssirkelen
 >  $\alpha$ er vinkelen danna fra $C$ og x-aksen (også det samme som å spasere fra (1,0) og $\alpha$ radianer langs sirkelen).
 > Da er
->  $C = (\cos( \alpha),\sin(\alpha))$.
+>  $$C = (\cos( \alpha),\sin(\alpha)).$$
 >  Dvs
 > -  $\cos(\alpha)$ er x-verdi til $C$
 >  - $\sin(\alpha)$ er y-verdi til $C$.
@@ -75,7 +77,6 @@ $$
 \cos (\pi) = -1,\quad\quad \sin(\pi)=0.
 $$
 
-
 | Grader     | 0                                       | 30                                                  | 45                                                     | 60                                                     | 90                                    | 120                    | ... |
 | ---------- | --------------------------------------- | --------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------- | ---------------------- | --- |
 | Radianer   | 0                                       | $\frac{\pi}{6}$                                     | $\frac{\pi}{4}$                                        | $\frac{\pi}{3}$                                        | $\frac{\pi}{2}$                       | $\frac{2\pi}{3}$       |     |
@@ -85,15 +86,16 @@ $$
 > [!question] Spørsmål 
 > Hva er $\sin\left( \frac{11\pi}{6} \right)$?  
 
-
 ## Geometrisk definisjon
 Geometrisk har vi
 
 
 ![undefined](Files/shapes%20at%2024-08-15%2015.07.07.svg)
 
-
 ## Identiteter
+
+Først $x^2+y^2 =1$
+
 ![undefined](Files/shapes%20at%2024-08-15%2015.24.31%201.svg)
 
 Vi har altså

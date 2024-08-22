@@ -1,5 +1,5 @@
 ---
-draft: "true"
+{}
 ---
 
 > [!tip] Addisjonsformlene, Teorem 2
