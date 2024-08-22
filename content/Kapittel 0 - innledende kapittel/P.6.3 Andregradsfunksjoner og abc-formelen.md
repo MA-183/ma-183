@@ -20,3 +20,5 @@ $$
 $$
 
 \* Merk at vi her bruker at $\left( x+\frac{b}{2a} \right)^2 = x^2+2\cdot \frac{b}{2a}x + (\frac{b}{2a})^2$. Det er dette vi kaller å fullføre kvadratet, fordi vi har lagt til $\left( \frac{b}{2a} \right)^2$ for å få et fullstendig kvadrat. 
+
+Det neste vi skal se på er [[Kapittel 0 - innledende kapittel/P.7.0 Intro|P.7.0 Intro]]

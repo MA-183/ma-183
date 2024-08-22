@@ -9,15 +9,7 @@ Det første vi gjør er å ta en rettvinklet trekant, med en vinkel $t$, og plas
 Siden hypotenusen i trekanten nå er $1$, så må $\sin (t)$ fortelle oss høyden i trekanten fordi $\sin(t) = \frac{\text{motstående}}{1} = \text{motstående}$. Vi ser da at trekantens hjørne ligger på sirkelen og dersom sirkelen ligger i origo vil hjørnet være punktet $(\cos(t), \sin(t))$. Det vil si at høyden i trekanten, $\sin(t)$, også er $y-$verdien til punktet der trekanten ligger på sirkelen. Trekanten vi tegnet var vilkårlig, så det må bety at $\sin(t)$ alltid forteller oss høyden i trekanten når vi setter den inn i en sirkel med radius $1$. 
 
 
-> [!info] Cosinus og sinus
-> For et reelt tall ${\color{red} t }$ vil buelengden ${\color{red} t }$ fra $x$-aksen definere et punkt $C$ på sirkelen som på figuren under. 
->  Ved hjelp av $C$ definerer vi $\cos({\color{red} t })$ og $\sin({\color{red} t })$ som $x-$ og $y-$koordinatene til punktet $C$.
-> 1. $\cos(t) ={\color{#71ff4d} x }-$koordinaten til $C$
-> 2. $\sin (t)={\color{#ff4dff} y }-$koordinaten til $C$
-> <iframe src="https://www.geogebra.org/classic/sysbwus5?embed" width="800" height="600" allowfullscreen style="border-radius: 4px;" frameborder="0"></iframe>
-  
-
-
+![[Kapittel X - Definisjoner og teoremer/Def P.7.7 Cosinus og sinus|Def P.7.7 Cosinus og sinus]]
 
 Vi ser nå at vi også kan for en vinkel $v$ mål i radianer, la $v$ være større en $\frac{\pi}{2}\text{radianer} =90^\circ$ og likevel få $\cos (v)$ og $\sin (v)$ til å være meningsfullt, samtidig som det stemmer overens med definisjonen av $\cos$ og $\sin$ ved hjelp av trekanter (se figuren under). 
 ![](Files/shapes%20at%2024-08-07%2013.46.06.svg)

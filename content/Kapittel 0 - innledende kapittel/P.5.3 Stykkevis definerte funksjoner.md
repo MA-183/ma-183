@@ -29,4 +29,5 @@ Ta for eksempel funksjonene under
 
 ![](/Files/stykkvisefunk.svg)
 
+Nå som vi har definert funksjoner og sett på hvordan vi kan lage nye funksjoner skal vi se på [[Kapittel 0 - innledende kapittel/P.6.1 Polynomer og rasjonale funksjoner|P.6.1 Polynomer og rasjonale funksjoner]]
 <br><br> <br><br> <br><br> 

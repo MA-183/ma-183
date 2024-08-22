@@ -148,32 +148,32 @@ export function renderPage(
         } else if (page.htmlAst) {
           // page transclude
           node.children = [
-            {
-              type: "element",
-              tagName: "h1",
-              properties: {},
-              children: [
-                {
-                  type: "text",
-                  value:
-                    page.frontmatter?.title ??
-                    i18n(cfg.locale).components.transcludes.transcludeOf({
-                      targetSlug: page.slug!,
-                    }),
-                },
-              ],
-            },
+            // { FIXME HER HAR ANDRE FJERNA FOR Å IKKE INKLUDERE TITTEL I EMBEDDA NOTATER
+            //   type: "element",
+            //   tagName: "h1",
+            //   properties: {},
+            //   children: [
+            //     {
+            //       type: "text",
+            //       value:
+            //         page.frontmatter?.title ??
+            //         i18n(cfg.locale).components.transcludes.transcludeOf({
+            //           targetSlug: page.slug!,
+            //         }),
+            //     },
+            //   ],
+            // },
             ...(page.htmlAst.children as ElementContent[]).map((child) =>
               normalizeHastElement(child as Element, slug, transcludeTarget),
             ),
-            {
-              type: "element",
-              tagName: "a",
-              properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
-              children: [
-                { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
-              ],
-            },
+            // { FIXME HER HAR ANDRE FJERNA FOR Å IKKE LENKE TILBAKE
+            //   type: "element",
+            //   tagName: "a",
+            //   properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
+            //   children: [
+            //     { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
+            //   ],
+            // },
           ]
         }
       }

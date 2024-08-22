@@ -1,12 +1,7 @@
 ---
 {}
 ---
-> [!tip] Halvvinkel formlene
-> For alle vinkler $t$ har vi at
-> $$\begin{aligned} \cos^2(t) = \frac{1+\cos(2t) }{2 }   \end{aligned}$$ 
-> og
-> $$\begin{aligned} \sin^2(t) = \frac{1-\cos(2t) }{2 }   \end{aligned}$$  
-
+![[Kapittel X - Definisjoner og teoremer/Teo P.7.2.2 Halvvinkelformlene|Teo P.7.2.2 Halvvinkelformlene]]
 
 > [!note] Argument 
 
@@ -27,3 +22,5 @@ $$
 Løser vi for $\cos^2(t)$ får vi $\displaystyle \cos^2(t) = \frac{1+\cos(2t) }{2}$.
 
 Vi har også at $\cos^2(t) = 1-\sin^2(t) = \frac{1+\cos(2t) }{2}$. Dermed kan vi også løse for $\sin^2(t)$ og få den siste identiteten. 
+
+
