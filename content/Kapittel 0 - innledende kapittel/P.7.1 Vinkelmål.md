@@ -3,7 +3,15 @@
 ---
 Den vanlige måten å måle vinkler på er ved å dele inn sirkelen i 360 grader. I Kalkulus 1 kommer vi til å kun bruke radianer fremover. 
 
-![Def P.7.7 Radianer](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Def%20P.7.7%20Radianer.md)
+
+> [!info] Radianer
+>  Vi definerer radianer som $\frac{\text{buelengde av en sirkel}}{\text{radius til sirkelen}}$. Ser vi på enhetssirkelen så er radiusen $1$, og dermed kan vi også tenke på radianer som en buelengde i en sirkel med radius 1.
+
+Som vi ser over kan vi visualisere $t$ radianer på enhetssirkelen som en buelengde på sirkelen med lenge $t$ slik som figuren under viser. 
+![](Files/shapes%20at%2024-08-07%2013.39.57.svg)
+
+
+
 
 Hvorfor vi bruker radianer kommer frem når vi skal lære om derivasjon (spoiler: $\sin(x)' = \cos(x)$).
 

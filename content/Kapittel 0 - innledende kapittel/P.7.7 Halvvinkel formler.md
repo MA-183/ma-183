@@ -1,7 +1,12 @@
 ---
 {}
 ---
-![Teo P.7.2.2 Halvvinkelformlene](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Teo%20P.7.2.2%20Halvvinkelformlene.md)
+> [!tip] Halvvinkel formlene
+> For alle vinkler $t$ har vi at
+> $$\begin{aligned} \cos^2(t) = \frac{1+\cos(2t) }{2 }   \end{aligned}$$ 
+> og
+> $$\begin{aligned} \sin^2(t) = \frac{1-\cos(2t) }{2 }   \end{aligned}$$  
+
 
 > [!note] Argument 
 
