@@ -11,7 +11,7 @@ Tavla finnes på tinyurl.com/ma-183-22-08
 - bruke og utlede addisjonsformlene for $\sin$ og $\cos$ (Teorem 2, s. 51 + de lilla boksene på s. 52).
 - definere $\tan$ ved hjelp av $\sin$ og $\cos$ (Definisjon 9, s. 53).
 ![undefined](Files/shapes%20at%2024-08-22%2008.31.17.svg)
-# Trigonometri
+## Vinkler
 
 > [!question] Spørsmål 
 > Hva er er vinkel? Hvordan skal vi måle en vinkel?
@@ -36,11 +36,22 @@ $1^\circ = \frac{2\pi}{360}$ radianer
 > [!question] Spørsmål 
 > Hva er $60^\circ$ i radianer?  
 
-![undefined](Files/shapes%20at%2024-08-22%2009.01.00.svg)
+$$
+\begin{aligned} 
+  1^\circ &= \frac{2\pi}{360} \text{ radianer}\quad\quad\quad\quad && |\cdot60 \\ 1^\circ\cdot60 &= \frac{2\pi}{360}\cdot60 \text{ radianer} = \frac{2\pi}{6} \text{ radianer} \\ 60^\circ &= \frac{\pi}{3}\text{ radianer.}
+\end{aligned} 
+$$
 
-## Trig
+| Grader     | 0                                       | 30                                                  | 45                                                     | 60                                                     | 90                                    | 120                    | ... |
+| ---------- | --------------------------------------- | --------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------- | ---------------------- | --- |
+| Radianer   | 0                                       | $\frac{\pi}{6}$                                     | $\frac{\pi}{4}$                                        | $\frac{\pi}{3}$                                        | $\frac{\pi}{2}$                       | $\frac{2\pi}{3}$       |     |
 
-![undefined](Files/Pasted%20image%2020240822085256.png)
+
+
+
+## Trigonometri
+
+<iframe src="https://www.geogebra.org/classic/sysbwus5?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 
 > [!info] Cosinus og sinus
 > Se figur over:
@@ -61,6 +72,12 @@ $1^\circ = \frac{2\pi}{360}$ radianer
 
 ![undefined](Files/shapes%20at%2024-08-22%2009.39.14.svg)
 
+| Grader     | 0                                       | 30                                                  | 45                                                     | 60                                                     | 90                                    | 120                    | ... |
+| ---------- | --------------------------------------- | --------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------- | ---------------------- | --- |
+| Radianer   | 0                                       | $\frac{\pi}{6}$                                     | $\frac{\pi}{4}$                                        | $\frac{\pi}{3}$                                        | $\frac{\pi}{2}$                       | $\frac{2\pi}{3}$       |     |
+| $\sin (t)$ | 0<br><br><br>$\frac{\sqrt{0} }{2 }$<br> | $\frac{1}{2}$<br><br><br>$\frac{\sqrt{1} }{2 }$<br> | $\frac{\sqrt{2}}{2}$<br><br><br>$\frac{\sqrt{2} }{2 }$ | $\frac{\sqrt{3}}{2}$<br><br><br>$\frac{\sqrt{3} }{2 }$ | $1$<br><br><br>$\frac{\sqrt{4} }{2 }$ | $\frac{\sqrt{3} }{2 }$ |     |
+| $\cos (t)$ | 1                                       | $\frac{\sqrt{3} }{2 }$                              | $\frac{\sqrt{2} }{ 2}$                                 | $\frac{1}{2}$                                          | $0$                                   | $-\frac{1 }{2 }$       |     |
+
 ## Geometrisk definisjon
 
 
@@ -72,8 +89,8 @@ $1^\circ = \frac{2\pi}{360}$ radianer
 
 
 
-![undefined](Files/shapes%20at%2024-08-22%2009.53.31.svg)
 
+![undefined](Files/shapes%20at%2024-08-22%2012.26.52.svg)
 
 Vi har altså
 
@@ -84,9 +101,9 @@ Vi har altså
 >  4. $\cos(-t)=\cos (t)$ og $\sin(-t)=-\sin (t)$.
 >  5. $\cos\left( \frac{\pi}{2}-t \right)= \sin (t)$ og $\sin\left( \frac{\pi}{2}-t \right)=\cos(t)$.
 
+## Grafer
 
-
-
+![undefined](Files/shapes%20at%2024-08-16%2013.33.12.svg)
 
 
 

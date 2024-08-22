@@ -28,13 +28,7 @@ Fra situasjoner.
 Det viktige vi skal ta ut fra eksemplene over er at funksjoner fungerer som en regel som vet hva den skal gjøre. Vi kan visualisere funksjoner som noe som sendes inn til en regel $f$, der $f$ sender noe entydig ut, $f(x)$. Det kan vi visualisere som figuren under.
  
 ![500](Files/funksjoner.svg)
-
-> [!info] Funksjoner, definisjon 1
-> En funksjon er en regel som tar noe inn og spytter noe ut (det som kommer ut må være entydig).
->
-> Dersom vi har en funksjon $f$, 
-> - sier vi at alt funksjonen kan ta inn skal kalles definisjonsmengden, og det noteres $D(f)$.
-> - sier vi at alt funksjonen kan spytte ut skal kalles verdimengden, notert $V(f)$. Merk at boka bruker $R(f)$, rekkevidden til $f$.
+![Definisjon - P.4.1 Funksjon](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Definisjon%20-%20P.4.1%20Funksjon.md)
 
 En viktig konvensjon er den følgende konvensjonen (en konvensjon er en anerkjent *regel / retningslinje* i matematikkmiljøet).
 
@@ -42,3 +36,4 @@ En viktig konvensjon er den følgende konvensjonen (en konvensjon er en anerkjen
 > Definisjonsmengde er alltid størst mulig hvis ingenting annet er sagt.
 > I Kalkulus 1 jobber vi med reelle funksjoner. Det vil si $D(f)$ er alltid i $\mathbb{R}$, og $V(f)$ er i $\mathbb{R}$. 
 >  
+

@@ -1,6 +1,3 @@
----
-draft: "true"
----
 
 > [!info] Komplekse tall, definisjon A.1 
 >  

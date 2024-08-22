@@ -1,12 +1,7 @@
 ---
 {}
 ---
-
-> [!tip] Addisjonsformlene, Teorem 2
-> 1. $\cos(s+t) =\cos(s)\cos(t)-\sin(s)\sin(t)$
-> 2. $\sin(s+t) = \sin(s)\cos(t)+\cos(s)\sin(t)$
-> 3. $\cos(s-t) = \cos(s)\cos(t)+\sin(s)\sin(t)$
-> 4. $\sin(s-t)=\sin(s)\cos (t) - \cos(s)\sin(t)$
+![Teorem - P.7.2 Addisjonsformlene for cosinus og sinus](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Teorem%20-%20P.7.2%20Addisjonsformlene%20for%20cosinus%20og%20sinus.md)
 
 I all hovedsak er det 1. og 2. som er viktige å kunne. De to andre kan da utledes ved hjelp av [disse identitetene](Kapittel%200%20-%20innledende%20kapittel/P.7.4%20Viktige%20identiteter.md)
 

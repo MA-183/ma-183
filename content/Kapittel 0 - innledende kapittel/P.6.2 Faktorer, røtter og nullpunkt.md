@@ -9,12 +9,7 @@ Vi kan dele polynomer på hverandre hvis "grad oppe" > "grad nede".
 
 ![](/Files/polydivi.svg)
 
-> [!tip] Teorem 
->   
->  La $A(x)$ være et polynom av grad $m$, 
->  $B(x)$ være et polynom av grad $n$ der $n < m$.
->  Da er $\frac{A(x)}{B(x)} =Q(x) + \frac{R(x)}{B(x)}$, der $Q$ har grad $m-n$, og $R$ har grad $k$ der $k<n$.
->     
+![Teorem - P.6.0 divisjonsalgoritmen](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Teorem%20-%20P.6.0%20divisjonsalgoritmen.md)
 
 > [!warning] Merk  
 >  
@@ -22,9 +17,7 @@ Vi sier at $B(x)$ er en faktor i $A(x)$ hvis $R(x) = 0$ (altså at vi har 0 i re
 
 Hvis vi har at $A(r) = 0$ for en verdi $r$, kaller vi $r$ en rot av $A$. For eksempel ser vi at $3$ er en rot av $P(x)= x^2-6x+9$ fordi $P(3) = 3^2-6\cdot3+9 = 9 -18+9 = 0$.
 
-> [!tip] Faktorteoremet, teorem P.6.1
-> 
-> La $P$ være et polynom, der graden til $P$ er større enn $1$. Da er $r$ en rot av $P$, hvis og bare hvis $x-r$ er en faktor i $P$. 
+![Teorem - P.6.1 Faktorteoremet](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Teorem%20-%20P.6.1%20Faktorteoremet.md)
 
 > [!warning] Merk 
 > 
