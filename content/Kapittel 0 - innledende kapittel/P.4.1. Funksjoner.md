@@ -38,3 +38,4 @@ En viktig konvensjon er den følgende konvensjonen (en konvensjon er en anerkjen
 > I Kalkulus 1 jobber vi med reelle funksjoner. Det vil si $D(f)$ er alltid i $\mathbb{R}$, og $V(f)$ er i $\mathbb{R}$. 
 >  
 
+Nå som vi har definert funksjoner kan vi se på hvordan vi kan lage nye funksjoner ved hjelp av [[Kapittel 0 - innledende kapittel/P.5.1 De fire regneartene|P.5.1 De fire regneartene]].
