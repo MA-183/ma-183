@@ -9,7 +9,7 @@ Vi kan dele polynomer på hverandre hvis "grad oppe" > "grad nede".
 
 ![](/Files/polydivi.svg)
 
-![Teorem - P.6.0 divisjonsalgoritmen](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Teorem%20-%20P.6.0%20divisjonsalgoritmen.md)
+![Teo P.6.0 divisjonsalgoritmen](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Teo%20P.6.0%20divisjonsalgoritmen.md)
 
 > [!warning] Merk  
 >  
@@ -17,7 +17,7 @@ Vi sier at $B(x)$ er en faktor i $A(x)$ hvis $R(x) = 0$ (altså at vi har 0 i re
 
 Hvis vi har at $A(r) = 0$ for en verdi $r$, kaller vi $r$ en rot av $A$. For eksempel ser vi at $3$ er en rot av $P(x)= x^2-6x+9$ fordi $P(3) = 3^2-6\cdot3+9 = 9 -18+9 = 0$.
 
-![Teorem - P.6.1 Faktorteoremet](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Teorem%20-%20P.6.1%20Faktorteoremet.md)
+![Teo P.6.1 Faktorteoremet](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Teo%20P.6.1%20Faktorteoremet.md)
 
 > [!warning] Merk 
 > 

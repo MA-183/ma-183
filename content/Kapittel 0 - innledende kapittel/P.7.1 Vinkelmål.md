@@ -3,7 +3,7 @@
 ---
 Den vanlige måten å måle vinkler på er ved å dele inn sirkelen i 360 grader. I Kalkulus 1 kommer vi til å kun bruke radianer fremover. 
 
-![Definisjon - P.7.7 Radianer](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Definisjon%20-%20P.7.7%20Radianer.md)
+![Def P.7.7 Radianer](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Def%20P.7.7%20Radianer.md)
 
 Hvorfor vi bruker radianer kommer frem når vi skal lære om derivasjon (spoiler: $\sin(x)' = \cos(x)$).
 

@@ -3,7 +3,7 @@
 ---
 På samme måte som med tall, kan vi lage nye funksjoner. La $f$ og $g$ være to funksjoner. Da har vi at
 
-![Definisjon - P.5.3 Sum, differanse, produkt og kvotienter av funksjoner](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Definisjon%20-%20P.5.3%20Sum,%20differanse,%20produkt%20og%20kvotienter%20av%20funksjoner.md)
+![Def P.5.3 Sum, differanse, produkt og kvotienter av funksjoner](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Def%20P.5.3%20Sum,%20differanse,%20produkt%20og%20kvotienter%20av%20funksjoner.md)
 
 
 > [!info] Eksempel 

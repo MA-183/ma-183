@@ -1,7 +1,7 @@
 ---
 {}
 ---
-![Teorem - P.7.2.2 Halvvinkelformlene](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Teorem%20-%20P.7.2.2%20Halvvinkelformlene.md)
+![Teo P.7.2.2 Halvvinkelformlene](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Teo%20P.7.2.2%20Halvvinkelformlene.md)
 
 > [!note] Argument 
 

@@ -1,7 +1,7 @@
 ---
 {}
 ---
-![Teorem - P.7.2 Addisjonsformlene for cosinus og sinus](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Teorem%20-%20P.7.2%20Addisjonsformlene%20for%20cosinus%20og%20sinus.md)
+![Teo P.7.2 Addisjonsformlene](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Teo%20P.7.2%20Addisjonsformlene.md)
 
 I all hovedsak er det 1. og 2. som er viktige å kunne. De to andre kan da utledes ved hjelp av [disse identitetene](Kapittel%200%20-%20innledende%20kapittel/P.7.4%20Viktige%20identiteter.md)
 

@@ -5,6 +5,6 @@ Nå som vi vet hvordan vi kan uttrykke $\cos(s+t)$ og $\sin(s+t)$, fra [P.7.5 Ad
 
 Vi får dermed
 
-![Teorem - P.7.2 Dobbeltvinkelformlene](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Teorem%20-%20P.7.2%20Dobbeltvinkelformlene.md)
+![Teo P.7.2 Dobbeltvinkelformlene](Kapittel%20X%20-%20Definisjoner%20og%20teoremer/Teo%20P.7.2%20Dobbeltvinkelformlene.md)
 
 Faktisk så fører også dobbeltvinkel-formlene, i sammenheng med [de grunnleggende identitetene](Kapittel%200%20-%20innledende%20kapittel/P.7.4%20Viktige%20identiteter.md), til [halvvinkel formlene](Kapittel%200%20-%20innledende%20kapittel/P.7.7%20Halvvinkel%20formler.md).
