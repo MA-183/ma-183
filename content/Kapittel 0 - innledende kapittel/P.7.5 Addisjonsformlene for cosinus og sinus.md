@@ -17,9 +17,9 @@ For å utlede formlene begynner vi med å se på $\cos(s-t)$. Det gjør vi ved �
 
 På begge bildene over ser vi at den røde streken er like lang, fordi den skjærer av like stor sirkelbue. Målet er nå å regne ut lengden på den røde linjen på to måter. Denne vil gi oss en sammenheng vi skal utnytte.
 
-VS: Vi bruker Pytagoras for å finne rød linje og får at korteste katet er $1-\cos(s-t)$ og lengste katet er $\sin(s-t)$. Pytagoras gir oss nå at $(1-\cos(s-t))^2+\sin^2(s-t) = \text{rød linje}$.
+VS: Vi bruker Pytagoras for å finne rød linje og får at korteste katet er $1-\cos(s-t)$ og lengste katet er $\sin(s-t)$. Pytagoras gir oss nå at $(1-\cos(s-t))^2+\sin^2(s-t) = (\text{rød linje}^2)$.
 
-HS: Samme ide gir oss her at $(\cos(t)-\cos(s))^2 +(\sin(t)-\sin(s))^2 = \text{rød linje}$. 
+HS: Samme ide gir oss her at $(\cos(t)-\cos(s))^2 +(\sin(t)-\sin(s))^2 = (\text{rød linje})^2$. 
 
 Vi setter disse nå lik hverandre og utnytter at $\cos^2 (t)+ \sin^2(t) = 1$, som gir
 
