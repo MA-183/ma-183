@@ -46,4 +46,21 @@ Her dreier vi halve sirkelen og ser at $\cos(\pi)=-1$ og $\sin(\pi)= 0$.
 
 På grunn av symmetrien i sirkelen ser vi også i figuren at å rotere $\frac{3\pi}{4}$ er det samme som å rotere $\frac{\pi}{4}$ og deretter speile om $y-$aksen. Noe som gir at $\cos\left( \frac{3\pi}{4} \right)= -\frac{\sqrt{2}}{2}$ og at $\sin\left( \frac{3\pi}{4} \right)=\frac{\sqrt{2}}{2}$.
 
+### Tabell
+
+Fra oppgavene over, kan vi nå fortsette å fylle ut verdier for $\sin (t)$ og $\cos (t)$. Det gir
+
+| Grader     | 0                                        | 30                                                   | 45                                                      | 60                                                      | 90                                     | 120                    | ... |
+| ---------- | ---------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------- | ---------------------- | --- |
+| Radianer   | 0                                        | $\frac{\pi}{6}$                                      | $\frac{\pi}{4}$                                         | $\frac{\pi}{3}$                                         | $\frac{\pi}{2}$                        | $\frac{2\pi}{3}$       |     |
+| $\sin (t)$ | 0<br><br>=<br>$\frac{\sqrt{0} }{2 }$<br> | $\frac{1}{2}$<br><br>=<br>$\frac{\sqrt{1} }{2 }$<br> | $\frac{\sqrt{2}}{2}$<br><br>=<br>$\frac{\sqrt{2} }{2 }$ | $\frac{\sqrt{3}}{2}$<br><br>=<br>$\frac{\sqrt{3} }{2 }$ | $1$<br><br>=<br>$\frac{\sqrt{4} }{2 }$ | $\frac{\sqrt{3} }{2 }$ |     |
+| $\cos (t)$ | 1                                        | $\frac{\sqrt{3} }{2 }$                               | $\frac{\sqrt{2} }{ 2}$                                  | $\frac{1}{2}$                                           | $0$                                    | $-\frac{1 }{2 }$       |     |
+
+> [!warning] Merk 
+> Rekken $0 - \frac{1 }{2 } - \frac{\sqrt{2} }{2 } - \frac{\sqrt{3} }{2 } - 1$ også kan skrives slik
+>
+> $\frac{\sqrt{0} }{2 } - \frac{\sqrt{1} }{2 }- \frac{\sqrt{2} }{2 } - \frac{\sqrt{3} }{2 } - \frac{\sqrt{4} }{2 }$, som gjør det enklere å sammenligne størrelsene.
+
 Som vi har sett små tegn til, for eksempel i 2., så har $\cos$ og $\sin$ flere symmetrier og egenskaper som gjør at de henger tett sammen med hverandre. Det er viktig å ha kontroll på flere [viktige identiteter](Kapittel%200%20-%20innledende%20kapittel/P.7.4%20Viktige%20identiteter.md).
+
+
