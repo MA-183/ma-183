@@ -8,6 +8,8 @@ I all hovedsak er det 1. og 2. som er viktige å kunne. De to andre kan da utled
 > [!note] Argument 
 > 
 
+For å utlede formlene begynner vi med å se på $\cos(s-t)$. Det gjør vi ved å tegne vinkelen $s-t$ på to måter. Den ene der vi tenker på $s-t$ som ett enkelt tall (første figur under), og den andre som, først gå $s$ og deretter trekk fra $t$ (andre figur under).
+
 ![](Files/shapes%20at%2024-07-15%2013.18.41.svg)
 
 På begge bildene over ser vi at den røde streken er like lang, fordi den skjærer av like stor sirkelbue. Målet er nå å regne ut lengden på den røde linjen på to måter. Denne vil gi oss en sammenheng vi skal utnytte.
