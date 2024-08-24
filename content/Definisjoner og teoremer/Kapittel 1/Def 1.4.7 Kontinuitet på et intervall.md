@@ -1,0 +1,2 @@
+> [!info] Kontinuitet på et intervall
+> En funksjon $f$ er *kontinuerlig på et interval* $I$ hvis den er kontinuerlig i hvert i $I$. Spesielt sier vi at $f$ er en kontinuerlig funksjon hvis den er kontinuerlig på sin definisjonsmengde.  

@@ -77,10 +77,10 @@ Flere? $|1+i| = \sqrt{2}$, så alle tall på sirkel med sentrum i origo og radiu
 
 Stråler ut fra origo i forskjellige vinkler.
 
-Vi kan representere komplekse tall med lengde og hvilken vinkel
+Vi kan representere komplekse tall med lengde (absoluttverdien) og hvilken vinkel
 
 ![](Files/shapes%20at%2024-08-12%2014.57.36.svg)
-> [!warning] Merk 
+> [!warning] Argument, definisjon A.4 
 > Vi kaller vinkelen som et tall $z = a+bi$ danner med førsteaksen for argumentet til $z$ og noterer det slik $\text{arg}(z)$. I bildet over er $\theta$ argumentet til tallet $z$.
 > 
 

@@ -1,7 +1,7 @@
 ---
 {}
 ---
-![[Kapittel X - Definisjoner og teoremer/Teo P.7.2 Addisjonsformlene|Teo P.7.2 Addisjonsformlene]]
+![[Definisjoner og teoremer/P-kapitlene/Teo P.7.2 Addisjonsformlene|Teo P.7.2 Addisjonsformlene]]
 
 I all hovedsak er det 1. og 2. som er viktige å kunne. De to andre kan da utledes ved hjelp av [disse identitetene](Kapittel%200%20-%20innledende%20kapittel/P.7.4%20Viktige%20identiteter.md)
 

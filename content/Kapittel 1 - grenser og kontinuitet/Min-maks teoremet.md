@@ -1,8 +1,7 @@
 ---
 draft: "true"
 ---
-> [!tip]+ Min-maks teoremet, teorem 1.4.8
-> Hvis $f(x)$ er kontinuerlig på et lukket endelig intervall $[a,b]$, så eksisterer det tall $p$ og $q$ i $[a,b]$ slik at for alle $x$ i $\left[ a,b \right]$, $$f(p) \leq f(x) \leq f(q).$$ Det betyr at $f$ har sitt absolutte minste verdi $m = f(p)$ og sin absolutte største verdi $M = f(q)$.
+![[Definisjoner og teoremer/Kapittel 1/Teo 1.4.8 Min-maks teoremet|Teo 1.4.8 Min-maks teoremet]]
 
 > [!info]+ Eksempel
 > Tenk deg at du har 200 meter gjerde og at du skal gjerde inn et rektangulært område. Hvor stort areal kan du gjerde inn?

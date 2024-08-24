@@ -28,7 +28,7 @@ Fra situasjoner.
 Det viktige vi skal ta ut fra eksemplene over er at funksjoner fungerer som en regel som vet hva den skal gjøre. Vi kan visualisere funksjoner som noe som sendes inn til en regel $f$, der $f$ sender noe entydig ut, $f(x)$. Det kan vi visualisere som figuren under.
  
 ![500](Files/funksjoner.svg)
-![[Kapittel X - Definisjoner og teoremer/Def P.4.1 Funksjon|Def P.4.1 Funksjon]]
+![[Definisjoner og teoremer/P-kapitlene/Def P.4.1 Funksjon|Def P.4.1 Funksjon]]
 
 
 En viktig konvensjon er den følgende konvensjonen (en konvensjon er en anerkjent *regel / retningslinje* i matematikkmiljøet).
