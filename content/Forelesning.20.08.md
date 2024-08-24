@@ -12,6 +12,7 @@ LM
 - bruke polynomfunksjoner og rasjonale funksjoner (Definisjon 5 og 6, s. 39–40).
 - bruke divisjonsalgoritmen på polynomer (Teorem 1, s. 41).
 - bruke og argumentere for $abc$-formelen for andregradslikninger
+
 ## Funksjoner
 
 > [!question] Spørsmål 
@@ -33,7 +34,6 @@ Fra matematikken
 def f(x):
     return x*x
 ```
-
 
 > [!info] Funskjon, P.4.1
 >  En funksjon er en regel, på en mengde $D$, som tar noe inn og spytter noe ut (det som kommer ut det må være entydig).
@@ -61,10 +61,6 @@ $$
 \end{aligned} 
 $$
 
-
-
-
-
 ![undefined](Files/shapes%20at%2024-08-20%2008.44.35%201.svg)
 
 Ser at verdimengden er all tall bortsett fra 0, altså $V(f)= \mathbb{R}\setminus\left\{ 0 \right\} = (-\infty, 0)\cup(0,\infty)$.
@@ -85,25 +81,22 @@ Ser at verdimengden er all tall bortsett fra 0, altså $V(f)= \mathbb{R}\setminu
 > 2. $(f\cdot g)(x)$
 > 3. $\left( \frac{f }{g } \right)(x)$?
 
-> [!abstract]  1
+> [!abstract] 1
 > 
 
 $(f+g)(x) =x-1+x^2$
 
-
-> [!abstract]  2
+> [!abstract] 2
 > 
 
 $(f\cdot g)(x)= (x-1)\cdot x^2=x^3-x^2$
 
-> [!abstract]  3
+> [!abstract] 3
 > 
 
 $\left( \frac{f}{g} \right)(x) =\frac{x-1 }{x^2 }$
 
-
 ## Komposisjoner av funksjoner
-
 
 ![undefined](Files/shapes%20at%2024-08-20%2008.56.32.svg)
 Setter vi sammen $f$ og $g$ lir resultatet $g(f(x))$.
@@ -123,7 +116,6 @@ $g(f(x))=g(x-1)=(x-1)^2$.
 Det ser vi enkelt ved å se at $f(g(x))=f(x^2)=x^2-1$.
 
 Notasjon: $(g \circ f)(x) = g(f(x))$.
-
 
 ## Stykkvis definerte funksjoner
 
@@ -147,7 +139,6 @@ $x^2$, $x-1$, $x^3+5x+x^8$, og $x^{12}-15$ osv.
 >  
 >  Her er $a_0,\ldots,a_n$ konstanter (kaller de koeffisienter). Hvis $a_n \neq 0$ så har $P(x)$ grad $n$.
 
-
 ## Rasjonale funksjoner
 
 Rasjonale funksjoner er rett og slett brøker, der teller og nevner er polynomer. 
@@ -163,14 +154,12 @@ $\frac{x^2+1 }{x+1 }$ er en rasjonal funksjon fordi $x^2+1$ er et polynom og $x+
 > $\frac{P(x) }{Q(x) }$ en rasjonal funksjon.  
 >  
 
-
 ## Faktorer, røtter og nullpunkter
 
 > [!info] Eksempel 
 > 
 
 5 er en faktor i $20$ fordi $5\cdot4 =20$, eller fordi $\frac{20}{5}$ går opp. 
-
 
 ![undefined](Files/shapes%20at%2024-08-20%2009.50.15.svg)
 > [!tip] Teorem, divisjonalgoritmen
@@ -200,7 +189,6 @@ $\frac{x^2+1 }{x+1 }$ er en rasjonal funksjon fordi $x^2+1$ er et polynom og $x+
 >  
 >  $$\frac{x^3-6x^2+10-3 }{x-3 } = x^2-3x+1$$
 
-
 > [!tip] Faktorteoremet, teorem P.6.1
 > Hvis
 > 
@@ -208,7 +196,6 @@ $\frac{x^2+1 }{x+1 }$ er en rasjonal funksjon fordi $x^2+1$ er et polynom og $x+
 > 
 > Da er $r$ en rot i $P$ hvis og bare hvis
 > $x-r$ er en faktor i $P$. 
-
 
 > [!warning] Merk 
 > Du kan splitte en påstand med *hvis og bare hvis* (slik som over) i to påstander på denne måten:
@@ -252,7 +239,6 @@ $$
 1. Hvis $P(r)  = 0 \longrightarrow P(r) = c = 0$ altså er resten 0 som betyr at $x-r$ er en faktor i $P(x)$. 
 2. Hvis $x-r$ er en faktor, da har vi 0 i rest. Som betyr at $c = 0$ som gir at $P(r) = c = 0$, altså er $r$ en rot. 
 
-
 ### Andregradspolynomer
 
 Andregradsfunksjoner: $ax^2+bx+c$. 
@@ -264,7 +250,6 @@ Andregradsfunksjoner: $ax^2+bx+c$.
 > Da er røttene gitt ved
 > $$x = \frac{-b\pm \sqrt{b^2-4ac} }{ 2a}$$
 >   
-
 
 > [!note] Argument 
 > 
@@ -278,15 +263,4 @@ $$
 $$
 
 \* Merk at vi her bruker at $\left( x+\frac{b}{2a} \right)^2 = x^2+2\cdot \frac{b}{2a}x + (\frac{b}{2a})^2$. Det er dette vi kaller å fullføre kvadratet, fordi vi har lagt til $\left( \frac{b}{2a} \right)^2$ for å få et fullstendig kvadrat. 
-
-
-
-
-
-
-
-
-
-
-
 

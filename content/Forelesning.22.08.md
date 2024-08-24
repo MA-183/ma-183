@@ -94,6 +94,7 @@ $$
 
 Vi har altså
 
+
 > [!info] Identiteter 
 >  1. $\cos^2(t)+\sin^2(t) = 1$
 >  2. $\cos(t+2\pi) = \cos (t)$ og $\sin(t+2\pi) = \sin (t)$

@@ -4,3 +4,4 @@
 > sier vi linjen med stigning $m$ som går gjennom punktet $(x,f(x))$ er *tangentlinjen* til $f(x)$ i punktet $x$.
 > 
 >  Likningen for tangentlinjen er $$y = m(x-x_0)+y_0$$
+
