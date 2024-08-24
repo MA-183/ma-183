@@ -11,6 +11,7 @@ Tavla finnes på tinyurl.com/ma-183-22-08
 - bruke og utlede addisjonsformlene for $\sin$ og $\cos$ (Teorem 2, s. 51 + de lilla boksene på s. 52).
 - definere $\tan$ ved hjelp av $\sin$ og $\cos$ (Definisjon 9, s. 53).
 ![undefined](Files/shapes%20at%2024-08-22%2008.31.17.svg)
+
 ## Vinkler
 
 > [!question] Spørsmål 
@@ -46,9 +47,6 @@ $$
 | ---------- | --------------------------------------- | --------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------- | ---------------------- | --- |
 | Radianer   | 0                                       | $\frac{\pi}{6}$                                     | $\frac{\pi}{4}$                                        | $\frac{\pi}{3}$                                        | $\frac{\pi}{2}$                       | $\frac{2\pi}{3}$       |     |
 
-
-
-
 ## Trigonometri
 
 <iframe src="https://www.geogebra.org/classic/sysbwus5?embed" width="800" height="600" allowfullscreen style="border-radius: 4px;" frameborder="0"></iframe>
@@ -80,20 +78,13 @@ $$
 
 ## Geometrisk definisjon
 
-
 ![undefined](Files/shapes%20at%2024-08-22%2009.39.25.svg)
 
-
-
 ## Identiteter
-
-
-
 
 ![undefined](Files/shapes%20at%2024-08-22%2012.26.52.svg)
 
 Vi har altså
-
 
 > [!info] Identiteter 
 >  1. $\cos^2(t)+\sin^2(t) = 1$
@@ -105,6 +96,4 @@ Vi har altså
 ## Grafer
 
 ![undefined](Files/shapes%20at%2024-08-16%2013.33.12.svg)
-
-
 
