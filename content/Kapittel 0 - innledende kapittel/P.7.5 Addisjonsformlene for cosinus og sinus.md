@@ -13,8 +13,6 @@ For å utlede formlene begynner vi med å se på $\cos(s-t)$. Det gjør vi ved �
 ![[Files/output.svg]]
 ![[Files/sirkel2addisjonsformler2.svg]]
 
-
-
 På begge bildene over ser vi at den røde streken er like lang, fordi den skjærer av like stor sirkelbue. Målet er nå å regne ut lengden på den røde linjen på to måter. Denne vil gi oss en sammenheng vi skal utnytte.
 
 VS: Vi bruker Pytagoras for å finne rød linje og får at korteste katet er $1-\cos(s-t)$ og lengste katet er $\sin(s-t)$. Pytagoras gir oss nå at $(1-\cos(s-t))^2+\sin^2(s-t) = (\text{rød linje}^2)$.

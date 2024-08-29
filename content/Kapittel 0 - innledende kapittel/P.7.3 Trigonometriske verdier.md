@@ -63,4 +63,3 @@ Fra oppgavene over, kan vi nå fortsette å fylle ut verdier for $\sin (t)$ og $
 
 Som vi har sett små tegn til, for eksempel i 2., så har $\cos$ og $\sin$ flere symmetrier og egenskaper som gjør at de henger tett sammen med hverandre. Det er viktig å ha kontroll på flere [viktige identiteter](Kapittel%200%20-%20innledende%20kapittel/P.7.4%20Viktige%20identiteter.md).
 
-

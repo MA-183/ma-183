@@ -30,7 +30,6 @@ Det viktige vi skal ta ut fra eksemplene over er at funksjoner fungerer som en r
 ![500](Files/funksjoner.svg)
 ![[Definisjoner og teoremer/P-kapitlene/Def P.4.1 Funksjon|Def P.4.1 Funksjon]]
 
-
 En viktig konvensjon er den følgende konvensjonen (en konvensjon er en anerkjent *regel / retningslinje* i matematikkmiljøet).
 
 > [!info] Definisjon 1.5

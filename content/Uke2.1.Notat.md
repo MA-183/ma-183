@@ -1,38 +1,36 @@
 ---
 draft: "true"
 ---
-HUSK NOA
 
-- skrive komplekse tall på kartesisk form (Definisjon 1, s. A-2).
-- bruke begrepene realdel og imaginærdel (Definisjon 2, s. A-2), absoluttverdi (Definisjon 3, s. A-3), argument (Definisjon 4, s. A-3), og kompleks konjugert (Definisjon 5, s. A-4).
-- polar form (lilla rute, s. A-4), og omskrive komplekse tall mellom kartesisk og polar form.
-- representere komplekse tall i det komplekse planet.
-- addere, subtrahere og multiplisere komplekse tall (grønne ruter, s. A-5).
-- dividere komplekse tall (Eksempel 6, s. A-8).
-- de Moivre’s teorem (Theorem 1, s. A-7).
-- håndtere komplekse tall på formen $re^{i\theta}$, der $r > 0$ (Theorem 1, Remark, s. A-7).
-- løse potenslikninger på formen $z^n = w$, der $w \in \mathbb{C}$ og $n \in \mathbb{N}$ (s. A-9–10).
-- regne eksemplene Appendix I: 1–8.
+## Trig
+
+For å utlede formlene begynner vi med å se på $\cos(s-t)$. Det gjør vi ved å tegne vinkelen $s-t$ på to måter. Den ene der vi tenker på $s-t$ som ett enkelt tall (første figur under), og den andre som, først gå $s$ og deretter trekk fra $t$ (andre figur under).
+
+![[Files/output.svg]]
+![[Files/sirkel2addisjonsformler2.svg]]
+
+ALGEBRA:
+
+> [!question] Spørsmål 
+> Gjør algebraen selv:
+> 1. $\cos(s+t)=\cos(s-(-t))=\cos(s)\cos(-t)+\sin(s)\sin(-t)$
+> 2. $\sin(s+t) = \cos\left( \frac{\pi}{2}-(s+t) \right) =\cos\left( (\frac{\pi}{2}-s) - t \right)$. 
+> 3. $\sin(s-t)$
 
 ## Komplekse tall
 
-De første tallene vi blir kjent med er de naturlige tallene, også kjent som telle-tallene.
-
 $\mathbb{N} = \{1,2,3,4,5,6,\ldots\}$.
-
-Etter hvert 0 og negative tall. Løser $x + 6 = 3$. 
 
 $\mathbb{Z} = \{\ldots, -3,-2,-1,0,1,2,3,\ldots\}$.
 
-Så de rasjonale tallene, eller brøker. Løse $3\cdot x = 1$.
-
 $\mathbb{Q} =\{\frac{n}{m} : m, n\in \mathbb{Z}\}$
 
-Så de reelle tallene, alle tall på tallinja: Eks, Pytagoras gir  $d^2 =1^2+1^2 = 2$, med løsning $\sqrt 2$. (Oppbygging lærer dere om i reell analyse).
+$\mathbb{R} =\{\text{alle tall på tallinja}\}$.
 
 Hva med $x^2 = -1$. 
 
-Vi sier at $i$ er tallet slik at $i^2 = -1$, altså et tall som løser $x^2 = -1$. 
+> [!warning] Merk 
+> Vi sier at $i$ er tallet slik at $i^2 = -1$, altså et tall som løser $x^2 = -1$. 
 
 > [!info] Komplekse tall, definisjon A.1 
 >  
@@ -40,7 +38,6 @@ Vi sier at $i$ er tallet slik at $i^2 = -1$, altså et tall som løser $x^2 = -1
 >  $a+bi$,
 >  der $a$ og $b$ er *reelle* tall og $i$ er den imaginære enheten.
 >  Ofte skriver vi $z = a+bi$.
-
 
 > [!warning] Merk 
 > Boka: 
@@ -50,7 +47,10 @@ Vi sier at $i$ er tallet slik at $i^2 = -1$, altså et tall som løser $x^2 = -1
 
 Komplekse tall er par av tall: representere i et plan
 
-Tenk på $3+4i$ som $3$ enheter på førsteaksen, og $4$ enheter andreaksen. Eks
+Tenk på $3+4i$ som $3$ enheter på førsteaksen, og $4$ enheter andreaksen. 
+> [!question] Spørsmål 
+> Representer $3+4i$ i et koordinatsystem.
+> 
 
 ![](Files/shapes%20at%2024-08-12%2013.19.24.svg)
 
@@ -71,7 +71,7 @@ Tenk på $3+4i$ som $3$ enheter på førsteaksen, og $4$ enheter andreaksen. Eks
 > Finnes dere andre tall som har samme modulus som $1+i?$
 > 
 
-Ja!  $1-i$ og $-1+i$ og $-1-i$.
+Ja! $1-i$ og $-1+i$ og $-1-i$.
 
 Flere? $|1+i| = \sqrt{2}$, så alle tall på sirkel med sentrum i origo og radius $\sqrt{2}$.
 
@@ -84,16 +84,14 @@ Vi kan representere komplekse tall med lengde (absoluttverdien) og hvilken vinke
 > Vi kaller vinkelen som et tall $z = a+bi$ danner med førsteaksen for argumentet til $z$ og noterer det slik $\text{arg}(z)$. I bildet over er $\theta$ argumentet til tallet $z$.
 > 
 
-Kan veksle mellom $z=a+bi$  (*kartesisk form*) og $z = r\cos(\theta)+ir\sin(\theta)$ (*polar form*)
+Kan veksle mellom $z=a+bi$ (*kartesisk form*) og $z = r\cos(\theta)+ir\sin(\theta)$ (*polar form*)
 
 > [!question] Spørsmål 
 > Hva er tallet
 > 1. $z = 1+\sqrt 3 i$ på polar form?
 > 2. $w = 1+i$ på polar form?
 
-
 > [!abstract] 1
-
 
 ![](Files/shapes%20at%2024-08-12%2015.11.07.svg)
 
@@ -104,7 +102,7 @@ Leter etter $\text{arq}(1+\sqrt{3}i)=\theta$, figuren gir $\cos(\theta) = \frac{
 Enten $\frac{\pi}{6}$ eller $-\frac{\pi}{6}$, men må ha positivt vinkel.
 Får da
 $$1+\sqrt{3}i = 2\cos\left( \frac{\pi}{6} \right)+2i\sin\left( \frac{\pi}{6} \right).$$
-> [!abstract]  2
+> [!abstract] 2
 > 
 
 Vi ser at $|z| = \sqrt{1^2+1^2} = \sqrt{2}$, vi kan derfor skrive $z = \sqrt{2}\left( \frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}i \right)$. Nå ser vi at 
@@ -121,7 +119,6 @@ $(2+6i) + (3-2i) = 2+3+(6-2)i = 5+4i$.
 > $$w-z = (a-x)+(b-y)i.$$ 
 
 ## Multiplikasjon
-
 
 Distributive lov:
 $$
@@ -144,12 +141,12 @@ $(a+bi)(x+yi)=ax+ayi+bxi+byi^2 = (ax-by)+(ay+bx)i$, siden $i^2 = -1$.
 > 1. $(3+4i)(2-i)$
 > 2. $(3+4i)(3-4i)$
 
-> [!abstract]  1
+> [!abstract] 1
 > 
 
 Vi har at $$\begin{aligned} (3+4i)(2-i) & = 3\cdot2+3\cdot(-i)+4i\cdot2+4i\cdot(-i) \\ &= 6-4i^2-3i+8i \\ &= 6-4(-1)+5i \\&=10+5i. \end{aligned}$$ 
 
-> [!abstract]  2
+> [!abstract] 2
 > 
 
 $$\begin{aligned} (3+4i)(3-4i)  &= 9-\cancel{ 12i+12i }- 16i^2 \\&= 9 + 16 = 25.  \end{aligned}$$ 
@@ -169,7 +166,7 @@ Multiplikasjon på polarform:
 > 1. $\left( \cos\left( \frac{\pi}{3} \right)+i\sin\left( \frac{\pi}{3} \right) \right)\cdot\left( \cos\left( \frac{\pi}{6} \right)+i\sin\left( \frac{\pi}{6} \right) \right)$?
 > 2. $2\left( \cos\left( \frac{\pi}{4} \right)+i\sin\left( \frac{\pi}{4} \right) \right)\cdot\left( \cos\left( \frac{\pi}{6}+i\sin\left( \frac{\pi}{6} \right) \right) \right)$?
 
-> [!abstract]  1
+> [!abstract] 1
 > 
 
 Vi ganger ut:
@@ -182,7 +179,7 @@ Det er ikke noe unikt med vinklene over. Vi har generelt at
 
 > [!tip] Multiplikasjon av komplekse tall
 > Hvis $z$ og $w$ er komplekse tall, så er
-> 1.  $\text{arg}(z\cdot w)= \text{arg}(z)\cdot \text{arg}(w)$.
+> 1. $\text{arg}(z\cdot w)= \text{arg}(z)\cdot \text{arg}(w)$.
 > 2. $|z\cdot w| = |z|\cdot |w|$.
 
 Gjentar vi multiplikasjonen ser vi at 
@@ -205,9 +202,7 @@ $z = re^{i\theta}$ gir $\frac{1}{z}= \frac{1}{re^{i\theta}} = \frac{1}{r}e^{i\cd
 > $z = r(\cos(\theta)+i\sin(\theta))$ uten å bruke eksponentialform.
 > 
 
-
 ![undefined](Files/shapes%20at%2024-08-19%2014.37.21.svg)
-   
 
 ## Komplekse røtter
 

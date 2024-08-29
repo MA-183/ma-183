@@ -5,4 +5,4 @@
 > 3. $k\cdot f$ kontinuerlig i $c$, når $k\in \mathbb{R}$.
 > 4. $\frac{f}{g}$ kontinuerlig i $c$, gitt at $g(c)\neq 0$;
 > 5. $(f(x))^{1/n}$ er kontinuerlig i $c$ gitt at $f(c)>0$ når $n$ er et partall. 
->   
+>

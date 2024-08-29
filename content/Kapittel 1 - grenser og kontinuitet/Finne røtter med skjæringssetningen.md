@@ -18,20 +18,18 @@ La oss la Python gjøre jobben.
 from math import cos, pi
 a = 0
 b = pi/2
-
 def f(x):
     return cos(x)-x
-
 for i in range(50):
     # finn midtpunktet mellom a og b
     c = (a+b)/2
     # finn ut om det har samme fortegn som f(a) eller f(b). 
-    # Hvis f(a)f(c) > 0 så har begge samme fortegn. Vi ønsker da å bytte ut a med c. 
+    # Hvis f(a)f(c) > 0 så har begge samme fortegn. Vi ønsker da å bytte ut b med c for å gjøre c til høyre endepunkt 
     if f(a)*f(c) > 0:
-        a = c
-    # Hvis ikke har f(b) og f(c) samme fortegn og vi ønsker å bytte b med c
-    else:
         b = c
+    # Hvis ikke har f(b) og f(c) samme fortegn og vi ønsker å bytte a med c for å gjøre a til venstre endepunkt
+    else:
+        a = c
     # Formater verdiene til å bruke 20 desimaler
     print(f"Verdiene er nå {f(a):.20f} og {f(b):.20f}")
 ```
