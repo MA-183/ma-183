@@ -1,7 +1,5 @@
 > [!warning] HUSK NOA - Tavla finnes her https://tinyurl.com/ma183-29-08
 
-Kasper fra Enter: Nummer: 94982811
-
 - skrive komplekse tall på kartesisk form (Definisjon 1, s. A-2).
 
 **Ja**: $a+bi$

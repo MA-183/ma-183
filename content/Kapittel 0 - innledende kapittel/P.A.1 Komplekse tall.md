@@ -1,6 +1,3 @@
----
-draft: "true"
----
 De første tallene vi blir kjent med er de naturlige tallene, også kjent som telle-tallene.
 
 $\mathbb{N} = \{1,2,3,4,5,6,\ldots\}$.
