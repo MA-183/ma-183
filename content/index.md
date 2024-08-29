@@ -8,7 +8,11 @@ Merk at dette er korte tekster satt sammen fra ulike notater og lite bearbeidede
 Alle notatene bygger på pensumboka "Adams/Essex: _Calculus_. Pearson, 10. edition."
 
 Foreløpig innhold er
-
+- Løsningsforslag til utvalgte ukesoppdrag
+    - [[Ukesoppdrag/Uke 34|Uke 34]]
+    - [[Ukesoppdrag/Uke 35|Uke 35]]
+    - [[Ukesoppdrag/Uke 36|Uke 36]]
+        - Ta kontakt hvis det er oppgaver dere ønsker løsningsforslag til.
 - Innledende kapittel ([P-kapitlene](Kapittel-0---innledende-kapittel/)). 
     - [P.3](Kapittel%200%20-%20innledende%20kapittel/P.3.1%20Forskyvning%20av%20grafer.md)
     - [P.5](Kapittel%200%20-%20innledende%20kapittel/P.5.1%20De%20fire%20regneartene.md)
