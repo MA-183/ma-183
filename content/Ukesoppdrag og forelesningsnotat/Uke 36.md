@@ -46,7 +46,33 @@ $$
 
 > [!abstract] 13
 
+Først forenkler vi uttrykket vårt så mye vi kan.
+
+$$
+\begin{aligned} 
+  \frac{x^2-6x+9}{x^2-9}=\frac{(x-3)\cancel{ (x-3) }}{\cancel{ (x-3) }(x+3)} \overset{ \text{når x ikke er 3} }{=  } \frac{x-3}{x+3}
+\end{aligned} 
+$$
+Merk at vi bruker kunnskap om faktorisering av polynomer for å forenkle uttrykket, noe man kan lese om her [[Kapittel 0 - innledende kapittel/P.6.2 Faktorer, røtter og nullpunkt|P.6.2 Faktorer, røtter og nullpunkt]].
+
+Vi kan nå evaluere grensen slik
+
+$$
+\lim_{x\longrightarrow   3} \frac{x^2-6x+9}{x^2-9}= \lim_{x\longrightarrow  3}\frac{x-3}{x+3}= \frac{0}{6}= 0.
+$$
+
+
 > [!abstract] 14
+
+Faktoriser ut $x$ i teller og bruk tredje kvadratsetning i nevner og få
+$$
+\frac{x^2+2x}{x^2-4} = \frac{x\cancel{ (x+2) }}{\cancel{ (x+2) }{ (x-2) }} \overset{ x\neq-2}{=  } \frac{x}{x-2}.
+$$
+
+Grensen evalueres enkelt nå til
+$$
+\lim_{x\longrightarrow  -2}\frac{x^2+2x}{x^2-4} = \lim_{x\longrightarrow  -2}\frac{x}{x-2}= \frac{-2}{-4}= \frac{1}{2}.
+$$
 
 > [!abstract] 17
 
@@ -59,6 +85,19 @@ $$
 
 > [!abstract] 25
 
+Et typisk triks hvis man har røtter i nevner er å utvide brøken med konjugatet til nevneren, altså $\sqrt{4+t}+\sqrt{4-t}$ fordi konjugatsetningen gir
+
+$$
+\begin{aligned} 
+  \frac{t}{\sqrt{4+t}-\sqrt{4-t}}\cdot\frac{\sqrt{4+t}+\sqrt{4-t}}{\sqrt{4+t}+\sqrt{4-t}} &=  \frac{t(\sqrt{4+t}+\sqrt{4-t})}{\sqrt{4+t}^2-\sqrt{4-t}^2} \\ &= \frac{t(\sqrt{4+t}+\sqrt{4-t})}{4+t-(4-t)} \\ &= \frac{\cancel{ t }(\sqrt{4+t}+\sqrt{4-t})}{2\cancel{ t }} \\ &= \frac{\sqrt{4+t}+\sqrt{4-t}}{2}.
+\end{aligned} 
+$$
+
+Nå kan vi evaluere og få at 
+
+$$
+\lim_{t\longrightarrow  0}\frac{t}{\sqrt{4+t}-\sqrt{4-t}} = \lim_{t\longrightarrow  0}\frac{\sqrt{4+t}+\sqrt{4-t}}{2} = \frac{2+2}{2}= 2.
+$$
 ## 1.3
 
 > [!abstract] 3
@@ -80,9 +119,43 @@ Nå ser vi at venstre grense går mot $-\infty$ og høyre grense går mot $\inft
 
 > [!abstract] 19
 
+Det er kanskje enklest å se grensen hvis vi lar $h = x-2$, for da vil $x\longrightarrow 2+$ bety at $h\longrightarrow 0+$. Vi får da at 
+$$
+\lim_{x\longrightarrow  2+}\frac{x}{(2-x)^3} = \lim_{h\longrightarrow  0+} \frac{h+2}{(2-(2+h))^3} = \lim_{h\longrightarrow  0+} \frac{h+2}{-h^3}
+$$
+Siden $h$ skal gå mot 0 kan vi se at $\frac{2}{-h^3}$ er mindre i absoluttverdi enn $\frac{h+2}{-h^3}$, så det er klart at når $h\longrightarrow 0+$ så vil
+$$
+\lim_{h\longrightarrow  0+}\frac{h+2}{-h^3} \leq\lim_{h\longrightarrow  0+}\frac{2}{-h^3}\longrightarrow  -\infty.
+$$
+
+Derfor må også den originale grensen gå mot $- \infty$.
+
+
 > [!abstract] 20
 
+Merk at $1-x^2 \longrightarrow 0+$ når $x\longrightarrow 1-$. Spesielt går også $\sqrt{1-x^2}\longrightarrow 0+$ når $x\longrightarrow 1-$. I tillegg har vi at 
+$$
+\lim_{x\longrightarrow  1-}\frac{x}{\sqrt{1-x^2}}\geq \lim_{x\longrightarrow  1-}\frac{\frac{1}{2}}{\sqrt{1-x^2}}. 
+$$
+
+Vi ser nå at den høyre grensen må gå mot $\infty$ siden nevneren går mot $0$ fra høyre side. Så
+$$
+\lim_{x\longrightarrow  1-}\frac{x}{\sqrt{1-x^2}} = \infty.
+$$
+
 > [!abstract] 28
+
+Vi bearbeider uttrykket $\frac{x^2}{x+1}-\frac{x^2}{x-1}$ ved å først sette på felles nevner og får
+$$
+\begin{aligned} 
+   \frac{x^2}{x+1}-\frac{x^2}{x-1} & = \frac{x^2(x-1)-x^2(x+1)}{(x+1)(x-1)} \\ &= \frac{\cancel{ x^3 }-x^2-\cancel{ x^3 }-x^2}{x^2-1} \\ &= \frac{-2x^2}{x^2-1}  = -2\left( \frac{x^2-1+1}{x^2-1} \right) \\ &=-2\left( \frac{x^2-1}{x^2-1}+\frac{1}{x^2-1} \right) \\ &=-2\left( 1+\frac{1}{x^2-1} \right).
+\end{aligned} 
+$$
+
+Det er nå veldig tydelig at 
+$$
+\lim_{x\longrightarrow  \infty}\frac{x^2}{x+1}-\frac{x^2}{x-1} = \lim_{x\longrightarrow  \infty} -2\left( 1+\frac{1}{x^2-1} \right)=-2(1+0)=-2.
+$$
 
 ## 1.4
 
@@ -101,8 +174,11 @@ Vi ser at $f(2)= 2^2=4$. Vi trenger at når $x\longrightarrow 2$ fra venstre gå
 
 > [!abstract] 29
 
+Siden $f(x) = x^3+x-1$ er kontinuerlig og $f(0) = -1$ og $f(1)=1$ så sier [[Kapittel 1 - grenser og kontinuitet/Definisjoner og teoremer/Teo 1.4.9 Skjæringssetningen|skjæringssetningen]] at alle verdier mellom -1 og 1 blir tatt på intervallet $0$ til $1$.
+
 > [!abstract] 31
 
+$F(x) = (x-a)^2(x-b)^2+x$. Av symmetrien kan vi anta at $a$ er mindre enn $b$. $F$ er også kontinuerlig på $[a,b]$ og $F(a)=a$ og $F(b) = b$. Fra [[Kapittel 1 - grenser og kontinuitet/Definisjoner og teoremer/Teo 1.4.9 Skjæringssetningen|skjæringssetningen]] må vi ha at $F$ tar alle verdier mellom $a$ og $b$. Spesielt må den ta midtpunktet $\frac{a+b}{2}.$
 ## A.3
 
 > [!abstract] 4
@@ -116,15 +192,34 @@ La oss bevise at $g(x)=x$ er kontinuerlig på $\mathbb{R}$. Velg $a\in\mathbb{R}
 
 > [!abstract] 5
 
+
 ## 2.2
 
 > [!abstract] 1
 
+![[Files/shapes at 24-08-30 12.06.29.svg]]
+Merk at der funksjonen *knekker* er der den deriverte hopper, markert i hvite ringer. Der er ikke den deriverte definert.
+
 > [!abstract] 2
+
+
+![[Files/shapes at 24-08-30 12.07.03.svg]]
+Merk at der funksjonen *knekker* er der den deriverte hopper, markert i hvite ringer. Der er ikke den deriverte definert.
 
 > [!abstract] 3
 
+![[Files/shapes at 24-08-30 12.04.42.svg]]
+
+> [!abstract] 4
+
+
+![[Files/shapes at 24-08-30 12.04.26.svg]]
+
 > [!abstract] 5
+
+
+![[Files/shapes at 24-08-30 12.06.29.svg]]
+Ved å se på skissen fra 1. ser vi at der funksjonen *knekker* er der den deriverte hopper, markert i hvite ringer. Der er ikke den deriverte definert. Vi får ikke oppgitt enheter, men er det kan se ut som den er definert på $(-2,2)\setminus\{-1, 1\}$, altså alle punkter mellom $-2$ og $2$ bortsett fra $1$ og $-1$. 
 
 > [!abstract] 11
 

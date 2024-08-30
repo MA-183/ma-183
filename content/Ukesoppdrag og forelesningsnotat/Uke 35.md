@@ -90,7 +90,15 @@ Dette er jo nøyaktig lengden til tallet som betyr at vi ikke trenger å skalere
 > [!abstract] 20
 > 
 
+Vi får vite at $z=\cos\left( \frac{3\pi}{4} \right)+i\sin\left( \frac{3\pi}{4} \right) = -\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}i$, se bilde.
+![[Files/shapes at 24-08-30 11.18.24.svg]]
+
 > [!abstract] 21
+
+Vi får vite at $z=\pi\left( \cos\left( \frac{\pi}{6} \right)+i\sin\left( \frac{\pi}{6} \right) \right) =\pi\left( \frac{\sqrt{3}}{2}+\frac{1}{2}i \right)$
+
+![[Files/shapes at 24-08-30 11.20.44.svg]]
+
 
 > [!abstract] 28
 
@@ -109,6 +117,8 @@ $|z-3+4i|= |z-(3-4i)| \leq 5$. Vi vil altså ha alle tall som er mindre eller li
 > [!abstract] 32
 
 $\text{Arg}(z)= \frac{\pi}{3}$ beskriver alle $z$ som danner en vinkel på $\frac{\pi}{3}$ med $x$-aksen. Dermed er det alle positive skaleringer av tallet $z = e^{i \frac{\pi}{3}}$.
+
+![[Files/shapes at 24-08-30 11.22.19.svg]]
 
 > [!abstract] 34
 
