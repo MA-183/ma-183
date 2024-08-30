@@ -264,7 +264,7 @@ $$
 
 Oppgaven ber oss om å evaluere $\frac{d}{dx}\left( \frac{f(x)}{x^2+f(x)} \right)$ i punktet $x=2$.
 
-Vi bruker [[Kapittel 2 - derivasjon/2.3.3 Kvotientregelen|kvotientregelen]] for å derivere, så vi deriverer teller og nevner først. $f(x)$ derivert er bare $f'(x)$ og  $\frac{d}{dx}(x^2+f(x))$ er $2x+f'(x)$. Da får vi at
+Vi bruker [[Kapittel 2 - derivasjon/2.3.5 Kvotientregelen|kvotientregelen]] for å derivere, så vi deriverer teller og nevner først. $f(x)$ derivert er bare $f'(x)$ og  $\frac{d}{dx}(x^2+f(x))$ er $2x+f'(x)$. Da får vi at
 $$
 \frac{d}{dx}\left( \frac{f(x)}{x^2+f(x)} \right) = \frac{f'(x)(x^2+f(x))-f(x)(2x+f'(x))}{(x^2+f(x))^2}.
 $$

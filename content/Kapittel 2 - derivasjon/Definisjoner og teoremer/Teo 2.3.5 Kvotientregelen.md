@@ -4,4 +4,4 @@
 
 ^c86ab1
 
-[[Kapittel 2 - derivasjon/2.3.3 Kvotientregelen|Bevis finner du her.]]
+[[Kapittel 2 - derivasjon/2.3.5 Kvotientregelen|Bevis finner du her.]]
