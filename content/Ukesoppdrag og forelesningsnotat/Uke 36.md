@@ -262,5 +262,37 @@ $$
 
 > [!abstract] 36
 
+Oppgaven ber oss om å evaluere $\frac{d}{dx}\left( \frac{f(x)}{x^2+f(x)} \right)$ i punktet $x=2$.
+
+Vi bruker [[Kapittel 2 - derivasjon/2.3.3 Kvotientregelen|kvotientregelen]] for å derivere, så vi deriverer teller og nevner først. $f(x)$ derivert er bare $f'(x)$ og  $\frac{d}{dx}(x^2+f(x))$ er $2x+f'(x)$. Da får vi at
+$$
+\frac{d}{dx}\left( \frac{f(x)}{x^2+f(x)} \right) = \frac{f'(x)(x^2+f(x))-f(x)(2x+f'(x))}{(x^2+f(x))^2}.
+$$
+
+Nå må vi bare bruke at $f(2) = 2$ og $f'(2)=3$. Setter vi inn får vi
+$$
+\begin{aligned} 
+   \frac{f'(2)(2^2+f(2))-f(2)(2\cdot2+f'(2))}{(2^2+f(2))^2}  &= \frac{3\cdot(4+2)-2(4+3)}{(4+2)^2} \\ &= \frac{18-14}{36} = \frac{4}{36}=  \frac{1}{9}.
+\end{aligned} 
+$$
+
 > [!abstract] 46
 
+
+Hvis $y = \frac{x+1}{x+2}$ da er 
+$$
+y' = \frac{1\cdot(x+2)-(x+1)\cdot1}{(x+2)^2} = \frac{1}{(x+2)^2}.
+$$
+
+Vi å finne $x$ slik at $y' = 4$, altså at tangenten til $y$ i punktet $x$ er parallell med linjen $y = 4x$.
+
+Det gir oss likningen
+$$
+\begin{aligned} 
+  \frac{1}{(x+2)^2}  & = 4 \\ \frac{1}{4}  & = (x+2)^2 \\ \frac{1}{4} &= x^2+4x+4 \\ x^2+4x+\frac{15}{4} &= 0.
+\end{aligned} 
+$$
+Nå gir [[Kapittel 0 - innledende kapittel/Definisjoner og teoremer/Teo P.6.2 abc-formelen|abc-formelen]] at $x=-\frac{3}{2}$ eller $x = -\frac{5}{2}$. Siden vi skal finne koordinatene, må vi også ha $y$-verdi for disse $x-$verdiene. Det gir punktene.
+$$
+\left( -\frac{3}{2}, -1 \right) \quad \text{ og }\quad \left( -\frac{5}{2}, 3 \right).
+$$

@@ -277,7 +277,7 @@ $$
 
 Vi bruker eksponentialform og tenker oss at vi leter etter $z$ når $z^3 = -1 = 1\cdot e^{i\pi}$. 
 
-Det betyr at vi leter etter $z = re^{i\theta}$ slik at $z^3 = r^3 e^{i3\theta}$. Det gir
+Det betyr at vi leter etter $z = re^{i\theta}$ slik at $z^3 = r^3 e^{i3\theta}$. Sammenligner vi gir det
 
 1. $r^3 = 1$, altså $r = 1$ og
 2. $3\theta = \pi+2\pi n =\pi\left( 1+2n \right)$, altså $\theta = \frac{\pi}{3}(1+2n)$.
@@ -292,7 +292,7 @@ Kikker vi nærmere på vinklene får vi de tre vinklene $\frac{\pi}{3}$, $\pi$ o
 
 Vi bruker eksponentialform og tenker oss at vi leter etter $z$ når $z^3 = -8i = 8e^{i\cdot\frac{3\pi}{2}}$.
 
-Det betyr at vi leter etter $z = re^{i\theta}$ slik at $z^3 = r^3 e^{i3\theta}$. Det gir
+Det betyr at vi leter etter $z = re^{i\theta}$ slik at $z^3 = r^3 e^{i3\theta}$. Sammenligner vi gir det
 
 1. $r^3 = 8$, altså $r = 2$ og
 2. $3\theta = \frac{3\pi}{2} + 2\pi n$, altså $\theta = \frac{\pi}{2} + \frac{2\pi n}{3}$.
@@ -308,7 +308,7 @@ Kikker vi nærmere på vinklene får vi de tre vinklene $\frac{\pi}{2}$, $\frac{
 
 Vi bruker eksponentialform og tenker oss at vi leter etter $z$ når $z^3 = -1 + i = \sqrt{2}e^{i\cdot\frac{3\pi}{4}}$.
 
-Det betyr at vi leter etter $z = re^{i\theta}$ slik at $z^3 = r^3 e^{i3\theta}$. Det gir
+Det betyr at vi leter etter $z = re^{i\theta}$ slik at $z^3 = r^3 e^{i3\theta}$. Sammenligner vi gir det
 
 1. $r^3 = \sqrt{2}$, altså $r = \sqrt[3]{\sqrt{2}} = \sqrt[6]{2}$ og
 2. $3\theta = \frac{3\pi}{4} + 2\pi n$, altså $\theta = \frac{\pi}{4} + \frac{2\pi n}{3}$.
@@ -324,9 +324,9 @@ Kikker vi nærmere på vinklene får vi de tre vinklene $\frac{\pi}{4}$, $\frac{
 
 Vi bruker eksponentialform og tenker oss at vi leter etter $z$ når $z^4 = 4 = 4e^{i\cdot 0}$.
 
-Det betyr at vi leter etter $z = re^{i\theta}$ slik at $z^4 = r^4 e^{i4\theta}$. Det gir
+Det betyr at vi leter etter $z = re^{i\theta}$ slik at $z^4 = r^4 e^{i4\theta}$. Sammenligner vi gir det
 
-1. $r^4 = 4$, altså $r = \sqrt[4]{4} = \sqrt{2}$ og
+1. $r^4 = 4$, altså $r = 4^{1/4} = ((2^2)^{1/2})^{1/2} = \sqrt{2}$ og
 2. $4\theta = 0 + 2\pi n$, altså $\theta = \frac{\pi n}{2}$.
 
 Kikker vi nærmere på vinklene får vi de fire vinklene $0$, $\frac{\pi}{2}$, $\pi$, og $\frac{3\pi}{2}$. Dermed er løsningene
@@ -348,14 +348,14 @@ z^4 = i\sqrt{3} - 1 = 2e^{i\cdot\frac{5\pi}{3}}
 $$
 Vi bruker eksponentialform og tenker oss at vi leter etter $z$ når $z^4 = 2e^{i\cdot\frac{5\pi}{3}}$.
 
-Det betyr at vi leter etter $z = re^{i\theta}$ slik at $z^4 = r^4 e^{i4\theta}$. Det gir
+Det betyr at vi leter etter $z = re^{i\theta}$ slik at $z^4 = r^4 e^{i4\theta}$. Sammenligner vi gir det
 
-1. $r^4 = 2$, altså $r = \sqrt[4]{2}$ og
+1. $r^4 = 2$, altså $r = {2^{1/4}}$ og
 2. $4\theta = \frac{5\pi}{3} + 2\pi n$, altså $\theta = \frac{5\pi}{12} + \frac{\pi n}{2}$.
 
 Kikker vi nærmere på vinklene får vi de fire vinklene $\frac{5\pi}{12}$, $\frac{11\pi}{12}$, $\frac{17\pi}{12}$, og $\frac{23\pi}{12}$. Dermed er løsningene
 
-1. $z_0 = \sqrt[4]{2}\cdot e^{i \frac{5\pi}{12}}$
-2. $z_1 = \sqrt[4]{2}\cdot e^{i \frac{11\pi}{12}}$
-3. $z_2 = \sqrt[4]{2}\cdot e^{i \frac{17\pi}{12}}$
-4. $z_3 = \sqrt[4]{2}\cdot e^{i \frac{23\pi}{12}}$
+1. $z_0 = 2^{1/4}\cdot e^{i \frac{5\pi}{12}}$
+2. $z_1 = 2^{1/4}\cdot e^{i \frac{11\pi}{12}}$
+3. $z_2 = 2^{1/4}\cdot e^{i \frac{17\pi}{12}}$
+4. $z_3 = 2^{1/4}\cdot e^{i \frac{23\pi}{12}}$
