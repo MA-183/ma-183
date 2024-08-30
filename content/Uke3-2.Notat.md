@@ -13,3 +13,19 @@ draft: "true"
 
 Vi endte på kontinuerlige funksjoner. Hvorfor så vi på kontinuerlige funksjoner? Jo, hvis $f$ er kont så tar $f$ min, maks og alle verdier mellom (ingen hull).
 
+MOTIVASJON!?
+
+BEGYNN MED tegninger av strekning til syklist. 
+1. Konstant - 0 i fart fordi vi ikke endrer avstand
+2. Lineær - samme fart fordi vi stiger like jevnt.
+3. Generelt - Må approksimere - Godt vi har grenser?!
+
+> [!info] Den deriverte, def 2.2.4
+> $f$ sin deriverte er en ny funksjon $f'$ som er definert som
+> $$f'(x) = \lim_{h\longrightarrow  0}\frac{f(x+h)-f(x)}{h}$$ 
+>i alle punkter $x$ der grensa eksisterer. Hvis $f'(x)$ eksisterer sier vi at $f$ er deriverbar i $x$. 
+
+> [!warning] Merk 
+> Verdien $f'(x)$ er stigningen til tangenten som går gjennom $(x,f(x))$.
+
+TEGNING!

@@ -1,12 +1,17 @@
 ## 2.4
 
-> [!abstract] 3
+> [!abstract] 1
 
 $y = (2x+3)^6$. Vi dekomponerer ved å se at $f(x)=2x+3$ er den indre delen av funksjonen og $g(x) = x^6$ er den ytre. Vi får da at $y = g(f(x)).$ Da gir kjerneregelen at $\frac{dy}{dx} = f'(x)\cdot g'(f(x))$. 
 
 Siden $f'(x) = 2$ og $g'(x)=6x^5$ så er $g'(f(x))=6(2x+3)^5$. Setter vi det sammen får vi
 
 $\frac{dy}{dx} = 2\cdot 6(2x+3)^5 = 12(2x+3)^5$.
+
+
+> [!abstract] 3
+
+
 
 > [!abstract] 6
 

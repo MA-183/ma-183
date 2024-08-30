@@ -22,16 +22,43 @@ $$
 > [!abstract] 6
 > 
 
+$z = -2$. Lengen er åpenbart $2$, så $r=2$. Vinkelen er mot venstre på $x$-aksen så vi får at
+
+$$
+z = 2e^{i\cdot(-\pi)}
+$$
+
 > [!abstract] 7
-> 
+
+ $z = 3i$. Lengen og vinkelen er rett frem, $|z| = \sqrt{0^2+3^2}=3$ og $\text{Arg}(z)=\frac{\pi}{2}$.
+
+Dermed er $z = 3e^{i\cdot \frac{\pi}{2}}$.
+
 
 > [!abstract] 8
 
+$z = -5i$.
+
+Lengden er $5$ og $\text{Arg}(z)= \frac{3\pi}{2}$, som gir $z=5e^{i \frac{3\pi}{2}}$.
+
+
 > [!abstract] 9
+
+$z=1+2i$. 
+
+Lengden $|z| = \sqrt{1^2+2^2}=\sqrt{5}$. For finne vinkelen bruker vi $\arctan$, inversfunksjonen til tangens, og får $\text{Arg}(z) = \arctan(2)$. Dermed er
+
+$z = \sqrt{5}e^{i\arctan(2)}$.
 
 > [!abstract] 13
 
+$z = \sqrt{3}+i$. 
+
+Da er $|z| = \sqrt{\sqrt{3}^2+1^2}=\sqrt{4}=2$. Dermed er $z = 2\left( \frac{\sqrt{3}}{2}+\frac{i}{2} \right)$. Vi kjenner igjen dette punktet og ser at det korresponderer til vinkelen $\frac{\pi}{6}$, så $z = 2e^{i\cdot \frac{\pi}{6}}$
+
 > [!abstract] 15
+
+Siden $z = 3\left( \cos\left( \frac{4\pi}{5}\right) +i\sin\left( \frac{4\pi}{5} \right) \right)$, faller både vinkel og lengde rett ut. $|z| = 3$ og $\text{Arg}(z)= \frac{4\pi}{5}$.
 
 > [!abstract] 16
 
@@ -49,6 +76,16 @@ Vi har at $z = 2e^{i\pi} = 2\cdot(-1) = -2$.
 
 > [!abstract] 19
 > 
+
+Vi får $z = 5e^{i\cdot\arctan(3/4)}$, som forteller oss at vi har en vinkel der katetene har forholdet mellom motstående og hosliggende katet er $\frac{3}{4}$. 
+
+For eksempel betyr det at hvis motstående katet er  $3$, så er hosliggende katet 
+$4$. 
+
+Pytagoras gir at da må hypotenusen være $\sqrt{3^2+4^2}=\sqrt{25}=5$. 
+
+Dette er jo nøyaktig lengden til tallet som betyr at vi ikke trenger å skalere og får at $z = 4+3i$.
+
 
 > [!abstract] 20
 > 
@@ -71,6 +108,8 @@ $|z-3+4i|= |z-(3-4i)| \leq 5$. Vi vil altså ha alle tall som er mindre eller li
  
 > [!abstract] 32
 
+$\text{Arg}(z)= \frac{\pi}{3}$ beskriver alle $z$ som danner en vinkel på $\frac{\pi}{3}$ med $x$-aksen. Dermed er det alle positive skaleringer av tallet $z = e^{i \frac{\pi}{3}}$.
+
 > [!abstract] 34
 
 $$
@@ -79,9 +118,26 @@ $$
 
 > [!abstract] 35
 
+$$
+\begin{aligned} 
+  i-(3-2i)+(7-3i)=i-3+2i+7+3i=6i+4. 
+\end{aligned} 
+$$
+
 > [!abstract] 36
 
+Vi kan se dette direkte ved å bruke tredje kvadratsetning. Regningen gir oss også
+$$
+(4+i)(4-i) = 16-4i+4i-i^2=16+1=17.
+$$
+
 > [!abstract] 37
+
+$$
+\begin{aligned} 
+  (1+i)(2-3i) = 2-3i+2i-3i^2 = -i+2-3\cdot(-1)=5-i.
+\end{aligned} 
+$$
 
 > [!abstract] 38
 > 
@@ -102,9 +158,33 @@ $$
 
 > [!abstract] 41
 
+$$
+\begin{aligned} 
+  \frac{1+3i}{2-i} \cdot\frac{2+i}{2+i} &=\frac{2+i+6i+3i^2}{2^2+1}  \\ &=\frac{-1+7i}{5}= \frac{-1}{5}+\frac{7}{5}i.
+\end{aligned} 
+$$
+
 > [!abstract] 42
 
+$$
+\begin{aligned} 
+  \frac{1+i}{i(2+3i)} & = \frac{1+i}{-3+2i} \cdot\frac{-3-2i}{-3-2i}  \\ &=\frac{-3-2i-3i-2i^2}{(-3)^2+(-2)^2} \\ &= \frac{-1-5i}{9+4} = \frac{-1}{13}-\frac{5}{13}i
+\end{aligned} 
+$$
+
 > [!abstract] 44
+
+Bevis at $\overline{z+w}=\overline z+\overline w$.
+
+La $z = a+bi$ og $w = c+di$. Da er $\overline z = a-bi$ og $\overline w = c-di$.
+
+Videre er 
+
+$$
+\begin{aligned} 
+  \overline z + \overline w  &= a-bi+c-di \\ &= (a+c)-(b+d)i \\ &= \overline{(a+c)+(b+d)i} \\ &= \overline{(a+bi)+(c+di)} \\ &= \overline{z+w}.
+\end{aligned} 
+$$
 
 > [!abstract] 45
 
@@ -114,7 +194,74 @@ Videre har vi at $\frac{z }{w }=e^{i(\theta-\phi)}$, så $\overline{\left( \frac
 
 > [!abstract] 46
 
+Vi skal uttrykke $z = 3 + \sqrt{3}i$ og $w = -1+\sqrt{3}i$ på polarform/eksponentialform. 
+
+Lengen til $z$ er $|z| = \sqrt{3+\sqrt{3}^2}=\sqrt{9+3}=\sqrt{3\cdot4}=2\sqrt{3}$.
+
+Dermed er $z =2\sqrt{3}\left( \frac{3}{2\sqrt{3}}+\frac{\sqrt{3}}{2\sqrt{3}}i \right).$ Vi forenkler dette med å utvide brøkene med $\sqrt{3}$ og får
+$$
+z = 2\sqrt{3}\left( \frac{\cancel{ 3 }\sqrt{3}}{2\cancel{ \sqrt{3}\sqrt{3} }}+\frac{\cancel{ \sqrt{3} }}{2\cancel{ \sqrt{3} }}i \right) =2\sqrt{3}\left( \frac{\sqrt{3}}{2}+ \frac{1}{2}i\right).
+$$
+
+Vi ser nå at $z =2\sqrt{3}e^{i\cdot\frac{\pi}{6}}$, fordi $\cos\left( \frac{\pi}{6} \right)=\frac{\sqrt{3}}{2}$ og $\sin\left( \frac{\pi}{6} \right)= \frac{1}{2}$.
+
+På tilsvarende måte kan vi skrive $w = 2\left( -\frac{1}{2} +\frac{\sqrt{3}}{2}i\right)$ og konkludere med at 
+$$
+\displaystyle w = 2e^{i\cdot\frac{2\pi}{3}}
+$$
+
+Nå skal vi regne på $$zw = 2\sqrt{3}e^{i\cdot\frac{\pi}{6}} \cdot 2e^{i\cdot\frac{-\pi}{3}} =4\sqrt{3}e^{i(\pi/6+2\pi/3)} = 4\sqrt{3}e^{i(5\pi/6)}.$$
+Vi kan gjøre tilbake til kartesisk form (men vi blir ikke bedt om det)!
+
+Videre skal vi se på $\frac{z}{w}$, og får
+
+$$
+\begin{aligned} 
+  \frac{z}{w} &= \frac{2\sqrt{3}}{2}\frac{e^{i\cdot\pi/6}}{e^{i\cdot2\pi/3}}  \\ & = \sqrt{3}e^{i(\pi/6-2\pi/3)} \\ &= \sqrt{3}e^{i\cdot(-\pi/2)} \quad (= {\color{#999999} -\sqrt{3}i })
+\end{aligned} 
+$$
+
+
+
 > [!abstract] 47
+
+Vi skal uttrykke  $z = -1 + i$ og $w = 3i$ på polarform/eksponentialform. 
+
+Lengen til $z$ er $|z| = \sqrt{(-1)^2 + 1^2} = \sqrt{1 + 1} = \sqrt{2}$.
+
+Dermed er $z = \sqrt{2} \left( \frac{-1}{\sqrt{2}} + \frac{1}{\sqrt{2}} i \right)$. Vi forenkler dette med å utvide brøkene med $\sqrt{2}$ og får
+
+$$
+z = \sqrt{2} \left( \frac{-\cancel{1} \sqrt{2}}{\cancel{\sqrt{2} \sqrt{2}}} + \frac{\cancel{1} \sqrt{2}}{\cancel{\sqrt{2} \sqrt{2}}} i \right) = \sqrt{2} \left( \frac{-\sqrt{2}}{2} + \frac{\sqrt{2}}{2} i \right).
+$$
+
+Vi ser nå at $z = \sqrt{2} e^{i \cdot \frac{3\pi}{4}}$, fordi $\cos\left( \frac{3\pi}{4} \right) = -\frac{\sqrt{2}}{2}$ og $\sin\left( \frac{3\pi}{4} \right) = \frac{\sqrt{2}}{2}$.
+
+På tilsvarende måte kan vi skrive $w = 3\left( 0 + i\right) = 3i$, som er $3e^{i \cdot \frac{\pi}{2}}$.
+
+Nå skal vi regne på 
+
+$$
+zw = \sqrt{2} e^{i \cdot \frac{3\pi}{4}} \cdot 3 e^{i \cdot \frac{\pi}{2}} = 3\sqrt{2} e^{i\left(\frac{3\pi}{4} + \frac{\pi}{2}\right)} = 3\sqrt{2} e^{i\left(\frac{5\pi}{4}\right)}.
+$$
+
+Vi kan gjøre tilbake til kartesisk form (men vi blir ikke bedt om det)!
+
+Videre skal vi se på 
+
+$$
+\frac{z}{w}, 
+$$
+
+og får
+
+$$
+\begin{aligned}    \frac{z}{w} &= \frac{\sqrt{2}}{3}\frac{e^{i\cdot 3\pi/4}}{e^{i\cdot \pi/2}}  \\ 
+  &= \frac{\sqrt{2}}{3}e^{i\left({3\pi/4 - \pi/2}\right)}  \\ 
+  &= \frac{\sqrt{2}}{3}e^{i\cdot \frac{\pi}{4}} \\ &= \quad\quad\quad {\color{grey} \left(  \frac{\sqrt{2}}{3}\left( \frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2} i \right) = \frac{2}{6} + \frac{2}{6}i = \frac{1}{3} + \frac{1}{3}i \right) }.
+\end{aligned} 
+$$
+
 
 > [!abstract] 51
 
@@ -132,9 +279,73 @@ Kikker vi nærmere på vinklene får vi de tre vinklene $\frac{\pi}{3}$, $\pi$ o
 
 > [!abstract] 52
 
+
+Vi bruker eksponentialform og tenker oss at vi leter etter $z$ når $z^3 = -8i = 8e^{i\cdot\frac{3\pi}{2}}$.
+
+Det betyr at vi leter etter $z = re^{i\theta}$ slik at $z^3 = r^3 e^{i3\theta}$. Det gir
+
+1. $r^3 = 8$, altså $r = 2$ og
+2. $3\theta = \frac{3\pi}{2} + 2\pi n$, altså $\theta = \frac{\pi}{2} + \frac{2\pi n}{3}$.
+
+Kikker vi nærmere på vinklene får vi de tre vinklene $\frac{\pi}{2}$, $\frac{7\pi}{6}$, og $\frac{11\pi}{6}$. Dermed er løsningene
+
+1. $z_0 = 2\cdot e^{i \frac{\pi}{2}}$
+2. $z_1 = 2\cdot e^{i \frac{7\pi}{6}}$
+3. $z_2 = 2\cdot e^{i \frac{11\pi}{6}}$
+
 > [!abstract] 53
+
+
+Vi bruker eksponentialform og tenker oss at vi leter etter $z$ når $z^3 = -1 + i = \sqrt{2}e^{i\cdot\frac{3\pi}{4}}$.
+
+Det betyr at vi leter etter $z = re^{i\theta}$ slik at $z^3 = r^3 e^{i3\theta}$. Det gir
+
+1. $r^3 = \sqrt{2}$, altså $r = \sqrt[3]{\sqrt{2}} = \sqrt[6]{2}$ og
+2. $3\theta = \frac{3\pi}{4} + 2\pi n$, altså $\theta = \frac{\pi}{4} + \frac{2\pi n}{3}$.
+
+Kikker vi nærmere på vinklene får vi de tre vinklene $\frac{\pi}{4}$, $\frac{11\pi}{12}$, og $\frac{19\pi}{12}$. Dermed er løsningene
+
+1. $z_0 = \sqrt[6]{2}\cdot e^{i \frac{\pi}{4}}$
+2. $z_1 = \sqrt[6]{2}\cdot e^{i \frac{11\pi}{12}}$
+3. $z_2 = \sqrt[6]{2}\cdot e^{i \frac{19\pi}{12}}$
+
 
 > [!abstract] 54
 
+Vi bruker eksponentialform og tenker oss at vi leter etter $z$ når $z^4 = 4 = 4e^{i\cdot 0}$.
+
+Det betyr at vi leter etter $z = re^{i\theta}$ slik at $z^4 = r^4 e^{i4\theta}$. Det gir
+
+1. $r^4 = 4$, altså $r = \sqrt[4]{4} = \sqrt{2}$ og
+2. $4\theta = 0 + 2\pi n$, altså $\theta = \frac{\pi n}{2}$.
+
+Kikker vi nærmere på vinklene får vi de fire vinklene $0$, $\frac{\pi}{2}$, $\pi$, og $\frac{3\pi}{2}$. Dermed er løsningene
+
+1. $z_0 = \sqrt{2}\cdot e^{i\cdot 0}$
+2. $z_1 = \sqrt{2}\cdot e^{i\cdot \frac{\pi}{2}}$
+3. $z_2 = \sqrt{2}\cdot e^{i\cdot \pi}$
+4. $z_3 = \sqrt{2}\cdot e^{i\cdot \frac{3\pi}{2}}$
+
+
 > [!abstract] 55
 
+Vi skal finne de komplekse løsningene til ligningen $z^4 + 1 - i\sqrt{3} = 0$.
+
+Først isolerer vi $z^4$:
+
+$$
+z^4 = i\sqrt{3} - 1 = 2e^{i\cdot\frac{5\pi}{3}}
+$$
+Vi bruker eksponentialform og tenker oss at vi leter etter $z$ når $z^4 = 2e^{i\cdot\frac{5\pi}{3}}$.
+
+Det betyr at vi leter etter $z = re^{i\theta}$ slik at $z^4 = r^4 e^{i4\theta}$. Det gir
+
+1. $r^4 = 2$, altså $r = \sqrt[4]{2}$ og
+2. $4\theta = \frac{5\pi}{3} + 2\pi n$, altså $\theta = \frac{5\pi}{12} + \frac{\pi n}{2}$.
+
+Kikker vi nærmere på vinklene får vi de fire vinklene $\frac{5\pi}{12}$, $\frac{11\pi}{12}$, $\frac{17\pi}{12}$, og $\frac{23\pi}{12}$. Dermed er løsningene
+
+1. $z_0 = \sqrt[4]{2}\cdot e^{i \frac{5\pi}{12}}$
+2. $z_1 = \sqrt[4]{2}\cdot e^{i \frac{11\pi}{12}}$
+3. $z_2 = \sqrt[4]{2}\cdot e^{i \frac{17\pi}{12}}$
+4. $z_3 = \sqrt[4]{2}\cdot e^{i \frac{23\pi}{12}}$
