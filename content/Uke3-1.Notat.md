@@ -38,13 +38,13 @@ Når $x$ er nær $0$, ser vi at vi får noe som er nesten $(1+0)^{\frac{1 }{0 } 
 Hva skjer i Geogebra?
 ![[Files/Pasted image 20240823204326.png]]
 
-![[Definisjoner og teoremer/Kapittel 1/Def 1.2.1 Grenseverdi|Def 1.2.1 Grenseverdi]]
+![[Kapittel 1 - grenser og kontinuitet/Definisjoner og teoremer/Def 1.2.1 Grenseverdi|Def 1.2.1 Grenseverdi]]
 
 Vi kan tegne dette slik
 ![900](Files/grensebilde.svg)
 Det gir oss den formelle definisjonen
 
-![[Definisjoner og teoremer/Kapittel 1/Def 1.5.8 Grenseverdi|Def 1.5.8 Grenseverdi]]
+![[Kapittel 1 - grenser og kontinuitet/Definisjoner og teoremer/Def 1.5.8 Grenseverdi|Def 1.5.8 Grenseverdi]]
 
 Definisjonen over er for de som sikter høyt!
 
@@ -76,7 +76,7 @@ $$
 > 2. $\lim_{x\longrightarrow  a-}$ er grense der vi kun betrakter $x<a$. Grense fra *venstre*.
 > 3. $\lim_{x\longrightarrow \infty}f(x)$ er grense der vi betrakter vilkårlige store $x$.
 
-![[Definisjoner og teoremer/Kapittel 1/Teo 1.2.2 Grenseverdiregler|Teo 1.2.2 Grenseverdiregler]]
+![[Kapittel 1 - grenser og kontinuitet/Definisjoner og teoremer/Teo 1.2.2 Grenseverdiregler|Teo 1.2.2 Grenseverdiregler]]
 
 > [!question] Spørsmål - standardeksempel
 > Hva er 

@@ -16,7 +16,7 @@ Vi noterer ofte dette slik $(g\ \circ f)(x)$ og det er lik $g(f(x))$. Vi har set
 Det kan vi enkelt bekrefte ved å bare undersøke.
 $(f\ \circ g)(x) = f(g(x)) = f(x^2) = x^2-1$.
 
-![[Definisjoner og teoremer/P-kapitlene/Def P.5.4 Komposisjoner av funksjoner|Def P.5.4 Komposisjoner av funksjoner]]
+![[Kapittel 0 - innledende kapittel/Definisjoner og teoremer/Def P.5.4 Komposisjoner av funksjoner|Def P.5.4 Komposisjoner av funksjoner]]
 
 
 #### Flere eksempler

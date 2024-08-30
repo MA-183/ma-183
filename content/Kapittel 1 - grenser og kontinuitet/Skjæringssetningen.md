@@ -1,7 +1,7 @@
 ---
 draft: "true"
 ---
-![[Definisjoner og teoremer/Kapittel 1/Teo 1.4.9 Skjæringssetningen|Teo 1.4.9 Skjæringssetningen]]
+![[Kapittel 1 - grenser og kontinuitet/Definisjoner og teoremer/Teo 1.4.9 Skjæringssetningen|Teo 1.4.9 Skjæringssetningen]]
 
 > [!info]+ Eksempel
 > Avgjør intervallene der $x^3-4x$ er positiv og negativ.
