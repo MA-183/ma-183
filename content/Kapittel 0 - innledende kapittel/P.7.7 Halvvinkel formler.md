@@ -23,4 +23,5 @@ Løser vi for $\cos^2(t)$ får vi $\displaystyle \cos^2(t) = \frac{1+\cos(2t) }{
 
 Vi har også at $\cos^2(t) = 1-\sin^2(t) = \frac{1+\cos(2t) }{2}$. Dermed kan vi også løse for $\sin^2(t)$ og få den siste identiteten. 
 
+Vi skal nå hoppe over til noe helt annet, nemlig [[Kapittel 0 - innledende kapittel/P.A.1 Komplekse tall|komplekse tall]]. Kunnskap om trigonometri skal vise seg å være veldig nyttig når vi ser på komplekse tall. Selv om komplekse tall ikke utgjør en stor del av dette kurset, vil det være veldig relevant i andre kurs.
 

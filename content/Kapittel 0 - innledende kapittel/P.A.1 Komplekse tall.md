@@ -35,4 +35,4 @@ På koordinatsystemet under, ser du et noen komplekse tall representert i det ka
 
 ![](Files/shapes%20at%2024-08-12%2013.19.24.svg)
 
-Vi ønsker at komplekse tall skal være en utvidelse av de reelle tallene. Derfor ønsker vi også at de skal ha de samme [grunnleggende egenskapene](Kapittel%200%20-%20innledende%20kapittel/P.A.3%20Regning%20med%20komplekse%20tall.md) som de reelle tallene også har. 
+Vi ønsker at komplekse tall skal være en utvidelse av de reelle tallene. Det betyr at regning bør oppføre seg på samme måte. Før vi ser på regning med komplekse tall skal vi først gå gjennom noen [[Kapittel 0 - innledende kapittel/P.A.2 Grunnleggende egenskaper|grunnleggende egenskaper]].

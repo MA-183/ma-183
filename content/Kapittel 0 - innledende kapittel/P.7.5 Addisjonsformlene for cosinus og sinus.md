@@ -57,7 +57,12 @@ $$
 $$
 
 $$
-Merk nå at (ved å bruke [P.7.4 Viktige identiteter](Kapittel%200%20-%20innledende%20kapittel/P.7.4%20Viktige%20identiteter.md)) $\cos(s+t) = \cos(s-(-t)) = \cos(s)\cos(-t)+\sin(s)\sin(-t) = \cos(t)\cos(s)-\sin(s)\sin(t).$
+Merk nå at (ved å bruke [[Kapittel 0 - innledende kapittel/P.7.4 Viktige identiteter|elementære identiteter]]) 
+$$
+\begin{aligned} 
+  \cos(s+t) = \cos(s-(-t))  & = \cos(s)\cos(-t)+\sin(s)\sin(-t) \\ & = \cos(t)\cos(s)-\sin(s)\sin(t).
+\end{aligned} 
+$$
 
 Siden $\cos\left( \frac{\pi}{2}-t \right) = \sin(t)$ har vi at
 $$
@@ -69,4 +74,4 @@ $$
 \end{aligned} 
 $$
 
-Addisjonsformlene fører også til noen spesielle ved å la $s = t$, nemlig [dobbeltvinkel-formlene](Kapittel%200%20-%20innledende%20kapittel/P.7.6%20Dobbeltvinkel-formlene.md).
+Addisjonsformlene fører også til noen spesielle ved å la $s = t$, nemlig [[Kapittel 0 - innledende kapittel/P.7.6 Dobbeltvinkel-formlene|dobbeltvinkel-formlene]].

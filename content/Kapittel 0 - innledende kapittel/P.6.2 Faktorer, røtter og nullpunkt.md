@@ -49,4 +49,4 @@ $$
 
 Det må bety at $P(r) = 0$ nøyaktig når $c = 0$, altså når resten $R(x) = 0$.
 
-Andregradsfunksjoner dukker også typisk opp i arbeid med polynomer. Derfor bør vi ha kontroll over hvordan vi finner røttene til de, noe vi kan se her [P.6.3 Andregradsfunksjoner og abc-formelen](Kapittel%200%20-%20innledende%20kapittel/P.6.3%20Andregradsfunksjoner%20og%20abc-formelen.md)
+Polynomer av grad 2, *andregradsfunksjoner*, dukker også typisk opp i arbeid med polynomer. Derfor bør vi ha kontroll over hvordan vi finner røttene til de, noe vi kan se her [[Kapittel 0 - innledende kapittel/P.6.3 Andregradsfunksjoner og abc-formelen|andregradsfunksjoner og abc-formelen]].

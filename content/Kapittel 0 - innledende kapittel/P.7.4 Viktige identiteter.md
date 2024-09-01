@@ -3,9 +3,18 @@
 ---
 > [!note] Identiteter
 > 1. $\cos^2(t)+\sin^2(t) = 1$
-> 2. $\cos(t+2\pi) = \cos(t)$ og $\sin(t+2\pi) = \sin(t)$
+> 2. $\cos(\pi - t) = -\cos(t)$ og $\sin(\pi-t) = \sin(t)$.
 > 3. $\cos(-t) = \cos(t)$ og $\sin(-t) = -\sin(t)$
 > 4. $\cos\left( \frac{\pi}{2}-t \right) = \sin(t)$ og $\sin\left( \frac{\pi}{2}-t \right) = \cos(t)$
-> 5. $\cos(\pi - t) = -\cos(t)$ og $\sin(\pi-t) = \sin(t)$.
+> 5. $\cos(t+2\pi) = \cos(t)$ og $\sin(t+2\pi) = \sin(t)$
+
+Som bildet under viser er punkt 1. bare Pytagoras setning.
+
+Punkt  2. kan leses som roter først $\pi$ radianer og deretter rotert $t$ radianer baklengs. Bildet viser at dette er det samme som å speile $\cos(t)$ om $y$-aksen.
+
+Punkt 3. ser vi at er bare at vi speiler om $x$-aksen.
+
+Punkt 4. leser vi som, *roter $\frac{\pi}{2}$ radianer og deretter $t$ radianer baklengs*. Bildet viser at dette er det samme som speiling om linjen $x=y$. 
+![undefined](Files/shapes%20at%2024-08-22%2012.26.52.svg)
 
 Disse identitetene er ganske elementære. Det finnes også noen andre identiteter som er viktige, men ikke like åpenbare. En av disse er [addisjonsformlene for cosinus og sinus](Kapittel%200%20-%20innledende%20kapittel/P.7.5%20Addisjonsformlene%20for%20cosinus%20og%20sinus.md).

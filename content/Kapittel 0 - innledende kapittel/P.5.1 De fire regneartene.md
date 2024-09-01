@@ -1,14 +1,14 @@
 ---
 {}
 ---
-På samme måte som med tall, kan vi lage nye funksjoner. La $f$ og $g$ være to funksjoner. Da har vi at
+Akkurat som vi kan kombinere tall, kan vi også kombinere funksjoner. La $f$ og $g$ være to funksjoner. Da har vi at
 
 ![[Kapittel 0 - innledende kapittel/Definisjoner og teoremer/Def P.5.3 Sum, differanse, produkt og kvotienter av funksjoner|Def P.5.3 Sum, differanse, produkt og kvotienter av funksjoner]]
 
 > [!info] Eksempel 
 > 
 
-La $f(x) =x-1$ og $g(x) = x^2$. Merk at begge har samme definisjonsområde, altså at $D(f) = \mathbb{R} = D(g).$
+La $f(x) =x-1$ og $g(x) = x^2$. Legg merke til at begge har samme definisjonsområde, altså $D(f) = \mathbb{R} = D(g).$
 
 1. $(f+g)(x)=(x-1) + x^2 = x^2+x-1$.
 2. $(f-g)(x) = (x-1)-x^2 = -x^2+x-1$.

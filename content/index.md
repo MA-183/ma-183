@@ -12,12 +12,13 @@ Foreløpig innhold er
     - [[Ukesoppdrag og forelesningsnotat/Uke 34|Uke 34]]
     - [[Ukesoppdrag og forelesningsnotat/Uke 35|Uke 35]]
     - [[Ukesoppdrag og forelesningsnotat/Uke 36|Uke 36]]
+    - [[Ukesoppdrag og forelesningsnotat/Uke 37|Uke 37]]
         - Ta kontakt hvis det er oppgaver dere ønsker løsningsforslag til.
 - Innledende kapittel ([P-kapitlene](Kapittel-0---innledende-kapittel/)). 
     - [P.3](Kapittel%200%20-%20innledende%20kapittel/P.3.1%20Forskyvning%20av%20grafer.md)
     - [P.5](Kapittel%200%20-%20innledende%20kapittel/P.5.1%20De%20fire%20regneartene.md)
     - [P.6](Kapittel%200%20-%20innledende%20kapittel/P.6.1%20Polynomer%20og%20rasjonale%20funksjoner.md)
-    - [P.7](Kapittel%200%20-%20innledende%20kapittel/P.7.0%20Intro.md)
+    - [P.7](Kapittel%200%20-%20innledende%20kapittel/P.7.0%20Trigonometri.md)
 - Kapittel 1
     - [[Kapittel 1 - grenser og kontinuitet/1.1.1 Intro|1.2 og 1.3]]
     - 1.4

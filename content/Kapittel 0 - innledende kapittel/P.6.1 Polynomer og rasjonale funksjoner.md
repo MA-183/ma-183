@@ -19,4 +19,4 @@ For eksempel $f(x) = \frac{x+2}{x-5}$, er en rasjonal funksjon, fordi $x+2$ (tel
 
 ![[Kapittel 0 - innledende kapittel/Definisjoner og teoremer/Def P.6.6 Rasjonale funksjoner|Def P.6.6 Rasjonale funksjoner]]
 
-Polynomer skal vise seg og være viktige i kurset. Vi skal derfor se mer på [P.6.2 Faktorer, røtter og nullpunkt](Kapittel%200%20-%20innledende%20kapittel/P.6.2%20Faktorer,%20røtter%20og%20nullpunkt.md)
+Polynomer skal vise seg og være viktige i kurset. Vi skal derfor se mer på [[Kapittel 0 - innledende kapittel/P.6.2 Faktorer, røtter og nullpunkt|faktorer, røtter og nullpunkt]].

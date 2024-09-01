@@ -34,4 +34,4 @@ Det betyr også rett og slett av disse forholdene er funksjoner av vinklene, og 
 
 Vi har nå definert $\cos t, \sin t, \tan t$ for vinkler $t \in (0, 90^\circ)$. ${\color{grey} \text{Les dette som t i mengden 0 til 90} }$.
 
-Vi tenker på denne definisjonen som trigonometriske funksjoner definert fra *trekantperspektivet*. Det neste vi skal se er at et *sirkelperspektiv* gir oss en annen, og veldig nyttig måte å utvide definisjonen for de trigonometriske funksjonene. Før vi se på de trigonometriske funksjonene fra sirkelperspektivet så skal vi først se på hvordan vi måler [vinkler](Kapittel%200%20-%20innledende%20kapittel/P.7.1%20Vinkelmål.md).
+Vi tenker på denne definisjonen som trigonometriske funksjoner definert fra *trekantperspektivet*. Det neste vi skal se er at et *sirkelperspektiv* gir oss en annen, og veldig nyttig måte å utvide definisjonen for de trigonometriske funksjonene. Før vi se på de trigonometriske funksjonene fra sirkelperspektivet så skal vi først se på hvordan vi måler [[Kapittel 0 - innledende kapittel/P.7.1 Vinkelmål|vinkler]].

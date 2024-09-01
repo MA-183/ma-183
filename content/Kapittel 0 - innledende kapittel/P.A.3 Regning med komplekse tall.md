@@ -40,3 +40,4 @@ Hvis $z = a+bi$, så er $(a+bi)(a-bi) = |z|^2$. Tallet $a-bi$ kaller vi $z$ sin 
 > [!info] Kompleks konjugert, definisjon A.5
 > Den kompleks konjugerte til et tall $z = a+bi$ er et annet komplekst tall $\overline{z}=a-bi$. 
 
+Man kan jo også lure på om det kommer noe fornuftig ut av regning med komplekse tall på polarform. Vi skal se at [[Kapittel 0 - innledende kapittel/P.A.4 Multiplikasjon på polarform|multiplikasjon på polarform]] gir oss en utrolig nyttig geometrisk intuisjon bak multiplikasjon av komplekse tall. 

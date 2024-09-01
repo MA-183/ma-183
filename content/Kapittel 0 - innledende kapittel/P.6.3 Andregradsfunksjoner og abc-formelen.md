@@ -23,5 +23,5 @@ $$
 
 
 
-Det neste vi skal se på er [[Kapittel 0 - innledende kapittel/P.7.0 Intro|P.7.0 Intro]]. Man burde også ha kontroll på [[Kapittel 0 - innledende kapittel/P.3.1 Forskyvning av grafer|P.3.1 Forskyvning av grafer]].
+Det neste vi skal se på er [[Kapittel 0 - innledende kapittel/P.7.0 Trigonometri|trigonometriske funksjoner]]. Man burde også ha kontroll på [[Kapittel 0 - innledende kapittel/P.3.1 Forskyvning av grafer|forskyvning av grafer]].
 

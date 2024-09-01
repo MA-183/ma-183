@@ -23,4 +23,4 @@ Disse to identitetene kan vi enkelt komme frem til selv, men de gir oss også en
 2. $1^\circ \cdot 135 = \frac{3\pi\cdot135}{360} \text{ radianer} = \frac{3}{8}\pi \text{ radianer}$.
 3. $1 \text{ radian} \cdot \frac{3\pi}{2} = \frac{360^\circ}{2\pi}\cdot \frac{3\pi}{2} = 270^\circ$
 
-Nå som vi har avklart at vi skal bruke radianer fremover, og hva radianer er. Kan vi se hvordan vi kan utvide vår definisjon av trigonometriske funksjoner ved hjelp av [*sirkelperspektivet*](Kapittel%200%20-%20innledende%20kapittel/P.7.2%20Trigonometriske%20funksjoner%20definert%20med%20sirkler.md).
+Nå som vi har avklart at vi skal bruke radianer fremover, og hva radianer er. Kan vi se hvordan vi kan utvide vår definisjon av trigonometriske funksjoner ved hjelp av [[Kapittel 0 - innledende kapittel/P.7.2 Trigonometriske funksjoner definert med sirkler|sirkelperspektivet]].

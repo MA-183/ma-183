@@ -50,8 +50,8 @@ Definisjonen over er for de som sikter høyt!
 
 > [!question] Spørsmål (eksempel 4)
 > Hva er
-> 1. $\lim_{x\longrightarrow -2}\frac{x^2-2x+1}{x-1}$?
-> 2. $\lim_{x\longrightarrow a}\frac{\frac{1}{a}-\frac{1}{ax}}{x-a}$?
+> 1. $$\lim_{x\longrightarrow -2}\frac{x^2-2x+1}{x-1}?$$
+> 2. $$\lim_{x\longrightarrow a}\frac{\frac{1}{a}-\frac{1}{ax}}{x-a}?$$
 
 > [!abstract] 1
 > 

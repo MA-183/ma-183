@@ -22,7 +22,7 @@ Vi ser også at [det vi kan om trigonometri](Kapittel%200%20-%20innledende%20kap
 
 > [!info] Eksempel 
 > 1. Gjør om tallet $z = 1+\sqrt 3 i$ til polar form,
-> 2. Gjør om tallet $w = 2+3i$ til polar form.
+> 2. Gjør om tallet $w = 2-2i$ til polar form.
 
 > [!abstract] 1
 
@@ -33,3 +33,11 @@ Vi begynner med å skisse i det kartesiske planet.
 Vi ser at hvis $z = 1+\sqrt{3}i$ så er $|z| = \sqrt{1+\sqrt{3}^2}=\sqrt{4} = 2$. Vi mangler nå vinkelen for å skrive tallet på polar form. Vi vet for eksempel at hvis $\theta$ er vinkelen vi er ute etter, så kan vi se på figuren at $\cos(\theta) = \frac{1}{2}$. Akkurat hvilken vinkel som gir opphav til dette forholdet kjenner vi til. Det er enten $\frac{\pi}{6}$ eller $-\frac{\pi}{6}$, men siden vi vet at den imaginære delen er positiv vet vi at det er $\frac{\pi}{6}$ som er vinkelen. Det betyr at 
 
 $$1+\sqrt{3}i = 2\cos\left( \frac{\pi}{6} \right)+2i\sin\left( \frac{\pi}{6} \right).$$
+> [!abstract] 2
+
+Tallet $z$ har størrelse $|z| = \sqrt{2^2+(-2)^2}=\sqrt{8} = 2\sqrt{2}$. Det gir at vi kan skrive $z = 2\sqrt{2}\left( \frac{2}{2\sqrt{2}} - i \frac{2}{2\sqrt{2}}  \right) = 2\sqrt{2}\left( \frac{\sqrt{2}}{2}-i \frac{\sqrt{2}}{2} \right)$. Tegner vi dette opp i planet kan vi enkelt se at
+$$
+z = 2\sqrt{2}\left( \cos\left( \frac{3\pi}{4} \right)+i\sin\left( \frac{3\pi}{4} \right) \right).
+$$
+
+Det neste vi skal se på er [[Kapittel 0 - innledende kapittel/P.A.3 Regning med komplekse tall|regning med komplekse tall]].

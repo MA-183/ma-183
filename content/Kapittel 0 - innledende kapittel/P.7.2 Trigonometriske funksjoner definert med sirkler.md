@@ -12,4 +12,4 @@ Siden hypotenusen i trekanten nå er $1$, så må $\sin (t)$ fortelle oss høyde
 
 Vi ser nå at vi også kan for en vinkel $v$ mål i radianer, la $v$ være større en $\frac{\pi}{2}\text{radianer} =90^\circ$ og likevel få $\cos (v)$ og $\sin (v)$ til å være meningsfullt, samtidig som det stemmer overens med definisjonen av $\cos$ og $\sin$ ved hjelp av trekanter (se figuren under). 
 ![](Files/shapes%20at%2024-08-07%2013.46.06.svg)
-Nå som vi har utvidet vår definisjon av $\cos$ og $\sin$ bør vi også få kontroll på noen av verdiene som [funksjonene spytter ut](Kapittel%200%20-%20innledende%20kapittel/P.7.3%20Trigonometriske%20verdier.md).
+Nå som vi har utvidet vår definisjon av $\cos$ og $\sin$ bør vi også få kontroll på noen av verdiene som [[Kapittel 0 - innledende kapittel/P.7.3 Trigonometriske verdier|funksjonene spytter ut]].

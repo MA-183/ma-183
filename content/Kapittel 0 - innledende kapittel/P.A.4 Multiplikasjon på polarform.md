@@ -47,4 +47,5 @@ $z = re^{i\theta}$ gir $\frac{1}{z}= \frac{1}{re^{i\theta}} = \frac{1}{r}e^{i\cd
 
 
 ![undefined](Files/shapes%20at%2024-08-19%2014.37.21.svg)
-   
+
+Det siste vi skal se på med komplekse tall er [[Kapittel 0 - innledende kapittel/P.A.5 Komplekse røtter|komplekse røtter]].

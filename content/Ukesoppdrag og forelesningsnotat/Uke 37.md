@@ -80,9 +80,72 @@ $$
 
 > [!abstract] 3
 
+$y= \frac{6}{(x-1)^2} =6 (x-1)^{-2}$. [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.4.6 Kjerneregelen|Kjerneregelen]] gir nå
+$$
+\begin{aligned} 
+ & y'  = 6\cdot(-2)(x-1)^{-3} =-12(x-1)^{-3} \\ & y'' = -12\cdot(-3)(x-1)^{-4} = 36(x-1)^{-4} \\ & y'''= 36\cdot(-4)(x-1)^{-5} = -144(x-1)^{-5}.
+\end{aligned} 
+$$
+
+
 > [!abstract] 9
 
+$y = \tan(x) = \frac{\sin(x)}{\cos(x)}$. Vi vet allerede fra [[Kapittel 2 - derivasjon/2.5.3 Derivasjon av andre trigonometriske funksjoner|derivasjon av andre trigonometriske funksjoner]] at 
+$$
+y' = \frac{d}{dx} \tan(x) = \frac{1}{\cos^2(x)} = \frac{\sin^2(x)+\cos^2(x)}{\cos^2(x)} = \tan^2(x)+1.
+$$
+
+Nå kan vi kombinere [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.4.6 Kjerneregelen|kjerneregelen]] med at vi vet hva $\tan(x)$ sin deriverte er og få
+$$
+\begin{aligned} 
+  & y'' = 2\tan(x)\cdot(\tan^2(x)+1) = 2\tan^3(x)+2\tan(x) \\ & y'''  = 2\cdot3\tan^2(x)\cdot(\tan^2(x)+1)+2(\tan^2(x)+1 ).
+\end{aligned} 
+$$
+
+Vi kan forenkle $y'''$ litt og få
+$$
+y''' = 6\tan^4(x)+8\tan^2(x)+2
+$$
+
+
 > [!abstract] 13 (du trenger ikke verifisere med induksjon)
+
+Skriv $f(x)=\frac{1}{x}=x^{-1}$. Vi kan enkelt derivere ved å bruke [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.3 Potensreglene for derivasjon|potensreglene for derivasjon]].
+
+$f'(x) = (-1)\cdot x^{-2} = -x^{-2}$.
+
+Deriverer vi på nytt får vi
+$$
+f''(x)= -(-2)x^{-3} = 2x^{-3}.
+$$
+
+Deriverer vi på nytt får vi
+
+$$
+f^{(3)}(x)= 2(-3)x^{-4} = -3!x^{-4}.
+$$
+
+Et mønster begynner å danne seg, og vi kan gjette at det bør se noe slikt ut:
+
+$$
+f^{(n)}(x) = \pm n! \cdot x^{-n-1},
+$$
+der det er $+$ eller $-$ avhengig av om $n$ er partall (da vil vi ha $+$) eller oddetall (da vil vi ha $-$).
+
+Et typisk triks for å få dette til er å skrive det slik:
+
+$$
+f^{(n)}(x) = (-1)^n \cdot n! \cdot x^{-n-1}.
+$$
+
+Vi verifiserer ikke med induksjon, men kan teste om det fungerer for $n=4$. Da sier formelen at vi bør få:
+
+$$
+f^{(4)}(x) = (-1)^4 \cdot 4! \cdot x^{-5} = 4! \cdot x^{-5}.
+$$
+
+Utfører vi derivasjon av $f^{(3)}(x)$, ser vi at vårt forslag stemmer.
+
 
 > [!abstract] 17 (du trenger ikke verifisere med induksjon)
 

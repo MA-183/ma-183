@@ -179,6 +179,58 @@ Siden $f(x) = x^3+x-1$ er kontinuerlig og $f(0) = -1$ og $f(1)=1$ så sier [[Kap
 > [!abstract] 31
 
 $F(x) = (x-a)^2(x-b)^2+x$. Av symmetrien kan vi anta at $a$ er mindre enn $b$. $F$ er også kontinuerlig på $[a,b]$ og $F(a)=a$ og $F(b) = b$. Fra [[Kapittel 1 - grenser og kontinuitet/Definisjoner og teoremer/Teo 1.4.9 Skjæringssetningen|skjæringssetningen]] må vi ha at $F$ tar alle verdier mellom $a$ og $b$. Spesielt må den ta midtpunktet $\frac{a+b}{2}.$
+
+## 1.5
+
+> [!abstract] 13
+
+Oppgaven ber oss om å vise at 
+$$
+\lim_{x\longrightarrow  0}x^2 = 0,
+$$
+ved å bruke den formelle definisjonen av grenser. 
+
+Det betyr at vi må vise at hvis vi velger en vilkårlig $\varepsilon >0$ så må vi vise at det eksisterer en $\delta>0$ slik at hvis $|x-0|<\delta$ (altså at $x$ er mindre enn $\delta$ unna 0), så vil $|x^2-0|<\varepsilon$. 
+
+Men hvis $|x^2-0| = |x^2| = x^2 <\varepsilon$ kan vi enkelt se at det er det samme som å si at $x<\sqrt{\varepsilon}$. Dermed må vi få at hvis $\delta \leq \sqrt{\varepsilon}$ så vil konklusjonen følge.
+
+Det vil si:
+$$
+|x^2-0| = x^2 < \delta^2 <\sqrt{\varepsilon}^2 = \varepsilon.
+$$
+
+> [!abstract] 19
+
+Oppgaven ber oss om å vise at 
+$$
+\lim_{x\longrightarrow  1} \sqrt{x}= 1,
+$$
+ved å bruke den formelle definisjonen av grenser. 
+
+Det betyr at vi må vise at hvis vi velger en vilkårlig $\varepsilon >0$ så må vi vise at det eksisterer en $\delta>0$ slik at hvis $|x-1|<\delta$ (altså at $x$ er mindre enn $\delta$ unna 1), så vil $|\sqrt{x}-1|<\varepsilon$. 
+
+*Ide*: Størrelsen til $x$ kan vi anta at alltid er positiv siden vi ser på $\sqrt{x}$.
+
+Vi vet at hvis $x <1$ så vil $\sqrt{x}$ komme nærmere $1$ enn $x$, tilsvarende vil også $x>1$ ha den egenskapen. Så det må bety at $|1-\sqrt{x}| < |1-x|$ og resultatet følger egentlig automatisk hvis $\delta \leq \varepsilon$. 
+
+Vi kan derfor enten stoppe her. For de som ønsker et litt mer håndfast argument for ideen over kan tenke slik.
+
+Vil vise at $|1-\sqrt{x}|<|1-x|$. La oss bruke tredje kvadratsetning for å få noe å sammenligne med 
+
+$$
+\begin{aligned} 
+  |1-x| = |(1-\sqrt{x})(1+\sqrt{x})| = |1-\sqrt{x}|\cdot|1+\sqrt{x}|.
+\end{aligned}
+$$
+Siden $1+\sqrt{x}>1$ så vil det å dele på $1+\sqrt{x}$ gjør et positivt tall mindre. Det betyr at
+$$
+\begin{aligned} 
+  |1-x| > \frac{|1-x|}{|1+\sqrt{x}|} = \frac{|1-\sqrt{x}|\cdot\cancel{ |1+\sqrt{x}| } }{\cancel{ |1+\sqrt{x}| }}> |1-\sqrt{x}|.
+\end{aligned} 
+$$
+Ulikheten over sier at hvis $\delta<\varepsilon$ og $|1-x|<\delta$ så er $\varepsilon > \delta>|1-x|>|1-\sqrt{x}|$.
+
+
 ## A.3
 
 > [!abstract] 4
@@ -191,6 +243,18 @@ Her er ting heldigvis enkelt, for hvis $\varepsilon>0$, så er $f(x)=C$ så $|f(
 La oss bevise at $g(x)=x$ er kontinuerlig på $\mathbb{R}$. Velg $a\in\mathbb{R}$ og $\varepsilon>0$. Da er $|g(x)-g(a)|=|x-a|$, så hvis $\delta<\varepsilon$ får vi at når $|x-a|<\delta <\varepsilon$ så er $|g(x)-g(a)|<\varepsilon$. Siden $a$ og $\varepsilon$ var vilkårlig valgt, ser vi at $g(x)$ er kontinuerlig for alle $a$ så $g(x)$ er kontinuerlig på $\mathbb{R}$.
 
 > [!abstract] 5
+
+
+Siden et polynom generelt er på formen $a_n x^n+a_{n-1}x^{n-1}+\ldots+a_2x^2+a_1x+a_0$ er det naturlig å tenke at vi bør argumentere ved hjelp av noen generelle resultater. Heldigvis kan vi bruke teorem 1, som sier at alle kombinasjoner av summer, produkter av kontinuerlige funksjoner er kontinuerlige. 
+
+I oppgave 5 viste vi at både $C$ og $x$ var kontinuerlige. Dermed må både $x\cdot x = x^2$ og $C\cdot x$ være kontinuerlige for alle konstanter $C$. 
+
+Spesielt kan vi se at vi kan fortsette dette å si at $x^2\cdot x = x^3$ og derfor $x^3\cdot x = x^4$ og derfor... og derfor $x^{n-1}\cdot x = x^n$ er alle kontinuerlige. 
+
+Videre må derfor også $a_n x^n$ og $a_{n-1}x^{n-1}$,..., $a_1x$ og $a_0$ alle være kontinuerlige. 
+
+Det vi sier er at alle leddene i et vilkårlig polynom er kontinuerlige. Men siden summer av kontinuerlige funksjoner er kontinuerlige må følgelig også ethvert polynom være kontinuerlig!
+
 
 
 ## 2.2
