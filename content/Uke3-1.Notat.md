@@ -76,7 +76,14 @@ $$
 > 2. $\lim_{x\longrightarrow  a-}$ er grense der vi kun betrakter $x<a$. Grense fra *venstre*.
 > 3. $\lim_{x\longrightarrow \infty}f(x)$ er grense der vi betrakter vilkårlige store $x$.
 
-![[Kapittel 1 - grenser og kontinuitet/Definisjoner og teoremer/Teo 1.2.2 Grenseverdiregler|Teo 1.2.2 Grenseverdiregler]]
+> [!tip] Grenseverdiregler, teo 1.2.2
+> Hvis $\lim_{x\longrightarrow a}f(x) = L$ og $\lim_{x\longrightarrow a}g(x) = M$ da er
+> 1. $\lim_{x\longrightarrow a}(f(x)+g(x))=L+M$ (samme for minus)
+> 2. $\lim_{x\longrightarrow a}f(x)\cdot g(x) =LM$ (samme for deling, når $M \neq0$).
+> 3. + noen se s.69
+> 
+> Gjelder for $a$ i $\mathbb{R}$ og uendelig eller ensidige grenser.
+
 
 > [!question] Spørsmål - standardeksempel
 > Hva er 

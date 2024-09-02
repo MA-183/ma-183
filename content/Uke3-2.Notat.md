@@ -51,4 +51,11 @@ Når $f'(x)$ eksisterer $\longrightarrow$ grense nevner mot 0 $\longrightarrow$ 
 ![[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.3.1 Deriverbarhet impliserer kontinuitet#^963b1d|Teo 2.3.1 Deriverbarhet impliserer kontinuitet]]
 
 
+På samme måte som summer, produkt og kvotienter av grenser "oppfører" seg pent gjør derivasjon også det. (Derivasjon er jo tross alt bare grenser!).
 
+> [!tip] Derivasjonsregler, teo 2.3.2-2.3.5
+> Anta at $f$ og $g$ er deriverbare i $x$. Da er
+> 1. Summeregel: $(f+g)'(x) = f'(x)+g'(x)$, samme for -
+> 2. Produktregel: $(f \cdot g)'(x) = f'(x)g(x)+f(x)g'(x)$. 
+> 3. Kvotientregel: $\left( \frac{f}{g} \right)'(x) = \frac{f'(x)g(x)-f(x)g'(x)}{(g(x))^2}$
+>
