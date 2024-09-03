@@ -17,7 +17,7 @@ Målet med kurset. Studere funksjoner. Vi begrenser oss til funksjoner som har e
 
 For eksempel ønsker vi ofte å studere funksjoner for å optimere de, finne maks eller minimumspunkter, men også topper eller bunner. 
 
-Hvis $I(x)$ beskriver inntekt til en bedrift ved produksjon av $x$ enheter (tar høyde for utgifter også). Da er det klart at vi ønsker å finne "toppen".
+Hvis $f(x)$ beskriver inntekt til en bedrift ved produksjon av $x$ enheter (tar høyde for utgifter også). Da er det klart at vi ønsker å finne "toppen".
 ![[Files/shapes at 24-08-30 15.11.30.svg]]
 > [!question] Merk 
 > Vi må finne en måte å beskrive stigning til en funksjon, $f$, i et punkt!

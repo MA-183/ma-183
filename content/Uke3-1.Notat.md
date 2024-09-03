@@ -20,7 +20,9 @@ Vi begynner med en reise tilbake til Arkimedes (200 år før Kristus)
 
 ![[Files/shapes at 24-08-25 10.20.05.svg]]
 
-Hvis vi kutter finere 
+Hvis vi kutter finere
+
+![[Files/shapes at 24-08-25 10.25.00.svg]]
 
 Mindre som ligger utenfor parallellogram (det i rødt), og høyde enda nærmere $r$. 
 Kan kutte sirkelen til å være så nært vi vil et parallellogram med grunnlinje $\pi r$ og høyde $r$. 
@@ -28,15 +30,7 @@ Kan kutte sirkelen til å være så nært vi vil et parallellogram med grunnlinj
 > [!warning] Merk 
 > Sirkel med radius $r$ må ha areal $\pi r^2$.
 
-![[Files/shapes at 24-08-25 10.25.00.svg]]
 
-> [!info] Eksempel 
->  $f(x) =  (1+x^2)^{\frac{1 }{x^2 }}$.
-
-Når $x$ er nær $0$, ser vi at vi får noe som er nesten $(1+0)^{\frac{1 }{0 } }$, altså $1^{\frac{1 }{0 }}$. 
-
-Hva skjer i Geogebra?
-![[Files/Pasted image 20240823204326.png]]
 
 ![[Kapittel 1 - grenser og kontinuitet/Definisjoner og teoremer/Def 1.2.1 Grenseverdi|Def 1.2.1 Grenseverdi]]
 
@@ -80,7 +74,7 @@ $$
 > Hvis $\lim_{x\longrightarrow a}f(x) = L$ og $\lim_{x\longrightarrow a}g(x) = M$ da er
 > 1. $\lim_{x\longrightarrow a}(f(x)+g(x))=L+M$ (samme for minus)
 > 2. $\lim_{x\longrightarrow a}f(x)\cdot g(x) =LM$ (samme for deling, når $M \neq0$).
-> 3. + noen se s.69
+> 3. + noen flere: se s.69
 > 
 > Gjelder for $a$ i $\mathbb{R}$ og uendelig eller ensidige grenser.
 
@@ -109,12 +103,15 @@ Vi gjetter alltid midtpunktet mellom positiv og negativ verdi.
 I python
 ![[Files/Pasted image 20240825133435.png]]
 
+Kjører vi en løkke får vi 
+![[Files/Pasted image 20240902142540.png]]
+
 ![[Files/Pasted image 20240825133522.png]]
 
 > [!question] Spørsmål 
 > Hva må til for at denne teknikken fungerer? Kunne $f$ hatt noen egenskaper som ødela algoritmen vår?
 
-$f$ må være *kontinuerlig*.
+$f$ må være det vi kaller *kontinuerlig*.
 
 > [!info] Kontinuitet, def 1.4.4+1.4.7
 > La $f(x)$ være definert på et intervall $(a,b)$ og $c$ være et indre punkt i $(a,b)$. Da er $f$ *kontinuerlig* i $c$ hvis $$\lim_{x\longrightarrow  c}f(x) = f(c).$$
@@ -123,6 +120,9 @@ $f$ må være *kontinuerlig*.
 >Vi sier at $f$ er kontinuerlig, hvis den er kontinuerlig i $D(f)$.
 
 Intuitivt har kontinuerlige funksjoner følgende egenskaper
+
+![[Files/shapes at 24-09-02 14.35.06.svg]]
+
 
 > [!tip] Min-maksteorem, teorem 1.4.8 
 > En kontinuerlig funksjon på et lukket intervall $[a,b]$ oppnår sin min- og maks-verdi. 
@@ -138,6 +138,8 @@ og
 > Kan tenke på det som at kontinuerlige funksjoner tar maksverdi og minimumsverdi og alle verdier i mellom.
 
 Algoritmen vi gjorde over er å bruke skjæringssetningen til å approksimere nullpunkter! Finnes bedre metoder!
+
+Kontinuitet er definert med grenser. Vi får noen opplagte sammenhenger.
 
 > [!tip] Sammensetninger av kontinuerlige funksjoner 1.4.6 og 1.4.7 (litt forenkla)
 > Hvis $f$ og $g$ er kontinuerlige på samme punkt er $f\cdot g$ og $f+g$, $f-g$ kontinuerlige funksjoner. 

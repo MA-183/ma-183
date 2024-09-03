@@ -1,9 +1,11 @@
 ---
 {}
 ---
-![[Kapittel 0 - innledende kapittel/Definisjoner og teoremer/Teo P.7.2.2 Halvvinkelformlene|Teo P.7.2.2 Halvvinkelformlene]]
+![[Kapittel 0 - innledende kapittel/Definisjoner og teoremer/Teo P.7.2.2 Halvvinkelformlene#^c9aa2b|Teo P.7.2.2 Halvvinkelformlene]]
 
 > [!note] Argument 
+
+^7b16dd
 
 Fra [P.7.6 Dobbeltvinkel-formlene](Kapittel%200%20-%20innledende%20kapittel/P.7.6%20Dobbeltvinkel-formlene.md) har vi at 
 $$

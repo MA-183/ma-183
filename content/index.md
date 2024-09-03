@@ -20,9 +20,10 @@ Foreløpig innhold er
     - [P.6](Kapittel%200%20-%20innledende%20kapittel/P.6.1%20Polynomer%20og%20rasjonale%20funksjoner.md)
     - [P.7](Kapittel%200%20-%20innledende%20kapittel/P.7.0%20Trigonometri.md)
 - Kapittel 1
-    - [[Kapittel 1 - grenser og kontinuitet/1.1.1 Intro|1.2 og 1.3]]
-    - 1.4
+    - [[Kapittel 1 - grenser og kontinuitet/1.1.1 Intro|1.2 og 1.3 - Grenser]]
+    - [[Kapittel 1 - grenser og kontinuitet/1.4.1 Intro til kontinuitet|1.4 - Kontinuitet]]
 - Kapittel 2
+    - 
 - Kapittel 3
 - Kapittel 4
 - Kapittel 5

@@ -11,34 +11,135 @@ $\frac{dy}{dx} = 2\cdot 6(2x+3)^5 = 12(2x+3)^5$.
 
 > [!abstract] 3
 
+Finn den deriverte til funksjonen $f$ når $f(x)=(4-x^2)^{10}$.
+$f'(x) = \dfrac{d}{dx}((4-x^2)^{10})$
+Bruker kjerneregelen ved å la $u=4-x^2$, slik at $\dfrac{df}{dx}=\dfrac{df}{du}\cdot\dfrac{du}{dx}$
+$$
+\begin{aligned} 
+  f'(x)=\dfrac{d}{dx}u^{10} &=\dfrac{d}{dx}u^{10}\cdot\dfrac{du}{dx} \\ &=\dfrac{d}{du}u^{10}\cdot\dfrac{d}{dx}(4-x^2)  \\ &= 10u^9(-2x).
+\end{aligned} 
+$$
+Substituerer inn $4-x^2$ for $u$ igjen
+$$
+\begin{aligned} 
+f'(x) &=  10(4-x^2)^9(-2x)
+\\ & =-20x(4-x^2)^9.
+\end{aligned} 
+$$
+
 
 
 > [!abstract] 6
 
+Finn den deriverte til funksjonen $f$ når $f(x)=(1+x^{\frac{2}{3}})^{\frac{3}{2}}$.
+
+Setter $u=1+x^{\frac{2}{3}}$ og får at
+$$
+\begin{aligned} 
+  f'(x) &=\dfrac{d}{du}u^{\frac{3}{2}}\cdot\dfrac{d}{dx}(1+x^{\frac{2}{3}})
+\\ & =\dfrac{3}{2}u^{\frac{1}{2}}(\dfrac{2}{3}x^{-\frac{1}{3}})
+\\ &=(1+x^{\frac{2}{3}})^{\frac{1}{2}}x^{-\frac{1}{3}} \\ \phantom{} & \\ &\text{eventuelt} \\ \phantom{} \\ &  {\color{#666} =
+\dfrac{\sqrt{1+\sqrt[3]{x}^2}}{\sqrt[3]{x}}. }
+\end{aligned} 
+$$
 
 
 > [!abstract] 31
+
+$$
+\begin{align*}
+\dfrac{d}{dt}\sqrt{3t-7}\bigg|_{t=3} 
+&= \dfrac{d}{dt}u^{\frac{1}{2}}\bigg|_{t=3}, \quad \text{der  } u = 3t - 7\\[0.2 cm]
+&= \dfrac{d}{du}u^{\frac{1}{2}} \cdot \dfrac{du}{dt}\bigg|_{t=3}\\[0.2 cm]
+&= \dfrac{d}{du}u^{\frac{1}{2}} \cdot \dfrac{d}{dt}(3t-7)\bigg|_{t=3}\\[0.2 cm]
+&= \dfrac{1}{2}u^{-\frac{1}{2}} \cdot 3\bigg|_{t=3}\\[0.2 cm]
+&= \dfrac{1}{2}(3t-7)^{-\frac{1}{2}} \cdot 3\bigg|_{t=3}\\[0.2 cm]
+&= \dfrac{1}{2}(3 \cdot 3 - 7)^{-\frac{1}{2}} \cdot 3\\[0.2 cm]
+&= \dfrac{1}{2} \cdot 2^{-\frac{1}{2}} \cdot 3\\[0.2 cm]
+&= \dfrac{3}{2\sqrt{2}}, \quad \text{eller tilsvarende } \dfrac{3\sqrt{2}}{4}.
+\end{align*}
+
+$$
 
 ## 2.5
 
 > [!abstract] 3
 
+Vi benytter oss av [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.4.6 Kjerneregelen|kjerneregelen]] der $3x$ er den indre funksjonen og $\cos(x)$ er den ytre.
+
+Vi får da at $\frac{d}{dx} y = 3\cdot(-\sin(3x))=-3\sin(3x)$.
+
 > [!abstract] 5
+
+Fra [[Kapittel 2 - derivasjon/2.5.3 Derivasjon av andre trigonometriske funksjoner#^63c620|notatet om derivasjon av andre trigonometriske funksjoner]] vet vi at $\frac{d}{dx}\tan(x) = \frac{1}{\cos^2(x)}$. Vi bruker nå [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.4.6 Kjerneregelen|kjerneregelen]] og får at
+$$
+\frac{d}{dx} \tan(\pi x) = \pi \cdot \frac{1}{\cos^2(\pi x)}.
+$$
 
 > [!abstract] 11
 
+Vi benytter oss av [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.4.6 Kjerneregelen|kjerneregelen]] der $g(x) = \pi x^2$ er den indre funksjonen og $f(x) = \sin(x)$ er den ytre. Da er 
+$$
+\sin(\pi x^2) = 2\pi x \cos(\pi x^2)
+$$
+
+
 > [!abstract] 13
 
+Vi benytter oss av [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.4.6 Kjerneregelen|kjerneregelen]] der $g(x) = 1+\cos(x)$ er den indre funksjonen og $f(x)=\sqrt{x}$ er den ytre. Da er $g'(x) = -\sin(x)$ og $f'(x) = \frac{1}{2\sqrt{x}}$. Da får vi at
+$$
+\frac{d}{dx} \sqrt{1+\cos(x)} = g'(x)f'(g(x))=-\sin(x) \cdot \frac{1}{2\sqrt{1+\cos(x)}}.
+$$
 
 > [!abstract] 15
 
+Hvis $f(x) = \cos(x+\sin(x))$ så kan vi tenke på $\cos(x)$ som ytre funksjon og $x+\sin(x)$ som indre. Da gir [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.4.6 Kjerneregelen|kjerneregelen]] at 
+$$
+f'(x) = (1+\cos(x))(-\sin(x+\sin(x))).
+$$
+
+Det er ikke noen opplagte måter å forenkle uttrykket enn å skrive det litt *penere*.
+$$
+f'(x)=-(1+\cos(x))\sin(x+\sin(x)).
+$$
+
+
+
 > [!abstract] 26
+
+Vi skriver om $\tan(3x)\cot(3x)$ ved å bruke definisjonen. Da får vi
+$$
+\tan(3x)\cos(3x)= \frac{\sin(3x)}{\cos(3x)}\frac{\cos(3x)}{\sin(3x)} = 1.
+$$
+
+Dermed er den deriverte helt åpenbar, nemlig 0.
 
 > [!abstract] 27
 
+Vi ser på $t\cos(t)-\sin(t)$. Vi bruker [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.3.4 Produktregelen|produktregelen]] på første ledd og får at
+$$
+\begin{aligned} 
+  \frac{d}{dt} (t\cos(t)-\sin(t)) & = (\cos(t)+t\cdot(-\sin(t))-\cos(t)) \\ &= \cos(t)-t\sin(t)-\cos(t) \\ &= - t \sin(t).
+\end{aligned} 
+$$
+
 > [!abstract] 28
 
+Her vil [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.3.4 Produktregelen|produktregelen]] hjelpe oss. Vi får
+$$
+\begin{aligned} 
+  \frac{d}{dt} (t\sin(t)+\cos(t)) &= 1\sin(t)+t\cos(t)-\sin(t) \\ &= t\cos(t).
+\end{aligned} 
+$$
+
 > [!abstract] 29
+
+Her kan vi bruke [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.3.5 Kvotientregelen|kvotientregelen]].
+$$
+\begin{aligned} 
+  \frac{d}{dx} \left( \frac{\sin(x)}{1+\cos(x)} \right)  & = \frac{\cos(x)(1+\cos(x))-\sin(x)(-\sin(x))}{(1+\cos(x))^2} \\ &= \frac{\cos(x)+{\color{#e599f7} \cos^2(x)+\sin^2(x) }}{(1+\cos(x))^2} \\ &= \frac{1+\cos(x)}{(1+\cos(x))^2} \\ &= \frac{1}{1+\cos(x)}.
+\end{aligned} 
+$$
 
 > [!abstract] 30
 
