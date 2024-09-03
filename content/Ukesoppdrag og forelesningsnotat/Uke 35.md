@@ -13,10 +13,10 @@ Siden tallene er skrevet på kartesisk form kan vi enkelt peke på reell del og 
 > [!abstract] 5
 > 
 
-$z = -1 + i$. Vi finner størrelsen ved å finne lengden fra origo til $(-1,1)$ som er $\sqrt{1^2+1^2}=\sqrt{2}$. Så $|z| = r= \sqrt{2}$. Geometrisk sett kan vi også se at $z$ er rotert 135 grader, altså $\frac{3\pi}{2}$, så
+$z = -1 + i$. Vi finner størrelsen ved å finne lengden fra origo til $(-1,1)$ som er $\sqrt{1^2+1^2}=\sqrt{2}$. Så $|z| = r= \sqrt{2}$. Geometrisk sett kan vi også se at $z$ er rotert 135 grader, altså $\frac{3\pi}{4}$, så
 
 $$
-z = \sqrt{2}\left( \cos\left( \frac{3\pi}{2} \right)+i\sin\left( \frac{3\pi}{2} \right) \right).
+z = \sqrt{2}\left( \cos\left( \frac{3\pi}{4} \right)+i\sin\left( \frac{3\pi}{4} \right) \right).
 $$
 
 > [!abstract] 6
@@ -25,7 +25,7 @@ $$
 $z = -2$. Lengen er åpenbart $2$, så $r=2$. Vinkelen er mot venstre på $x$-aksen så vi får at
 
 $$
-z = 2e^{i\cdot(-\pi)}
+z = 2e^{i\cdot(-\pi)}.
 $$
 
 > [!abstract] 7

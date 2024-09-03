@@ -79,7 +79,7 @@ $$
 Ved å bruke tredje kvadratsetning får vi
 $$
 \begin{aligned} 
-  \lim_{x\longrightarrow  9}\frac{\sqrt{x}-3}{x-9} &= \lim_{x\longrightarrow  9} \frac{\sqrt{x}-3}{(\sqrt{x}-3)(\sqrt{x}+3)} \\ &=\lim_{x\longrightarrow  9}\frac{1}{\sqrt{x}+3} = \sqrt{9}+3=6 
+  \lim_{x\longrightarrow  9}\frac{\sqrt{x}-3}{x-9} &= \lim_{x\longrightarrow  9} \frac{\sqrt{x}-3}{(\sqrt{x}-3)(\sqrt{x}+3)} \\ &=\lim_{x\longrightarrow  9}\frac{1}{\sqrt{x}+3} = \frac{1}{\sqrt{9}+3}=\frac{1}6{}. 
 \end{aligned}
 $$
 
