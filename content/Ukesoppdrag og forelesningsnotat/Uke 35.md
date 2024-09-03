@@ -25,7 +25,7 @@ $$
 $z = -2$. Lengen er åpenbart $2$, så $r=2$. Vinkelen er mot venstre på $x$-aksen så vi får at
 
 $$
-z = 2e^{i\cdot(-\pi)}.
+z = 2e^{i\cdot\pi}.
 $$
 
 > [!abstract] 7
