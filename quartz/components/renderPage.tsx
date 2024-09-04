@@ -93,14 +93,14 @@ export function renderPage(
 
             node.children = [
               normalizeHastElement(blockNode, slug, transcludeTarget),
-              {
-                type: "element",
-                tagName: "a",
-                properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
-                children: [
-                  { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
-                ],
-              },
+              // { FIXME FJERNA FOR Å IKKE LENKE TILBAKE TIL ORIGONAL
+              //   type: "element",
+              //   tagName: "a",
+              //   properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
+              //   children: [
+              //     { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
+              //   ],
+              // },
             ]
           }
         } else if (blockRef?.startsWith("#") && page.htmlAst) {
@@ -136,14 +136,14 @@ export function renderPage(
             ...(page.htmlAst.children.slice(startIdx, endIdx) as ElementContent[]).map((child) =>
               normalizeHastElement(child as Element, slug, transcludeTarget),
             ),
-            {
-              type: "element",
-              tagName: "a",
-              properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
-              children: [
-                { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
-              ],
-            },
+            // { FIXME FJERNA FOR Å IKKE LENKE TILBAKE TIL ORIGONAL
+            //   type: "element",
+            //   tagName: "a",
+            //   properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
+            //   children: [
+            //     { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
+            //   ],
+            // },
           ]
         } else if (page.htmlAst) {
           // page transclude
