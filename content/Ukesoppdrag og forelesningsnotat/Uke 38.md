@@ -165,68 +165,196 @@ $$
 $$
 De eneste reelle løsningene vi får her er at $x =1$ eller $x = -1$.  Tar vi et skritt tilbake ser vi at vi kvadrerte likningen vår, noe som også gjør at $x = 1$ faktisk ikke er en løsning på den originale likningen, da venstre side av uttrykket vil bli positivt, altså ikke lik $-2$. 
 
-Nå gjenstår det bare å se at 
+Det betyr at $f(-1) = -2$ eller at $f^{-1}(-2)=-1. Med andre ord skal $x = -1$ og $f(x) = -2$. Nå gjenstår det bare å sette inn 
 $$
-(f^{-1})
+\begin{aligned} 
+  f^{-1}(f(x))  &= \frac{1}{f'(x)}  \\   f^{-1}(-2) &= \frac{1}{f'(-1)} \\ f^{-1}(-2) &= \frac{1}{\frac{3+2x^2}{\sqrt{3+x^2}}} {\Bigg|}_{x=-1} = \frac{1}{\frac{3+2}{\sqrt{3+1}}} =\frac{1}{\frac{5}{2}} = \frac{2}{5}
+\end{aligned} 
 $$
 
 ## 3.2
 
 > [!abstract] 1
 
+Vi ser på
+$$
+\begin{aligned} 
+  \frac{3^3}{\sqrt{3}^5} & = \frac{3^3}{(3^{1/2})^5}   \\ &= \frac{3^3}{3^{5/2}} = 3^3\cdot 3^{-\frac{5}{2}} = 3^{3-5/2} = 3^{1/2} = \sqrt{3}.  
+\end{aligned} 
+$$
 
 > [!abstract] 2
+
+$$
+\begin{aligned} 
+  2^{1/2} 
+\end{aligned} 8^{1/2} = 2^{1/2}\cdot (2^3)^{1/2} = 2^{1/2}\cdot2^{3/2}=2^{1/2+3/2}=2^2
+$$
 
 
 > [!abstract] 3
 
+$$
+\begin{aligned} 
+  (x^{-3})^{-2}= x^{-3\cdot(-2)} = x^6. 
+\end{aligned} 
+$$
+
+
 
 > [!abstract] 4
 
+$$
+\begin{aligned} 
+  \left( \frac{1}{2} \right)^x 4^{x/2} & = (2^{-1})^x\cdot (2^2)^{x/2} \\ &= 2^{-x}\cdot2^{2\cdot \frac{x}{2}} = 2^{-x+x}=2^{0} = 1.
+\end{aligned} 
+$$
 
 > [!abstract] 5
 
+Vi leser $\log_5(125)$ som, det tallet, $x$, som vi må opphøye $5$ i for å få $125$. Eller $5^x = 125$. Vi ser at $5^3 = 125$ så $x$ er $3$ eller sagt med andre ord
+$$
+\begin{aligned} 
+  \log_5(125)  = 3.
+\end{aligned} 
+$$
 
 > [!abstract] 6
 
+Vi leser $\log_4\left( \frac{1}{8} \right)$ som, det tallet, $x$, som vi må opphøye $4$ i for å få $\frac{1}{8}$. Eller sagt som en likning: $4^x = \frac{1}{8}$. Vi ser at $\frac{1}{8} = 2^{-3}$. Her kan vi også skrive $4^x$ som $(2^2)^x = 2^{2x}$ for å få samme grunntall. Det gir $2x$ er $-3$ eller $x = -\frac{3}{3}$ sagt med andre ord
+$$
+\begin{aligned} 
+  \log_4\left( \frac{1}{8} \right)  = -\frac{3}{2}.
+\end{aligned} 
+$$
 
 > [!abstract] 7
 
+Vi leser $\log_{\frac{1}{3}}(3^{2x})$ som det tallet $y$ som vi må opphøye $\frac{1}{3}$ i for å få $3^{2x}$. Vi kan bruke at $3 = \left( \frac{1}{3} \right)^{-1}$ som betyr at $3^{2x} = (\frac{1}{3})^{-2x}$. Det betyr  
+$$
+\begin{aligned} 
+  \log_{\frac{1}{3}}(3^{2x})  = \log_{\frac{1}{3}}\left(\left( \frac{1}{3} \right)^{-2x}\right) = -2x.
+\end{aligned} 
+$$
 
 > [!abstract] 8
 
-
+Vi leser $2^{\log_4(8)}$ og tenker at vi ønsker å gjøre om manipulere $2$ slik at det er en eksponent med $4$ som grunntall. Siden $\sqrt{4}=4^{\frac{1}{2}} =2$ får vi
+$$
+2^{\log_4(8)} = (4^{1/2})^{\log_4(8)} = (4^{\log_4(8)})^{1/2} = 8^{1/2} = \sqrt{8}=2\sqrt{2}.
+$$
 ## 3.3
 
 > [!abstract] 7
 
+Vi bruker logaritmeregler og får
+$$
+\begin{aligned} 
+  3\ln(4)- 4\ln(3)  & \overset{ 1^* }{=   }\ln(4^3)-\ln(3^4) \overset{ 2^* }{=  } \ln\left( \frac{4^3}{3^4} \right) 
+\end{aligned} 
+$$
+der $1^*$ er regel [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.3.2 Logaritmeregler|punkt 3. av logaritmereglene]] brukt baklengs og $2^*$ er [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.3.2 Logaritmeregler|punkt 2. av logaritmereglene]] brukt baklengs.
 
 > [!abstract] 8
 
+Vi bruker [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.3.2 Logaritmeregler|logaritmeregler]] og får
+$$
+\begin{aligned} 
+  & 4\ln(\sqrt{x})+ 6\ln(x^{1/3})  \\ && \text{bruker punkt 3. i reglene} \\ & \ln(\sqrt{x}^4) + \ln((x^{1/3})^6)  \\ & \ln(x^2)+\ln(x^2)  \\ && \text{bruker punkt 1. baklengs} \\ & \ln(x^2 \cdot x^2) = \ln(x^4) \\ && \text{bruker punkt 3.} \\ &4\ln(x).
+\end{aligned} 
+$$
 
 > [!abstract] 9
 
+Vi bruker [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.3.2 Logaritmeregler|logaritmeregler]] og får
+$$
+\begin{aligned} 
+  & 2\ln(x) + 5\ln(x-2)  \\ && \text{bruker punkt 3. baklengs} \\ & \ln(x^2)+\ln((x-2)^5) \\  && \text{bruker punkt 1. baklengs} \\ & \ln(x^2(x-2)^5).
+\end{aligned} 
+$$
 
 > [!abstract] 10
 
+Vi bruker [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.3.2 Logaritmeregler|logaritmeregler]] og får
+$$
+\begin{aligned} 
+  & \ln(x^2+6x+9) \\ && \text{kvadratsetning baklengs} \\ & \ln((x+3)^2)  \\ && \text{regel 3.} \\ & 2\ln(x+3). 
+\end{aligned} 
+$$
 
 > [!abstract] 15
+
+Vi bruker [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.3.2 Logaritmeregler|logaritmeregler]] punkt 2. og får
+$$
+\begin{aligned} 
+  \ln\left( \frac{x}{2-x} \right)  &= \ln(x)-\ln(2-x).
+\end{aligned} 
+$$
+Siden $\ln$ kun er definert for positive verdier får vi fra første ledd, $\ln(x)$ at $x> 0$. Fra det andre leddes må $2-x >0$.som betyr $2>x$. Til sammen gir det $0<x<2$, som er definisjonsmengden. 
 
 
 > [!abstract] 23
 
+Vi skal derivere $y= \ln(3x-2)$. Fra [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.4.6 Kjerneregelen|kjerneregelen]] får vi
+$$
+\frac{d}{dx} \ln(3x-2) = 3\cdot \frac{1}{3x-2}.
+$$
 
 > [!abstract] 24
+
+Merk at $f(x) =|3x-2|$ er definert slik
+$$
+f(x) \begin{cases}
+ 3x-2 & \text{når } 3x-2 >0 \\ -(3x-2) & \text{når } 3x-2 < 0
+\end{cases}
+$$
+
+Siden $\frac{d}{dx}\ln(f(x))  =f'(x)\frac{1}{\ln(f(x))}$ fra [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.4.6 Kjerneregelen|kjerneregelen]]. 
+
+Ser vi på tilfellet når $3x-2 >0$ får vi at $f(x) = 3x-2$ og $f'(x) = 3$. Det betyr $\frac{d}{dx}\ln(f(x))= 3\frac{1}{3x-2}$.
+
+Ser vi på tilfellet når $3x-2 <0$ får vi at $f(x) = -3x+2$ og $f'(x) = -3$. Det betyr 
+$$
+\begin{aligned} 
+  \frac{d}{dx}\ln(f(x))= f'(x) \frac{1}{\ln(f(x))} & =-3\frac{1}{-(3x-2)} \\ &= 3 \frac{1}{3x-2}. 
+\end{aligned} 
+$$
+
 
 
 > [!abstract] 33
 
+$y= \ln(\ln(x))$. Nå må vi bare bruke kjerneregelen. Vi har $g(x) = \ln (x)$ og vi skal deriverte $g(g(x))$ som er $g'(x)g'(g(x))$. Med andre ord får vi
+$$
+\begin{aligned} 
+  \frac{d}{dx} y & = \frac{d}{dx}  \ln(\ln(x))  \\ & = \frac{1}{x}\cdot \frac{1}{\ln(x)}. 
+\end{aligned} 
+$$
 
 > [!abstract] 34
 
+$y = x\ln (x)- x$. Vi bruker [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.3.4 Produktregelen|produktregelen]] og får
+$$
+\begin{aligned} 
+ \frac{d}{dx} ( x\ln(x)-x ) & =\left(  1\cdot\ln(x)+x\cdot \frac{1}{x} \right)-1 \\ &= \ln(x)+1 -1 = \ln(x).
+\end{aligned} 
+$$
 
 > [!abstract] 35
 
+$y = x^2\ln(x)-\frac{x^2}{2}$. Vi bruker [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.3.4 Produktregelen|produktregelen]] og får
+$$
+\begin{aligned} 
+  \frac{d}{dx} (y) &=  \frac{d}{dx} \left( x^2 \ln(x)-\frac{x^2}{2} \right)  \\ &= 2x\ln(x)+\frac{x^2}{x}-\frac{2x}{2} \\ &= 2x\ln(x)+x-x = 2x\ln(x). 
+\end{aligned} 
+$$
 
 > [!abstract] 36
 
+Generelt har vi at $\frac{d}{dx}\ln(|f(x)|) = f'(x)\cdot\frac{1}{|f(x)|}$. Dette er greit når $f(x)>0$, men når $f(x) <0$ så står det $\frac{d}{dx}\ln(-f(x))$. Når vi deriverer får vi
+$$
+\begin{aligned} 
+  \frac{d}{dx} \ln(-f(x))=-f'(x)\frac{1}{-f(x)}= \frac{f'(x)}{f(x)}.
+\end{aligned} 
+$$
+Så $\frac{d}{dx}\ln(|\sin(x)|) = \frac{\cos(x)}{\sin(x)}$.

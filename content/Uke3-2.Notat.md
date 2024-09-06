@@ -15,6 +15,11 @@ draft: "true"
 > Hvis $f(x)$ kommer så nær $L$ vi bare vil, bare $x$ er nær nok $a$, så sier vi at $f(x) \longrightarrow  L$ når $x \longrightarrow a$. Skriver $\lim_{x\longrightarrow a}f(x) = L$.   
 >
 
+![[Files/shapes at 24-08-26 08.51.32.svg]]
+1. $\lim_{x\longrightarrow  1} f(x)$ eksisterer ikke fordi den går mot en fra venstre og 0 fra høyre.
+2. $\lim_{x\longrightarrow 2}f(x) = 1$ fordi den går mot 1 fra venstre og høyre
+3. $\lim_{x\longrightarrow 3}f(x) = 0$ fordi den går mot 0 fra venstre og høyre. **MERK**, $f(3) = 1$, men $\lim_{x\longrightarrow 3}f(x) = 0$, så $\lim_{x\longrightarrow  3}f(x) \neq f(3)$.
+
 > [!tip] Grenseverdiregler, teo 1.2.2
 > Hvis $\lim_{x\longrightarrow a}f(x) = L$ og $\lim_{x\longrightarrow a}g(x) = M$ da er
 > 1. $\lim_{x\longrightarrow a}(f(x)+g(x))=L+M$ (samme for minus)
@@ -33,7 +38,7 @@ Metode vi bruke kalles halvveringsmetoden. Den funker når funksjonen ikke har h
 
 Eksempler der det går galt
 
-FIXME EKSEMPEL
+![[Files/shapes at 24-08-26 08.51.32.svg]]
 
 $f$ må være *kontinuerlig*
 
@@ -47,7 +52,9 @@ $f$ må være *kontinuerlig*
 Intuitivt har kontinuerlige funksjoner følgende egenskaper
 
 ![[Files/shapes at 24-09-02 14.35.06.svg]]
+$\frac{1}{x}$ er kontinuerlig på $(0,1)$ men har ingen maksverdi. Faktisk er $x$ kontinuerlig på $(0,1)$, men har ingen maks- eller min-verdier.
 
+Må ha endepunktene med for at det over stemmer.
 
 > [!tip] Min-maksteorem, teorem 1.4.8 
 > En kontinuerlig funksjon på et lukket intervall $[a,b]$ oppnår sin min- og maks-verdi. 
@@ -97,8 +104,7 @@ $$
 $$
 eksisterer så får vi stigningen i punktet.
 
-> [!warning] Merk 
-> Geometrisk vil grensen være stigningen til tangenten som går gjennom $(x,f(x))$.
+
 
 > [!info] Den deriverte, def 2.2.4
 > $f$ sin deriverte er en ny funksjon $f'$ som er definert som
@@ -106,14 +112,23 @@ eksisterer så får vi stigningen i punktet.
 >i alle punkter $x$ der grensa eksisterer. Hvis $f'(x)$ eksisterer sier vi at $f$ er deriverbar i $x$. 
 
 > [!warning] Merk 
-> Verdien $f'(x)$ er stigningen til tangenten som går gjennom $(x,f(x))$.
+> Geometrisk vil grensen være stigningen til tangenten som går gjennom $(x,f(x))$.
+
+> [!warning] Oppgave 
+> Lag en skisse av $f'(x)$ når $f$ ser slik ut.
+
+FIXME BILDE
 
 Når $f'(x)$ eksisterer $\longrightarrow$ grense nevner mot 0 $\longrightarrow$ teller mot 0 $\longrightarrow$ $f(x+h) \longrightarrow f(x)$. Dvs $f$ kontinuerlig i $x$.
 
 ![[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.3.1 Deriverbarhet impliserer kontinuitet#^963b1d|Teo 2.3.1 Deriverbarhet impliserer kontinuitet]]
 
+> [!warning] Notasjon
+> Skrivemåter for den deriverte:
+>  $f'(x) = \frac{dy}{dx} = \frac{d}{dx}f(x)$.
+> Flere på s. 104.
+>  
 
-På samme måte som summer, produkt og kvotienter av grenser "oppfører" seg pent gjør derivasjon også det. (Derivasjon er jo tross alt bare grenser!). **Men** det er noen ting som ved første øyekast ikke er like opplagt.
 
 > [!question] Spørsmål 
 > Ved hjelp av definisjonen. Finn 
@@ -131,11 +146,43 @@ $$
 \end{aligned} 
 $$
 
+> [!abstract] 2
+
+$$
+\begin{aligned} 
+  & \lim_{h\longrightarrow   0}\frac{f(x+h)-f(x)}{h} \\ = & \lim_{x\longrightarrow  0}\frac{(x+h)^2-x^2}{h} \\ = & \lim_{h\longrightarrow  0} \frac{\cancel{ x^2 }+2xh+h^2-\cancel{ x^2 }}{h}  \\ = & \lim_{h\longrightarrow  0}\frac{2xh+h^2}{h} \\ =& \lim_{h\longrightarrow  0}\frac{\cancel{ h }(2x+h)}{\cancel{ h }} \\ =& \lim_{h\longrightarrow  0} 2x+h = 2x+0 = 2x.
+\end{aligned} 
+$$
+
+
+![[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.3 Potensreglene for derivasjon|Teo 3.3 Potensreglene for derivasjon]]
+
+
+> [!abstract] 3
+
+$$
+\begin{aligned} 
+  & \lim_{h\longrightarrow  0}\frac{f(x+h)-f(x)}{h} \\  = & \lim_{h\longrightarrow  0} \frac{\sqrt{x+h}-\sqrt{x}}{h} \\ =& \lim_{h\longrightarrow  0} \frac{(\sqrt{x+h}-\sqrt{x})(\sqrt{x+h}+\sqrt{x})}{x(\sqrt{x+h}+\sqrt{x})} && \bigg|\text{3. kvadratsetn.} \\ =& \lim_{h\longrightarrow  0}\frac{(\cancel{ x }+h)-\cancel{ x }}{h(\sqrt{x+h}+\sqrt{x})} \\=& \lim_{h\longrightarrow  0}\frac{\cancel{ h }}{\cancel{ h }(\sqrt{x+h}+\sqrt{x})} \\  = & \lim_{h\longrightarrow  0}\frac{1}{\sqrt{x+h}+\sqrt{x}} = \frac{1}{\sqrt{x+0}+\sqrt{x}} = \frac{1}{2\sqrt{x}}.
+\end{aligned} 
+$$
+
+Merk regelen over gir egentlig regninga automatisk fordi
+
+$$
+\begin{aligned} 
+  (\sqrt{x}) = \frac{d}{dx} \sqrt{x}  & =\frac{d}{dx}x^{1/2} = \frac{1}{2}x^{1/2-1}  \\  &= \frac{1}{2}x^{-1/2} \\ &= \frac{1}{2}\cdot \frac{1}{x^{1/2}} = \frac{1}{2\sqrt{x}}.
+\end{aligned} 
+$$
+
+
 
 > [!question] Spørsmål 
 > Hvis $f$ og $g$ er deriverbare i $x$, kan vi finne $(f\cdot g)'(x)?$ 
 > 1. Hva er $\frac{d}{dx}(x \cdot x)$.
 
+Nr. 2 over gir $\frac{d}{dx}(x\cdot x ) = 2x$ altså ikke deriver hvert legg og gang sammen: $(x)'\cdot(x)' = 1\cdot1$.
+
+På samme måte som at summer, produkt og kvotienter av grenser "oppfører" seg pent gjør derivasjon også det. (Derivasjon er jo tross alt bare grenser!). **Men** det er noen ting som ved første øyekast ikke er like opplagt.
 
 > [!tip] Derivasjonsregler, teo 2.3.2-2.3.5
 > Anta at $f$ og $g$ er deriverbare i $x$. Da er
@@ -144,3 +191,10 @@ $$
 > 3. Kvotientregel: $\left( \frac{f}{g} \right)'(x) = \frac{f'(x)g(x)-f(x)g'(x)}{(g(x))^2}$
 >
 
+> [!warning] Oppgave 
+> 
+Vi skal se at $\sin(x)$ sin deriverte er $\cos(x)$ (spoiler).
+Med andre ord er $\frac{d}{dx}\sin(x) = (\sin(x))' = \cos(x)$.
+> 1. Hva er  $\frac{d}{dx}(x\cdot\sin(x))$?
+> 2. Hva er $\frac{d}{dx}\sin(x)\cdot x^2$?
+> 3. Hva er $\frac{d}{dx} \sin(x)\cdot\sin(x)$?
