@@ -1,7 +1,7 @@
 ## 3.3
+> 
 
 > [!abstract] 1
-> Forenkle uttrykket $\frac{e^3}{\sqrt{e^5}}$
 
 > [!note]- Løsning
 >
@@ -14,7 +14,6 @@
 > 
 
 > [!abstract] 2
-> Forenkle uttrykket $\ln(e^{1/2}e^{2/3})$.
 
 > [!note]- Løsning
 >
@@ -27,7 +26,6 @@
 > 
 
 > [!abstract] 3
-> Forenkle uttrykket $e^{5\ln(x)}$.
 
 > [!note]- Løsning
 >
@@ -36,7 +34,6 @@
 > 
 
 > [!abstract] 4
-> Forenkle uttrykket $e^{\frac{3\ln(9)}{2}}$.
 
 > [!note]- Løsning
 >
@@ -47,7 +44,6 @@
 > 
 
 > [!abstract] 5
-> Forenkle uttrykket $\ln\left( \frac{1}{e^{3x}} \right)$
 
 > [!note]- Løsning
 >
@@ -58,7 +54,6 @@
 > 
 
 > [!abstract] 6
-> Forenkle uttrykket $e^{2\ln(\cos(x))}+(\ln(e^{\sin(x)}))^2$.
 
 > [!note]- Løsning
 >
@@ -71,7 +66,6 @@
 > 
 
 > [!abstract] 11
-> Løs likningen $2^{x+1} = 3^x$.
 
 > [!note]- Løsning
 >
@@ -86,14 +80,12 @@
 > 
 
 > [!abstract] 12
-> Løs likningen $3^x = 9^{1-x}$. 
 
 > [!note]- Løsning
 >
 > 
 
 > [!abstract] 13
-> Løs likningen $\frac{1}{2^x} = \frac{5}{8^{x+3}}$
 
 > [!note]- Løsning
 >
