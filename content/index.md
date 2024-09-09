@@ -13,18 +13,27 @@ Foreløpig innhold er
     - [[Ukesoppdrag og forelesningsnotat/Uke 35|Uke 35]]
     - [[Ukesoppdrag og forelesningsnotat/Uke 36|Uke 36]]
     - [[Ukesoppdrag og forelesningsnotat/Uke 37|Uke 37]]
+    - [[Ukesoppdrag og forelesningsnotat/Uke 38|Uke 38]]
+    - [[Ukesoppdrag og forelesningsnotat/Uke 39|Uke 39]]
         - Ta kontakt hvis det er oppgaver dere ønsker løsningsforslag til.
 - Innledende kapittel ([P-kapitlene](Kapittel-0---innledende-kapittel/)). 
-    - [P.3](Kapittel%200%20-%20innledende%20kapittel/P.3.1%20Forskyvning%20av%20grafer.md)
-    - [P.5](Kapittel%200%20-%20innledende%20kapittel/P.5.1%20De%20fire%20regneartene.md)
-    - [P.6](Kapittel%200%20-%20innledende%20kapittel/P.6.1%20Polynomer%20og%20rasjonale%20funksjoner.md)
-    - [P.7](Kapittel%200%20-%20innledende%20kapittel/P.7.0%20Trigonometri.md)
+    - [[Kapittel 0 - innledende kapittel/P.3.1 Forskyvning av grafer|P.3]]
+    - [[Kapittel 0 - innledende kapittel/P.5.1 De fire regneartene|P.5]]
+    - [[Kapittel 0 - innledende kapittel/P.6.1 Polynomer og rasjonale funksjoner|P.6]]
+    - [[Kapittel 0 - innledende kapittel/P.7.1 Vinkelmål|P.7]]
 - Kapittel 1
     - [[Kapittel 1 - grenser og kontinuitet/1.1.1 Intro|1.2 og 1.3 - Grenser]]
     - [[Kapittel 1 - grenser og kontinuitet/1.4.1 Intro til kontinuitet|1.4 - Kontinuitet]]
 - Kapittel 2
-    - 
+    - [[Kapittel 2 - derivasjon/2.2.1 Den deriverte|2.2 - Den deriverte]]
+    - [[Kapittel 2 - derivasjon/2.3.1 Deriverbarhet impliserer kontinuitet|2.3 - Derivasjonsregler og sammenhenger]]
+    - [[Kapittel 2 - derivasjon/2.4.1 Kjerneregelen|2.4 - Kjerneregelen]]
+    - [[Kapittel 2 - derivasjon/2.5.1 Spesielle trigonometriske grenser|2.5 - Derivasjon av trigonometriske funksjoner]]
+    - [[Kapittel 2 - derivasjon/2.6.1 Høyere ordens deriverte|2.6 - Høyere ordens deriverte]]
+    - [[Kapittel 2 - derivasjon/2.8.1 Stigende og synkende funksjoner|2.8 - Stigende og synkende funksjoner og middelverditeoremet]]
+    - [[Kapittel 2 - derivasjon/2.10.1 Den antideriverte|2.10 - Den antideriverte]]
 - Kapittel 3
+    - [[Kapittel 3 - transendentale funksjoner/3.1.1 Inverse funksjoner|3.1 - Inverse funksjoner]]
 - Kapittel 4
 - Kapittel 5
 - Kapittel 6

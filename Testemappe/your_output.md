@@ -58,7 +58,7 @@
 > [!note]- Løsning
 >
 > 
-> $$
+> $$W
 > \begin{aligned} 
 >   e^{2\ln(\cos(x))}+(\ln(e^{\sin(x)}))^2  &= e^{\ln(\cos^2(x))}+(\sin(x))^2 \\ & = \cos^2(x)+\sin^2(x) = 1.
 > \end{aligned} 
