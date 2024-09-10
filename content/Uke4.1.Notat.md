@@ -18,15 +18,24 @@ Hvis den deriverte eksisterer (at det finnes entydig tangentlinje), så betyr de
 $f(x) \approx f(a)+f'(a)\cdot(x-a)$.
 
 ![[Files/shapes at 24-09-07 13.49.02.svg]]
-Se at $y=f(a)+f'(a)(x-a)$ *må* være den riktige lineære funksjon fordi den har rett stigning og setter vi inn $x=a$ får vi $f(a)+f'(a)(a-a)= f(a)$, så den går gjennom riktig punkt også. 
+Se at $y=f(a)+f'(a)(x-a)$ *må* være riktig
 
-> [!warning] Merk 
-> Skrivemåte. Hvis $f$ er deriverbar i $x$ er følgende ekvivalent (det betyr det samme)
-> $$f'(x) = \frac{d}{dx} f(x) = \frac{dy}{dx} = \frac{df}{dx}$$
+rett stigning +  $x=a$ gir $f(a)+f'(a)(a-a)= f(a)$, går gjennom $(a,f(a))$. 
+
+
+> [!warning] Skrivemåte 
+> . Hvis $f$ er deriverbar i $x$ er følgende ekvivalent (det betyr det samme)
+> $$f'(x) = .y' = \frac{d}{dx} f(x) = \frac{dy}{dx} = \frac{df}{dx}$$
 > Skal vi evaluere en funksjon i et punkt, $x_0$ skriver vi det noen ganger slik
 > $$f'(x_0) = \left.\frac{d}{dx} (f(x))\right\rvert_{x=x_0}.$$
 
-Vi så at $\frac{d}{dx} x^2 = 2x$ og $\frac{d}{dx} \sqrt{x} = \frac{d}{dx} x^{1/2} = \frac{1}{2}x^{-1/2}=\frac{1}{2\sqrt{x}}$.
+Vi så at
+
+$\frac{d}{dx} x^2 = 2x$ 
+
+og
+
+$\frac{d}{dx} \sqrt{x} = \frac{d}{dx} x^{1/2} = \frac{1}{2}x^{-1/2}=\frac{1}{2\sqrt{x}}$.
 
 Generelt
 ![[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.3 Potensreglene for derivasjon|Teo 3.3 Potensreglene for derivasjon]]
@@ -34,6 +43,7 @@ Generelt
 > [!warning] Merk 
 > 
 Når $f'(x)$ eksisterer $\longrightarrow$ grense nevner mot 0 $\longrightarrow$ teller mot 0 $\longrightarrow$ $f(x+h) \longrightarrow f(x)$. Dvs $f$ kontinuerlig i $x$ som betyr at deriverbarhet innebærer kontinuitet.
+
 
 
 > [!tip] Derivasjonsregler, teo 2.3.2-2.3.5
@@ -45,26 +55,38 @@ Når $f'(x)$ eksisterer $\longrightarrow$ grense nevner mot 0 $\longrightarrow$ 
 
 Hva kan vi si om $f(g(x))$ sin deriverte? 
 Først: 
-La $f(x) = 3x+5$. Da er $f'(x) = 3$
+La $f(x) = x^2$.
 
-Hva skjer med $f(2x) = 3(2x)+5 = 6x+5$ og $f(3x) = 3(3x)+5 = 9x+6$ og $f\left( \frac{1}{2}x \right) = 3\left( \frac{1}{2}x \right)+5$?
+> [!warning] Oppgave 
+> Hva skjer med 
+> 1. $f(2x)$
+> 2. $f(3x)$
+> 3. $f(x+1)$
+> 4. $f(2x+1)$
 
-1. $f(2x)$ går dobbelt så fort så den deriverte må vel alltid være dobbelt så stor. 
+
+1. $f(2x)$ går dobbelt så fort så den deriverte må vel alltid være dobbelt så stor. $\frac{d}{dx} f(2x)=2f'(2x) = 2\cdot 2\cdot2x = 8x$. $f(2x)=(2x)^2 = 4x^2\longrightarrow 8x$.
 2. $f(3x)$ går tre ganger så fort, så den deriverte må være tre ganger så stor
-3. $f\left( \frac{1}{2}x \right)$ går halvparten så sakte, så den deriverte må vel være halvparten så stor. 
+3. $f\left( x+1\right)$ flyttes en mot venstre 
+4. $f(2x+1)$ flyttes en mot venstre og går dobbelt så fort.
+
+$(f(ax+b))' = af'(ax+b)$.
 
 
-Hvis $f(g(x))$ er deriverbar i $a$ så er $g(x)$ praktisk talt lineær med stigning $g'(a)$ rundt $a$. Så $f(g(x))$ vokser omtrent $g'(a)$ så fort rundt $a$, så
 $$
-\frac{d}{dx} (f(g(x))) = g'(x)\cdot f'(g(x)).
+\begin{aligned} 
+ & \lim_{h\longrightarrow  0} \frac{f(g(x+h))-f(g(x))}{h} \\ =& \lim_{h\longrightarrow  0}\frac{f(g(x+h))- f(g(x))}{g(x+h)-g(x)}\frac{g(x+h)-g(x)}{h} \\  \longrightarrow &  f'(g(x))\cdot g'(x).
+\end{aligned} 
 $$
-for $f$ er praktisk talt lineær med stigning $f'(g(a))$ rundt $g(a)$. 
+Bryter ned hvis $g(x+h) = g(x)$. Da må vi gjøre noe triks. Se boka. 
 
 Leibniz notasjon sier
 $$
 \frac{df}{dx} = \frac{dg}{dx}\cdot \frac{df}{dg}.
 $$
 Leibniz notasjon kan vi lese slik: Hvis en fugl flyr to ganger så raskt som en gepard er $\frac{df}{dg} = 2$. Hvis en gepard løper fire ganger så raskt som meg vil $\frac{dg}{dx} = 4$. En fugl må da fly $\frac{df}{dx}$ ganger så rask som meg, nemlig $\frac{df}{dx}= \frac{df}{dg}\cdot \frac{dg}{dx}=2\cdot4 = 8$ ganger så raskt. 
+
+
 
 Hopper over bevis, se [[Kapittel 2 - derivasjon/2.4.1 Kjerneregelen|2.4.1 Kjerneregelen]].
 
@@ -74,9 +96,15 @@ Hopper over bevis, se [[Kapittel 2 - derivasjon/2.4.1 Kjerneregelen|2.4.1 Kjerne
 > [!info] Eksempel 
 > Hvis $f(x) = \sqrt{1+x^2}$ hva er $f'(x)$?
 
-Kjerneregel. La $u = 1+x^2$. Da er $f(x) = \sqrt{1+x^2} = \sqrt{u}$. Vi vet at 
+Kjerneregel. La $u = 1+x^2$. 
 
-$\frac{du}{dx} = 2x$. Vi vet også at $\frac{d}{du} f(u) = \frac{d}{du}\sqrt{u} = \frac{1}{2\sqrt{u}}$. Så
+Da er $f(x) = \sqrt{1+x^2} = \sqrt{u}$. 
+
+Vi vet at 
+
+$\frac{du}{dx} = u' = 2x$. 
+
+Vi vet også at $\frac{d}{du} f(u) = \frac{d}{du}\sqrt{u} = \frac{1}{2\sqrt{u}}$. Så
 
 $$
 \frac{df}{dx} = \frac{df}{du}\cdot \frac{du}{dx}= \frac{1}{2\sqrt{u}}\cdot2x = \frac{1}{2\sqrt{1+x^2}}\cdot 2x

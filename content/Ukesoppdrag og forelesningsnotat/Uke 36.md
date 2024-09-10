@@ -1,6 +1,7 @@
 ## 1.2
 
 I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
+
 ![[Files/shapes at 24-09-09 10.24.55.svg]]
 
 
@@ -407,6 +408,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 
 > [!abstract] 1
 > Skisser den deriverte til grafen under
+> 
 > ![[Files/shapes at 24-09-09 11.54.47.svg]]
 
 > [!note]- Løsning 
@@ -420,6 +422,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 
 > [!abstract] 2
 > Skisser den deriverte til grafen under
+> 
 > ![[Files/shapes at 24-09-09 11.54.59.svg]]
 
 
@@ -435,6 +438,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 
 > [!abstract] 3
 > Skisser den deriverte til grafen under
+> 
 > ![[Files/shapes at 24-09-09 11.55.17.svg]]
 
 
@@ -448,6 +452,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 
 > [!abstract] 4
 > Skisser den deriverte til grafen under
+> 
 > ![[Files/shapes at 24-09-09 11.55.31.svg]]
 
 > [!note]- Løsning 
@@ -460,6 +465,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 
 > [!abstract] 5
 > Avgjør hvor grafen under er deriverbar
+> 
 > ![[Files/shapes at 24-09-09 11.54.47.svg]]
 
 > [!note]- Løsning 

@@ -121,7 +121,8 @@
 ![[Files/shapes at 24-09-09 12.53.09.svg]]
 
 
-> [!abstract] Utled abc-formelen.
+> [!abstract] abc-formelen
+> Utled abc-formelen.
 
 > [!note]- Løsning
 >abc-formelen  
@@ -166,7 +167,8 @@
 > $$
 > 
 
-> [!abstract]  Forklar den naturlige utvidelsen av $\cos(x)$ sin definisjonsmengde til $\mathbb{R}$  og hvorfor $\tan(x)$ sin naturlige utvidelse e 
+> [!abstract]  Utvidelse av $\cos(x)$ og $\tan(x)$.
+> Forklar den naturlige utvidelsen av $\cos(x)$ sin definisjonsmengde til $\mathbb{R}$  og hvorfor $\tan(x)$ sin naturlige utvidelse e 
 
 > [!note]- Løsning
 >Tegn $\cos (x)$ og $\tan (x)$. Forklar de naturlige utvidelse.  
@@ -174,7 +176,8 @@
 > Tegn selv. Utvidelsen kommer ved å bruke enhetssirkelen. Da ser vi at funksjonene er periodiske med periode $2\pi$.
 > 
 
-> [!abstract] Gi et argument for hvorfor den geometriske definisjonen av $\tan(x)$ er forenelig med definisjonen $\tan(x) = \frac{\sin(x)}{\cos(x)}$.
+> [!abstract] Definisjon av $\tan(x)$.
+> Gi et argument for hvorfor den geometriske definisjonen av $\tan(x)$ er forenelig med definisjonen $\tan(x) = \frac{\sin(x)}{\cos(x)}$.
 
 > [!note]- Løsning
 >$\tan(\theta)=\frac{\sin(\theta) }{\cos(\theta) }$  
@@ -182,7 +185,8 @@
 > Tegn opp med trekant med hypotenus lik $1$. Se at de andre sidene er $\cos(\theta)$ og $\sin(\theta)$. Nå er det opplagt fra den geometriske definisjonen av $\tan(\theta)$.
 > 
 
-> [!abstract] Tegn en vinkel $x$ (i grunnstilling) inn i enhetssirkelen, og tegn en linje som tangerer sirkelen i punktet $(1,0)$. Hvor høyt opp på denne tangenten skjærer vinkelen (hvis vi utvider vinkelbeinet)?
+> [!abstract] $\tan(x)$ som en tangent.
+> Tegn en vinkel $x$ (i grunnstilling) inn i enhetssirkelen, og tegn en linje som tangerer sirkelen i punktet $(1,0)$. Hvor høyt opp på denne tangenten skjærer vinkelen (hvis vi utvider vinkelbeinet)?
 
 > [!note]- Løsning
 >Tangens som en tangent
