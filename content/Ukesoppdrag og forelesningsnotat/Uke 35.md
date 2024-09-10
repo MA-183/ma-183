@@ -1,11 +1,15 @@
 
 ## Appendix 1
 
-> [!abstract] 1
+> [!abstract] 1-4
+> Avgjør den reelle delen og den imaginære delen av $z$ når
+> 1. $z = -5+2i$
+> 2. $z = 4-i$
+> 3. $-\pi i$
+> 4. $z = -6$.
+> 
 
 > [!note]- Løsning
->-4
-> 
 > 
 > Siden tallene er skrevet på kartesisk form kan vi enkelt peke på reell del og imaginær del.
 > 
@@ -16,6 +20,7 @@
 > 
 
 > [!abstract] 5
+> Avgjør størrelsen og argumentet til $z$ når $z =-1+i$.
 
 > [!note]- Løsning
 >
@@ -29,6 +34,7 @@
 > 
 
 > [!abstract] 6
+> Avgjør størrelsen og argumentet til $z$ når $z =-2$.
 
 > [!note]- Løsning
 >
@@ -42,6 +48,7 @@
 > 
 
 > [!abstract] 7
+> Avgjør størrelsen og argumentet til $z$ når $z =3i$.
 
 > [!note]- Løsning
 >
@@ -53,6 +60,7 @@
 > 
 
 > [!abstract] 8
+> Avgjør størrelsen og argumentet til $z$ når $z =-5i$.
 
 > [!note]- Løsning
 >
@@ -64,6 +72,7 @@
 > 
 
 > [!abstract] 9
+> Avgjør størrelsen og argumentet til $z$ når $z =1+2i$.
 
 > [!note]- Løsning
 >
@@ -76,6 +85,7 @@
 > 
 
 > [!abstract] 13
+> Avgjør størrelsen og argumentet til $z$ når $z =\sqrt{3}-i$.
 
 > [!note]- Løsning
 >
@@ -86,6 +96,7 @@
 > 
 
 > [!abstract] 15
+> Avgjør størrelsen og argumentet til $z$ når $z =3\cos\left( \frac{3\pi}{5} \right)+3i\sin\left( \frac{4\pi}{5} \right)$.
 
 > [!note]- Løsning
 >
@@ -94,6 +105,7 @@
 > 
 
 > [!abstract] 16
+> Hvis $\text{Arg}(z) = \frac{3\pi}{4}$ og $\text{Arg}(w)= \frac{\pi}{2}$. Avgjør $\text{Arg}(zw)$.
 
 > [!note]- Løsning
 >

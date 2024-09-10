@@ -1,6 +1,8 @@
 ---
 draft: "true"
 ---
+Velge tillitsvalgt 
+
 ## Læringsmål
 
 - bruke produktregelen, kvotientregelen og kjerneregelen
@@ -24,8 +26,8 @@ rett stigning +  $x=a$ gir $f(a)+f'(a)(a-a)= f(a)$, går gjennom $(a,f(a))$.
 
 
 > [!warning] Skrivemåte 
-> . Hvis $f$ er deriverbar i $x$ er følgende ekvivalent (det betyr det samme)
-> $$f'(x) = .y' = \frac{d}{dx} f(x) = \frac{dy}{dx} = \frac{df}{dx}$$
+> Hvis $f$ er deriverbar i $x$ er følgende ekvivalent (det betyr det samme)
+> $$f'(x) = y' = \frac{d}{dx} f(x) = \frac{dy}{dx} = \frac{df}{dx}$$
 > Skal vi evaluere en funksjon i et punkt, $x_0$ skriver vi det noen ganger slik
 > $$f'(x_0) = \left.\frac{d}{dx} (f(x))\right\rvert_{x=x_0}.$$
 

@@ -342,29 +342,27 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > $$
 > ved å bruke den formelle definisjonen av grenser. 
 > 
-> Det betyr at vi må vise at hvis vi velger en vilkårlig $\varepsilon >0$ så må vi vise at det eksisterer en $\delta>0$ slik at hvis $|x-1|<\delta$ (altså at $x$ er mindre enn $\delta$ unna 1), så vil $|\sqrt{x}-1|<\varepsilon$. 
+> Det betyr at gitt en vilkårlig $\varepsilon >0$ så må vi vise at det eksisterer en $\delta>0$ slik at hvis $|x-1|<\delta$ (altså at $x$ er mindre enn $\delta$ unna 1), så vil $|\sqrt{x}-1|<\varepsilon$. 
 > 
-> *Ide*: Størrelsen til $x$ kan vi anta at alltid er positiv siden vi ser på $\sqrt{x}$.
+> *Ide*: Tenker vi litt på hva roten faktisk gjør, så er virker det som at når $x$ er nær $1$ så er $\sqrt{x}$ enda nærmere $1$. Hvorfor?
+>   
+> Jo, fordi hvis $x>1$ så er $\sqrt{x}>1$ og dermed må $\sqrt{x}<\sqrt{x}\cdot{\color{#e599f7}  \sqrt{x} } = x$ fordi vi ganger $\sqrt{x}$ med noe som er større enn $1$ (nemlig roten av $x$ i rosa).
 > 
-> Vi vet at hvis $x <1$ så vil $\sqrt{x}$ komme nærmere $1$ enn $x$, tilsvarende vil også $x>1$ ha den egenskapen. Så det må bety at $|1-\sqrt{x}| < |1-x|$ og resultatet følger egentlig automatisk hvis $\delta \leq \varepsilon$. 
+> På samme måte er får vi at hvis $\sqrt{x} < 1$  så må $x=\sqrt{x} \cdot {\color{#e599f7} \sqrt{x} } <\sqrt{x}<1$.
 > 
-> Vi kan derfor enten stoppe her. For de som ønsker et litt mer håndfast argument for ideen over kan tenke slik.
-> 
-> Vil vise at $|1-\sqrt{x}|<|1-x|$. La oss bruke tredje kvadratsetning for å få noe å sammenligne med 
-> 
+> Dette tyder på at $\sqrt{x}$ går raskere mot $1$ enn $x$ gjør, når $x$ går mot $1$. Med andre ord, er avstanden mellom $\sqrt{x}$ og $1$ ($|\sqrt{x}-1|$) er mindre enn avstanden mellom $x$ og $1$ ($|x-1|$). Sier vi dette med ulikheter skriver vi det slik:
 > $$
-> \begin{aligned} 
->   |1-x| = |(1-\sqrt{x})(1+\sqrt{x})| = |1-\sqrt{x}|\cdot|1+\sqrt{x}|.
-> \end{aligned}
+> |\sqrt{x}-1| < |x-1|.
 > $$
->   Siden $1+\sqrt{x}>1$ så vil det å dele på $1+\sqrt{x}$ gjør et positivt tall mindre. Det betyr at
-> $$
-> \begin{aligned} 
-> |1-x| > \frac{|1-x|}{|1+\sqrt{x}|} = \frac{|1-\sqrt{x}|\cdot\cancel{ |1+\sqrt{x}| } }{\cancel{ |1+\sqrt{x}| }}> |1-\sqrt{x}|.
-> \end{aligned} 
-> $$
-> 
->nUlikheten over sier at hvis $\delta<\varepsilon$ og $|1-x|<\delta$ så er $\varepsilon > \delta>|1-x|>|1-\sqrt{x}|$.
+>  
+>  Siden $|x-1| = |(\sqrt{x}-1)(\sqrt{x}+1)| = |\sqrt{x}-1||\sqrt{x}+1|$ kan vi vise dette tydelig.
+>  $$
+>  |\sqrt{x}-1| < |\sqrt{x}-1|{\color{#e599f7} |\sqrt{x}+1| } = |x-1|.
+>  $$
+>  Der ulikheten gjelder fordi $|\sqrt{x}+1|>1$.
+>  
+>  Velger vi nå $\delta < \varepsilon$ står det over at
+>  $|\sqrt{x}-1| < |x-1|<\delta<\varepsilon$ så lenge $|x-1|<\delta$. 
 
 ## A.3
 
