@@ -8,6 +8,8 @@
 > 4. $\cos\left( \frac{\pi}{2}-t \right) = \sin(t)$ og $\sin\left( \frac{\pi}{2}-t \right) = \cos(t)$
 > 5. $\cos(t+2\pi) = \cos(t)$ og $\sin(t+2\pi) = \sin(t)$
 
+^d7afb8
+
 Som bildet under viser er punkt 1. bare Pytagoras setning.
 
 Punkt  2. kan leses som roter først $\pi$ radianer og deretter rotert $t$ radianer baklengs. Bildet viser at dette er det samme som å speile $\cos(t)$ om $y$-aksen.
