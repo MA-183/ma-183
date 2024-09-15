@@ -110,10 +110,3 @@ $$
 
 ![[Files/shapes at 24-09-11 08.14.53.svg]]
 Resten på torsdag
-
-
-
-
-
-
-

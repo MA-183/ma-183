@@ -80,9 +80,10 @@ Må vise at deriverbare funksjoner har stigning 0 i sitt ekstremalpunkt. Fordi d
 >
 
 > [!tip] Teorem 2.8.12
-> LA $f$ være en funksjon som er kontinuerlig på et intervall $[a,b]$ og deriverbar i $(a,b)$.
+> La $f$ være en funksjon som er kontinuerlig på et intervall $[a,b]$ og deriverbar i $(a,b)$.
 > 1. Hvis $f'(x)> 0$ for alle $x$ i $(a,b)$, da er $f$ stigende på $(a,b)$.
 > 2. Tilsvarende resultat for 2,3 og 4 fra definisjonen. 
+> **Merk** vi kan bytte kontinuitet i $[a,b]$ med kontinuitet i  $(a,b)$, $[a,b)$ eller $(a,b]$ og resultatene holder fortsatt.
 
 
 
@@ -93,7 +94,7 @@ $$
 $$
 gang gjennom med $x_2-x_1$ og få
 
-$f(x_2)-f(x_1) = {\color{#40c057} f'(c) }({\color{#e796f5} x_2-x_1 })> 0$. som er det samme som å si at $f(x_2) > f(x_1)$.
+$f(x_2)-f(x_1) = \underbrace{ {\color{#40c057} f'(c) } }_{ positiv }\underbrace{ ({\color{#e796f5} x_2-x_1 }) }_{ positiv }> 0$. som er det samme som å si at $f(x_2) > f(x_1)$.
 
 Argumentet blir praktisk talt identisk for de tre andre punktene. 
 

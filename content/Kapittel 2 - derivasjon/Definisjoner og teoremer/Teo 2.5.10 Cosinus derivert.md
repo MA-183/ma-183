@@ -1,7 +1,14 @@
 > [!tip] Den deriverte til cos(x) 
 > $\frac{d}{dx}\cos(x) = -\sin(x)$
 
-^fa5215
 
 
-[[Kapittel 2 - derivasjon/2.5.2 Sinus og cosinus derivert#^90a885|Beviset finner du her]].
+> [!note]- Argument 
+> 
+> Basert på at $\cos(x) = \sin\left( \frac{\pi}{2}-x \right)$, så må 
+> $$
+> \frac{d}{dx} \cos(x) = \frac{d}{dx} \sin\left( \frac{\pi}{2}-x \right) = -1\cdot \cos\left( \frac{\pi}{2}-x \right) = - \sin(x).
+> $$
+> 
+> Merk at vi bruker [2.4.1 Kjerneregelen](Kapittel%202%20-%20derivasjon/2.4.1%20Kjerneregelen.md) her, i tillegg til [trigonometriske identiteter](Kapittel%200%20-%20innledende%20kapittel/P.7.4%20Viktige%20identiteter.md).
+> 

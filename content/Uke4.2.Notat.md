@@ -63,7 +63,7 @@ Differansen er også kontinuerlig på $[a,b]$ og deriverbar på $(a,b)$.
 
 Punktet der $f$ har derivert lik gjennomsnittlig stigning er der $g$ har derivert lik 0.  Vi trenger altså bare vise at $g$ har et $c$ slik at $g'(c) = 0$.
 
-![[Files/desmos-graph (9) 3.svg|400]]
+![[Files/middelveriteoremet.svg|400]]
 
 Middelverditeoremet følger dermed hvis vi viser:
 > [!tip] Kritiske punkter, Teorem 2.8.14

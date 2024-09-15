@@ -3,7 +3,23 @@
 > Hvis $f$ og $g$ er deriverbare i $x$, da er $f\cdot g$ også deriverbare i $x$ og 
 > $$(fg)'(x) = f'(x)g(x)+f(x)+g'(x)$$ 
 
-^a3c973
 
-[[Kapittel 2 - derivasjon/2.3.4 Produktregelen|Bevis finner du her.]]
-
+> [!info]- Argument 
+> 
+> $$
+> \begin{aligned} 
+> &(fg)'(x) = \lim_{h \longrightarrow 0 } \frac{f(x+h)g(x+h)-f(x)g(x) }{h }  
+> \end{aligned} 
+> $$
+> Vi bruker nå et algebraisk triks, ved å legge til noe og trekke fra det samme (noen ganger kalt det eldste trikset i boka). Det gir
+> $$
+> \begin{aligned} 
+> &= \lim_{h \longrightarrow  0 } \frac{{\color{cyan} f(x+h)g(x+h)-f(x)g(x+h) } +f(x)g(x+h)-f(x)g(x) }{h }   \\
+> &= \lim_{h\longrightarrow 0 }{\color{cyan} g(x+h)\frac{f(x+h)-f(x) }{h }  } +f(x)\frac{g(x+h)-g(x) }{h } 
+> \\
+> &= g(x)f'(x) + g'(x)f(x).
+> \end{aligned} 
+> $$
+>         
+> Merk at vi her bruker at $g(x+h) \longrightarrow g(x)$ når $h \longrightarrow 0$ fordi $g$ er deriverbar, og derfor kontinuerlig, i $x$.
+>         

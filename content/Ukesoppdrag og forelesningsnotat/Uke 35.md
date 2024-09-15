@@ -105,15 +105,17 @@
 > 
 
 > [!abstract] 16
-> Hvis $\text{Arg}(z) = \frac{3\pi}{4}$ og $\text{Arg}(w)= \frac{\pi}{2}$. Avgjør $\text{Arg}(zw)$.
+> Hvis $\text{arg}(z) = \frac{3\pi}{4}$ og $\text{arg}(w)= \frac{\pi}{2}$. Avgjør $\text{arg}(zw)$.
 
 > [!note]- Løsning
 >
 > 
 > Vi vet at multiplikasjon av to komplekse tall består av rotasjon av argumentene deres (vinklene deres), og skalering av størrelsene deres. Dermed må $\text{arg}(zw) = \text{arg}(z)+\text{art}(w) = \frac{3\pi}{4}+\frac{\pi}{2}=\frac{5\pi}{4}$.
-> 
+>  
+>  
 
 > [!abstract] 18
+> Uttrykk $z$ på kartesisk form når $|z| = 2$ og $\text{arg}(z)= \pi$.
 
 > [!note]- Løsning
 >
@@ -128,6 +130,7 @@
 > 
 
 > [!abstract] 19
+> Uttrykk $z$ på kartesisk form når $|z| = 5$ og $\text{arg}(z) = \tan^{-1}\left( \frac{3}{4} \right)$.
 
 > [!note]- Løsning
 >
@@ -145,6 +148,7 @@
 > 
 
 > [!abstract] 20
+> Uttrykk $z$ på kartesisk form når $|z| = 1$ og $\text{arg}(z) = \frac{3\pi}{4}$.
 
 > [!note]- Løsning
 >
@@ -155,6 +159,7 @@
 > 
 
 > [!abstract] 21
+> Uttrykk $z$ på kartesisk form når $|z| = \pi$ og $\text{arg}(z) = \frac{\pi}{6}$.
 
 > [!note]- Løsning
 >
@@ -166,6 +171,7 @@
 > 
 
 > [!abstract] 28
+> Gi en geometrisk beskrivelse, eller lag en skisse av punktene $z$ i det komplekse planet som tilfredsstiller likningen $|z| = 2$.
 
 > [!note]- Løsning
 >
@@ -174,6 +180,7 @@
 > 
 
 > [!abstract] 29
+> Gi en geometrisk beskrivelse, eller lag en skisse av punktene $z$ i det komplekse planet som tilfredsstiller ulikheten $|z| \leq2$.
 
 > [!note]- Løsning
 >
@@ -182,6 +189,7 @@
 > 
 
 > [!abstract] 31
+> Gi en geometrisk beskrivelse, eller lag en skisse av punktene $z$ i det komplekse planet som tilfredsstiller ulikheten $|z| \leq 5$.
 
 > [!note]- Løsning
 >
@@ -192,6 +200,7 @@
 >  
 
 > [!abstract] 32
+> Gi en geometrisk beskrivelse, eller lag en skisse av punktene $z$ i det komplekse planet som tilfredsstiller likningen $\text{arg}(z)= \frac{\pi}{3}$.
 
 > [!note]- Løsning
 >
@@ -202,6 +211,7 @@
 > 
 
 > [!abstract] 34
+> Forenkle uttrykket $(2+5i)+ (3-i)$.
 
 > [!note]- Løsning
 >
@@ -212,6 +222,7 @@
 > 
 
 > [!abstract] 35
+> Forenkle uttrykket $i-(3-2i)+(7-3i)$.
 
 > [!note]- Løsning
 >
@@ -224,6 +235,7 @@
 > 
 
 > [!abstract] 36
+> Forenkle uttrykket $(4+i)(4-i)$.
 
 > [!note]- Løsning
 >
@@ -235,6 +247,7 @@
 > 
 
 > [!abstract] 37
+> Forenkle uttrykket $(1+i)(2-3i)$
 
 > [!note]- Løsning
 >
@@ -247,6 +260,7 @@
 > 
 
 > [!abstract] 38
+> Forenkle uttrykket $(a+bi)\overline{(2a-bi)}$.
 
 > [!note]- Løsning
 >
@@ -260,6 +274,7 @@
 > 
 
 > [!abstract] 40
+> Forenkle uttrykket $\displaystyle \frac{2-i}{2+i}$
 
 > [!note]- Løsning
 >
@@ -272,6 +287,7 @@
 > 
 
 > [!abstract] 41
+> Forenkle uttrykket $\displaystyle \frac{1+3i}{2-i}$
 
 > [!note]- Løsning
 >
@@ -284,6 +300,7 @@
 > 
 
 > [!abstract] 42
+> Forenkle uttrykket $\displaystyle \frac{1+i}{i(2+3i)}$
 
 > [!note]- Løsning
 >
@@ -296,11 +313,12 @@
 > 
 
 > [!abstract] 44
+> Bevis at $\overline{z+w}=\overline z+\overline w$.
 
 > [!note]- Løsning
 >
 > 
-> Bevis at $\overline{z+w}=\overline z+\overline w$.
+> 
 > 
 > La $z = a+bi$ og $w = c+di$. Da er $\overline z = a-bi$ og $\overline w = c-di$.
 > 
@@ -314,6 +332,7 @@
 > 
 
 > [!abstract] 45
+> Bevis at $\overline{\frac{z}{w}} = \frac{\overline z}{\overline w}$.
 
 > [!note]- Løsning
 >
@@ -324,6 +343,11 @@
 > 
 
 > [!abstract] 46
+> Uttrykk $z = 3 + \sqrt{3}i$ og $w = -1+\sqrt{3}i$ på polarform/eksponentialform.
+> Bruk de til til å regne ut
+> 
+> 1. $zw$
+> 2. $\frac{z}{w}$.
 
 > [!note]- Løsning
 >
@@ -359,6 +383,11 @@
 > 
 
 > [!abstract] 47
+> Uttrykk $z = -1 + i$ og $w = {3}i$ på polarform/eksponentialform.
+> Bruk de til til å regne ut
+> 
+> 1. $zw$
+> 2. $\frac{z}{w}$.
 
 > [!note]- Løsning
 >
@@ -403,6 +432,7 @@
 > 
 
 > [!abstract] 51
+> Avgjør hva $z$ er når $z^3 = -1$.
 
 > [!note]- Løsning
 >
@@ -421,6 +451,7 @@
 > 
 
 > [!abstract] 52
+> Avgjør hva $z$ er når $z^3 = -8i$.
 
 > [!note]- Løsning
 >
@@ -441,6 +472,7 @@
 > 
 
 > [!abstract] 53
+> Avgjør hva $z$ er når $z^3 = -1+i$.
 
 > [!note]- Løsning
 >
@@ -462,6 +494,7 @@
 > 
 
 > [!abstract] 54
+> Avgjør hva $z$ er når $z^4 = 4$.
 
 > [!note]- Løsning
 >
@@ -483,6 +516,7 @@
 > 
 
 > [!abstract] 55
+> Avgjør hva $z$ er når $z^4 + 1 - \sqrt{3}i = 0$.
 
 > [!note]- Løsning
 >
