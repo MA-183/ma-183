@@ -3,7 +3,7 @@
 > [!abstract] 1
 > Forenkle uttrykket $\frac{e^3}{\sqrt{e^5}}$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 >
 > 
 > $$
@@ -16,7 +16,7 @@
 > [!abstract] 2
 > Forenkle uttrykket $\ln(e^{1/2}e^{2/3})$.
 
-> [!note]+ Løsning
+> [!note]- Løsning
 >
 > 
 > $$
@@ -29,7 +29,7 @@
 > [!abstract] 3
 > Forenkle uttrykket $e^{5\ln(x)}$.
 
-> [!note]+ Løsning
+> [!note]- Løsning
 >
 > 
 > $$e^{5\ln(x)} = (e^{\ln(x)})^5 =x^5$$
@@ -38,7 +38,7 @@
 > [!abstract] 4
 > Forenkle uttrykket $e^{\frac{3\ln(9)}{2}}$.
 
-> [!note]+ Løsning
+> [!note]- Løsning
 >
 > 
 > $$
@@ -49,7 +49,7 @@
 > [!abstract] 5
 > Forenkle uttrykket $\ln\left( \frac{1}{e^{3x}} \right)$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 >
 > 
 > $$
@@ -60,7 +60,7 @@
 > [!abstract] 6
 > Forenkle uttrykket $e^{2\ln(\cos(x))}+(\ln(e^{\sin(x)}))^2$.
 
-> [!note]+ Løsning
+> [!note]- Løsning
 >
 > 
 > $$
@@ -73,10 +73,10 @@
 > [!abstract] 11
 > Løs likningen $2^{x+1} = 3^x$.
 
-> [!note]+ Løsning
+> [!note]- Løsning
 >
 > 
-> Vi løser ved å ta $\ln$ av begge sider og bruke [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.3.2 Logaritmeregler|logaritmeregler]] for å forenkle. Siden funksjonen er [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Def 3.1.1 En-til-en funksjoner|en-til-en funksjoner]] må løsningen være bevart ved å gjøre det.
+> Vi løser ved å ta $\ln$ av begge sider og bruke [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.3.2 Logaritmeregler for den naturlige logaritme|logaritmeregler]] for å forenkle. Siden funksjonen er [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Def 3.1.1 En-til-en funksjoner|en-til-en funksjoner]] må løsningen være bevart ved å gjøre det.
 > 
 > $$
 > \begin{aligned} 
@@ -88,7 +88,7 @@
 > [!abstract] 12
 > Løs likningen $3^x = 9^{1-x}$. 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi skriver om $9$ til $3^2$ og ser at likningen blir
 > $$
 > 3^x = (3^2)^{1-x} = 3^{2(1-x)}.
@@ -101,8 +101,8 @@
 > [!abstract] 13
 > Løs likningen $\frac{1}{2^x} = \frac{5}{8^{x+3}}$
 
-> [!note]+ Løsning
-> Vi tar $\ln$ på begge sider av likningen og utnytter [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.3.2 Logaritmeregler|logaritmeregler]]. Da får vi
+> [!note]- Løsning
+> Vi tar $\ln$ på begge sider av likningen og utnytter [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.3.2 Logaritmeregler for den naturlige logaritme|logaritmeregler]]. Da får vi
 > $$
 > \begin{aligned} 
 > \ln\left( \frac{1}{2^x} \right) & = \ln\left( \frac{5}{8^{x+3}} \right) \\
@@ -114,7 +114,7 @@
 > [!abstract] 14
 > Løs likningen $2^{x^2-3} = 4^x$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Først skriver vi $4^x = (2^2)^x=2^{2x}$. Likningen blir da
 > $$
 > \begin{aligned} 
@@ -130,10 +130,17 @@
 > [!abstract] 19
 > Deriver funksjonen $y=e^{5x}$.
 
-> [!note]+ Løsning
-> Vi bruker [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.4.6 Kjerneregelen|kjerneregelen]] og får
+> [!note]- Løsning
+> Kjerneregelen sier at $({\color{#e796f5} f (}{\color{#3cc15c} g (x)}{\color{#e796f5} ) })' = {\color{#f46f22} g'(x) }\cdot {\color{#5ca6f4} f' }({\color{#3cc15c} g(x) })$
+> 
+> Ser at $e^{5x}$ består av
+> 
+> 1. Ytre funksjonen ${\color{#e796f5} f(x) = e^g }$, som gir ${\color{#5ca6f4} f'(g) = \frac{df}{dg} = e^g }$.
+> 2. Indre funksjon er ${\color{#3cc15c} g(x)=5x }$, som gir ${\color{#f46f22} g'(x)=\frac{dg}{dx} = 5 }$
+> 
+> Setter vi det sammen får vi 
 > $$
-> \frac{d}{dx} y = 5 e^{5x} = 5y. 
+> \frac{d}{dx} y = {\color{#f46f22} g'(x) } {\color{#5ca6f4} f'({\color{#3cc15c} g }) } = {\color{#f46f22} 5 } {\color{#5ca6f4} e^{{\color{#3cc15c} 5x } }} = 5y. 
 > $$
 > 
 
@@ -141,9 +148,21 @@
 > Deriver funksjonen $y = xe^x -x$.
 
 > [!note]+ Løsning
-> Vi bruker [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.3.4 Produktregelen|produktregelen]] på første ledd og får
+> Vi ser at første ledd ${\color{#e796f5} x } \cdot {\color{#3cc15c} e^x }$ er et produkt av to funksjoner.
+> [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.3.4 Produktregelen|Produktregelen]] sier at 
 > $$
-> y' = 1\cdot e^x + x e^x - 1 = e^x(1+x)-1
+> ({\color{#e796f5} f }\cdot {\color{#3cc15c} g })' = {\color{#f46f22} f' }{\color{#3cc15c} g }+{\color{#e796f5} f }{\color{#5ca6f4} g' }.
+> $$
+> Her er 
+> 
+> 1. ${\color{#e796f5} f(x)=x }$
+> 2. ${\color{#f46f22} f'(x) = 1 }$
+> 3. ${\color{#3cc15c} g(x) = e^x }$
+> 4. ${\color{#5ca6f4} g'(x)=e^x }$.
+> 
+> Setter vi det sammen får vi
+> $$
+> y' = {\color{#f46f22} 1 }\cdot {\color{#3cc15c} e^x } + {\color{#e796f5} x } {\color{#5ca6f4} e^x } - 1 = e^x(1+x)-1.
 > $$ 
 > 
 
