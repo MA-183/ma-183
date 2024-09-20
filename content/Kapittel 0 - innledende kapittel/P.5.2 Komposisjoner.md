@@ -1,5 +1,5 @@
 ---
-{}
+title: 📄 Komposisjoner
 ---
 Som vi ser på illustrasjonen under, kan vi sette sammen funksjoner ved først å bruke en funksjon $f$, og deretter sende resultatet fra $f(x)$ inn i en ny funksjon $g$. Resultatet blir at $g$ får inn verdien $f(x)$, vi får altså $g(f(x))$.
 ![Komposisjoner](Files/komposisjoner.svg)
@@ -16,7 +16,7 @@ Dette noteres ofte som $(g\ \circ f)(x)$, som er lik $g(f(x))$. Vi har sett over
 Dette kan vi enkelt bekrefte ved å undersøke nærmere.
 $(f\ \circ g)(x) = f(g(x)) = f(x^2) = x^2-1$.
 
-![[Kapittel 0 - innledende kapittel/Definisjoner og teoremer/Def P.5.4 Komposisjoner av funksjoner|Def P.5.4 Komposisjoner av funksjoner]]
+![[Kapittel 0 - innledende kapittel/defogteo/Def P.5.4 Komposisjoner av funksjoner|Def P.5.4 Komposisjoner av funksjoner]]
 
 
 #### Flere eksempler

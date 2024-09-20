@@ -40,7 +40,7 @@ og
 $\frac{d}{dx} \sqrt{x} = \frac{d}{dx} x^{1/2} = \frac{1}{2}x^{-1/2}=\frac{1}{2\sqrt{x}}$.
 
 Generelt
-![[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.3 Potensreglene for derivasjon|Teo 3.3 Potensreglene for derivasjon]]
+![[Kapittel 3 - transendentale funksjoner/defogteo/Teo 3.3 Potensreglene for derivasjon|Teo 3.3 Potensreglene for derivasjon]]
 
 > [!warning] Merk 
 > 
@@ -93,7 +93,7 @@ Leibniz notasjon kan vi lese slik: Hvis en fugl flyr to ganger så raskt som en 
 Hopper over bevis, se [[Kapittel 2 - derivasjon/2.4.1 Kjerneregelen|2.4.1 Kjerneregelen]].
 
 
-![[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.4.6 Kjerneregelen#^ad9861|Kjerneregelen]]
+![[Kapittel 2 - derivasjon/defogteo/Teo 2.4.6 Kjerneregelen#^ad9861|Kjerneregelen]]
 
 > [!info] Eksempel 
 > Hvis $f(x) = \sqrt{1+x^2}$ hva er $f'(x)$?

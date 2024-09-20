@@ -1,5 +1,5 @@
 ---
-{}
+title: 📄 Funksjoner
 ---
 Hva er en funksjon? Funksjoner er noe vi alle kjenner fra ulike kontekster.
 
@@ -28,7 +28,7 @@ Fra situasjoner.
 Det viktige vi skal ta med oss fra eksemplene over, er at funksjoner fungerer som en regel som forteller hva som skal gjøres. Vi kan visualisere en funksjon som en regel $f$, hvor noe sendes inn og $f$ entydig gir et resultat, $f(x)$. Dette kan vi illustrere med figuren nedenfor.
  
 ![500](Files/funksjoner.svg)
-![[Kapittel 0 - innledende kapittel/Definisjoner og teoremer/Def P.4.1 Funksjon|Def P.4.1 Funksjon]]
+![[Kapittel 0 - innledende kapittel/defogteo/Def P.4.1 Funksjon|Def P.4.1 Funksjon]]
 
 En viktig konvensjon (en anerkjent _regel eller retningslinje_ i matematikkmiljøet) er som følger.
 

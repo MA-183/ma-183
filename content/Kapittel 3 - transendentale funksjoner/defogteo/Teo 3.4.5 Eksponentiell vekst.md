@@ -9,14 +9,14 @@
 > 
 > > [!abstract] 1
 > > 
-> > Vi vet at [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.4.4 ln(x) vs x|den naturlige logaritmen vokser sakte]], som betyr at $\ln(x)< x$ for alle $x>0$. Ser vi på når $a>1$ så blir resultatet åpenbart fordi $\ln(x)<x < x^a$, så
+> > Vi vet at [[Kapittel 3 - transendentale funksjoner/defogteo/Teo 3.4.4 ln(x) vs x|den naturlige logaritmen vokser sakte]], som betyr at $\ln(x)< x$ for alle $x>0$. Ser vi på når $a>1$ så blir resultatet åpenbart fordi $\ln(x)<x < x^a$, så
 > > $$
 > > \begin{aligned} 
 > > & \lim_{x\longrightarrow  \infty} \frac{\ln(x)}{x^a}  \\ = & \lim_{x\longrightarrow  \infty} \frac{x}{x^a} = \lim_{x\longrightarrow  \infty} \frac{1}{x^{a-1}} = 0.
 > > \end{aligned} 
 > > $$ 
 > > 
-> > Det er tilfellet når $0<a<1$ som er litt mer utfordrende, men er vi litt drevne med [[Kapittel 3 - transendentale funksjoner/Definisjoner og teoremer/Teo 3.2.1 Logaritmeregler|logaritmeregler]] kan vi enkelt trikse oss til noe slik som over. 
+> > Det er tilfellet når $0<a<1$ som er litt mer utfordrende, men er vi litt drevne med [[Kapittel 3 - transendentale funksjoner/defogteo/Teo 3.2.1 Logaritmeregler|logaritmeregler]] kan vi enkelt trikse oss til noe slik som over. 
 > > 
 > > Merk at 
 > > $$

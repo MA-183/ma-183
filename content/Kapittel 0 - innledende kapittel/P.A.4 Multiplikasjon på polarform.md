@@ -1,5 +1,5 @@
 ---
-{}
+title: 📄 Multiplikasjon på polarform
 ---
 
 > [!question] Spørsmål 

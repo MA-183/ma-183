@@ -1,5 +1,5 @@
 ---
-{}
+title: 📄 Viktige identiteter
 ---
 > [!note] Identiteter
 > 1. $\cos^2(t)+\sin^2(t) = 1$

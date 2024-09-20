@@ -21,7 +21,7 @@ Foreløpig innhold er
     - [[Kapittel 0 - innledende kapittel/P.5.1 De fire regneartene|P.5]]
     - [[Kapittel 0 - innledende kapittel/P.6.1 Polynomer og rasjonale funksjoner|P.6]]
     - [[Kapittel 0 - innledende kapittel/P.7.1 Vinkelmål|P.7]]
-- Kapittel 1 - [Grenser og kontinuitet](Kapittel-1---grenser og kontinuitet/)
+- Kapittel 1 - [Grenser og kontinuitet](Kapittel-1---grenser-og-kontinuitet/)
     - [[Kapittel 1 - grenser og kontinuitet/1.1.1 Intro|1.2 og 1.3 - Grenser]]
     - [[Kapittel 1 - grenser og kontinuitet/1.4.1 Intro til kontinuitet|1.4 - Kontinuitet]]
 - Kapittel 2 - [Derivasjon](Kapittel-2---derivasjon/)

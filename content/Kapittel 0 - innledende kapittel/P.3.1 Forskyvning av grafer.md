@@ -1,5 +1,5 @@
 ---
-{}
+title: 📄 Forskyvning av grafer
 ---
 Vi kjenner godt til ganske mange funksjoner og deres grafer. Noen *må* vi bare ha kontroll på.
 

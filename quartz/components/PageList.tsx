@@ -19,8 +19,8 @@ export function byDateAndAlphabetical(cfg: GlobalConfiguration): SortFn {
     // }
 
     // otherwise, sort lexographically by title
-    const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
-    const f2Title = f2.frontmatter?.title.toLowerCase() ?? ""
+    const f1Title = f1.filePath?.toLowerCase() ?? ""
+    const f2Title = f2.filePath?.toLowerCase() ?? ""
     return f1Title.localeCompare(f2Title)
   }
 }

@@ -8,7 +8,7 @@
 
 > [!note]- Argument 
 > 
-> La $x_1$ og $x_2$ være punkter i $I$ med $x_2 > x_1$. Fra [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.8.11 Middelverditeoremet|middelverditeoremet]] vet vi at det eksisterer et punkt $c$ i $(x_1, x_2)$ (og derfor i $J$) slik at 
+> La $x_1$ og $x_2$ være punkter i $I$ med $x_2 > x_1$. Fra [[Kapittel 2 - derivasjon/defogteo/Teo 2.8.11 Middelverditeoremet|middelverditeoremet]] vet vi at det eksisterer et punkt $c$ i $(x_1, x_2)$ (og derfor i $J$) slik at 
 > $$
 > \frac{f(x_2)-f(x_1) }{x_2-x_1 }  = f'(c).
 > $$

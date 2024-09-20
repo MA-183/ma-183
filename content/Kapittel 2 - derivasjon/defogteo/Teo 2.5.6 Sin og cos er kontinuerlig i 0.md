@@ -25,7 +25,7 @@
 >    & 0 < (1-\cos(t))^2 < t^2 \\ & 0 <\ |1-\cos(t)| \ \ < |t|.
 >    \end{aligned} 
 > $$
-> Nå gjenstår det bare å se at grensene våre stemmer fordi de [[Kapittel 1 - grenser og kontinuitet/Definisjoner og teoremer/Teo 1.2.4 Skviseteoremet|skvises]]  mellom $0$ og $t$.
+> Nå gjenstår det bare å se at grensene våre stemmer fordi de [[Kapittel 1 - grenser og kontinuitet/defogteo/Teo 1.2.4 Skviseteoremet|skvises]]  mellom $0$ og $t$.
 > 
 > ![[Files/shapes at 24-08-31 13.38.56.svg]]
 > 

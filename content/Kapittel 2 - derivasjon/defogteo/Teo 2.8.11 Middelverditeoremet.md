@@ -3,7 +3,7 @@
 > $$\frac{f(b)-f(a) }{b-a } = f'(c).$$
 
 
-For å bevise dette bruker vi et spesialtilfelle der $f(a) = f(b)$, som kalles [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.8.15 Rolles teorem|Rolles teorem]].
+For å bevise dette bruker vi et spesialtilfelle der $f(a) = f(b)$, som kalles [[Kapittel 2 - derivasjon/defogteo/Teo 2.8.15 Rolles teorem|Rolles teorem]].
 
 > [!note]- Argument 
 > 

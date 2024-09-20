@@ -1,5 +1,5 @@
 ---
-{}
+title: 📄 Faktorer, røtter og nullpunkt
 ---
 Se på $\displaystyle \frac{x^2-x}{x-1} =\frac{x\cancel{ (x-1) }}{\cancel{ x-1 }} \overset{ {\color{grey} \text{når } x\neq 1 } }{=  } x$.
 
@@ -9,7 +9,7 @@ Vi kan dele polynomer på hverandre hvis "grad oppe" > "grad nede".
 
 ![](/Files/polydivi.svg)
 
-![[Kapittel 0 - innledende kapittel/Definisjoner og teoremer/Teo P.6.0 divisjonsalgoritmen|Teo P.6.0 divisjonsalgoritmen]]
+![[Kapittel 0 - innledende kapittel/defogteo/Teo P.6.0 divisjonsalgoritmen|Teo P.6.0 divisjonsalgoritmen]]
 
 
 > [!warning] Merk  
@@ -18,7 +18,7 @@ Vi sier at $B(x)$ er en faktor i $A(x)$ hvis $R(x) = 0$ (altså at vi har 0 i re
 
 Hvis vi har at $A(r) = 0$ for en verdi $r$, kaller vi $r$ en rot av $A$. For eksempel ser vi at $3$ er en rot av $P(x)= x^2-6x+9$ fordi $P(3) = 3^2-6\cdot3+9 = 9 -18+9 = 0$.
 
-![[Kapittel 0 - innledende kapittel/Definisjoner og teoremer/Teo P.6.1 Faktorteoremet|Teo P.6.1 Faktorteoremet]]
+![[Kapittel 0 - innledende kapittel/defogteo/Teo P.6.1 Faktorteoremet|Teo P.6.1 Faktorteoremet]]
 
 > [!warning] Merk 
 > 

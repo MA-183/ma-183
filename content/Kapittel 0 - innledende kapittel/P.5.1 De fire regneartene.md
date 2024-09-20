@@ -1,9 +1,9 @@
 ---
-{}
+title: 📄 De fire regneartene
 ---
 Akkurat som vi kan kombinere tall, kan vi også kombinere funksjoner. La $f$ og $g$ være to funksjoner. Da har vi at
 
-![[Kapittel 0 - innledende kapittel/Definisjoner og teoremer/Def P.5.3 Sum, differanse, produkt og kvotienter av funksjoner|Def P.5.3 Sum, differanse, produkt og kvotienter av funksjoner]]
+![[Kapittel 0 - innledende kapittel/defogteo/Def P.5.3 Sum, differanse, produkt og kvotienter av funksjoner|Def P.5.3 Sum, differanse, produkt og kvotienter av funksjoner]]
 
 > [!info] Eksempel 
 > 

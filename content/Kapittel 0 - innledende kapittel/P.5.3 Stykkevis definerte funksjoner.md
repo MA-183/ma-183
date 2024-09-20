@@ -1,5 +1,5 @@
 ---
-{}
+title: 📄 Stykkevis definerte funksjoner
 ---
 
 #### Absoluttverdifunksjonen

@@ -12,12 +12,33 @@ export const sharedPageComponents: SharedLayout = {
         if (node.depth > 0) {
           // set emoji for file/folder
           if (node.file) {
-            node.displayName = "📄 " + node.displayName
+            node.displayName = node.displayName
           } else {
             node.displayName = "📁 " + node.displayName
           }
         }
       },
+      sortFn: (a, b) => {
+        if ((!a.file && !b.file) || (a.file && b.file)) {
+          // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
+          // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
+          return a.name.localeCompare(b.name, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+        if (a.file && !b.file) {
+          return 1
+        } else {
+          return -1
+        }
+      },
+      filterFn: (node) => {
+        // set containing names of everything you want to filter out
+        const omit = new Set(["definisjoner og teoremer", "defogteo", "forelesningsnotat"])
+        return !omit.has(node.name.toLowerCase())
+      },
+      order: ["filter", "sort", "map"],
     }))],
   footer: Component.Footer({
     links: {},
@@ -37,7 +58,40 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.DesktopOnly(
-      Component.Explorer()),
+    Component.Explorer({
+      mapFn: (node) => {
+        // dont change name of root node
+        if (node.depth > 0) {
+          // set emoji for file/folder
+          if (node.file) {
+            node.displayName =  node.displayName
+          } else {
+            node.displayName = "📁 " + node.displayName
+          }
+        }
+      },
+      sortFn: (a, b) => {
+        if ((!a.file && !b.file) || (a.file && b.file)) {
+          // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
+          // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
+          return a.name.localeCompare(b.name, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+        if (a.file && !b.file) {
+          return 1
+        } else {
+          return -1
+        }
+      },
+      filterFn: (node) => {
+        // set containing names of everything you want to filter out
+        const omit = new Set(["definisjoner og teoremer", "defogteo", "forelesningsnotat"])
+        return !omit.has(node.name.toLowerCase())
+      },
+      order: ["filter", "sort", "map"],
+    })),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
@@ -57,13 +111,35 @@ export const defaultListPageLayout: PageLayout = {
         if (node.depth > 0) {
           // set emoji for file/folder
           if (node.file) {
-            node.displayName = "📄 " + node.displayName
+            node.displayName = node.displayName
           } else {
             node.displayName = "📁 " + node.displayName
           }
         }
       },
-    })),
+      sortFn: (a, b) => {
+        if ((!a.file && !b.file) || (a.file && b.file)) {
+          // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
+          // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
+          return a.name.localeCompare(b.name, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+        if (a.file && !b.file) {
+          return 1
+        } else {
+          return -1
+        }
+      },
+      filterFn: (node) => {
+        // set containing names of everything you want to filter out
+        const omit = new Set(["definisjoner og teoremer", "defogteo", "forelesningsnotat"])
+        return !omit.has(node.name.toLowerCase())
+      },
+      order: ["filter", "sort", "map"],
+    }
+  )),
     
   ],
   right: [],

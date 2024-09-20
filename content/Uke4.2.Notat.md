@@ -56,7 +56,7 @@ $$
 Hva med $\frac{d}{dx} \cos(x)$?<
 ## Middelverdisetningen
 
-![[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.8.11 Middelverditeoremet|Teo 2.8.11 Middelverditeoremet]]
+![[Kapittel 2 - derivasjon/defogteo/Teo 2.8.11 Middelverditeoremet|Teo 2.8.11 Middelverditeoremet]]
 
 Bildet og ideen er slik: $f$ i rosa, linja mellom punktene i blått og $g$ er avstanden mellom $f$ og blå linje. 
 Differansen er også kontinuerlig på $[a,b]$ og deriverbar på $(a,b)$. 
@@ -88,9 +88,9 @@ Dermed må $f'(c) = 0$.
 
 Skal se på hva den deriverte kan fortelle oss.
 
-![[Kapittel 2 - derivasjon/Definisjoner og teoremer/Def 2.8.6 Stigende og synkende funksjoner|Def 2.8.6 Stigende og synkende funksjoner]]
+![[Kapittel 2 - derivasjon/defogteo/Def 2.8.6 Stigende og synkende funksjoner|Def 2.8.6 Stigende og synkende funksjoner]]
 
-![[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.8.12 Stigende og synkende funksjoner|Teo 2.8.12 Stigende og synkende funksjoner]]
+![[Kapittel 2 - derivasjon/defogteo/Teo 2.8.12 Stigende og synkende funksjoner|Teo 2.8.12 Stigende og synkende funksjoner]]
 
 La $x_1$ og $x_2$ være punkter i $I$ med $x_2 > x_1$. Fra middelverditeoremet vet vi at det eksisterer et punkt $c$ i $(x_1, x_2)$ (og derfor i $J$) slik at 
 $$
@@ -104,14 +104,14 @@ Det er nå klart at hvis $f'(x)$ har samme fortegn på hele intervallet, så må
 
 
 
-![[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.8.13 Konstante funksjoner#^1eb5fb|Teo 2.8.13 Konstante funksjoner]]
+![[Kapittel 2 - derivasjon/defogteo/Teo 2.8.13 Konstante funksjoner#^1eb5fb|Teo 2.8.13 Konstante funksjoner]]
 
 > [!note] Argument 
 > 
 
 ^5bd276
 
-Velg et punkt i $I$ og la $C = f(x_0)$. Hvis $x$ er et annet punkt i $I$, da sier [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.8.11 Middelverditeoremet|middelverditeoremet]] at det eksisterer et punkt $c$ mellom $x_0$ og $x$ slik at 
+Velg et punkt i $I$ og la $C = f(x_0)$. Hvis $x$ er et annet punkt i $I$, da sier [[Kapittel 2 - derivasjon/defogteo/Teo 2.8.11 Middelverditeoremet|middelverditeoremet]] at det eksisterer et punkt $c$ mellom $x_0$ og $x$ slik at 
 $$
 \frac{f(x)-f(x_0) }{x-x_0 }  = f'(c) = 0
 $$

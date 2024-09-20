@@ -1,5 +1,5 @@
 ---
-{}
+title: 📄 Grunnleggende egenskaper
 ---
 Ser vi på figuren under, ser vi at Pytagoras setning forteller oss at et komplekst tall $z = a+bi$ har en avstand $\sqrt{a^2+b^2}$ fra origo. 
 

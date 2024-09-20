@@ -5,7 +5,7 @@
 
 > [!note]- Argument 
 > 
-> Velg et punkt i $I$ og la $C = f(x_0)$. Hvis $x$ er et annet punkt i $I$, da sier [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.8.11 Middelverditeoremet|middelverditeoremet]] at det eksisterer et punkt $c$ mellom $x_0$ og $x$ slik at 
+> Velg et punkt i $I$ og la $C = f(x_0)$. Hvis $x$ er et annet punkt i $I$, da sier [[Kapittel 2 - derivasjon/defogteo/Teo 2.8.11 Middelverditeoremet|middelverditeoremet]] at det eksisterer et punkt $c$ mellom $x_0$ og $x$ slik at 
 > $$
 > \frac{f(x)-f(x_0) }{x-x_0 }  = f'(c) = 0
 > $$

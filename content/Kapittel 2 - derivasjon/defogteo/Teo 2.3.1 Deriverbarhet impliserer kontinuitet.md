@@ -16,7 +16,7 @@
 > \lim_{h \longrightarrow  0 } f(x+h)-f(x) = 0. 
 > $$
 > 
-> Ved å omforme $f(x+h)-f(x)$ til ${\color{red} \frac{f(x+h)-f(x) }{h } } {\color{green} h }$ kan vi nå bruke at grensene til både rød (den er $f'(x)$) og grønn eksisterer.  [[Kapittel 1 - grenser og kontinuitet/Definisjoner og teoremer/Teo 1.2.2 Grenseverdiregler|Fra punkt 3. i grenseverdireglene]] må grensen til produktet være $f'(x)\cdot 0 = 0$. Altså at
+> Ved å omforme $f(x+h)-f(x)$ til ${\color{red} \frac{f(x+h)-f(x) }{h } } {\color{green} h }$ kan vi nå bruke at grensene til både rød (den er $f'(x)$) og grønn eksisterer.  [[Kapittel 1 - grenser og kontinuitet/defogteo/Teo 1.2.2 Grenseverdiregler|Fra punkt 3. i grenseverdireglene]] må grensen til produktet være $f'(x)\cdot 0 = 0$. Altså at
 > $$
 > \lim_{h \longrightarrow  0 } f(x+h)-f(x) = f'(x)\cdot0 =0. 
 > $$

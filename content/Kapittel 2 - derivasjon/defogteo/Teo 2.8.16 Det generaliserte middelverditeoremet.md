@@ -4,7 +4,7 @@
 
 
 > [!note]- Argument 
-> Merk at $g(b)\neq g(a)$, ellers ville det vært et tall $x$ i $(a,b)$ slik at $g'(x)= 0$ fra [[Kapittel 2 - derivasjon/Definisjoner og teoremer/Teo 2.8.11 Middelverditeoremet|middelverditeoremet]]. Det betyr at enten er $g(x)\geq 0$ eller $g(x)\leq 0$ for alle $x$ i $[a,b]$ fra [[Kapittel 1 - grenser og kontinuitet/Definisjoner og teoremer/Teo 1.4.9 Skjæringssetningen|skjæringssetningen]]. Vi bruker derfor middelverditeoremet på
+> Merk at $g(b)\neq g(a)$, ellers ville det vært et tall $x$ i $(a,b)$ slik at $g'(x)= 0$ fra [[Kapittel 2 - derivasjon/defogteo/Teo 2.8.11 Middelverditeoremet|middelverditeoremet]]. Det betyr at enten er $g(x)\geq 0$ eller $g(x)\leq 0$ for alle $x$ i $[a,b]$ fra [[Kapittel 1 - grenser og kontinuitet/defogteo/Teo 1.4.9 Skjæringssetningen|skjæringssetningen]]. Vi bruker derfor middelverditeoremet på
 > $$
 > h(x) = (f(b)-f(a))(g(x)-g(a))-(g(b)-g(a))(f(x)-f(a)).
 > $$
