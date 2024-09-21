@@ -4,7 +4,7 @@
 > Avgjør verdien til $\sin^{-1}\left( \frac{\sqrt{3}}{2} \right)$.
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi vet at $\sin^{-1}(x)$ gir vinkelen der sinus av vinkelen er lik $x$. For $\sin^{-1}\left( \frac{\sqrt{3}}{2} \right)$, ser vi at vinkelen er $\frac{\pi}{3}$, siden $\sin\left( \frac{\pi}{3} \right) = \frac{\sqrt{3}}{2}$.
 > 
 > Derfor er $\sin^{-1}\left( \frac{\sqrt{3}}{2} \right) = \frac{\pi}{3}$.
@@ -15,7 +15,7 @@
 > Avgjør verdien til $\cos^{-1}\left( \frac{-1}{2} \right)$.
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Siden $\cos^{-1}(x)$ gir vinkelen der cosinus av vinkelen er lik $x$. For $\cos^{-1}\left( \frac{-1}{2} \right)$, er vinkelen $\frac{2\pi}{3}$, siden $\cos\left( \frac{2\pi}{3} \right) = \frac{-1}{2}$.
 > 
 > Derfor er $\cos^{-1}\left( \frac{-1}{2} \right) = \frac{2\pi}{3}$.
@@ -25,7 +25,7 @@
 > Avgjør verdien til $\tan^{-1}\left( -1 \right)$.
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Siden $\tan^{-1}(x)$ gir vinkelen der tangens av vinkelen er lik $x$. For $\tan^{-1}(-1)$, er vinkelen $\frac{-\pi}{4}$, siden $\tan\left( \frac{-\pi}{4} \right) = -1$.
 > 
 > Derfor er $\tan^{-1}\left( -1 \right) = \frac{-\pi}{4}$.
@@ -35,7 +35,7 @@
 > Avgjør verdien til $\sin\left( \sin^{-1}\left( 0.7 \right) \right)$.
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Siden $\sin^{-1}(x)$ gir vinkelen der sinus av vinkelen er lik $x$. Derfor er $\sin\left( \sin^{-1}(0.7) \right) = 0.7$.
 
 
@@ -43,7 +43,7 @@
 > Avgjør verdien til $\cos\left( \sin^{-1}\left( 0.7 \right) \right)$.
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > La ${\color{#e796f5} \theta = \sin^{-1}(0.7)}$. Da er ${\color{#3cc15c} \sin({\color{#e796f5} \theta }) = 0.7 }$. 
 > 
 > Ved å bruke Pythagoras' teorem, har vi:
@@ -61,7 +61,7 @@
 > [!abstract] 19
 > Deriver funksjonen $y = \sin^{-1}\left( \frac{2x-1}{3} \right)$.
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for ${\color{#e796f5} \sin^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] er 
 > $$
 > \frac{d}{dx} {\color{#e796f5} \sin^{-1}(u) } = {\color{#f46f22} \frac{1}{\sqrt{1 - u^2}} } \cdot {\color{#5ca6f4} \frac{du}{dx} }.
@@ -79,7 +79,7 @@
 > [!abstract] 20
 > Deriver funksjonen $y = \tan^{-1}\left( ax+b \right)$.
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for ${\color{#e796f5} \tan^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] er $\frac{d}{dx} {\color{#e796f5} \tan^{-1}(u) } = {\color{#f46f22} \frac{1}{1 + u^2} } \cdot {\color{#5ca6f4} \frac{du}{dx} }$.
 > 
 > La ${\color{#3cc15c} u = ax + b }$. Da er ${\color{#5ca6f4} \frac{du}{dx} = a }$.
@@ -95,7 +95,7 @@
 > Deriver funksjonen $y = \cos^{-1}\left( \frac{x-b}{a} \right)$.
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for  ${\color{#e796f5} \cos^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]]  er $\frac{d}{dx} {\color{#e796f5} \cos^{-1}(u)  }= {\color{#f46f22} \frac{-1}{\sqrt{1 - u^2}} } \cdot {\color{#5ca6f4} \frac{du}{dx} }$.
 > 
 > La ${\color{#3cc15c} u = \frac{x-b}{a} }$. Da er ${\color{#5ca6f4} \frac{du}{dx} = \frac{1}{a} }$.
@@ -112,7 +112,7 @@
 
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi bruker [[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|produktregelen]]: $\frac{d}{dx}({\color{#e796f5} u }{\color{#3cc15c} v }) = {\color{#f46f22} u' }{\color{#3cc15c} v } + {\color{#e796f5} u }{\color{#5ca6f4} v' }$.
 > 
 > La 
@@ -134,50 +134,159 @@
 > [!abstract] 1
 > Avgjør endringsraten til arealet av et kvadrat med sidelengde $8$cm som øker med $2$cm/min.
 
-> [!abstract] 5
+
+> [!note]- Løsning
+> Arealet av et kvadrat er gitt ved $A = s^2$, der $s$ er sidelengden. For å finne endringsraten til arealet, der sidelengden endrer seg med ${\color{#f46f22} ds/dt = 2\text{cm/min} }$, bruker vi [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]]:
+> 
+> $$
+> \frac{dA}{dt} = {\color{#e796f5} 2s } {\color{#f46f22} \frac{ds}{dt}. }
+> $$
+> 
+> Når $s = 8$ cm:
+> 
+> $$
+> \frac{dA}{dt} = {\color{#e796f5} 2 \cdot 8 \text{cm} } \cdot {\color{#f46f22} 2\text{cm/min} } = 32 \text{ cm}^2/\text{min}.
+> $$
+
+
+> [!abstract] 2
 > Arealet til et kvadrat minker med $2$cm${}^2$/s. Hvor fort endrer sidelengden seg når sidelengden er $8$cm. 
 
+> [!note]- Løsning
+> Arealet av et kvadrat er gitt ved $A = s^2$. Deriverer med [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] for å finne endringsraten til sidelengden:
+> 
+> $$
+> {\color{#5ca6f4} \frac{dA}{dt}  }= {\color{#e796f5} 2s } {\color{#f46f22} \frac{ds}{dt} }.
+> $$
+> 
+> Når ${\color{#e796f5} s = 8\text{cm} }$ cm og ${\color{#5ca6f4} \frac{dA}{dt} = -2\text{cm}^2/s }$:
+> 
+> $$
+> {\color{#5ca6f4} -2 } = {\color{#e796f5} 2 \cdot 8 } \cdot {\color{#f46f22} \frac{ds}{dt} } \quad \Rightarrow \quad \frac{ds}{dt} = \frac{-2}{16} = -\frac{1}{8} \text{ cm/s}.
+> $$
+
+
 > [!abstract] 9
-> Hvor for endrer overflatearealet til en kube når volumet av kuben er $64\text{cm}^3$ og den øker med $2\text{cm}^3/s$.
+> Hvor fort endrer overflatearealet til en kube når volumet av kuben er $64\text{cm}^3$ og den øker med $2\text{cm}^3/s$.
+
+
+> [!note]- Løsning
+> Volumet til en kube er $V = s^3$, der $s$ er sidelengden. Overflatearealet er $A = 6s^2$. Først finner vi $s$ ved:
+> 
+> $$
+> s^3 = 64 \quad \Rightarrow \quad s = 4 \text{ cm}.
+> $$
+> 
+> Deriverer vi volumet med [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] får vi:
+> 
+> $$
+> {\color{#e796f5} \frac{dV}{dt} } = {\color{#f46f22} 3s^2 } {\color{#5ca6f4} \frac{ds}{dt}. }
+> $$
+> 
+> Når ${\color{#e796f5} \frac{dV}{dt} = 2 \text{cm}^3/\text{s} }$ og ${\color{#f46f22} s = 4 }$ cm:
+> 
+> $$
+> {\color{#e796f5} 2 } = {\color{#f46f22} 3 \cdot 4^2 } \cdot {\color{#5ca6f4} \frac{ds}{dt}  }\quad \Rightarrow \quad {\color{#5ca6f4} \frac{ds}{dt}  }= \frac{{\color{#e796f5} 2 }}{{\color{#f46f22} 48 }} = \frac{1}{24} \text{ cm/s}.
+> $$
+> 
+> Deriver overflatearealet:
+> 
+> $$
+> \frac{dA}{dt} = {\color{#3cc15c} 12s } {\color{#5ca6f4} \frac{ds}{dt} }.
+> $$
+> 
+> Når ${\color{#3cc15c} s = 4 }$ cm og ${\color{#5ca6f4} \frac{ds}{dt} = \frac{1}{24} }$ cm/s:
+> 
+> $$
+> \frac{dA}{dt} = {\color{#3cc15c} 12 \cdot 4  }\cdot{\color{#5ca6f4}  \frac{1}{24}  }= 2 \text{ cm}^2/\text{s}.
+> $$
 
 > [!abstract] 13
 > Et punkt beveger seg langs kurven $y=x^2$. Hvor fort endrer punktet seg i $y$-retning når $x = -2$ og $x$ synker i en rate på $3$?
 
-> [!abstract] 15 
-> Punktet $P$ beveger seg slik at når $t = t$ er det i skjæringspunktet mellom kurvene $xy = t$ og $y = tx^2$. Hvor raskt endres avstanden fra $P$ til origo når $t = 2$?
+
+
+> [!note]- Løsning
+> For $y = x^2$, deriverer vi begge sider med hensyn til tid for å finne $\frac{dy}{dt}$ kan vi bruke [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] og få:
+> 
+> $$
+> {\color{#e796f5} \frac{dy}{dt} } = {\color{#3cc15c} 2 }x {\color{#f46f22} \frac{dx}{dt} }.
+> $$
+> 
+> Når ${\color{#5ca6f4} x = -2 }$ og ${\color{#f46f22} \frac{dx}{dt} = -3 }$:
+> 
+> $$
+> {\color{#e796f5} \frac{dy}{dt} } = {{\color{#3cc15c}  2 } } \cdot {\color{#5ca6f4} (-2) } \cdot{\color{#f46f22}  (-3) } = 12.
+> $$
 
 > [!abstract] 16 (Radar-pistoler) 
 > En politibetjent står nær en motorvei og bruker en radar-pistol for å ta fartssyndere. Han sikter mot en bil som akkurat har passert posisjonen hans, og når pistolen peker i en vinkel på $45^\circ$ til veiretningen, ser han at avstanden mellom bilen og radarpistolen øker med en hastighet på $100 \text{ km/t}$. Hvor raskt kjører bilen?
 
+
+> [!note]- Løsning
+> La $s$ være avstanden mellom radarpistolen og bilen. Vi får vite at ${\color{#5ca6f4} \frac{ds}{dt} = 100 \text{ km/t} }$ er radarpistolens avlesning. Bilens hastighet $\frac{dx}{dt}$ kan vi finne ved å utnytte at vi får en likebeint trekant slik som figuren under viser. FIXMEFIGUR Når bilen danner en 45 graders vinkel med veiretningen ser vi at sammenhengen mellom avstanden til bilen $s$ og avstanden til veien er $2x^2 = s^2$, eller at ${ x = \frac{\sqrt{2}}{2}s }$
+> Deriverer vi med hensyn på $t$ får vi
+> $$
+> \frac{dx}{dt} = \frac{{\sqrt{2}}}{2} {\color{#5ca6f4} \frac{ds}{dt} } = \frac{\sqrt{2}}{2}{\color{#5ca6f4} 100\text{ km/t} } \approx 141 \text{ km/t}.
+> $$
+
 > [!abstract] 17 
 > Hvis radar-pistolen i oppgave 16 er rettet mot en bil som kjører i $90 \text{ km/t}$ langs en rett vei, hva vil radarpistolens avlesning være når pistolen peker i en vinkel på $30^\circ$ i forhold til veien?
 
+> [!note]- Løsning
+> La $s$ være avstanden mellom radarpistolen og bilen. Vi får vite at ${\color{#5ca6f4} \frac{ds}{dt} = 90 \text{ km/t} }$ er radarpistolens avlesning. Bilens hastighet $\frac{dx}{dt}$ kan vi finne ved å utnytte at vi får en likebeint trekant slik som figuren under viser. FIXMEFIGUR Når bilen danner en 30 graders vinkel med veiretningen får vi sammenhengen $x^2 = s^2-\left( \frac{1}{2}s \right)^2 = \frac{3s^2}{4}$ eller at $x =\frac{\sqrt{3}}{2} s$. Deriverer vi med hensyn på $t$ får vi
+> $$
+> \frac{dx}{dt} = \frac{\sqrt{3}}{2}{\color{#5ca6f4} \frac{ds}{dt} } = \frac{\sqrt{3}}{2} {\color{#5ca6f4} 90 \text{ km/t}}.
+> $$
+> Det tilsvarer omrent $79\text{ km/t}$.
+
+
 > [!abstract] 18 
-> Stigen på $5 \text{ m}$ hviler mot en loddrett vegg. Hvis stigefoten beveger seg bort fra veggen med en hastighet på $1/3 \text{ m/s}$, hvor raskt glir toppen av stigen ned langs veggen når den er $3 \text{ m}$ over bakken?
-
-> [!abstract] 19 
-> En mann på $2 \text{ m}$ går mot en lyktestolpe på flat mark i en hastighet på $0,5 \text{ m/s}$. Hvis lykten er $5 \text{ m}$ høy, hvor raskt minker lengden av mannens skygge når han er $3 \text{ m}$ fra lykten? Hvor raskt beveger skyggen seg langs bakken på det tidspunktet?
+> En stige på $5 \text{ m}$ hviler mot en loddrett vegg. Hvis stigefoten beveger seg bort fra veggen med en hastighet på $1/3 \text{ m/s}$, hvor raskt glir toppen av stigen ned langs veggen når den er $3 \text{ m}$ over bakken?
 
 
-> [!abstract] 20 
-> En kvinne på $6 \text{ ft}$ går med en hastighet på $2 \text{ ft/s}$ langs en rett vei på flat mark. En lyktestolpe som er $5 \text{ ft}$ fra stien kaster kvinnens skygge på bakken. Hvis lykten er $15 \text{ ft}$ høy, hvor raskt endrer lengden av skyggen seg når kvinnen er $12 \text{ ft}$ fra punktet nærmest lykten?
-
-
-> [!abstract] 22 (Avstand mellom skip) 
-> Klokken $1:00 \text{ p.m.}$ er skip $A$ $25 \text{ km}$ nord for skip $B$. Hvis skip $A$ seiler vestover med en hastighet på $16 \text{ km/t}$ og skip $B$ seiler sørover med $20 \text{ km/t}$, hvor raskt endrer avstanden mellom skipene seg klokken $1:30 \text{ p.m.}$?
-
-> [!abstract] 23 
-> Når er første gang etter klokken $3:00 \text{ p.m.}$ at viserne på en klokke overlapper hverandre?
-
-
-
-
+> [!note]- Løsning
+> Bruk Pythagoras’ setning: $x^2 + y^2 = 5^2$. Deriver begge sider med hensyn til tid:
+> 
+> $$
+> 2{\color{#e796f5} x } {\color{#3cc15c} \frac{dx}{dt} } + 2{\color{#f46f22} y } {\color{#5ca6f4} \frac{dy}{dt} } = 0.
+> $$
+> 
+> Når ${\color{#f46f22} y = 3 }$ m, gir Pythagoras ${\color{#e796f5} x = 4 }$ m. Vi har ${\color{#3cc15c} \frac{dx}{dt} = \frac{1}{3} }$ m/s, så:
+> 
+> $$
+> {\color{#e796f5} 2 \cdot 4 } \cdot {\color{#3cc15c} \frac{1}{3} } + {\color{#f46f22} 2 \cdot 3 } \cdot {\color{#5ca6f4} \frac{dy}{dt} } = 0 \quad \Rightarrow \quad {\color{#5ca6f4} \frac{dy}{dt} } = -\frac{4}{9} \text{ m/s}.
+> $$
 
 
 > [!abstract] 26 (Kjegleformet tank) 
 > En vanntank er formet som en omvendt rett sirkulær kjegle med toppradius på $10 \text{ m}$ og dybde $8 \text{ m}$. Vann strømmer inn i en rate av $1/10 \text{ m}^3/\text{min}$. Hvor raskt øker dybden av vannet når vannstanden er $4 \text{ m}$ dyp?
 
- 
+> [!note]- Løsning
+> Volumet til en kjegle er gitt ved $V = \frac{1}{3} \pi r^2 h$. Forholdet mellom radius $r$ og høyde $h$ er konstant siden tanken er en kjegle, se figur FIXMEFIGUR. Vi kan derfor bruke informasjonen om høyde og toppradius slik
+> 
+> $$
+> \frac{r}{h} = \frac{10}{8} = \frac{5}{4} \implies r = \frac{5}{4}h.
+> $$
+> 
+> Vi setter inn $\frac{5}{4}h$ for $r$ i volumformelen:
+> 
+> $$
+> V = \frac{1}{3} \pi \left( \frac{5}{4}h \right)^2 h = \frac{25\pi}{48} h^3.
+> $$
+> 
+> Deriverer vi med hensyn til tid $t$ får vi:
+> 
+> $$
+> {\color{#5ca6f4} \frac{dV}{dt} } = \frac{25\pi}{16} {\color{#3cc15c} h^2 } {\color{#f46f22} \frac{dh}{dt} }.
+> $$
+> 
+> Når ${\color{#3cc15c} h = 4 \text{ m} }$ og ${\color{#5ca6f4} \frac{dV}{dt} = \frac{1}{10} \text{ m}^3/\text{min} }$, kan vi løse for ${\color{#f46f22} \frac{dh}{dt} }$:
+> 
+> $$
+> {\color{#5ca6f4} \frac{1}{10} } = \frac{25\pi}{16} \cdot{\color{#3cc15c}  16 } \cdot {\color{#f46f22} \frac{dh}{dt} } \quad \Rightarrow \quad {\color{#f46f22} \frac{dh}{dt} } = \frac{1}{250\pi} \approx 0,00127 \text{ m/min}.
+> $$
+
 ## 4.2
 
 I oppgavene her oppfordres du til å både øve deg på algebra ved å løse oppgavene manuelt, og øve deg på å løse oppgavene med programmering. 
@@ -187,7 +296,7 @@ I oppgavene her oppfordres du til å både øve deg på algebra ved å løse opp
 > Finn $\sqrt{2}$ ved å løse likningen $x^2 - 2 = 0$ ved å Newtons metode.
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi løser likningen $x^2 - 2 = 0$ ved hjelp av Newtons metode. Vi starter med funksjonen $f(x) = x^2 - 2$, og vi vil finne røttene. Deriverer vi denne, får vi $f'(x) = 2x$.
 >
 > Bruk Newtons metode, som har formelen:
@@ -222,7 +331,7 @@ I oppgavene her oppfordres du til å både øve deg på algebra ved å løse opp
 > Estimer roten av $x^3 + 2x - 1 = 0$ mellom $0$ og $1$ ved å bruke Newtons metode til å finne $x_2$.
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Bruk Newtons metode for å finne løsningen til $x^3 + 2x - 1 = 0$ i intervallet $(0, 1)$. La $f(x) = x^3 + 2x - 1$, og deriverer vi, får vi $f'(x) = 3x^2 + 2$.
 >
 > Bruk Newtons metode:
@@ -252,7 +361,7 @@ I oppgavene her oppfordres du til å både øve deg på algebra ved å løse opp
 > *Hint* En skisse kan hjelpe deg med å gjøre et godt gjett for $x_0$. Her må du også finne tilnærminger for de trigonometriske funksjonene underveis. 
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi bruker Newtons metode for å løse likningen $\sin(x) = 1 - x$. La $f(x) = \sin(x) - 1 + x$, og deriverer vi får vi $f'(x) = \cos(x) + 1$.
 >
 > Newtons metode gir oss:
