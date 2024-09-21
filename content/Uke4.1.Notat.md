@@ -40,7 +40,7 @@ og
 $\frac{d}{dx} \sqrt{x} = \frac{d}{dx} x^{1/2} = \frac{1}{2}x^{-1/2}=\frac{1}{2\sqrt{x}}$.
 
 Generelt
-![[Kapittel 3 - transendentale funksjoner/defogteo/Teo 3.3 Potensreglene for derivasjon|Teo 3.3 Potensreglene for derivasjon]]
+![[Kapittel 3 - transendentale funksjoner/defogteo/Teo Potensreglene for derivasjon|Teo Potensreglene for derivasjon]]
 
 > [!warning] Merk 
 > 
@@ -93,7 +93,7 @@ Leibniz notasjon kan vi lese slik: Hvis en fugl flyr to ganger så raskt som en 
 Hopper over bevis, se [[Kapittel 2 - derivasjon/2.4.1 Kjerneregelen|2.4.1 Kjerneregelen]].
 
 
-![[Kapittel 2 - derivasjon/defogteo/Teo 2.4.6 Kjerneregelen#^ad9861|Kjerneregelen]]
+![[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen#^ad9861|Kjerneregelen]]
 
 > [!info] Eksempel 
 > Hvis $f(x) = \sqrt{1+x^2}$ hva er $f'(x)$?
@@ -165,7 +165,7 @@ Siden $\cos(t) \longrightarrow 1$ når $t\longrightarrow 0$ skvises $\frac{\sin(
 > [!note] Argument 
 > 
 
-Vi [[Kapittel 0 - innledende kapittel/P.7.4 Viktige identiteter|bruker]] at $\cos^2(t)+\sin^2(t) = 1$ r vi at rosa uttrykket kan omformes slik som i neste ledd under: 
+Vi [[Kapittel 0 - innledende kapittel/7.4 Viktige identiteter|bruker]] at $\cos^2(t)+\sin^2(t) = 1$ r vi at rosa uttrykket kan omformes slik som i neste ledd under: 
 
 $$
 \begin{aligned} \lim_{h \longrightarrow  0  } \frac{\cos(h)-1 }{h } &= \lim_{h \longrightarrow  0  } \frac{\cos(h)-1 }{h } \frac{(\cos(h)+1)}{(\cos(h)+1)} \\ & =\lim_{h\longrightarrow  0}\frac{\cos^2(h)-1}{h}\cdot \frac{1}{\cos(h)+1}\\ & = \lim_{h\longrightarrow  0} \frac{\sin^2(h)}{h} \\ &= \lim_{h\longrightarrow  0}{\color{#40c057}  \frac{\sin(h)}{h} } \cdot{\color{#e599f7}  \frac{\sin(h)}{\cos(h)+1}  } \\ &=   {\color{#40c057} 1 } \cdot {\color{#e599f7} \frac{0}{1+1}  =0}\end{aligned}

@@ -17,13 +17,13 @@ Foreløpig innhold er
     - [[Ukesoppdrag og forelesningsnotat/Uke 39|Uke 39]]
         - Ta kontakt hvis det er oppgaver dere ønsker løsningsforslag til.
 - Innledende kapittel ([P-kapitlene](Kapittel-0---innledende-kapittel/)). 
-    - [[Kapittel 0 - innledende kapittel/P.3.1 Forskyvning av grafer|P.3]]
-    - [[Kapittel 0 - innledende kapittel/P.5.1 De fire regneartene|P.5]]
-    - [[Kapittel 0 - innledende kapittel/P.6.1 Polynomer og rasjonale funksjoner|P.6]]
-    - [[Kapittel 0 - innledende kapittel/P.7.1 Vinkelmål|P.7]]
+    - [[Kapittel 0 - innledende kapittel/3.1 Forskyvning av grafer|P.3]]
+    - [[Kapittel 0 - innledende kapittel/5.1 De fire regneartene|P.5]]
+    - [[Kapittel 0 - innledende kapittel/6.1 Polynomer og rasjonale funksjoner|P.6]]
+    - [[Kapittel 0 - innledende kapittel/7.1 Vinkelmål|P.7]]
 - Kapittel 1 - [Grenser og kontinuitet](Kapittel-1---grenser-og-kontinuitet/)
-    - [[Kapittel 1 - grenser og kontinuitet/1.1.1 Intro|1.2 og 1.3 - Grenser]]
-    - [[Kapittel 1 - grenser og kontinuitet/1.4.1 Intro til kontinuitet|1.4 - Kontinuitet]]
+    - [[Kapittel 1 - grenser og kontinuitet/1 Intro|1.2 og 1.3 - Grenser]]
+    - [[Kapittel 1 - grenser og kontinuitet/1 Intro til kontinuitet|1.4 - Kontinuitet]]
 - Kapittel 2 - [Derivasjon](Kapittel-2---derivasjon/)
     - [[Kapittel 2 - derivasjon/2.2.1 Den deriverte|2.2 - Den deriverte]]
     - [[Kapittel 2 - derivasjon/2.3.1 Deriverbarhet impliserer kontinuitet|2.3 - Derivasjonsregler og sammenhenger]]

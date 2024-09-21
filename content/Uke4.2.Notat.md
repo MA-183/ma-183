@@ -40,7 +40,7 @@ $$
 
 Hva med $\frac{\cos(h)-1}{h}$?
 
-Vi [[Kapittel 0 - innledende kapittel/P.7.4 Viktige identiteter|bruker]] at $\cos^2(t)+\sin^2(t) = 1$ r vi at rosa uttrykket kan omformes slik som i neste ledd under: 
+Vi [[Kapittel 0 - innledende kapittel/7.4 Viktige identiteter|bruker]] at $\cos^2(t)+\sin^2(t) = 1$ r vi at rosa uttrykket kan omformes slik som i neste ledd under: 
 
 $$
 \begin{aligned} \lim_{h \longrightarrow  0  } \frac{\cos(h)-1 }{h } &= \lim_{h \longrightarrow  0  } \frac{\cos(h)-1 }{h } \frac{(\cos(h)+1)}{(\cos(h)+1)} \\ & =\lim_{h\longrightarrow  0}\frac{\cos^2(h)-1}{h}\cdot \frac{1}{\cos(h)+1}\\ & = \lim_{h\longrightarrow  0} \frac{\sin^2(h)}{h} \\ &= \lim_{h\longrightarrow  0}{\color{#40c057}  \frac{\sin(h)}{h} } \cdot{\color{#e599f7}  \frac{\sin(h)}{\cos(h)+1}  } \\ &=   {\color{#40c057} 1 } \cdot {\color{#e599f7} \frac{0}{1+1}  =0}\end{aligned}
@@ -56,7 +56,7 @@ $$
 Hva med $\frac{d}{dx} \cos(x)$?<
 ## Middelverdisetningen
 
-![[Kapittel 2 - derivasjon/defogteo/Teo 2.8.11 Middelverditeoremet|Teo 2.8.11 Middelverditeoremet]]
+![[Kapittel 2 - derivasjon/defogteo/Teo Middelverditeoremet|Teo Middelverditeoremet]]
 
 Bildet og ideen er slik: $f$ i rosa, linja mellom punktene i blått og $g$ er avstanden mellom $f$ og blå linje. 
 Differansen er også kontinuerlig på $[a,b]$ og deriverbar på $(a,b)$. 
@@ -88,9 +88,9 @@ Dermed må $f'(c) = 0$.
 
 Skal se på hva den deriverte kan fortelle oss.
 
-![[Kapittel 2 - derivasjon/defogteo/Def 2.8.6 Stigende og synkende funksjoner|Def 2.8.6 Stigende og synkende funksjoner]]
+![[Kapittel 2 - derivasjon/defogteo/Def Stigende og synkende funksjoner|Def Stigende og synkende funksjoner]]
 
-![[Kapittel 2 - derivasjon/defogteo/Teo 2.8.12 Stigende og synkende funksjoner|Teo 2.8.12 Stigende og synkende funksjoner]]
+![[Kapittel 2 - derivasjon/defogteo/Teo Stigende og synkende funksjoner|Teo Stigende og synkende funksjoner]]
 
 La $x_1$ og $x_2$ være punkter i $I$ med $x_2 > x_1$. Fra middelverditeoremet vet vi at det eksisterer et punkt $c$ i $(x_1, x_2)$ (og derfor i $J$) slik at 
 $$
@@ -104,14 +104,14 @@ Det er nå klart at hvis $f'(x)$ har samme fortegn på hele intervallet, så må
 
 
 
-![[Kapittel 2 - derivasjon/defogteo/Teo 2.8.13 Konstante funksjoner#^1eb5fb|Teo 2.8.13 Konstante funksjoner]]
+![[Kapittel 2 - derivasjon/defogteo/Teo Konstante funksjoner#^1eb5fb|Teo 2.8.13 Konstante funksjoner]]
 
 > [!note] Argument 
 > 
 
 ^5bd276
 
-Velg et punkt i $I$ og la $C = f(x_0)$. Hvis $x$ er et annet punkt i $I$, da sier [[Kapittel 2 - derivasjon/defogteo/Teo 2.8.11 Middelverditeoremet|middelverditeoremet]] at det eksisterer et punkt $c$ mellom $x_0$ og $x$ slik at 
+Velg et punkt i $I$ og la $C = f(x_0)$. Hvis $x$ er et annet punkt i $I$, da sier [[Kapittel 2 - derivasjon/defogteo/Teo Middelverditeoremet|middelverditeoremet]] at det eksisterer et punkt $c$ mellom $x_0$ og $x$ slik at 
 $$
 \frac{f(x)-f(x_0) }{x-x_0 }  = f'(c) = 0
 $$

@@ -121,7 +121,7 @@ FIXME BILDE
 
 Når $f'(x)$ eksisterer $\longrightarrow$ grense nevner mot 0 $\longrightarrow$ teller mot 0 $\longrightarrow$ $f(x+h) \longrightarrow f(x)$. Dvs $f$ kontinuerlig i $x$.
 
-![[Kapittel 2 - derivasjon/defogteo/Teo 2.3.1 Deriverbarhet impliserer kontinuitet#^963b1d|Teo 2.3.1 Deriverbarhet impliserer kontinuitet]]
+![[Kapittel 2 - derivasjon/defogteo/Teo Deriverbarhet impliserer kontinuitet#^963b1d|Teo 2.3.1 Deriverbarhet impliserer kontinuitet]]
 
 > [!warning] Notasjon
 > Skrivemåter for den deriverte:
@@ -155,7 +155,7 @@ $$
 $$
 
 
-![[Kapittel 3 - transendentale funksjoner/defogteo/Teo 3.3 Potensreglene for derivasjon|Teo 3.3 Potensreglene for derivasjon]]
+![[Kapittel 3 - transendentale funksjoner/defogteo/Teo Potensreglene for derivasjon|Teo Potensreglene for derivasjon]]
 
 
 > [!abstract] 3

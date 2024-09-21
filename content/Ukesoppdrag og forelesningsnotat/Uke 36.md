@@ -95,7 +95,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 >   \frac{x^2-6x+9}{x^2-9}=\frac{(x-3)\cancel{ (x-3) }}{\cancel{ (x-3) }(x+3)} \overset{ \text{når x ikke er 3} }{=  } \frac{x-3}{x+3}
 >   \end{aligned} 
 >   $$
->   Merk at vi bruker kunnskap om faktorisering av polynomer for å forenkle uttrykket, noe man kan lese om her [[Kapittel 0 - innledende kapittel/P.6.2 Faktorer, røtter og nullpunkt|P.6.2 Faktorer, røtter og nullpunkt]].
+>   Merk at vi bruker kunnskap om faktorisering av polynomer for å forenkle uttrykket, noe man kan lese om her [[Kapittel 0 - innledende kapittel/6.2 Faktorer, røtter og nullpunkt|6.2 Faktorer, røtter og nullpunkt]].
 >   
 >   Vi kan nå evaluere grensen slik
 >   
@@ -292,7 +292,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 
 > [!note]- Løsning 
 > 
-> Siden $f(x) = x^3+x-1$ er kontinuerlig og $f(0) = -1$ og $f(1)=1$ så sier [[Kapittel 1 - grenser og kontinuitet/defogteo/Teo 1.4.9 Skjæringssetningen|skjæringssetningen]] at alle verdier mellom -1 og 1 blir tatt på intervallet $0$ til $1$.
+> Siden $f(x) = x^3+x-1$ er kontinuerlig og $f(0) = -1$ og $f(1)=1$ så sier [[Kapittel 1 - grenser og kontinuitet/defogteo/Teo Skjæringssetningen|skjæringssetningen]] at alle verdier mellom -1 og 1 blir tatt på intervallet $0$ til $1$.
 > 
 > 
 
@@ -302,7 +302,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 
 > [!note]- Løsning 
 > 
-> $F(x) = (x-a)^2(x-b)^2+x$. Av symmetrien kan vi anta at $a$ er mindre enn $b$. $F$ er også kontinuerlig på $[a,b]$ og $F(a)=a$ og $F(b) = b$. Fra [[Kapittel 1 - grenser og kontinuitet/defogteo/Teo 1.4.9 Skjæringssetningen|skjæringssetningen]] må vi ha at $F$ tar alle verdier mellom $a$ og $b$. Spesielt må den ta midtpunktet $\frac{a+b}{2}.$
+> $F(x) = (x-a)^2(x-b)^2+x$. Av symmetrien kan vi anta at $a$ er mindre enn $b$. $F$ er også kontinuerlig på $[a,b]$ og $F(a)=a$ og $F(b) = b$. Fra [[Kapittel 1 - grenser og kontinuitet/defogteo/Teo Skjæringssetningen|skjæringssetningen]] må vi ha at $F$ tar alle verdier mellom $a$ og $b$. Spesielt må den ta midtpunktet $\frac{a+b}{2}.$
 > 
 ## 1.5
 
@@ -578,7 +578,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 >   \frac{1}{(x+2)^2}  & = 4 \\ \frac{1}{4}  & = (x+2)^2 \\ \frac{1}{4} &= x^2+4x+4 \\ x^2+4x+\frac{15}{4} &= 0.
 > \end{aligned} 
 > $$
-> Nå gir [[Kapittel 0 - innledende kapittel/defogteo/Teo P.6.2 abc-formelen|abc-formelen]] at $x=-\frac{3}{2}$ eller $x = -\frac{5}{2}$. Siden vi skal finne koordinatene, må vi også ha $y$-verdi for disse $x-$verdiene. Det gir punktene.
+> Nå gir [[Kapittel 0 - innledende kapittel/defogteo/Teo abc-formelen|abc-formelen]] at $x=-\frac{3}{2}$ eller $x = -\frac{5}{2}$. Siden vi skal finne koordinatene, må vi også ha $y$-verdi for disse $x-$verdiene. Det gir punktene.
 > $$
 > \left( -\frac{3}{2}, -1 \right) \quad \text{ og }\quad \left( -\frac{5}{2}, 3 \right).
 > $$

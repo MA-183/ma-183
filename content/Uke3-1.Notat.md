@@ -32,13 +32,13 @@ Kan kutte sirkelen til å være så nært vi vil et parallellogram med grunnlinj
 
 
 
-![[Kapittel 1 - grenser og kontinuitet/defogteo/Def 1.2.1 Grenseverdi|Def 1.2.1 Grenseverdi]]
+![[Kapittel 1 - grenser og kontinuitet/defogteo/Def Grenseverdi|Def Grenseverdi]]
 
 Vi kan tegne dette slik
 ![900](Files/grensebilde.svg)
 Det gir oss den formelle definisjonen
 
-![[Kapittel 1 - grenser og kontinuitet/defogteo/Def 1.5.8 Grenseverdi|Def 1.5.8 Grenseverdi]]
+![[Kapittel 1 - grenser og kontinuitet/defogteo/Def Grenseverdi (formell)|Def Grenseverdi (formell)]]
 
 Definisjonen over er for de som sikter høyt!
 
