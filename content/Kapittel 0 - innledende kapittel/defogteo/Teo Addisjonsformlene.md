@@ -55,7 +55,7 @@
 >  {\color{#e599f7} 2-2\cos(s-t) } & =  {\color{#4dabf7} { 2-2(\cos(t)\cos(s)+\sin(t)\sin(s)) } }  \\ \phantom{} \\ & \text{Trekk fra 2 og del på -2} \\  \phantom{} \\ \cos(s-t) &=\cos(t)\cos(s)+\sin(t)\sin(s).
 >  \end{aligned} 
 > $$
->  Merk nå at (ved å bruke [[Kapittel 0 - innledende kapittel/7.4 Viktige identiteter|elementære identiteter]]) 
+>  Merk nå at (ved å bruke [[Kapittel 0 - innledende kapittel/5.4 Viktige identiteter|elementære identiteter]]) 
 >  $$
 >  \begin{aligned} 
 >  \cos(s+t) = \cos(s-(-t))  & = \cos(s)\cos(-t)+\sin(s)\sin(-t) \\ & = \cos(t)\cos(s)-\sin(s)\sin(t).
@@ -72,4 +72,4 @@
 > \end{aligned} 
 > $$
 > 
-> I all hovedsak er det 1. og 2. som er viktige å kunne. De to andre kan da utledes ved hjelp av [disse identitetene](Kapittel%200%20-%20innledende%20kapittel/7.4%20Viktige%20identiteter.md)
+> I all hovedsak er det 1. og 2. som er viktige å kunne. De to andre kan da utledes ved hjelp av [disse identitetene](Kapittel%200%20-%20innledende%20kapittel/5.4%20Viktige%20identiteter.md)

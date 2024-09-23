@@ -95,7 +95,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 >   \frac{x^2-6x+9}{x^2-9}=\frac{(x-3)\cancel{ (x-3) }}{\cancel{ (x-3) }(x+3)} \overset{ \text{når x ikke er 3} }{=  } \frac{x-3}{x+3}
 >   \end{aligned} 
 >   $$
->   Merk at vi bruker kunnskap om faktorisering av polynomer for å forenkle uttrykket, noe man kan lese om her [[Kapittel 0 - innledende kapittel/6.2 Faktorer, røtter og nullpunkt|6.2 Faktorer, røtter og nullpunkt]].
+>   Merk at vi bruker kunnskap om faktorisering av polynomer for å forenkle uttrykket, noe man kan lese om her [[Kapittel 0 - innledende kapittel/4.2 Faktorer, røtter og nullpunkt|4.2 Faktorer, røtter og nullpunkt]].
 >   
 >   Vi kan nå evaluere grensen slik
 >   

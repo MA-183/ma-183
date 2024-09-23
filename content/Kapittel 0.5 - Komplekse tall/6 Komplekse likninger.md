@@ -1,5 +1,6 @@
 ---
 title: Komplekse likninger
+draft: "true"
 ---
 Vi vet at likningen $x^2 + y^2 = 1$ gir opphav til en sirkel med radius $1$ sentrert i origo, slik som figuren under FIXME.
 
