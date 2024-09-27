@@ -1,4 +1,7 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
+@use "./syntax.scss";
+@use "./callouts.scss";
 
 // put your custom CSS here!
 ::-webkit-scrollbar {
@@ -15,3 +18,4 @@
     border-radius: 8px;
     background-color: #2c3e50;
 }
+

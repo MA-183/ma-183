@@ -224,7 +224,11 @@
 
 
 > [!note]- Løsning
-> La $s$ være avstanden mellom radarpistolen og bilen. Vi får vite at ${\color{#5ca6f4} \frac{ds}{dt} = 100 \text{ km/t} }$ er radarpistolens avlesning. Bilens hastighet $\frac{dx}{dt}$ kan vi finne ved å utnytte at vi får en likebeint trekant slik som figuren under viser. FIXMEFIGUR Når bilen danner en 45 graders vinkel med veiretningen ser vi at sammenhengen mellom avstanden til bilen $s$ og avstanden til veien er $2x^2 = s^2$, eller at ${ x = \frac{\sqrt{2}}{2}s }$
+> La $s$ være avstanden mellom radarpistolen og bilen. Vi får vite at ${\color{#5ca6f4} \frac{ds}{dt} = 100 \text{ km/t} }$ er radarpistolens avlesning. Bilens hastighet $\frac{dx}{dt}$ kan vi finne ved å utnytte at vi får en likebeint trekant slik som figuren under viser. 
+> 
+> ![[Files/shapes at 24-09-24 14.03.02.svg]]
+> 
+> Når bilen danner en 45 graders vinkel med veiretningen ser vi at sammenhengen mellom avstanden til bilen $s$ og avstanden til veien er $2x^2 = s^2$, eller at ${ x = \frac{\sqrt{2}}{2}s }$
 > Deriverer vi med hensyn på $t$ får vi
 > $$
 > \frac{dx}{dt} = \frac{{\sqrt{2}}}{2} {\color{#5ca6f4} \frac{ds}{dt} } = \frac{\sqrt{2}}{2}{\color{#5ca6f4} 100\text{ km/t} } \approx 141 \text{ km/t}.
@@ -234,11 +238,16 @@
 > Hvis radar-pistolen i oppgave 16 er rettet mot en bil som kjører i $90 \text{ km/t}$ langs en rett vei, hva vil radarpistolens avlesning være når pistolen peker i en vinkel på $30^\circ$ i forhold til veien?
 
 > [!note]- Løsning
-> La $s$ være avstanden mellom radarpistolen og bilen. Vi får vite at ${\color{#5ca6f4} \frac{ds}{dt} = 90 \text{ km/t} }$ er radarpistolens avlesning. Bilens hastighet $\frac{dx}{dt}$ kan vi finne ved å utnytte at vi får en likebeint trekant slik som figuren under viser. FIXMEFIGUR Når bilen danner en 30 graders vinkel med veiretningen får vi sammenhengen $x^2 = s^2-\left( \frac{1}{2}s \right)^2 = \frac{3s^2}{4}$ eller at $x =\frac{\sqrt{3}}{2} s$. Deriverer vi med hensyn på $t$ får vi
+> La $s$ være avstanden mellom radarpistolen og bilen. Vi får vite at ${\color{#5ca6f4} \frac{ds}{dt} = 90 \text{ km/t} }$ er radarpistolens avlesning. Bilens hastighet $\frac{dx}{dt}$ kan vi finne ved å utnytte at vi får en likebeint trekant slik som figuren under viser. 
+> 
+> ![[Files/shapes at 24-09-24 14.02.54.svg]]
+> 
+> Når bilen danner en 30 graders vinkel med veiretningen får vi sammenhengen $x^2 = s^2-\left( \frac{1}{2}s \right)^2 = \frac{3s^2}{4}$ eller at $x =\frac{\sqrt{3}}{2} s$. Deriverer vi med hensyn på $t$ får vi
 > $$
 > \frac{dx}{dt} = \frac{\sqrt{3}}{2}{\color{#5ca6f4} \frac{ds}{dt} } = \frac{\sqrt{3}}{2} {\color{#5ca6f4} 90 \text{ km/t}}.
 > $$
 > Det tilsvarer omrent $79\text{ km/t}$.
+> 
 
 
 > [!abstract] 18 
@@ -257,7 +266,6 @@
 > $$
 > {\color{#e796f5} 2 \cdot 4 } \cdot {\color{#3cc15c} \frac{1}{3} } + {\color{#f46f22} 2 \cdot 3 } \cdot {\color{#5ca6f4} \frac{dy}{dt} } = 0 \quad \Rightarrow \quad {\color{#5ca6f4} \frac{dy}{dt} } = -\frac{4}{9} \text{ m/s}.
 > $$
-
 
 > [!abstract] 26 (Kjegleformet tank) 
 > En vanntank er formet som en omvendt rett sirkulær kjegle med toppradius på $10 \text{ m}$ og dybde $8 \text{ m}$. Vann strømmer inn i en rate av $1/10 \text{ m}^3/\text{min}$. Hvor raskt øker dybden av vannet når vannstanden er $4 \text{ m}$ dyp?

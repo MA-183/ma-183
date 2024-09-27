@@ -1,0 +1,3 @@
+> [!tip] Middelverditeoremet for integraler
+>  
+>

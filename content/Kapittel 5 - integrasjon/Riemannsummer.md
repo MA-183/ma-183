@@ -27,9 +27,7 @@ TEGNING FIXME
 
 Dersom vi tenker at arealet som ligger på undersiden av $x-$aksen som negative areal og $f(x)\leq 0$, da representerer $f(l_i)\Delta x_i$ og $f(u_i)\Delta x_i$ negative arealet av rektanglene som ligger under $x-$aksen. 
 
-> [!tip] Øvre- og nedre Riemannsummer, definisjon 5.3.2
-> Den *nedre Riemannsum* $L(f,P)$ og den *øvre Riemannsum*, $U(f,P)$, for funksjonen $f$ og partisjonen $P$ er definert ved
-> $$\begin{aligned} L(f, P) & = f(l_1)\Delta x_1 + f(l_2)\Delta x_2 +\ldots + f(l_n)\Delta x_n \\ &= \sum{i=1 }^{n }f(l_i)\Delta x_i. \\ \phantom{} \\ U (f, P) &= f(u_1)\Delta x_1 + f(u_2)\Delta x_2 +\ldots + f(u_n)\Delta x_n \\ &= \sum{i=1 }^{n }f(u_i)\Delta x_i.  \end{aligned}$$  
+![[Kapittel 5 - integrasjon/defogteo/Def Øvre- og nedre Riemannsummer|Def Øvre- og nedre Riemannsummer]]
 
 Figuren under illustrer øvre og nedre Riemannsum og viser de negative arealene markert i blått, og de positive arealene markert i rødt.
 ![](Files/shapes%20at%2024-08-05%2008.41.29.svg)

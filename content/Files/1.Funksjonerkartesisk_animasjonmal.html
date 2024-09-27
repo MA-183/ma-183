@@ -1,5 +1,5 @@
-<br>
-<svg id="kartesiskSVG"  width="100%" height="100%" viewBox="0 0 500 500">
+
+<svg id="polarSvg" width="100%" height="100%"  viewBox="0 0 500 500">
     <!-- Grid lines -->
     <defs>
         <style>
@@ -9,7 +9,7 @@
             }
 
             path {
-                stroke: #4aa0e7;
+                stroke: #e03131;
                 stroke-width: 5;
                 fill: none;
 
@@ -17,9 +17,10 @@
             }
 
             line {
-                stroke: #f76707;
+                stroke: #9398b0;
                 stroke-width: 3;
                 stroke-linecap: round;
+                
             }
 
             circle {
@@ -61,10 +62,17 @@
         <circle cx="250" cy="250" r="200"></circle> -->
     </g>
     <!-- Rotating line -->
-    <line id="funcLine" class="main-line" x1="250" y1="250" x2="250" y2="250"></line>
+    <line id="funcLine" class="main-line" x1="250" y1="250" x2="250" y2="250" style="stroke: #4dabf7; stroke-dasharray: 8"></line>
+    
+    <line id="funcLine2" class="second-line" x1="250" y1="250" x2="250" y2="250" style="stroke: #4f72fc; stroke-dasharray: 0 8 0"></line>
     <!-- Polar curve path -->
-    <path id="funksjonsPath" d=""></path>
+    <path id="funksjonsPath" style="stroke: #e03131;" d=""></path>
+    
+    <path id="funksjonsPath2" style="stroke: #e599f7;" d=""></path>
+    
     <text id="rValueText" x="250" y="250" fill="#b4d4d4" font-family="Arial" font-size="14"></text>
+    
+    <text id="sValueText" x="250" y="250" fill="#b4d4d4" font-family="Arial" font-size="14"></text>
     <foreignObject x="260" y="460" width="200" height="50">
 
         <body xmlns="http://www.w3.org/1999/xhtml">
@@ -106,34 +114,52 @@
                     font-family: Arial, sans-serif;
                 }
             </style>
-            <input type="range" id="Sliderss" min="-180" max="180" value="-180" style="width: 95%; margin:3%">
+            <input type="range" id="Sliderss" min="-15" max="25" value="0" step="0.01" style="width: 95%; margin:3%">
             <span id="Sliderverdi">-3.14</span>
         </body>
     </foreignObject>
 </svg>
 <br>
 <script>
-    const svg = document.getElementById("kartesiskSVG");
+    const svg = document.getElementById("polarSvg");
     const path = document.getElementById("funksjonsPath");
+    
+    const path2 = document.getElementById("funksjonsPath2");
     const slider = document.getElementById("Sliderss");
     const Sliderverdi = document.getElementById("Sliderverdi");
     const funcLine = document.getElementById("funcLine");
-
+    
+    const funcLine2 = document.getElementById("funcLine2");
+    const min = slider.min;
+    const max = slider.max;
     const centerX = 250; // Center of the SVG canvas
     const centerY = 250;
 
     function funksjon(input) {
-        return -100 + 50 * Math.sin(2 * input*Math.PI/180);
+        return -10*10 +  input;
+    }
+    function funksjon2(input) {
+        return input*input/100;
     }
     // Function to generate SVG path data for the polar curve up to a given angle
     function genererfunksjonPath(maksinput) {
-        let pathData = `M 70 150`; // Move to center ${centerX} ${centerY}
-        for (let xinput = -180; xinput <= maksinput; xinput++) {
-            let r = funksjon(xinput) ;
-
-            // Convert polar to cartesian coordinates
+        let pathData = `M `+String(250+min*10)+ " " +String(250-funksjon(min*10)); // Move to center ${centerX} ${centerY}
+        for (let xinput = min*10; xinput <= maksinput*10; xinput++) {
+            
             let x = centerX + xinput ;
-            let y = centerY + r;
+            let y = centerY - funksjon(xinput);
+
+            // Append to the path data
+            pathData += ` L ${x} ${y}`;
+        }
+        return pathData;
+    }
+    function genererfunksjonPath2(maksinput) {
+        let pathData = `M `+String(250+min*10)+ " " +String(250-funksjon2(min*10)); // Move to center ${centerX} ${centerY}
+        for (let xinput = min*10; xinput <= maksinput*10; xinput++) {
+            
+            let x = centerX + xinput ;
+            let y = centerY - funksjon2(xinput);
 
             // Append to the path data
             pathData += ` L ${x} ${y}`;
@@ -143,11 +169,10 @@
 
     // Function to update the rotating line
     function updateLine(verdi) {
-        let r = -180;
 
         // Convert polar to cartesian coordinates for the line's endpoint
-        let x = centerX + verdi;
-        let y = centerY + funksjon(verdi) ;
+        let x = centerX + verdi*10;
+        let y = centerY - funksjon(verdi*10) ;
 
         // Set the line's new endpoint
         
@@ -155,7 +180,7 @@
         funcLine.setAttribute("y2", y);
         funcLine.setAttribute("x2", x);
         funcLine.setAttribute("y2", y);
-        rValueText.textContent = `r(${(verdi*2*Math.PI/(360)).toFixed(3)}) = ${-funksjon(verdi).toFixed(2)}`;
+        rValueText.textContent = `r(${(verdi/10).toFixed(2)}) = ${(-funksjon(verdi*10)/100).toFixed(2)}`;
 
         // Offset the text based on the angle to position it away from the line end
         let offsetX = 15 ; // Offset along the direction of the angle
@@ -165,18 +190,48 @@
         rValueText.setAttribute("x", x + offsetX);
         rValueText.setAttribute("y", y + offsetY);
     }
+    function updateLine2(verdi) {
+
+        // Convert polar to cartesian coordinates for the line's endpoint
+        let x = centerX + verdi*10;
+        let y = centerY - funksjon2(verdi*10) ;
+
+        // Set the line's new endpoint
+        
+        funcLine2.setAttribute("x1", x);
+        funcLine2.setAttribute("y2", y);
+        funcLine2.setAttribute("x2", x);
+        funcLine2.setAttribute("y2", y);
+        sValueText.textContent = `s(${(verdi/10).toFixed(2)}) = ${-funksjon2(verdi).toFixed(2)}`;
+
+        // Offset the text based on the angle to position it away from the line end
+        let offsetX = 15 ; // Offset along the direction of the angle
+        let offsetY = 15 ; // Offset along the direction of the angle
+
+        // Set the new position of the text with an offset from the endpoint
+        sValueText.setAttribute("x", x + offsetX);
+        sValueText.setAttribute("y", y + offsetY);
+    }
 
     // Initial path drawing
-    const initialAngle = -180;
+    const initialAngle = 13;
     path.setAttribute("d", genererfunksjonPath(initialAngle));
-
+    
+    path2.setAttribute("d", genererfunksjonPath2(initialAngle));
+    
+    updateLine(initialAngle);
+    updateLine2(initialAngle);
+    Sliderverdi.textContent = (initialAngle).toFixed(2)
     // Event listener for the slider
     slider.addEventListener("input", function () {
-        let verdi = parseInt(slider.value); // Get angle from slider
-        Sliderverdi.textContent = (verdi*2*Math.PI/(360)).toFixed(3); // Update displayed angle
+        let verdi = parseFloat(slider.value); // Get angle from slider
+        Sliderverdi.textContent = (verdi/10).toFixed(2); // Update displayed angle
 
         // Update the polar path and the rotating line
         path.setAttribute("d", genererfunksjonPath(verdi));
+        
+        path2.setAttribute("d", genererfunksjonPath2(verdi));
         updateLine(verdi);
+        updateLine2(verdi);
     });
 </script>
