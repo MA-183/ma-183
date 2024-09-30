@@ -29,4 +29,4 @@ $$
 $$
 Flere eksempler kan dere finne ved å se på ukesoppdrag [[Ukesoppdrag og forelesningsnotat/Uke 36|Uke 36]].
 
-Grenseverdier er verktøyet som gjør oss i stand til å snakke presist om egenskaper vi ønsker i funksjoner når vi studerer de. Et nøkkelbegrep vi skal bruke er [[Kapittel 1 - grenser og kontinuitet/1 Intro til kontinuitet|kontinuitet]].
+Grenseverdier er verktøyet som gjør oss i stand til å snakke presist om egenskaper vi ønsker i funksjoner når vi studerer de. Et nøkkelbegrep vi skal bruke er [[Kapittel 1 - grenser og kontinuitet/5 Intro til kontinuitet|kontinuitet]].

@@ -50,4 +50,4 @@ Kanskje litt forenklet kan vi forklare definisjonen over slik
 > 2. $\lim_{x\longrightarrow  a-}$ er grense der vi kun betrakter $x<a$. Grense fra *venstre*.
 > 3. $\lim_{x\longrightarrow \infty}f(x)$ er grense der vi betrakter vilkårlige store $x$.
 
-Det er noen intuitive sammenhenger som vi får bruk for, [[Kapittel 1 - grenser og kontinuitet/1 Regler for grenser|1 Regler for grenser]]
+Det er noen intuitive sammenhenger som vi får bruk for, [[Kapittel 1 - grenser og kontinuitet/3 Regler for grenser|3 Regler for grenser]]

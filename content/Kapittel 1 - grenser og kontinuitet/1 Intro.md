@@ -21,10 +21,16 @@ Hvis vi kutter sirkelen i finere biter får vi noe slikt som under:
 
 Det er tydelig at det er mindre som ligger utenfor parallellogrammet (det i rødt), og høyden er enda nærmere $r$. 
 
-Hvis vi tror på at vi kan kutte sirkelen til å være så nært vi vil et parallellogram med grunnlinje $\pi r$ og høyde $r$ kan vi konkludere med en formel for arealet av sirkelen. 
+> [!warning]- Er du ikke overbevist?  
+> Bruk glideren på figuren under til å få en følelse av hva som skjer når vi deler inn i finere og finere deler.
+> %% Under er et htmldokument som embeddes %%
+> <iframe src="Files\sirkelarealarkimedes.html"  frameborder="0" scrolling="no" style="aspect-ratio: 3/1.3; width: 90%"> </iframe>
+
+
+Hvis vi tror på at vi kan kutte sirkelen til å være så nær vi vil et parallellogram med grunnlinje $\pi r$ og høyde $r$ kan vi konkludere med en formel for arealet av sirkelen. 
 
 > [!info] Areal av sirkel 
 > Sirkel med radius $r$ må ha areal $\pi r^2$.
 
-Det er noe uggent med det vi driver med over fordi vi synser ganske mye. Vi skal prøve å være mer rigorøs, men i Kalkulus kommer vi likevel ikke til å gå dypt inn i de formelle moderne definisjonene som beskriver det vi ser over. Vi begynner med en mer uformell ingang [[Kapittel 1 - grenser og kontinuitet/1 Grenseverdi|på grenseverdier]].
+Det er noe uggent med det vi driver med over fordi vi synser ganske mye. Vi skal prøve å være mer presis, men i Kalkulus kommer vi likevel ikke til å gå dypt inn i de formelle moderne definisjonene som beskriver det vi ser over. Vi begynner med en mer uformell ingang [[Kapittel 1 - grenser og kontinuitet/2 Grenseverdi|på grenseverdier]].
 
