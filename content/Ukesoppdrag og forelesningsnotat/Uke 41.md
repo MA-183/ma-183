@@ -181,12 +181,37 @@
 > Merk at dette er en andregradsfunksjon, så vi vet at denne må ha et toppunkt når koeffisienten foran $x^2$ er negativ.
 
 > [!abstract] 8
-> Et rektangel har $A$. Vis at hvis rektangelet er kvadratisk så har det minst mulig omkrets. 
+> Et rektangel har areal $A$. Vis at hvis rektangelet er kvadratisk så har det minst mulig omkrets. 
 
-
+> [!note]+ Løsning
+> La lengden og bredden til rektangelet være $x$ og $y$. Da er $xy = A$. Siden $A$ er et tall, kan vi si at $y = \frac{A}{x}$ og omkretsen $O = 2x + 2y$ kan nå skrives om slik
+> $$
+> O(x) = 2x + 2\frac{A}{x}.
+> $$
+> Deriverer omkretsen for å finne minimum:
+> $$
+> O'(x) = 2 - 2\frac{A}{x^2}.
+> $$
+> Løser for $O'(x) = 0$ og finner at $x = \sqrt{A}$, som gir 
+> $$
+> y = \frac{\cancel{ A }}{\cancel{ \sqrt{A} }}\cdot\frac{\sqrt{A}}{\cancel{ \sqrt{A} }} = \sqrt{A}.
+> $$ 
+> Derfor har et kvadratisk rektangel minst mulig omkrets.
 
 > [!abstract] 9
-> En trekant har areal $A$. Vis at hvis trekanten er likesidet har den minst mulig omkrets.
+> En likebeint trekant har omkrets $O$. Vis at hvis trekanten er likesidet har den strøst mulig areal.
+
+> [!note]+ Løsning
+> La lengden på en side av trekanten være $s$. Ved å betrakte en likesidet trekant kan vi finne høyden med Pytagoras slik som figuren viser
+> ![[Files/shapes at 24-10-01 09.43.07.svg]]
+> Omkretsen er da $O = 2x+2s$. Siden $O$ er en konstant kan vi løse for $s$ og få $s = \frac{O}{2}-x$  Hvis arealet er $A$ vet vi også at $A = x\cdot h$. Bruker vi Pytagoras kan vi løse for $h$ og få $h = \sqrt{s^2-x^2}$. Vi får derfor at
+> $$
+> \begin{aligned} 
+> A = & x\sqrt{s^2-x^2} \\
+>  \overset{ \text{ setter inn for } s }{=  } &  x\sqrt{\left( \frac{O}{2} -x\right)^2-x^2} \\  =  & x \sqrt{\frac{O^2}{4}-2Ox\cancel{ +x^2-x^2 }} \\ = & \sqrt{\frac{O^2x^2 }{4}-Ox^3}.
+> \end{aligned} 
+> $$
+> Vi kan nå se at $A$ er størst når $f(x) =\frac{O^2x^2 }{4}-Ox^3$ er størst. Deriverer vi $f$ får vi $f'(x)=\frac{O^2\cdot x}{2}-3\cdot O\cdot x^2=x\cdot O\left( \frac{O}{2}-3x \right)$. Det kritiske punktet er når $\frac{O}{2}-3x = 0$ eller $x = \frac{O}{6}$. Vi ser også at dette må være et toppunkt siden arealet er 0 når $x$ er 0 eller $x$ er like stor som $s$.
 
 
 > [!abstract] 28
@@ -195,36 +220,165 @@
 > ![[Files/shapes at 24-09-24 13.21.04.svg]]
 > 
 
+> [!note]+ Løsning
+> Lengden på stolpen som kan bæres rundt hjørnet kan beskrives ved hypotenusen i en rettvinklet trekant med katetene $a$ og $b$. Bruk Pythagoras' setning:
+> 
+> La $L$ være lengden på stolpen. Da er lengden gitt ved ligningen:
+> $$
+> \frac{a}{\sin(\theta)} + \frac{b}{\cos(\theta)} = L,
+> $$
+> hvor $\theta$ er vinkelen mellom gangen og stolpen. For å finne den maksimale lengden, optimaliser ved å derivere uttrykket og løse for $\theta$. Det lengste stolpen kan være er:
+> $$
+> L = \sqrt{a^2 + b^2}.
+> $$
 ## 4.9
 
 > [!abstract] 15 
 > Gjør en passende lineær approksimasjon av $\sqrt{x}$ for å estimere $\sqrt{50}$. 
 
 
+> [!note]+ Løsning
+> Vi bruker lineær approksimasjon basert på punktet $x_0 = 49$, der $\sqrt{49} = 7$. Deriver funksjonen $f(x) = \sqrt{x}$:
+> $$
+> f'(x) = \frac{1}{2\sqrt{x}}.
+> $$
+> For $x = 49$, er $f'(49) = \frac{1}{14}$. Lineær approksimasjon er gitt ved:
+> $$
+> L(x) = f(x_0) + f'(x_0)(x - x_0).
+> $$
+> Sett inn $x_0 = 49$ og $f'(49)$:
+> $$
+> L(x) = 7 + \frac{1}{14}(x - 49).
+> $$
+> For $x = 50$:
+> $$
+> L(50) = 7 + \frac{1}{14}(50 - 49) = 7 + \frac{1}{14} = 7.071.
+> $$
+> Estimert verdi for $\sqrt{50}$ er omtrent $7.071$.
+
 > [!abstract] 17 
 > Gjør en passende lineær approksimasjon av $\sqrt[4]{x}$ for å estimere $\sqrt{85}$. 
 
-
+> [!note]+ Løsning
+> Vi bruker lineær approksimasjon basert på punktet $x_0 = 81$, der $\sqrt[4]{81} = 3$. Deriver funksjonen $f(x) = \sqrt[4]{x}$:
+> $$
+> f'(x) = \frac{1}{4x^{3/4}}.
+> $$
+> For $x = 81$, er $f'(81) = \frac{1}{4 \cdot 81^{3/4}} = \frac{1}{108}$. Lineær approksimasjon er gitt ved:
+> $$
+> L(x) = f(x_0) + f'(x_0)(x - x_0).
+> $$
+> Sett inn $x_0 = 81$ og $f'(81)$:
+> $$
+> L(x) = 3 + \frac{1}{108}(x - 81).
+> $$
+> For $x = 85$:
+> $$
+> L(85) = 3 + \frac{1}{108}(85 - 81) = 3 + \frac{4}{108} = 3.037.
+> $$
+> Estimert verdi for $\sqrt[4]{85}$ er omtrent $3.037$.
 ## 4.10
 
 > [!abstract] 3
 > Finn Taylorpolynomet av grad 4 til $\ln(x)$ rundt $x=2$.
 
+> [!note]+ Løsning
+> For $\ln(x)$ rundt $x = 2$, bruker vi Taylor-rekkefølger:
+> $$
+> \begin{aligned} 
+> f(x)  = & \phantom{+} f(a) + f'(a)(x - a) \\ & + \frac{f''(a)}{2!}(x - a)^2 \\ & + \frac{f'''(a)}{3!}(x - a)^3  \\ & + \frac{f^{(4)}(a)}{4!}(x - a)^4.
+> \end{aligned} 
+> $$
+> Deriver vi funksjonen $\ln(x)$ får vi
+> $$
+> \begin{aligned} 
+> & f(x) = \ln(x) && f(2), =  \ln(2) \\
+> & f'(x) = \frac{1}{x}, &&  f'(2) = \frac{1}{2}, \\ & f''(x) = -\frac{1}{x^2}, && f''(2) = -\frac{1}{4}, \\ & f'''(x) = \frac{2}{x^3}, && f'''(2) = \frac{2}{8}, \\ & f^{(4)}(x), = -\frac{6}{x^4} && f^{(4)}(2) = -\frac{6}{16}.
+> \end{aligned} 
+> $$
+> V finner nå verdiene ved $x = 2$:
+> Taylorpolynomet er da:
+> $$
+> P_4(x) = \ln(2) + \frac{1}{2}(x-2) - \frac{1}{8}(x-2)^2 + \frac{1}{24}(x-2)^3 - \frac{1}{64}(x-2)^4.
+> $$
+
+
 > [!abstract] 5
 > Finn Taylorpolynomet av grad 3 til $\sqrt{x}$ rundt $x=4$.
+
+> [!note]+ Løsning
+> For $\sqrt{x}$ rundt $x = 4$, deriver funksjonen:
+> $$
+> \begin{aligned} 
+> & f(x) =  x^{1/2}, && f(4) = 2,    \\
+> & f'(x) = \frac{1}{2\sqrt{x}}, && f'(4) = \frac{1}{4}, \\
+> & f''(x) = -\frac{1}{4x^{3/2}}, &&  f''(4) = -\frac{1}{32},\\ & f^{(3)}(x) = \frac{3}{8x^{5/2}} && f^{(3)}(4) = \frac{3}{256}.
+> \end{aligned} 
+> $$
+> Beregn verdiene ved $x = 4$:
+> $$
+> 
+> $$
+> Taylorpolynomet av grad 3 er:
+> $$
+> P_3(x) = 2 + \frac{1}{4}(x-4) - \frac{1}{64}(x-4)^2 + \frac{1}{512}(x-4)^3.
+> $$
 
 > [!abstract] 10
 > Finn Taylorpolynomet av grad 2 til $\sqrt{x}$ rundt $x=64$. Bruk Taylorpolynomet til å estimere $\sqrt{61}$.
 
+> [!note]+ Løsning
+> Vi finner de første to deriverte av $\sqrt{x}$ rundt $x = 64$:
+> $$
+> f(x) = \sqrt{x}, \quad f'(x) = \frac{1}{2\sqrt{x}}, \quad f''(x) = -\frac{1}{4x^{3/2}}.
+> $$
+> Taylorpolynomet av grad 2 er:
+> $$
+> P_2(x) = 8 + \frac{1}{16}(x - 64) - \frac{1}{512}(x - 64)^2.
+> $$
+> For $x = 61$, estimerer vi:
+> $$
+> P_2(61) = 8 + \frac{1}{16}(-3) - \frac{1}{512}(9) = 8 - 0.1875 - 0.0176 \approx 7.7949.
+> $$
+
 > [!abstract] 15
 > Finn Taylorpolynomet av grad 7 til $\sin{(x)}$ rundt $a=0$. Hva er Lagrange resten til Taylorpolynomet?
 
+> [!note]+ Løsning
+> Taylorpolynomet til $\sin(x)$ rundt $x = 0$ er:
+> $$
+> P_7(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!}.
+> $$
+> Lagrange-resten $E_7(x)$ er gitt ved $f^{(8)}(x) = \sin(x)$, som betyr at 
+> $$
+> E_7(x) = \frac{\sin(s)}{8!} x^8 \quad \text{for} \quad s \in (0, x).
+> $$
 
 > [!abstract] 18
 > Finn Taylorpolynomet av grad 6 til $\frac{1}{1-x}$ rundt $a=0$. Hva er Lagrange resten til Taylorpolynomet?
+
+
+> [!note]+ Løsning
+> Taylorpolynomet til $\frac{1}{1-x}$ rundt $x = 0$ er den geometriske rekken:
+> $$
+> P_6(x) = 1 + x + x^2 + x^3 + x^4 + x^5 + x^6.
+> $$
+> Lagrange-resten $E_6(x)$ er gitt ved $f^{(7)}(x) = \frac{7!}{(1-x)^{8}}$. Som betyr at:
+> $$
+> E_6(x) = \frac{f^{(7)}(s)}{7!} x^7 = \frac{x^7}{(1-s)^8} \quad \text{for en} \quad s \in (0, x).
+> $$
 
 
 > [!abstract] 19
 > Finn Taylorpolynomet av grad 6 til $\ln(x)$ rundt $a=1$. Hva er Lagrange resten til Taylorpolynomet?
 
 
+> [!note]+ Løsning
+> Taylorpolynomet til $\ln(x)$ rundt $x = 1$ er:
+> $$
+> P_6(x) = (x-1) - \frac{(x-1)^2}{2} + \frac{(x-1)^3}{3} - \frac{(x-1)^4}{4} + \frac{(x-1)^5}{5} - \frac{(x-1)^6}{6}.
+> $$
+> Lagrange-resten $E_6(x)$ er gitt ved:
+> $$
+> E_6(x) = \frac{f^{(7)}(s)}{7!} (x-1)^7 = \frac{(x-1)^7}{7s^7} \quad \text{for} \quad s \in (1, x).
+> $$

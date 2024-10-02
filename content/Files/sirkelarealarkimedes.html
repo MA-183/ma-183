@@ -26,10 +26,10 @@
     </style>
     <svg id="visualizationSvg" viewBox="0 0 600 300">
         <!-- Left Side: Circle with Cuts -->
-        <g id="circleGroup" transform="translate(120,100)"></g>
+        <g id="circleGroup" transform="translate(120,120)"></g>
         <!-- Right Side: Rearranged Sectors -->
         <g id="rearrangedGroup" transform="translate(300,150)"></g>
-        <foreignObject x="230" y="180" width="300" height="60">
+        <foreignObject x="230" y="180" width="320" height="60">
             <body xmlns="http://www.w3.org/1999/xhtml">
                 <style>
                     input[type="range"] {
@@ -70,7 +70,7 @@
                     }
                 </style>
                 <div id="sliderContainer">
-                    <label id="sliderLabel" style="color: #b4d4d4">Antall deler: <span id="numSectors">2</span></label>
+                    <label id="sliderLabel" style="color: #b4d4d4">Antall deler: <span id="numSectors">4</span></label>
                     <input type="range" id="sectorSlider" min="4" max="60" value="4" step="2" style="width: 140px;">
                 </div>
             </body>
@@ -106,12 +106,13 @@
                 const y1 = radius * Math.sin(startAngle);
                 const x2 = radius * Math.cos(endAngle);
                 const y2 = radius * Math.sin(endAngle);
-
+                const x3 = 0*numSectors*Math.cos((i+0.5) * angleStep);
+                const  y3 = 0*numSectors*Math.sin((i+0.5) * angleStep);
                 const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
                 const d = [
-                    'M', 0, 0,
-                    'L', x1, y1,
-                    'A', radius, radius, 0, 0, 1, x2, y2,
+                    'M', x3, y3,
+                    'L', x1+x3, y1+y3,
+                    'A', radius, radius, 0, 0, 1, x2+x3, y2+y3,
                     'Z'
                 ].join(' ');
 
