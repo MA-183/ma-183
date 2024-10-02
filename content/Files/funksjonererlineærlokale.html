@@ -62,7 +62,7 @@
     <!-- Display current x and zoom level values -->
 
     <!-- Graph and zoom circle -->
-    <svg id="graphSvg" width="600" height="500" viewBox="0 0 600 500">
+    <svg id="graphSvg" width="600" height="500" viewBox="-100 0 600 500">
         <!-- Zoom circle -->   
 
         <line x1="0" y1="50" x2="550" y2="50" style="stroke: #4c4f6b; stroke-width:2"></line>
@@ -79,21 +79,21 @@
         <line x1="100" y1="0" x2="100" y2="500" style="stroke: #4c4f6b; stroke-width:2"></line>
         <line x1="150" y1="0" x2="150" y2="500" style="stroke: #4c4f6b; stroke-width:2"></line>
         <line x1="200" y1="0" x2="200" y2="500" style="stroke: #4c4f6b; stroke-width:2"></line>
-        <line x1="300" y1="0" x2="300" y2="500" style="stroke: #4c4f6b; stroke-width:2"></line>
+        <line x1="300" y1="0" x2="300" y2="500" style="stroke: #9398b0; stroke-width:3"></line>
         <line x1="350" y1="0" x2="350" y2="400" style="stroke: #4c4f6b; stroke-width:2"></line>
         <line x1="400" y1="0" x2="400" y2="400" style="stroke: #4c4f6b; stroke-width:2"></line>
         <line x1="450" y1="0" x2="450" y2="400" style="stroke: #4c4f6b; stroke-width:2"></line>
         
         <line x1="500" y1="0" x2="500" y2="400" style="stroke: #4c4f6b; stroke-width:2"></line>
-        <line x1="0" y1="250" x2="550" y2="250" style="stroke: #9398b0; stroke-width:3"></line>
-        <line x1="250" y1="0" x2="250" y2="500" style="stroke: #9398b0; stroke-width:3"></line>
+        <line x1="0" y1="250" x2="550" y2="250" style="stroke: #9398b0; stroke-width:2"></line>
+        <line x1="250" y1="0" x2="250" y2="500" style="stroke: #4c4f6b; stroke-width:3"></line>
         <!-- Function graph -->
         <path id="functionPath" class="function-line"></path>
         <!-- Tangent line -->
         <line id="tangentLine" class="tangent-line"></line>
         <!-- Point -->
         <circle id="pointX" class="point" r="6"></circle>
-        <circle cx="105" cy="105" r="100" class="zoom-circle"></circle>
+        <circle id="zoomCircle2"  cx="105" cy="105" r="100" class="zoom-circle"></circle>
         <clipPath id="zoomClip">
             <circle id="zoomCircle" class="zoom-circle" cx="105" cy="105" r="100"></circle>
         </clipPath>
@@ -143,7 +143,7 @@
             </div>
             <!-- Slider for zoom level -->
             <div id="sliderContainer">
-                <input type="range" id="zoomSlider" min="10" max="500" value="10" step="1" class="slider">
+                <input type="range" id="zoomSlider" min="1" max="5000" value="1" step="1" class="slider">
             </div>
         </foreignObject>
     </svg>
@@ -157,9 +157,10 @@
         const zoomSlider = document.getElementById('zoomSlider');
         const zoomGroup = document.getElementById('zoomGroup');
         const zoomCircle = document.getElementById('zoomCircle');
+        const zoomCircle2 = document.getElementById('zoomCircle2');
 
         let x = 0;
-        let zoomLevel = 10;
+        let zoomLevel = 1;
 
         const width = 600;
         const height = 500;
@@ -238,9 +239,9 @@
             zoomGroup.innerHTML = '';
 
             // Define constants for the zoom circle
-            const zoomCircleCenterX = 105;
-            const zoomCircleCenterY = 105;
-            const zoomCircleRadius = 120;
+            const zoomCircleCenterX = 105-((zoomSlider.value<996)?Math.pow(2,zoomSlider.value/100):zoomSlider.value)/100;
+            const zoomCircleCenterY = 105+((zoomSlider.value<996)?Math.pow(2,zoomSlider.value/100):zoomSlider.value)/100;
+            const zoomCircleRadius = 90+((zoomSlider.value<996)?Math.pow(2,zoomSlider.value/100):zoomSlider.value)/100;
 
             // Define the zoomed-in area in mathematical coordinates
             const zoomXRange = (xMax - xMin) / zoomLevel;
@@ -253,7 +254,13 @@
 
             const zoomXScale = (xVal) => ((xVal - zoomXMin) / (zoomXMax - zoomXMin)) * (2 * zoomCircleRadius) + (zoomCircleCenterX - zoomCircleRadius);
             const zoomYScale = (yVal) => ((zoomYMax - yVal) / (zoomYMax - zoomYMin)) * (2 * zoomCircleRadius) + (zoomCircleCenterY - zoomCircleRadius);
-
+            zoomCircle.setAttribute('r', zoomCircleRadius );
+            zoomCircle2.setAttribute('r', zoomCircleRadius );
+            zoomCircle.setAttribute('cx', zoomCircleCenterX );
+            zoomCircle2.setAttribute('cx', zoomCircleCenterX );
+            
+            zoomCircle.setAttribute('cy', zoomCircleCenterY );
+            zoomCircle2.setAttribute('cy', zoomCircleCenterY );
             // Draw function in zoomed-in view
             let pathData = '';
             let moveToSet = false;
@@ -344,7 +351,7 @@
 
         // Zoom slider functionality
         zoomSlider.addEventListener('input', function() {
-            zoomLevel = parseFloat(zoomSlider.value);
+            zoomLevel = parseFloat((zoomSlider.value<3536)?Math.pow(2,zoomSlider.value/300):zoomSlider.value);
             updateVisualization();
         });
     </script>
