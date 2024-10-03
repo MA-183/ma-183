@@ -25,5 +25,5 @@
 > > $$
 > > \frac{1}{\frac{{\color{#f46f22} 1 }}{\cos^2(\tan^{-1}(x))}} = \frac{1 }{\frac{{\color{#f46f22} \cos^2(\tan^{-1}(x))+\sin^2(\tan^{-1}(x)) } }{\cos^2(\tan^{-1}(x)) }  }  = \frac{1 }{1+ \tan^2(\tan^{-1}(x))   } = \frac{1 }{1+x^2 }  
 > > $$
-> > og vi har resultatet vi ønsker. Merk at vi bruker [[Kapittel 0 - innledende kapittel/5.4 Viktige identiteter|sammenhengen]] $\cos^2(x)+\sin^2(x) =1$, markert i oransje.
+> > og vi har resultatet vi ønsker. Merk at vi bruker [[Kapittel 0 - innledende kapittel/5.4 Viktige trigonometriske identiteter|sammenhengen]] $\cos^2(x)+\sin^2(x) =1$, markert i oransje.
 
