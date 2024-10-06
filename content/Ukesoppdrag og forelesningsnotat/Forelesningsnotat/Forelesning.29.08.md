@@ -100,7 +100,7 @@ $$
 > Kan vi finne $z$ når $z^3=1$?
 
 
-![[Files/shapes at 24-08-29 09.59.10.svg]]
+![[Files/løsningsforslagkomplekserøtter.svg]]
 
 Hvorfor bruker vi ikke $n=3$? Fordi vi får en løsning vi allerede har funnet!
 

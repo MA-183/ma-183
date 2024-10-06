@@ -24,7 +24,7 @@ Tilbake til Arkimedes, typ 200 år før Kristus
 >Vi noterer det slik
 > $$\lim_{x \longrightarrow  a} f(x) = L.$$
 
-![[Files/shapes at 24-09-03 09.57.43.svg]]
+![[Files/epsdeltadefinisjonavkont.svg]]
 > [!info] Grenser - formel (for de som sikter høyt)
 > Vi sier at $f(x)$ går mot $L$ når $x$ går mot $a$ hvis det for alle $\varepsilon>0$ så eksisterer det en $\delta>0$ slik at når $|x-a|<\delta$ så er $|f(x) -L| < \varepsilon$.  
 

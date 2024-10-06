@@ -7,5 +7,5 @@
 > \end{cases}
 >  $$
 >  
->![[Files/shapes at 24-09-10 11.48.13.svg]]
+>![[Files/defavln.svg]]
 

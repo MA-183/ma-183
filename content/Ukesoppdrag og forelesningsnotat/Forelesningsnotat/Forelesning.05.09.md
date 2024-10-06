@@ -23,7 +23,7 @@ HUSK NOA - Tavla er her tinyurl.com/ma183-05-09
 
 
 
-![[Files/shapes at 24-09-05 08.38.39.svg|600]]
+![[Files/forelesn0509.svg|600]]
 
  > [!question] Spørsmål 
 > Hva er $\lim_{x\longrightarrow 1}f(x)$
@@ -59,7 +59,7 @@ Det vi trenger for at det vi dreiv med på tirsdag skal funke, så må funksjone
 >  
 >Vi sier at $f$ er kontinuerlig på $(a,b)$ hvis den er kontinuerlig for alle $c$ i $(a,b)$. 
 
-![[Files/shapes at 24-09-05 08.47.28.svg]]
+![[Files/foreles0509.svg]]
 
 $\frac{1}{x}$ er kontinuerlig på $(0,1)$, men har ingen topp- eller bunnpunkt. Så det er nødvendig å ha med endepunkter for å være sikker på at kontinuerlige funksjoner har topp og bunn. 
 
@@ -93,14 +93,14 @@ Hvis $c = 2$ så er $f$ kont i $2$ og $f(2) = 2^2 = 4$. $\cos(x)$ er kont i $4$,
 ## Derivasjon
 
 
-![[Files/shapes at 24-09-05 09.38.01.svg]]
+![[Files/fore0509.svg]]
 
 
 > [!warning] Merk 
 > Vi må finne en måte å beskrive stigning til en funksjon, $f$, i et punkt. 
 
 
-![[Files/shapes at 24-09-05 09.37.41.svg]]
+![[Files/fore05092.svg]]
 
 Stigning til $f$ i $x$ er *nesten* gjennsnittlig stigning mellom $x$ og et punkt nær $x$, for eksempel $x+h$. Estimatet bør bli bedre jo mindre $h$ er.  
 Figuren viser at gjennomsnittlig stigning er

@@ -19,7 +19,7 @@ $$
 Hvis den deriverte eksisterer (at det finnes entydig tangentlinje), så betyr det også at $f$ er praktisk talt en rett linje rundt $a$. Altså
 $f(x) \approx f(a)+f'(a)\cdot(x-a)$.
 
-![[Files/shapes at 24-09-07 13.49.02.svg]]
+![[Files/4.1notatderi.svg]]
 Se at $y=f(a)+f'(a)(x-a)$ *må* være riktig
 
 rett stigning +  $x=a$ gir $f(a)+f'(a)(a-a)= f(a)$, går gjennom $(a,f(a))$. 
@@ -126,7 +126,7 @@ Ta en av gangen. Til timen er slutt?
 > $$\lim_{x\longrightarrow  0}\sin(x) = 0$$ og
 > $$\lim_{x\longrightarrow  0}\cos(x) = 1.$$
 
-![[Files/shapes at 24-08-31 13.38.56.svg]]
+![[Files/cosogsinerkont.svg]]
 $$
 \begin{aligned} 
  & x^2  = {\color{#e599f7} \sin^2(t) }+{\color{#40c057} (1-\cos(t))^2 } < t^2 \\ & 0<{\color{#e599f7} |\sin(t) | }< |t| \\ 

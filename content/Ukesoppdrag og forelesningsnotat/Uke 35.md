@@ -155,7 +155,7 @@
 > 
 > 
 > Vi får vite at $z=\cos\left( \frac{3\pi}{4} \right)+i\sin\left( \frac{3\pi}{4} \right) = -\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}i$, se bilde.
-> ![[Files/shapes at 24-08-30 11.18.24.svg]]
+> ![[Files/løsningsforslagkompleksetall.svg]]
 > 
 
 > [!abstract] 21
@@ -207,7 +207,7 @@
 > 
 > $\text{Arg}(z)= \frac{\pi}{3}$ beskriver alle $z$ som danner en vinkel på $\frac{\pi}{3}$ med $x$-aksen. Dermed er det alle positive skaleringer av tallet $z = e^{i \frac{\pi}{3}}$.
 > 
-> ![[Files/shapes at 24-08-30 11.22.19.svg]]
+> ![[Files/løsningsforslagstråleavkomplekslikning.svg]]
 > 
 
 > [!abstract] 34

@@ -27,5 +27,5 @@
 > $$
 > Nå gjenstår det bare å se at grensene våre stemmer fordi de [[Kapittel 1 - grenser og kontinuitet/defogteo/Teo Skviseteoremet|skvises]]  mellom $0$ og $t$.
 > 
-> ![[Files/shapes at 24-08-31 13.38.56.svg]]
+> ![[Files/cosogsinerkont.svg]]
 > 

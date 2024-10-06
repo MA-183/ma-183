@@ -16,7 +16,7 @@ Tillitsvalgt - Sunniva og Vegar
 
 $f'(x)$ definerte vi som stigning til tangenten som går gjennom $(x,f(x))$.
 
-![[Files/shapes at 24-09-10 14.20.54.svg]]
+![[Files/forelesn1009.svg]]
 Formel
 $$
 \lim_{h\longrightarrow  0}\frac{f(x+h)-f(x)}{h}.
@@ -67,7 +67,7 @@ La $f(x) = x^2$
 3. Like bratt, men forskjøvet horisontalt mot venstre
 4. Dobbelt så bratt og forskjøvet mot venstre. 
 
-![[Files/shapes at 24-09-10 14.48.10.svg]]
+![[Files/forelesn1009e.svg]]
 
 La oss se på $f(g(x))$ og anta at $g(x)$ er deriverbar i $a$ og at $f$ er deriverbar i $g(a)$. 
 
@@ -108,5 +108,5 @@ $$
 \end{aligned} 
 $$
 
-![[Files/shapes at 24-09-11 08.14.53.svg]]
+![[Files/for1009.svg]]
 Resten på torsdag

@@ -247,7 +247,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 
 
 > [!abstract] 4
-> ![[Files/shapes at 24-09-09 10.43.48.svg]]
+> ![[Files/uke36 løsning.svg]]
 > Avgjør i hvilke av punktene i grafen under der $f$ er diskontinuerlig. Der $f$ er diskontinuerlig, avgjør om den er kontinuerlig fra venstre side? Høyre side?.
 > 
 
@@ -257,7 +257,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > 
 
 > [!abstract] 5
-> ![[Files/shapes at 24-09-09 10.43.48.svg]]
+> ![[Files/uke36 løsning.svg]]
 > Avgjør og begrunn om $f$ kan redefineres i $x = 1$ slik at den blir kontinuerlig der.
 > 
 
@@ -407,13 +407,13 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > [!abstract] 1
 > Skisser den deriverte til grafen under
 > 
-> ![[Files/shapes at 24-09-09 11.54.47.svg]]
+> ![[Files/ue36losn.svg]]
 
 > [!note]- Løsning 
 > 
 > 
 > 
-> ![[Files/shapes at 24-08-30 12.06.29.svg]]
+> ![[Files/uke36løsninsfors.svg]]
 > 
 > Merk at der funksjonen *knekker* er der den deriverte hopper, markert i hvite ringer. Der er ikke den deriverte definert.
 > 
@@ -421,7 +421,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > [!abstract] 2
 > Skisser den deriverte til grafen under
 > 
-> ![[Files/shapes at 24-09-09 11.54.59.svg]]
+> ![[Files/uke36losn.svg]]
 
 
 > [!note]- Løsning 
@@ -429,7 +429,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > 
 > 
 > 
-> ![[Files/shapes at 24-08-30 12.07.03.svg]]
+> ![[Files/løsninsforslaguke36.svg]]
 > 
 > Merk at der funksjonen *knekker* er der den deriverte hopper, markert i hvite ringer. Der er ikke den deriverte definert.
 > 
@@ -437,7 +437,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > [!abstract] 3
 > Skisser den deriverte til grafen under
 > 
-> ![[Files/shapes at 24-09-09 11.55.17.svg]]
+> ![[Files/uke36løsninger.svg]]
 
 
 
@@ -451,7 +451,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > [!abstract] 4
 > Skisser den deriverte til grafen under
 > 
-> ![[Files/shapes at 24-09-09 11.55.31.svg]]
+> ![[Files/uke36losning.svg]]
 
 > [!note]- Løsning 
 > 
@@ -464,14 +464,14 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > [!abstract] 5
 > Avgjør hvor grafen under er deriverbar
 > 
-> ![[Files/shapes at 24-09-09 11.54.47.svg]]
+> ![[Files/ue36losn.svg]]
 
 > [!note]- Løsning 
 > 
 > 
 > 
 > 
-> ![[Files/shapes at 24-08-30 12.06.29.svg]]
+> ![[Files/uke36løsninsfors.svg]]
 > 
 > Ved å se på skissen fra 1. ser vi at der funksjonen *knekker* er der den deriverte hopper, markert i hvite ringer. Der er ikke den deriverte definert. Vi får ikke oppgitt enheter, men er det kan se ut som den er definert på $(-2,2)\setminus\{-1, 1\}$, altså alle punkter mellom $-2$ og $2$ bortsett fra $1$ og $-1$. 
 > 

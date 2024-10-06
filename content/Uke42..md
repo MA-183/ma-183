@@ -37,7 +37,9 @@ Hva hvis det faktisk så slik ut?
 Jo, ideen er slik
 [[Files/riemann2.html|riemann2]]
 
+Trenger en måte å summere vilkårlig antall ledd.
 ## Summasjonsnotasjon
+
 
 
 ## Ideen - Riemannsummer

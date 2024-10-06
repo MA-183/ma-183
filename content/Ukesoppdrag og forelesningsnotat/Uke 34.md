@@ -35,7 +35,7 @@
 >
 > Denne funksjonen er også symmetrisk om $x=0$. I tillegg er det klart at $-|x| = -|-x|$, altså er funksjonen jevn.
 > 
-> ![[Files/shapes at 24-09-09 12.38.39 1.svg]]
+> ![[Files/uke34løsni.svg]]
 
 
 
@@ -47,7 +47,7 @@
 > 
 > 
 > Dette er funksjonen $|x|$ forskjøvet $2$ mot høyre på $x$-aksen. Den er derfor symmetrisk om $x=2$. Det betyr også at funksjonen ikke er jevn eller odde. 
-> ![[Files/shapes at 24-09-09 12.39.22.svg]]
+> ![[Files/uke34løsn.svg]]
 > 
 ## P.6
 
@@ -94,7 +94,7 @@
 
 
 > [!note]- Løsning
-> ![[Files/shapes at 24-09-09 12.51.32.svg]]
+> ![[Files/polydi.svg]]
 
 
 > [!abstract] 18
@@ -103,14 +103,14 @@
 
 > [!note]- Løsning
 > 
-![[Files/shapes at 24-09-09 12.53.24.svg]]
+![[Files/uke34polydiv.svg]]
 
 > [!abstract] 19
 > Skriv $\frac{x^3}{x^2+2x+3}$ som en sum av et polynom og en rasjonal funksjon der graden til telleren er lavere enn graden til nevneren i den rasjonale funksjonen.
 
 
 > [!note]- Løsning
-> ![[Files/shapes at 24-09-09 12.52.09.svg]]
+> ![[Files/polydivisj.svg]]
 
 
 
@@ -118,7 +118,7 @@
 > Skriv $\frac{x^4+x^2}{x^3+x^2+1}$ som en sum av et polynom og en rasjonal funksjon der graden til telleren er lavere enn graden til nevneren i den rasjonale funksjonen.
 
 > [!note]- Løsning
-![[Files/shapes at 24-09-09 12.53.09.svg]]
+![[Files/polydivisjo.svg]]
 
 
 > [!abstract] abc-formelen

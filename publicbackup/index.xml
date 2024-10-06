@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>MA-183</title>
+      <link>https://ma-183.github.io/MA-183</link>
+      <description>Seneste 10 notater on MA-183</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Teo Elementære integraler</title>
+    <link>https://ma-183.github.io/MA-183/Kapittel-5---integrasjon/defogteo/Teo-Element%C3%A6re-integraler</link>
+    <guid>https://ma-183.github.io/MA-183/Kapittel-5---integrasjon/defogteo/Teo-Element%C3%A6re-integraler</guid>
+    <description> Noen elementære integral \begin{array}{rlrl} 1. &amp; \int 1 \, dx = x + C \\ 2. &amp; \int x \, dx = \frac{1}{2} x^2 + C \\ 3. &amp; \int x^2 \, dx = \frac{1}{3} x^3 + C \\ 4.</description>
+    <pubDate>Thu, 03 Oct 2024 13:09:45 GMT</pubDate>
+  </item><item>
+    <title>Uke 46</title>
+    <link>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-46</link>
+    <guid>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-46</guid>
+    <description>6.2 1 3 4 5 6 9 11 12 15 7.1 Kun skrivemetoden for 1-4 1 2 3 4 5 6 7 8 .</description>
+    <pubDate>Thu, 03 Oct 2024 06:15:22 GMT</pubDate>
+  </item><item>
+    <title>Uke 45</title>
+    <link>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-45</link>
+    <guid>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-45</guid>
+    <description>2.10 1 2 3 4 5 6 7 8 9 10 11 12 13 14 19 20 21 22 Middelverditeoremet Funksjonen f(x) = \sqrt{x} oppfyller betingelsene i middelverditeoremet på intervallet [0,b] ...</description>
+    <pubDate>Thu, 03 Oct 2024 06:15:22 GMT</pubDate>
+  </item><item>
+    <title>Uke 42</title>
+    <link>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-42</link>
+    <guid>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-42</guid>
+    <description>5.1 1 Regn ut summen \sum_{i=1}^{4}i^3 Løsning Vi kan bare skrive ut og se at \sum_{i=1}^{4}i^3 = 1^3+2^3+3^3+4^3 = 1+8+27+64 = 100 3 Utvid summen \sum_{i=1}^{n}3^i ...</description>
+    <pubDate>Thu, 03 Oct 2024 06:15:22 GMT</pubDate>
+  </item><item>
+    <title>Uke 41</title>
+    <link>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-41</link>
+    <guid>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-41</guid>
+    <description>4.4 13 Avgjør om f(x) = |x-1| har noen lokale eller globale ekstremalpunktet på [-2,2]. Løsning Funksjonen f(x) = |x-1| har et knekkpunkt ved x = 1, der den er kontinuerlig men ikke deriverbar.</description>
+    <pubDate>Thu, 03 Oct 2024 06:15:22 GMT</pubDate>
+  </item><item>
+    <title>Uke 40</title>
+    <link>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-40</link>
+    <guid>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-40</guid>
+    <description>3.5 1 Avgjør verdien til \sin^{-1}\left( \frac{\sqrt{3}}{2} \right). Løsning Vi vet at \sin^{-1}(x) gir vinkelen der sinus av vinkelen er lik x. For \sin^{-1}\left( \frac{\sqrt{3}}{2} \right), ser vi at vinkelen er \frac{\pi}{3}, siden \sin\left( \frac{\pi}{3} \right) = \frac{\sqrt{3}}{2}.</description>
+    <pubDate>Thu, 03 Oct 2024 06:15:22 GMT</pubDate>
+  </item><item>
+    <title>Uke 39</title>
+    <link>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-39</link>
+    <guid>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-39</guid>
+    <description>3.3 1 Forenkle uttrykket \frac{e^3}{\sqrt{e^5}} Løsning \begin{aligned} \frac{e^3}{\sqrt{e^5}} =\frac{e^3}{(e^5)^{1/2}} = \frac{e^3}{e^{5/2}} = e^{3-5/2}= e^{1/2}=\sqrt{e} ...</description>
+    <pubDate>Thu, 03 Oct 2024 06:15:22 GMT</pubDate>
+  </item><item>
+    <title>Uke 38</title>
+    <link>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-38</link>
+    <guid>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-38</guid>
+    <description>3.1 2 La f = 2x-1. Vis at f er en-til-en. Avgjør f^{-1} og spesifiser definisjonsmengde og verdimengde. Løsning Vi sjekker om f er en-til-en. Velg to punkter x_1 og x_2 og merk at f(x_1) = 2x_1-1 og f(x_2) = 2x_2-1.</description>
+    <pubDate>Thu, 03 Oct 2024 06:15:22 GMT</pubDate>
+  </item><item>
+    <title>Uke 37</title>
+    <link>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-37</link>
+    <guid>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-37</guid>
+    <description>2.4 1 Avgjør den deriverte til y=(2x+3)^6 Løsning y = (2x+3)^6. Vi dekomponerer ved å se at f(x)=2x+3 er den indre delen av funksjonen og g(x) = x^6 er den ytre.</description>
+    <pubDate>Thu, 03 Oct 2024 06:15:22 GMT</pubDate>
+  </item><item>
+    <title>Uke 36</title>
+    <link>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-36</link>
+    <guid>https://ma-183.github.io/MA-183/Ukesoppdrag-og-forelesningsnotat/Uke-36</guid>
+    <description>1.2 I oppgave 3 til 6 tar vi utgangspunkt i følgende graf. 3 Ved å se på grafen over, avgjør \lim_{x\longrightarrow 1-}g(x). Løsning Under er tegninger der vi se hva x går mot i blått og hva g(x) går mot i rosa.</description>
+    <pubDate>Thu, 03 Oct 2024 06:15:22 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

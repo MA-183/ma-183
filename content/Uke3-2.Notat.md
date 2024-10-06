@@ -87,7 +87,7 @@ Hvorfor så vi på kontinuerlige funksjoner? Jo, hvis $f$ er kont så tar $f$ mi
 Eks: Ønsker ofte å optimere. Finne makspunkt.
 
 Hvis $f(x)$ beskriver inntekt til en bedrift ved produksjon av $x$ enheter (tar høyde for utgifter også). 
-![[Files/shapes at 24-08-30 15.11.30.svg]]
+![[Files/kritiskpunkt.svg]]
 > [!question] Merk 
 > Vi må finne en måte å beskrive stigning til en funksjon, $f$, i et punkt!
 
@@ -97,7 +97,7 @@ $$
 $$
 
 Bare velg $h$ veldig liten... Grenser!!
-![[Files/shapes at 24-08-30 15.18.32.svg|600]]
+![[Files/sekant.svg|600]]
 Er naturlig å tenke at hvis 
 $$
 \lim_{h\longrightarrow  0}\frac{f(x+h)-f(x)}{h}
