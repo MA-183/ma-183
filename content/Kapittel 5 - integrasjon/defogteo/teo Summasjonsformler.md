@@ -5,3 +5,21 @@
 >  $$
 
 
+
+
+> [!note]- Argument 
+> 
+> > [!abstract]  1
+> > Denne er triviell og kan leses direkte av definisjonen.
+> 
+> > [!abstract]  2
+> > La $S = 1+2+3+\ldots + n$, da kan vi skrive $S$ på to måter og utnytte at vi kan legge summene sammen ledd for ledd.
+> > $$
+> > \begin{aligned} 
+> >   S & = \phantom{(n+}1\phantom{)\ \ } + \phantom{(n-)}2\phantom{) }  +\phantom{(n-)}3\phantom{\ \ }  +\ldots + (n-2)+(n-1) + n \\
+> >     S & = \phantom{(}n\phantom{+1)\ \ } + (n-1)+(n-2)+ \ldots + \phantom{(n- )}3\phantom{) } +\phantom{(n-)} 2\phantom{)} + \phantom{(n-)}1 \\
+> >       \hline{} 2S &=(n+1)+(n+1)+(n+1)+\ldots+(n+1)+(n+1)+(n+1) \\
+> >         2S & = n(n+1) \\
+> >  S & = \frac{n(n+1) }{2 } 
+> >  \end{aligned} 
+> > $$

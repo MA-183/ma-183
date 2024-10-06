@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 > [!tip] Analysens fundamentalteorem, AFT
 > Anta at funksjonen $f$ er kontinuerlig på et interval $I$ som inneholder punktet $a$.
 >  
@@ -11,28 +14,18 @@
 > Hvis $G(x)$ er en *hvilken som helst* antiderivert til $f(x)$ på $I$, slik at $G'(x) = f(x)$ på $I$, da har vi for alle $b$ i $I$ at
 > $$\begin{aligned} \int_{a }^{b } f(x)dx = G(b)-G(a) . \end{aligned}$$ 
 
-> [!note]- Argument 
+> [!note]+ Argument 
 > **Del 1**
 > Vi skal avgjøre hva $F'(x)$ er, gitt at $F(x)=\int_{a}^{x}f(t)dt$. Ved å bruke definisjonen av den [[Kapittel 2 - derivasjon/defogteo/Def Derivasjon i et punkt|deriverte]] får vi
 > $$
 > \begin{aligned} 
 > F'(x) &= \lim_{h\longrightarrow  0} \frac{F(x+h)-F(x)}{h} \\ 
 > &= \lim_{h\longrightarrow  0} \frac{1}{h}\left( \int_{a}^{x+h}f(t)dt-\int_{a}^{x} f(t)dt \right) \\ & = \lim_{h\longrightarrow  0} \frac{1}{h}\left(\cancel{ \int_{a}^{x}f(t)dt } + \int_{x}^{x+h}f(t)dt - \cancel{ \int_{a}^{x}f(t)dt }\right) \\ 
-> & =  \lim_{h\longrightarrow  0}{\color{#e796f5} \frac{1}{h} }{\color{#3cc15c}\int_{x}^{x+h}f(t)dt }. 
+> & = {\color{#e796f5} \lim_{h\longrightarrow  0}\frac{1}{h}\int_{x}^{x+h}f(t)dt } \\ &= {\color{#f46f22} \lim_{h}f(c_h) }  \\
+> &= f(x). 
 > \end{aligned} 
 > $$
-> Ser vi på ${\color{#3cc15c}\int_{x}^{x+h}f(t)dt }$ kan vi se at hvis $l_h$ er minimumspunktet for $f$ på $[x,x+h]$ og $u_h$ er maksimumspunktet, så må
-> ![[Files/shapes at 24-10-03 14.50.15.svg]]
-> Deler vi på $h$ får vi 
-> $$
-> f(l_h) \leq{\color{#e796f5}  \frac{1}{h} }{\color{#3cc15c} \int_{x}^{x+h}f(t)dt } \leq f(u_h).
-> $$
-> Arealet skvises altså mellom disse to verdiene, og siden $x <l_h< x+h$ når så må $l_h\longrightarrow x$ når $h$ går mot $x$. Av kontinuitet må $f(l_h) \longrightarrow f(x)$ og tilsvarende må $f(u_u) \longrightarrow  f(x)$ når $h \longrightarrow 0$. Fra [[Kapittel 1 - grenser og kontinuitet/defogteo/Teo Skviseteoremet|skviseteoremet]] får vi derfor at 
-> $$
-> F'(x) = f(x).
-> $$
-> Merk at vi antok at $h$ var positiv i argumentet om $x < l_h < x+h$. Dersom $h$ er negativ får vi samme konklusjon hvis $h$ er negativ, bare at $x+h < l_h < x$.
-> 
+> Merk at ${\color{#e796f5} \frac{1}{h}\int_{x}^{x+h}f(t)dt }$ er gjennomsnittsverdien til $f$ på $[x,x+h]$. Vi vet at for hver $h$ finnes en $c_h$ der ${\color{#f46f22} f(c_h) }$ er lik [[Kapittel 5 - integrasjon/defogteo/Teo Gjennomsnittsverdien til en funksjon|gjennomsnittsverdien]]. Siden $h$ går mot $x$ og $c_h$ alltid er nærmere $x$ en $h$ er, så må $c_h$ også gå mot $x$ som gir oss den siste likheten.
 > **Del 2**
 > Vi kan fort konkludere med at dette er sant fra ved å legge merke til at hvis $G(x)$ er en hvilken som helst antiderivert, altså at $G'(x) = f(x)$, så vil $\frac{d}{dx}(F(x)-G(x)) = 0$. Fra [[Kapittel 2 - derivasjon/defogteo/Teo Konstante funksjoner|teoremet om konstante funksjoner]] betyr det at $G(x)= F(x)+C$ for en konstant $C$. Dermed er 
 > $$

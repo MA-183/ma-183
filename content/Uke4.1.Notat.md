@@ -93,7 +93,7 @@ Leibniz notasjon kan vi lese slik: Hvis en fugl flyr to ganger så raskt som en 
 Hopper over bevis, se [[Kapittel 2 - derivasjon/2.4.1 Kjerneregelen|2.4.1 Kjerneregelen]].
 
 
-![[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen#^ad9861|Kjerneregelen]]
+![[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|Kjerneregelen]]
 
 > [!info] Eksempel 
 > Hvis $f(x) = \sqrt{1+x^2}$ hva er $f'(x)$?
