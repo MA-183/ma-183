@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Function Translation Visualization</title>
+    <style>
+        body {
+            background-color: #313345;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            text-align: center;
+        }
+        svg {
+            background-color: #ffffff;
+            margin-top: 20px;
+        }
+        .function-line {
+            stroke: #4aa0e7;
+            stroke-width: 2;
+            fill: none;
+        }
+        .axes {
+            stroke: #000000;
+            stroke-width: 1;
+        }
+        #sliderContainer {
+            margin: 20px;
+        }
+        .slider {
+            width: 300px;
+        }
+        .slider-label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        #valuesContainer {
+            margin: 10px;
+        }
+        /* Style for the function equation text */
+        #equationText {
+            font-size: 16px;
+            fill: #000000;
+        }
+    </style>
+</head>
+<body>
+    <h2>Function Translation Visualization: \( f(x + a) + b \)</h2>
+    <!-- Display current a and b values -->
+    <div id="valuesContainer">
+        <span class="slider-label">a: <span id="aValue">0</span></span>
+        <span class="slider-label">b: <span id="bValue">0</span></span>
+    </div>
+    <!-- Sliders for a and b -->
+    <div id="sliderContainer">
+        <div>
+            <label class="slider-label">a:</label>
+            <input type="range" id="aSlider" min="-10" max="10" value="0" step="0.1" class="slider">
+        </div>
+        <div>
+            <label class="slider-label">b:</label>
+            <input type="range" id="bSlider" min="-10" max="10" value="0" step="0.1" class="slider">
+        </div>
+    </div>
+    <!-- Graph -->
+    <svg id="graphSvg" width="600" height="650" viewBox="0 0 600 650">
+        <!-- Coordinate axes -->
+        <line x1="50" y1="300" x2="550" y2="300" class="axes"></line> <!-- x-axis -->
+        <line x1="300" y1="50" x2="300" y2="550" class="axes"></line> <!-- y-axis -->
+        <!-- Original function graph -->
+        <path id="originalFunctionPath" class="function-line" stroke="#cccccc"></path>
+        <!-- Translated function graph -->
+        <path id="translatedFunctionPath" class="function-line"></path>
+        <!-- Function equation text -->
+        <text id="equationText" x="300" y="620" text-anchor="middle"></text>
+    </svg>
+    <script>
+        const svg = document.getElementById('graphSvg');
+        const originalFunctionPath = document.getElementById('originalFunctionPath');
+        const translatedFunctionPath = document.getElementById('translatedFunctionPath');
+        const aSlider = document.getElementById('aSlider');
+        const bSlider = document.getElementById('bSlider');
+        const aValueLabel = document.getElementById('aValue');
+        const bValueLabel = document.getElementById('bValue');
+        const equationText = document.getElementById('equationText');
+
+        const width = 600;
+        const height = 650;
+        const xMin = -10;
+        const xMax = 10;
+        const yMin = -10;
+        const yMax = 10;
+
+        const xScale = x => ((x - xMin) / (xMax - xMin)) * (width - 100) + 50;
+        const yScale = y => height - 100 - (((y - yMin) / (yMax - yMin)) * (height - 200) + 50);
+
+        // Original function f(x) = x^2
+        function f(x) {
+            return x * x* x + 2* x *x - 4* x-4 ;
+        }
+
+        // Draw original function
+        function drawOriginalFunction() {
+            let pathData = '';
+            let moveToSet = false;
+            for (let x = xMin; x <= xMax; x += 0.1) {
+                const y = f(x);
+                const scaledX = xScale(x);
+                const scaledY = yScale(y);
+                if (!moveToSet) {
+                    pathData += `M ${scaledX} ${scaledY}`;
+                    moveToSet = true;
+                } else {
+                    pathData += ` L ${scaledX} ${scaledY}`;
+                }
+            }
+            originalFunctionPath.setAttribute('d', pathData);
+        }
+
+        // Draw translated function
+        function drawTranslatedFunction(a, b) {
+            let pathData = '';
+            let moveToSet = false;
+            for (let x = xMin; x <= xMax; x += 0.1) {
+                const y = f(x + a) + b;
+                const scaledX = xScale(x);
+                const scaledY = yScale(y);
+                if (!moveToSet) {
+                    pathData += `M ${scaledX} ${scaledY}`;
+                    moveToSet = true;
+                } else {
+                    pathData += ` L ${scaledX} ${scaledY}`;
+                }
+            }
+            translatedFunctionPath.setAttribute('d', pathData);
+        }
+
+        // Update visualization
+        function updateVisualization() {
+            const a = parseFloat(aSlider.value);
+            const b = parseFloat(bSlider.value);
+            aValueLabel.textContent = a.toFixed(1);
+            bValueLabel.textContent = b.toFixed(1);
+
+            drawTranslatedFunction(a, b);
+
+            // Update function equation text
+            const aSign = a >= 0 ? '+' : '-';
+            const bSign = b >= 0 ? '+' : '-';
+            const aValue = Math.abs(a.toFixed(1));
+            const bValue = Math.abs(b.toFixed(1));
+
+            equationText.textContent = `f(x ${aSign} ${aValue}) ${bSign} ${bValue} = (x  ${aSign}${aValue})\u00B3 + 2(x ${aSign}${aValue})\u00B2-4(x ${aSign}${aValue}})-4 ${bSign} ${bValue}`;
+
+            // Update position of the equation text to follow the function
+            const textX = xScale(-a); // Vertex of the parabola is at x = -a
+            const textY = yScale(b) + 20; // Position below the vertex
+            equationText.setAttribute('x', textX);
+            equationText.setAttribute('y', textY);
+        }
+
+        // Initial drawing
+        drawOriginalFunction();
+        updateVisualization();
+
+        // Update on slider change
+        aSlider.addEventListener('input', updateVisualization);
+        bSlider.addEventListener('input', updateVisualization);
+    </script>
+</body>
+</html>
