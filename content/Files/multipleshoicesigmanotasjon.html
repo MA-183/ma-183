@@ -15,8 +15,8 @@
         }
         .question-container {
             margin: 50px auto;
-            background-color: #383b4f;
-            border: 2px solid #535775;
+            background-color: #433f4b;
+            border: 2px solid #655745;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -134,23 +134,23 @@
 </head>
 <body>
     <div class="question-container">
-        <div class="question">Hvilken av figurene over viser \(f(x) \cdot g(x)\)?</div>
+        <div class="question">Hvilket av alternativene under er lik $$\sum_{k=0}^{4} k^2? $$</div>
         <ul class="options">
             <li class="option" data-option="1">
                 <div class="hiddenTick"></div>
-                <div class="optionText">a?</div>
+                <div class="optionText">25</div>
             </li>
             <li class="option" data-option="2">
                 <div class="hiddenTick"></div>
-                <div class="optionText">b?</div>
+                <div class="optionText">30</div>
             </li>
             <li class="option" data-option="3">
                 <div class="hiddenTick"></div>
-                <div class="optionText">c?</div> <!-- Correct Answer -->
+                <div class="optionText">35</div> <!-- Correct Answer -->
             </li>
             <li class="option" data-option="4">
                 <div class="hiddenTick"></div>
-                <div class="optionText">d?</div>
+                <div class="optionText">33</div>
             </li>
         </ul>
         <button id="checkButton" disabled>Sjekk svaret</button>
@@ -159,7 +159,7 @@
         const options = document.querySelectorAll('.option');
         const checkButton = document.getElementById('checkButton');
         let selectedOption = null;
-        const correctOption = '3'; // The data-option value of the correct answer
+        const correctOption = '2'; // The data-option value of the correct answer
 
         options.forEach(option => {
             option.addEventListener('click', () => {

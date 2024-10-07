@@ -3,8 +3,9 @@
 > $$
 > \sum_{i=m}^{n}f(i)
 > $$
-> som summen
+> være notasjonen som står for summen
 > $$
 > f(m) + f(m+1) + f(m+2)+\ldots + f(n-1) + f(n).
 > $$
->
+
+
