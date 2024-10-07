@@ -413,7 +413,7 @@
 
 > [!note]- Løsning
 >
-> Vi ser at grensen går mot den ubestemte formen $\left[ \frac{0}{0} \right]$. Da tenker vi l'Hôpitals regel og deriverer teller og nevner hver for seg og får $\frac{3}{4(1+\tan^2(4x))}$ ([[Kapittel 2 - derivasjon/2.5.3 Derivasjon av andre trigonometriske funksjoner|se her]] for derivasjon av $\tan(x)$). Nå ser vi at
+> Vi ser at grensen går mot den ubestemte formen $\left[ \frac{0}{0} \right]$. Da tenker vi l'Hôpitals regel og deriverer teller og nevner hver for seg og får $\frac{3}{4(1+\tan^2(4x))}$ ([[Kapittel 2 - derivasjon/91 Derivasjon av andre trigonometriske funksjoner|se her]] for derivasjon av $\tan(x)$). Nå ser vi at
 > $$
 > \begin{aligned} 
 > \lim_{x\longrightarrow   0} \frac{3x}{\tan(4x)} \overset{ l'H }{=  } \lim_{x\longrightarrow  0}\frac{3}{4(1+\tan^2(4x))}  & = \frac{3}{4(1+0)}  \\ & = \frac{3}{4}.

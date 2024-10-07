@@ -18,13 +18,13 @@
 > $$
 > \frac{f(x)-f(c) }{x-c } \leq 0.
 > $$
-> Det betyr at $f'(c) = \lim_{x \longrightarrow c^+ } \frac{f(x) - f(c) }{x-c } \leq 0$.
+> Det betyr at ${\color{#e796f5} f'(c) } = \lim_{x \longrightarrow c^+ } \frac{f(x) - f(c) }{x-c } {\color{#f46f22} \leq 0 }$.
 > 
 > Dersom $x\leq c$ så er 
 > $$
 > \frac{f(x)-f(c) }{x-c } \geq 0,
 > $$
-> Det betyr at $f'(c) = \lim_{x \longrightarrow c^- } \frac{f(x) - f(c) }{x-c } \geq 0$.
+> Det betyr at ${\color{#e796f5} f'(c) } = \lim_{x \longrightarrow c^- } \frac{f(x) - f(c) }{x-c } {\color{#5ca6f4} \geq 0 }$.
 > 
-> Dermed må $f'(c) = 0$.
+> Dermed må ${\color{#5ca6f4} 0 \leq } {\color{#e796f5} f'(c)  } {\color{#f46f22} \leq 0 }$. Med andre ord $f'(c) = 0$.
 

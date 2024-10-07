@@ -18,4 +18,4 @@ Bruk glideren til å zoome inn rundt et punkt $x$, og klikk på punktet $(x, f(x
 
 Som vi ser, hvis vi zoomer langt nok inn, begynner funksjonen å se lineær ut. Hvis vi zoomer inn med en faktor på 500 i, for eksempel ved $x = -0,29$, ser det ikke ut som funksjonen er lineær i punktet. Hvis vi zoomer enda nærmere, ser vi at funksjonen blir tilnærmet lineær.
 
-Det er nettopp denne ideen vi skal bruke. Hvis funksjonen blir praktisk talt lineær når vi kommer nært nok $x$, kan vi finne stigningstallet ved å se på hvor mye funksjonen stiger per enhet i $x$ i nærheten av $x$. Vi skal kalle dette stigningstallet for [[Kapittel 2 - derivasjon/2.2.1 Den deriverte|den deriverte]].
+Det er nettopp denne ideen vi skal bruke. Hvis funksjonen blir praktisk talt lineær når vi kommer nært nok $x$, kan vi finne stigningstallet ved å se på hvor mye funksjonen stiger per enhet i $x$ i nærheten av $x$. Vi skal kalle dette stigningstallet for [[Kapittel 2 - derivasjon/2 Den deriverte|den deriverte]].

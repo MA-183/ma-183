@@ -90,7 +90,7 @@ Leibniz notasjon kan vi lese slik: Hvis en fugl flyr to ganger så raskt som en 
 
 
 
-Hopper over bevis, se [[Kapittel 2 - derivasjon/2.4.1 Kjerneregelen|2.4.1 Kjerneregelen]].
+Hopper over bevis, se [[Kapittel 2 - derivasjon/7 Kjerneregelen|7 Kjerneregelen]].
 
 
 ![[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|Kjerneregelen]]

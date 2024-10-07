@@ -45,13 +45,13 @@ Foreløpig innhold er
 
 ## [Komplekse tall](Kapittel-0.5---Komplekse-tall/)
 
-%% - [[Kapittel 0.5 - Komplekse tall/1 Komplekse tall|Komplekse tall]]
-- [[Kapittel 0.5 - Komplekse tall/2 Grunnleggende egenskaper|Grunnleggende egenskaper]]
-- [[Kapittel 0.5 - Komplekse tall/3 Regning med komplekse tall|Regning med komplekse tall]]
-- [[Kapittel 0.5 - Komplekse tall/4 Multiplikasjon på polarform|Multiplikasjon på polarform]]
-- [[Kapittel 0.5 - Komplekse tall/5 Komplekse røtter|Komplekse røtter]]
-- [[Kapittel 0.5 - Komplekse tall/6 Komplekse likninger|Komplekse likninger]]
-- [[Kapittel 0.5 - Komplekse tall/7 Rullende sirkler|Rullende sirkler]] %%
+%% [](Kapittel%2000%20-%20Komplekse%20tall/1%20Komplekse%20tall.md)]]
+- [[Kapittel 00 - Komplekse tall/2 Grunnleggende egenskaper|Grunnleggende egenskaper]]
+- [[Kapittel 00 - Komplekse tall/3 Regning med komplekse tall|Regning med komplekse tall]]
+- [[Kapittel 00 - Komplekse tall/4 Multiplikasjon på polarform|Multiplikasjon på polarform]]
+- [[Kapittel 00 - Komplekse tall/5 Komplekse røtter|Komplekse røtter]]
+- [[Kapittel 00 - Komplekse tall/6 Komplekse likninger|Komplekse likninger]]
+- [[Kapittel 00 - Komplekse tall/7 Rullende sirkler|Rullende sirkler]] %%
 ## [Grenser og kontinuitet](Kapittel-1---grenser-og-kontinuitet/)
 
 %% - [[Kapittel 1 - grenser og kontinuitet/1 Grenser|Grenser]]
@@ -62,14 +62,14 @@ Foreløpig innhold er
 
 ##  [Derivasjon](Kapittel-2---derivasjon/)
 
-%% - [[Kapittel 2 - derivasjon/2.2.0 Endringsrater|Endringsrater]]
-- [[Kapittel 2 - derivasjon/2.2.1 Den deriverte|Den deriverte]]
-- [[Kapittel 2 - derivasjon/2.3.1 Deriverbarhet impliserer kontinuitet|Derivasjonsregler og sammenhenger]]
-- [[Kapittel 2 - derivasjon/2.4.1 Kjerneregelen|Kjerneregelen]]
-- [[Kapittel 2 - derivasjon/2.5.1 Spesielle trigonometriske grenser|Derivasjon av trigonometriske funksjoner]]
-- [[Kapittel 2 - derivasjon/2.6.1 Høyere ordens deriverte|Høyere ordens deriverte]]
-- [[Kapittel 2 - derivasjon/2.8.1 Stigende og synkende funksjoner|Stigende og synkende funksjoner og middelverditeoremet]]
-- [[Kapittel 2 - derivasjon/2.10.1 Den antideriverte|Den antideriverte]]
+%% [](Kapittel%202%20-%20derivasjon/1%20Endringsrater.md)]]
+- [[Kapittel 2 - derivasjon/2 Den deriverte|Den deriverte]]
+- [[Kapittel 2 - derivasjon/3 Deriverbarhet impliserer kontinuitet|Derivasjonsregler og sammenhenger]]
+- [[Kapittel 2 - derivasjon/7 Kjerneregelen|Kjerneregelen]]
+- [[Kapittel 2 - derivasjon/8 Spesielle trigonometriske grenser|Derivasjon av trigonometriske funksjoner]]
+- [[Kapittel 2 - derivasjon/92 Høyere ordens deriverte|Høyere ordens deriverte]]
+- [[Kapittel 2 - derivasjon/93 Stigende og synkende funksjoner|Stigende og synkende funksjoner og middelverditeoremet]]
+- [[Kapittel 2 - derivasjon/991 Den antideriverte|Den antideriverte]]
  %%
 
 ## Kapittel 3 

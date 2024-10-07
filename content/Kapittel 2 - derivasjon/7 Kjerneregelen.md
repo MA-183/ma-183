@@ -36,4 +36,4 @@ Kjerneregelen er på en måte en av de mest intuitive derivasjonsreglene vi har.
 > $$\begin{aligned} (f(g(x)))'(x)=g'(x)f'(g(x)).  \end{aligned}$$ 
 
 
-Nå har vi kontroll på derivasjon av elementære sammensetninger av deriverbare funksjoner. Neste naturlige spørsmål blir å se på derivasjon av trigonometriske funksjoner. For å gjøre det må vi først se på noen [[Kapittel 2 - derivasjon/2.5.1 Spesielle trigonometriske grenser|spesielle trigonometriske grenser]].
+Nå har vi kontroll på derivasjon av elementære sammensetninger av deriverbare funksjoner. Neste naturlige spørsmål blir å se på derivasjon av trigonometriske funksjoner. For å gjøre det må vi først se på noen [[Kapittel 2 - derivasjon/8 Spesielle trigonometriske grenser|spesielle trigonometriske grenser]].

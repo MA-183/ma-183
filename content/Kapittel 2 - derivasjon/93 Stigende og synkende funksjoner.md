@@ -8,4 +8,4 @@ Det skal ikke mye til før vi innser at dersom en funksjon er deriverbar på et 
 ![[Kapittel 2 - derivasjon/defogteo/Teo Stigende og synkende funksjoner|Teo Stigende og synkende funksjoner]]
 
 
-Det skal ikke mye til for å overbevise seg om at funksjoner med derivert lik 0 overalt verken synker eller stiger. De må være [[Kapittel 2 - derivasjon/2.8.2 Konstante funksjoner|konstante funksjoner]].
+Det skal ikke mye til for å overbevise seg om at funksjoner med derivert lik 0 overalt verken synker eller stiger. De må være [[Kapittel 2 - derivasjon/95 Konstante funksjoner|konstante funksjoner]].

@@ -21,7 +21,7 @@ For å bevise dette bruker vi et spesialtilfelle der $f(a) = f(b)$, som kalles [
 > 
 > ![[Files/middelveriteoremet.svg|400]]
 > 
-> Ideen er at [Rolles teorem](Kapittel%202%20-%20derivasjon/2.8.3.2%20Rolles%20teorem.md) teorem forteller oss at funksjonen $g$ har et punkt $c$ der $g'(c) = 0$. Det er denne $c$-en som også bør være punktet vi er på jakt etter for $f$. Vi kan også se at det er tilfellet når vi kikker på de stiplede linjene over.
+> Ideen er at [Rolles teorem](Kapittel%202%20-%20derivasjon/97%20Rolles%20teorem.md) teorem forteller oss at funksjonen $g$ har et punkt $c$ der $g'(c) = 0$. Det er denne $c$-en som også bør være punktet vi er på jakt etter for $f$. Vi kan også se at det er tilfellet når vi kikker på de stiplede linjene over.
 > 
 > For å bekrefte det så deriverer vi $g$ og får
 > $$

@@ -100,7 +100,7 @@
 > [!note]- Løsning
 >
 > 
-> Fra [[Kapittel 2 - derivasjon/2.5.3 Derivasjon av andre trigonometriske funksjoner#^63c620|notatet om derivasjon av andre trigonometriske funksjoner]] vet vi at $\frac{d}{dx}\tan(x) = \frac{1}{\cos^2(x)}$. Vi bruker nå [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] og får at
+> Fra [[Kapittel 2 - derivasjon/91 Derivasjon av andre trigonometriske funksjoner#^63c620|notatet om derivasjon av andre trigonometriske funksjoner]] vet vi at $\frac{d}{dx}\tan(x) = \frac{1}{\cos^2(x)}$. Vi bruker nå [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] og får at
 > $$
 > \frac{d}{dx} \tan(\pi x) = \pi \cdot \frac{1}{\cos^2(\pi x)}.
 > $$
@@ -275,7 +275,7 @@
 > [!note]- Løsning
 >
 > 
-> $y = \tan(x) = \frac{\sin(x)}{\cos(x)}$. Vi vet allerede fra [[Kapittel 2 - derivasjon/2.5.3 Derivasjon av andre trigonometriske funksjoner|derivasjon av andre trigonometriske funksjoner]] at 
+> $y = \tan(x) = \frac{\sin(x)}{\cos(x)}$. Vi vet allerede fra [[Kapittel 2 - derivasjon/91 Derivasjon av andre trigonometriske funksjoner|derivasjon av andre trigonometriske funksjoner]] at 
 > $$
 > y' = \frac{d}{dx} \tan(x) = \frac{1}{\cos^2(x)} = \frac{\sin^2(x)+\cos^2(x)}{\cos^2(x)} = \tan^2(x)+1.
 > $$

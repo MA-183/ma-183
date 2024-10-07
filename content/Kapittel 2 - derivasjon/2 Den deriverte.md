@@ -80,4 +80,4 @@ Brøken er altså alltid $a$ uavhengig av hva $h$ er. Så $f'(x) = a$. (Merk at 
 > $$
 
 
-Det skal ikke mye til for å overbevise seg selv om at [[Kapittel 2 - derivasjon/2.3.1 Deriverbarhet impliserer kontinuitet|deriverbare funksjoner også er kontinuerlige]]. 
+Det skal ikke mye til for å overbevise seg selv om at [[Kapittel 2 - derivasjon/3 Deriverbarhet impliserer kontinuitet|deriverbare funksjoner også er kontinuerlige]]. 

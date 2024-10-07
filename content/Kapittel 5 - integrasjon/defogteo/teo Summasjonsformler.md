@@ -1,3 +1,6 @@
+---
+title: "💡Resultat: Summasjonsformler"
+---
 > [!tip] Summasjonsformler
 > $$
 > \begin{aligned} 

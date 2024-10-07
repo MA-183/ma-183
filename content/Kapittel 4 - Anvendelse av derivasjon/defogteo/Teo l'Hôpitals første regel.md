@@ -20,7 +20,7 @@
 > \end{cases}
 > $$
 > 
-> Da er $F$ og $G$ kontinuerlige på intervallet $[a,x]$ og deriverbare på intervallet $(a,x)$ for alle $x$ i $(a,b)$. Fra [det generaliserte middelverditeoremet](Kapittel%202%20-%20derivasjon/2.8.5%20Det%20generaliserte%20middelverditeoremet.md) vet vi at det eksisterer et tall $c$ i $(a,b)$ slik at
+> Da er $F$ og $G$ kontinuerlige på intervallet $[a,x]$ og deriverbare på intervallet $(a,x)$ for alle $x$ i $(a,b)$. Fra [det generaliserte middelverditeoremet](Kapittel%202%20-%20derivasjon/99%20Det%20generaliserte%20middelverditeoremet.md) vet vi at det eksisterer et tall $c$ i $(a,b)$ slik at
 > $$
 > \frac{f(x) }{g(x) }  = \frac{F(x) }{G(x) }  = \frac{F(x)-F(a) }{G(x)-G(a) } = \frac{F'(c) }{ G'(c) } = \frac{f'(c) }{g'(c) }. 
 > $$

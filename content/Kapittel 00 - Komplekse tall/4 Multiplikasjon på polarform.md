@@ -22,11 +22,11 @@ title: 📄 Multiplikasjon på polarform
 
 Det er ikke noe unikt med vinklene over. Vi har generelt at
 
-![[Kapittel 0.5 - Komplekse tall/defogteo/Teo Multiplikasjon på polarform|Teo Multiplikasjon på polarform]]
+![[Kapittel 00 - Komplekse tall/defogteo/Teo Multiplikasjon på polarform|Teo Multiplikasjon på polarform]]
 
 Gjentar vi multiplikasjonen ser vi at 
 
-![[Kapittel 0.5 - Komplekse tall/defogteo/Teo de Moivre's Theorem|Teo de Moivre's Theorem]]
+![[Kapittel 00 - Komplekse tall/defogteo/Teo de Moivre's Theorem|Teo de Moivre's Theorem]]
 
 Det blir kjedelig å skrive $\cos(\theta)+i\sin(\theta)$ i lengden. Det gis ikke begrunnelse for denne sammenhengen i MA-183, men [denne](https://www.youtube.com/watch?v=v0YEaeIClKY) og [denne](https://www.youtube.com/watch?v=-dhHrg-KbJ0) er kan være gode videoer å bruke dersom man kjenner til definisjonen av $e$ som grenseverdi og hvordan man deriverer $e^x$.
 
@@ -47,4 +47,4 @@ $z = re^{i\theta}$ gir $\frac{1}{z}= \frac{1}{re^{i\theta}} = \frac{1}{r}e^{i\cd
 
 ![undefined](Files/shapes%20at%2024-08-19%2014.37.21.svg)
 
-Det siste vi skal se på med komplekse tall er [[Kapittel 0.5 - Komplekse tall/5 Komplekse røtter|komplekse røtter]].
+Det siste vi skal se på med komplekse tall er [[Kapittel 00 - Komplekse tall/5 Komplekse røtter|komplekse røtter]].

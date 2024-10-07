@@ -18,4 +18,4 @@ $$
   &= 5x^4 +3x^2+8.
 \end{aligned} 
 $$
-Nå som vi ser at vi kan bruke produktregelen er det også naturlig å lure på om det finnes noen sammenheng for $\frac{f}{g}$ der $f$ og $g$ er deriverbare. Denne sammenhengen kaller vi [[Kapittel 2 - derivasjon/2.3.5 Kvotientregelen|kvotientregelen]].
+Nå som vi ser at vi kan bruke produktregelen er det også naturlig å lure på om det finnes noen sammenheng for $\frac{f}{g}$ der $f$ og $g$ er deriverbare. Denne sammenhengen kaller vi [[Kapittel 2 - derivasjon/6 Kvotientregelen|kvotientregelen]].

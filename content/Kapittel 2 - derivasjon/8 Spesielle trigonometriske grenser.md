@@ -7,7 +7,7 @@ Et resultat som mest sannsynlig virker åpenbart, er at de trigonometriske funks
 
 Selv om det virker opplagt, er det også viktig at vi argumenterer for det. Hvordan vi skal gjøre det, er ikke like åpenbart som resultatet
 
-Siden [[Kapittel 2 - derivasjon/2.3.1 Deriverbarhet impliserer kontinuitet|deriverbarhet impliserer kontinuitet]] kan vi vise at $\sin$ og $\cos$ er deriverbare og konkludere med resultatet over og på denne måten slå to fluer i en smekk. For å vise at de er deriverbare begynner vi med noen spesielle grenser. 
+Siden [[Kapittel 2 - derivasjon/3 Deriverbarhet impliserer kontinuitet|deriverbarhet impliserer kontinuitet]] kan vi vise at $\sin$ og $\cos$ er deriverbare og konkludere med resultatet over og på denne måten slå to fluer i en smekk. For å vise at de er deriverbare begynner vi med noen spesielle grenser. 
 
 Først viser vi at $\cos$ er kontinuerlig i $0$.
 
@@ -65,4 +65,4 @@ Noe som faller rett ut av grensen over er følgende:
 >
 >Merk at når vi evaluerer grensen bruker vi at dette er et produkt av to grenser som eksisterer og fra [[Kapittel 1 - grenser og kontinuitet/defogteo/Teo Grenseverdiregler|punkt 3 her]] vet vi grensen er produktet av grensene. 
 
-Nå som vi har alle våre spesielle grenser på plass kan vi gå løs på målet vårt, å vise at $\cos$ og $\sin$ er [[Kapittel 2 - derivasjon/2.5.2 Sinus og cosinus derivert|deriverbare]] og følgelig også kontinuerlige.
+Nå som vi har alle våre spesielle grenser på plass kan vi gå løs på målet vårt, å vise at $\cos$ og $\sin$ er [[Kapittel 2 - derivasjon/9 Sinus og cosinus derivert|deriverbare]] og følgelig også kontinuerlige.

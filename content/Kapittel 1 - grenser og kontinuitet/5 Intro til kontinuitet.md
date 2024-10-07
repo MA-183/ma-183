@@ -49,4 +49,4 @@ I tillegg har kontinuerlige funksjoner ingen *hull*, det vil si at de tar alle v
 > Kan du skissere en graf som er definert på $[a,b]$ og kontinuerlig på $(a,b)$ der $f$ ikke tar alle verdier mellom $f(a)$ og $f(b)$? Hvorfor er dette ikke i strid med sjæringssetningen?
 > 
 
-I kurset skal vi se på noen spesielle kontinuerlige funksjoner, de [[Kapittel 2 - derivasjon/2.2.1 Den deriverte|deriverbare funksjonene]].
+I kurset skal vi se på noen spesielle kontinuerlige funksjoner, de [[Kapittel 2 - derivasjon/2 Den deriverte|deriverbare funksjonene]].

@@ -1,3 +1,6 @@
+---
+title: "✍️Definisjon: Sigmanotasjon"
+---
 > [!info] Definisjon Sigmanotasjon
 > Hvis $m$ og $n$ er heltall med $m\leq n$ og $f$ er en funksjon definert for alle $m,m+1,m+2,\ldots, n-1, n$. Da skal
 > $$

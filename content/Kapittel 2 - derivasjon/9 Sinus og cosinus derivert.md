@@ -18,11 +18,11 @@ Siden $\sin(x)$ og $\cos(x)$ henger veldig tett sammen, er det ikke overraskende
 
 > [!abstract]- 1
 > 
-> Vi bruker [2.4.1 Kjerneregelen](Kapittel%202%20-%20derivasjon/2.4.1%20Kjerneregelen.md) og får $\frac{d}{dx}\sin(\pi x) \pi\cos(\pi x)$.
+> Vi bruker [7 Kjerneregelen](Kapittel%202%20-%20derivasjon/7%20Kjerneregelen.md) og får $\frac{d}{dx}\sin(\pi x) \pi\cos(\pi x)$.
 
 > [!abstract]- 2
 > 
-> Her må vi bruke både [2.4.1 Kjerneregelen](Kapittel%202%20-%20derivasjon/2.4.1%20Kjerneregelen.md) og [2.3.4 Produktregelen](Kapittel%202%20-%20derivasjon/2.3.4%20Produktregelen.md). Vi merker oss først at kjerneregelen gir at $\frac{d}{dx} \sin(x^2) = 2x\cos(x^2)$. Deretter gir produktregelen at
+> Her må vi bruke både [7 Kjerneregelen](Kapittel%202%20-%20derivasjon/7%20Kjerneregelen.md) og [5 Produktregelen](Kapittel%202%20-%20derivasjon/5%20Produktregelen.md). Vi merker oss først at kjerneregelen gir at $\frac{d}{dx} \sin(x^2) = 2x\cos(x^2)$. Deretter gir produktregelen at
 >   $$
 >   \frac{d}{dx} x^3\sin(x^2) = 3x^2\sin(x^2)+x^3\cdot 2(x)\cos(x^2).y
 $$
@@ -50,4 +50,4 @@ $$
 >   
 
 
-Nå som vi kan derivere $\cos$ og $\sin$ blir det naturlig å tenke seg at vi kan derivere [[Kapittel 2 - derivasjon/2.5.3 Derivasjon av andre trigonometriske funksjoner|andre trigonometriske funksjoner]].
+Nå som vi kan derivere $\cos$ og $\sin$ blir det naturlig å tenke seg at vi kan derivere [[Kapittel 2 - derivasjon/91 Derivasjon av andre trigonometriske funksjoner|andre trigonometriske funksjoner]].

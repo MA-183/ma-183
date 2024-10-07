@@ -10,5 +10,5 @@
 > \frac{d}{dx} \cos(x) = \frac{d}{dx} \sin\left( \frac{\pi}{2}-x \right) = -1\cdot \cos\left( \frac{\pi}{2}-x \right) = - \sin(x).
 > $$
 > 
-> Merk at vi bruker [2.4.1 Kjerneregelen](Kapittel%202%20-%20derivasjon/2.4.1%20Kjerneregelen.md) her, i tillegg til [trigonometriske identiteter](Kapittel%200%20-%20innledende%20kapittel/5.4%20Viktige%20trigonometriske%20identiteter.md).
+> Merk at vi bruker [7 Kjerneregelen](Kapittel%202%20-%20derivasjon/7%20Kjerneregelen.md) her, i tillegg til [trigonometriske identiteter](Kapittel%200%20-%20innledende%20kapittel/5.4%20Viktige%20trigonometriske%20identiteter.md).
 > 

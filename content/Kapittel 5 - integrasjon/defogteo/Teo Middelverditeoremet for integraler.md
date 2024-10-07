@@ -1,3 +1,6 @@
+---
+title: "💡Resultat: Middelverditeoremet for integraler"
+---
 > [!tip] Middelverditeoremet for integraler
 >  Hvis $f$ er kontinuerlig på $[a,b]$, da eksisterer det et punkt $c$ i $[a,b]$ slik at
 >  $$

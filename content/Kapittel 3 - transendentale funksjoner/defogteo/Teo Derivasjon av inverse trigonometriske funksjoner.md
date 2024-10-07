@@ -17,7 +17,7 @@
 > 
 > > [!abstract] 3
 > > 
-> > Vi at $\frac{d}{dx}\tan(x) = \frac{1}{\cos^2(x)}$ fra [slutten av dette notatet](Kapittel%202%20-%20derivasjon/2.5.3%20Derivasjon%20av%20andre%20trigonometriske%20funksjoner.md). Som i argumentet over får vi derfor at  
+> > Vi at $\frac{d}{dx}\tan(x) = \frac{1}{\cos^2(x)}$ fra [slutten av dette notatet](Kapittel%202%20-%20derivasjon/91%20Derivasjon%20av%20andre%20trigonometriske%20funksjoner.md). Som i argumentet over får vi derfor at  
 > > $$
 > > \frac{d}{dx} \tan^{-1}(x) = \frac{1}{\frac{1}{\cos^2(\tan^{-1}(x))}}.
 > > $$

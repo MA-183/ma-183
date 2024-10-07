@@ -43,4 +43,4 @@ På samme måte kan vi snakke om tredje-, fjerde-,..., n-te deriverte.
 > 
 > Dette viser oss hvordan trigonometriske funksjoner oppfører seg når vi deriverer dem flere ganger.
 
-Husk at vi tenker geometrisk på den deriverte som stigning til tangenten gjennom et punkt $(x,f(x))$. Det er da naturlig å tenke at derivasjon kan hjelpe å beskrive [[Kapittel 2 - derivasjon/2.8.1 Stigende og synkende funksjoner|om funksjoner stiger eller synker.]]
+Husk at vi tenker geometrisk på den deriverte som stigning til tangenten gjennom et punkt $(x,f(x))$. Det er da naturlig å tenke at derivasjon kan hjelpe å beskrive [[Kapittel 2 - derivasjon/93 Stigende og synkende funksjoner|om funksjoner stiger eller synker.]]

@@ -1,3 +1,6 @@
+---
+title: "💡Resultat: Substitusjon av bestemte integral"
+---
 > [!tip] Substitusjon av bestemte integral
 >  
 >   Anta at $g$ er en deriverbar funksjon på $[a,b]$ og at $g(a) = A$ og $g(b) =B$. Anta også at $f$ er kontinuerlig i verdimengden til $g$. Da

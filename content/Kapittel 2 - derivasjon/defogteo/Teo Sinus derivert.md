@@ -4,7 +4,7 @@
 
 > [!note]- Argument 
 > 
-> Fra [[Kapittel 2 - derivasjon/2.5.1 Spesielle trigonometriske grenser|teorem 8 og 8.5]] har vi at ${\color{#e796f5} \frac{\cos(h)-1 }{h } }$ går mot $0$ og ${\color{#f46f22} \frac{\sin(h) }{h } }$ går begge mot $1$ når $h \longrightarrow 0$. vi kan nå bruke definisjonen av den deriverte og få
+> Fra [[Kapittel 2 - derivasjon/8 Spesielle trigonometriske grenser|teorem 8 og 8.5]] har vi at ${\color{#e796f5} \frac{\cos(h)-1 }{h } }$ går mot $0$ og ${\color{#f46f22} \frac{\sin(h) }{h } }$ går begge mot $1$ når $h \longrightarrow 0$. vi kan nå bruke definisjonen av den deriverte og få
 > $$
 > \begin{aligned} 
 > \frac{d}{dx} \sin(x) 
