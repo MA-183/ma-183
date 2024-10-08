@@ -1,14 +1,14 @@
 ---
 title: 📄 Sinus og cosinus derivert
 ---
-![[Kapittel 2 - derivasjon/defogteo/Teo Sinus derivert|Teo Sinus derivert]]
+![[Kapittel 2 - derivasjon/defogteo/💡 Sinus derivert|💡 Sinus derivert]]
 
 Siden $\sin(x)$ og $\cos(x)$ henger veldig tett sammen, er det ikke overraskende at vi også nå enkelt kan konkludere med hva $\cos(x)$ sin deriverte er.
 
-![[Kapittel 2 - derivasjon/defogteo/Teo Cosinus derivert|Teo Cosinus derivert]]
+![[Kapittel 2 - derivasjon/defogteo/💡 Cosinus derivert|💡 Cosinus derivert]]
 
 > [!warning] Merk 
-> Det betyr også at $\cos$ og $\sin$ er kontinuerlige siden [[Kapittel 2 - derivasjon/defogteo/Teo Deriverbarhet impliserer kontinuitet|deriverbarhet impliserer kontinuitet]].
+> Det betyr også at $\cos$ og $\sin$ er kontinuerlige siden [[Kapittel 2 - derivasjon/defogteo/💡 Deriverbarhet impliserer kontinuitet|deriverbarhet impliserer kontinuitet]].
 
 > [!info] Eksempel 
 > Avgjør de deriverte til

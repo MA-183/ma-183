@@ -18,7 +18,7 @@ Når vi begynner å studere nye problemer dukker det opp mangler ved de rasjonal
 
 For de aller fleste, virker de reelle tallene til å løse alle våre problemer. Men, vi har vel faktisk alle møtt noen likninger vi ikke kan løse allerede. Hva med likningen $x^2 = -1$. De fleste har vel hørt at man kan ikke ta roten av et negativt tall, og derfor sier vi at likningen ikke har noen løsning. Mer presist blir det å si at løsningen har ingen løsning blant de reelle tallene. Vi tenker oss nå at de finnes et tall som er løsningen på likningen over. Vi sier at tallet $i$ er tallet slik at $i^2 = -1$, altså et tall som løser $x^2 = -1$. 
 
-![[Kapittel 00 - Komplekse tall/defogteo/Def Komplekse tall|Def Komplekse tall]]
+![[Kapittel 00 - Komplekse tall/defogteo/✍️ Komplekse tall|✍️ Komplekse tall]]
 
 De reelle tallene representeres ofte på en tallinje. Da får vi en naturlig ordning på tallene, og det er enkelt å avgjøre hvilket tall av to tall som er størst. Siden de komplekse tallene er skapt som et par bestående av en reel del og en imaginær del er det også naturlig at en bruker det kartesiske planet til å representere punktene.
 

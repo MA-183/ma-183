@@ -62,7 +62,7 @@
 > Deriver funksjonen $y = \sin^{-1}\left( \frac{2x-1}{3} \right)$.
 
 > [!note]- Løsning
-> [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for ${\color{#e796f5} \sin^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] er 
+> [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for ${\color{#e796f5} \sin^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] er 
 > $$
 > \frac{d}{dx} {\color{#e796f5} \sin^{-1}(u) } = {\color{#f46f22} \frac{1}{\sqrt{1 - u^2}} } \cdot {\color{#5ca6f4} \frac{du}{dx} }.
 > $$
@@ -80,7 +80,7 @@
 > Deriver funksjonen $y = \tan^{-1}\left( ax+b \right)$.
 
 > [!note]- Løsning
-> [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for ${\color{#e796f5} \tan^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] er $\frac{d}{dx} {\color{#e796f5} \tan^{-1}(u) } = {\color{#f46f22} \frac{1}{1 + u^2} } \cdot {\color{#5ca6f4} \frac{du}{dx} }$.
+> [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for ${\color{#e796f5} \tan^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] er $\frac{d}{dx} {\color{#e796f5} \tan^{-1}(u) } = {\color{#f46f22} \frac{1}{1 + u^2} } \cdot {\color{#5ca6f4} \frac{du}{dx} }$.
 > 
 > La ${\color{#3cc15c} u = ax + b }$. Da er ${\color{#5ca6f4} \frac{du}{dx} = a }$.
 > 
@@ -96,7 +96,7 @@
 
 
 > [!note]- Løsning
-> [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for  ${\color{#e796f5} \cos^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]]  er $\frac{d}{dx} {\color{#e796f5} \cos^{-1}(u)  }= {\color{#f46f22} \frac{-1}{\sqrt{1 - u^2}} } \cdot {\color{#5ca6f4} \frac{du}{dx} }$.
+> [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for  ${\color{#e796f5} \cos^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]]  er $\frac{d}{dx} {\color{#e796f5} \cos^{-1}(u)  }= {\color{#f46f22} \frac{-1}{\sqrt{1 - u^2}} } \cdot {\color{#5ca6f4} \frac{du}{dx} }$.
 > 
 > La ${\color{#3cc15c} u = \frac{x-b}{a} }$. Da er ${\color{#5ca6f4} \frac{du}{dx} = \frac{1}{a} }$.
 > 
@@ -113,7 +113,7 @@
 
 
 > [!note]- Løsning
-> Vi bruker [[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|produktregelen]]: $\frac{d}{dx}({\color{#e796f5} u }{\color{#3cc15c} v }) = {\color{#f46f22} u' }{\color{#3cc15c} v } + {\color{#e796f5} u }{\color{#5ca6f4} v' }$.
+> Vi bruker [[Kapittel 2 - derivasjon/defogteo/💡 Produktregelen|produktregelen]]: $\frac{d}{dx}({\color{#e796f5} u }{\color{#3cc15c} v }) = {\color{#f46f22} u' }{\color{#3cc15c} v } + {\color{#e796f5} u }{\color{#5ca6f4} v' }$.
 > 
 > La 
 > 1. ${\color{#e796f5} u = x }$ og 
@@ -136,7 +136,7 @@
 
 
 > [!note]- Løsning
-> Arealet av et kvadrat er gitt ved $A = s^2$, der $s$ er sidelengden. For å finne endringsraten til arealet, der sidelengden endrer seg med ${\color{#f46f22} ds/dt = 2\text{cm/min} }$, bruker vi [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]]:
+> Arealet av et kvadrat er gitt ved $A = s^2$, der $s$ er sidelengden. For å finne endringsraten til arealet, der sidelengden endrer seg med ${\color{#f46f22} ds/dt = 2\text{cm/min} }$, bruker vi [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]]:
 > 
 > $$
 > \frac{dA}{dt} = {\color{#e796f5} 2s } {\color{#f46f22} \frac{ds}{dt}. }
@@ -153,7 +153,7 @@
 > Arealet til et kvadrat minker med $2$cm${}^2$/s. Hvor fort endrer sidelengden seg når sidelengden er $8$cm. 
 
 > [!note]- Løsning
-> Arealet av et kvadrat er gitt ved $A = s^2$. Deriverer med [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] for å finne endringsraten til sidelengden:
+> Arealet av et kvadrat er gitt ved $A = s^2$. Deriverer med [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] for å finne endringsraten til sidelengden:
 > 
 > $$
 > {\color{#5ca6f4} \frac{dA}{dt}  }= {\color{#e796f5} 2s } {\color{#f46f22} \frac{ds}{dt} }.
@@ -177,7 +177,7 @@
 > s^3 = 64 \quad \Rightarrow \quad s = 4 \text{ cm}.
 > $$
 > 
-> Deriverer vi volumet med [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] får vi:
+> Deriverer vi volumet med [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] får vi:
 > 
 > $$
 > {\color{#e796f5} \frac{dV}{dt} } = {\color{#f46f22} 3s^2 } {\color{#5ca6f4} \frac{ds}{dt}. }
@@ -207,7 +207,7 @@
 
 
 > [!note]- Løsning
-> For $y = x^2$, deriverer vi begge sider med hensyn til tid for å finne $\frac{dy}{dt}$ kan vi bruke [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] og få:
+> For $y = x^2$, deriverer vi begge sider med hensyn til tid for å finne $\frac{dy}{dt}$ kan vi bruke [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] og få:
 > 
 > $$
 > {\color{#e796f5} \frac{dy}{dt} } = {\color{#3cc15c} 2 }x {\color{#f46f22} \frac{dx}{dt} }.

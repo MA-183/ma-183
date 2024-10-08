@@ -89,7 +89,7 @@
 > [!note]- Løsning
 >
 > 
-> Vi benytter oss av [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] der $3x$ er den indre funksjonen og $\cos(x)$ er den ytre.
+> Vi benytter oss av [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] der $3x$ er den indre funksjonen og $\cos(x)$ er den ytre.
 > 
 > Vi får da at $\frac{d}{dx} y = 3\cdot(-\sin(3x))=-3\sin(3x)$.
 > 
@@ -100,7 +100,7 @@
 > [!note]- Løsning
 >
 > 
-> Fra [[Kapittel 2 - derivasjon/91 Derivasjon av andre trigonometriske funksjoner#^63c620|notatet om derivasjon av andre trigonometriske funksjoner]] vet vi at $\frac{d}{dx}\tan(x) = \frac{1}{\cos^2(x)}$. Vi bruker nå [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] og får at
+> Fra [[Kapittel 2 - derivasjon/91 Derivasjon av andre trigonometriske funksjoner#^63c620|notatet om derivasjon av andre trigonometriske funksjoner]] vet vi at $\frac{d}{dx}\tan(x) = \frac{1}{\cos^2(x)}$. Vi bruker nå [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] og får at
 > $$
 > \frac{d}{dx} \tan(\pi x) = \pi \cdot \frac{1}{\cos^2(\pi x)}.
 > $$
@@ -112,7 +112,7 @@
 > [!note]- Løsning
 >
 > 
-> Vi benytter oss av [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] der $g(x) = \pi x^2$ er den indre funksjonen og $f(x) = \sin(x)$ er den ytre. Da er 
+> Vi benytter oss av [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] der $g(x) = \pi x^2$ er den indre funksjonen og $f(x) = \sin(x)$ er den ytre. Da er 
 > $$
 > \sin(\pi x^2) = 2\pi x \cos(\pi x^2)
 > $$
@@ -125,7 +125,7 @@
 > [!note]- Løsning
 >
 > 
-> Vi benytter oss av [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] der $g(x) = 1+\cos(x)$ er den indre funksjonen og $f(x)=\sqrt{x}$ er den ytre. Da er $g'(x) = -\sin(x)$ og $f'(x) = \frac{1}{2\sqrt{x}}$. Da får vi at
+> Vi benytter oss av [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] der $g(x) = 1+\cos(x)$ er den indre funksjonen og $f(x)=\sqrt{x}$ er den ytre. Da er $g'(x) = -\sin(x)$ og $f'(x) = \frac{1}{2\sqrt{x}}$. Da får vi at
 > $$
 > \frac{d}{dx} \sqrt{1+\cos(x)} = g'(x)f'(g(x))=-\sin(x) \cdot \frac{1}{2\sqrt{1+\cos(x)}}.
 > $$
@@ -137,7 +137,7 @@
 > [!note]- Løsning
 >
 > 
-> Hvis $f(x) = \cos(x+\sin(x))$ så kan vi tenke på $\cos(x)$ som ytre funksjon og $x+\sin(x)$ som indre. Da gir [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] at 
+> Hvis $f(x) = \cos(x+\sin(x))$ så kan vi tenke på $\cos(x)$ som ytre funksjon og $x+\sin(x)$ som indre. Da gir [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] at 
 > $$
 > f'(x) = (1+\cos(x))(-\sin(x+\sin(x))).
 > $$
@@ -170,7 +170,7 @@
 > [!note]- Løsning
 >
 > 
-> Vi ser på $t\cos(t)-\sin(t)$. Vi bruker [[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|produktregelen]] på første ledd og får at
+> Vi ser på $t\cos(t)-\sin(t)$. Vi bruker [[Kapittel 2 - derivasjon/defogteo/💡 Produktregelen|produktregelen]] på første ledd og får at
 > $$
 > \begin{aligned} 
 >   \frac{d}{dt} (t\cos(t)-\sin(t)) & = (\cos(t)+t\cdot(-\sin(t))-\cos(t)) \\ &= \cos(t)-t\sin(t)-\cos(t) \\ &= - t \sin(t).
@@ -184,7 +184,7 @@
 > [!note]- Løsning
 >
 > 
-> Her vil [[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|produktregelen]] hjelpe oss. Vi får
+> Her vil [[Kapittel 2 - derivasjon/defogteo/💡 Produktregelen|produktregelen]] hjelpe oss. Vi får
 > $$
 > \begin{aligned} 
 >   \frac{d}{dt} (t\sin(t)+\cos(t)) &= 1\sin(t)+t\cos(t)-\sin(t) \\ &= t\cos(t).
@@ -198,7 +198,7 @@
 > [!note]- Løsning
 >
 > 
-> Her kan vi bruke [[Kapittel 2 - derivasjon/defogteo/Teo Kvotientregelen|kvotientregelen]].
+> Her kan vi bruke [[Kapittel 2 - derivasjon/defogteo/💡 Kvotientregelen|kvotientregelen]].
 > $$
 > \begin{aligned} 
 >   \frac{d}{dx} \left( \frac{\sin(x)}{1+\cos(x)} \right)  & = \frac{\cos(x)(1+\cos(x))-\sin(x)(-\sin(x))}{(1+\cos(x))^2} \\ &= \frac{\cos(x)+{\color{#e599f7} \cos^2(x)+\sin^2(x) }}{(1+\cos(x))^2} \\ &= \frac{1+\cos(x)}{(1+\cos(x))^2} \\ &= \frac{1}{1+\cos(x)}.
@@ -260,7 +260,7 @@
 > [!note]- Løsning
 >
 > 
-> $y= \frac{6}{(x-1)^2} =6 (x-1)^{-2}$. [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|Kjerneregelen]] gir nå
+> $y= \frac{6}{(x-1)^2} =6 (x-1)^{-2}$. [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|Kjerneregelen]] gir nå
 > $$
 > \begin{aligned} 
 >  & y'  = 6\cdot(-2)(x-1)^{-3} =-12(x-1)^{-3} \\ & y'' = -12\cdot(-3)(x-1)^{-4} = 36(x-1)^{-4} \\ & y'''= 36\cdot(-4)(x-1)^{-5} = -144(x-1)^{-5}.
@@ -280,7 +280,7 @@
 > y' = \frac{d}{dx} \tan(x) = \frac{1}{\cos^2(x)} = \frac{\sin^2(x)+\cos^2(x)}{\cos^2(x)} = \tan^2(x)+1.
 > $$
 > 
-> Nå kan vi kombinere [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] med at vi vet hva $\tan(x)$ sin deriverte er og få
+> Nå kan vi kombinere [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] med at vi vet hva $\tan(x)$ sin deriverte er og få
 > $$
 > \begin{aligned} 
 >   & y'' = 2\tan(x)\cdot(\tan^2(x)+1) = 2\tan^3(x)+2\tan(x) \\ & y'''  = 2\cdot3\tan^2(x)\cdot(\tan^2(x)+1)+2(\tan^2(x)+1 ).
@@ -300,7 +300,7 @@
 > [!note]- Løsning
 > (du trenger ikke verifisere med induksjon)
 > 
-> Skriv $f(x)=\frac{1}{x}=x^{-1}$. Vi kan enkelt derivere ved å bruke [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Potensreglene for derivasjon|potensreglene for derivasjon]].
+> Skriv $f(x)=\frac{1}{x}=x^{-1}$. Vi kan enkelt derivere ved å bruke [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Potensreglene for derivasjon|potensreglene for derivasjon]].
 > 
 > $f'(x) = (-1)\cdot x^{-2} = -x^{-2}$.
 > 

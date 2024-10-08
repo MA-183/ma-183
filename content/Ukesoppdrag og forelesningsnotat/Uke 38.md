@@ -178,7 +178,7 @@
 
 > [!note]- Løsning 
 > 
-> Vi har at $f(x) = 1 + 2x^3$. For å finne $(f^{-1})'(y)$ bruker vi at $f^{-1}(f(x)) = x$, og deriverer begge sider $x$ med [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]]: 
+> Vi har at $f(x) = 1 + 2x^3$. For å finne $(f^{-1})'(y)$ bruker vi at $f^{-1}(f(x)) = x$, og deriverer begge sider $x$ med [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]]: 
 > $$ 
 > \begin{aligned} \frac{d}{dx}f^{-1}(f(x)) & = \frac{d}{dx}x \\ (f^{-1})'(f(x)) \cdot f'(x) & = 1. \end{aligned} 
 > $$ 
@@ -208,11 +208,11 @@
 > [!note]- Løsning 
 > 
 > Vi skal vise at $f(x) = \frac{4x^3}{x^2 + 1}$ har en invers og finne $(f^{-1})'(2)$. 
-> Vi viser at funksjonen vår er stigende ved å vise at den deriverte alltid er positiv. [[Kapittel 2 - derivasjon/defogteo/Teo Kvotientregelen|kvotientregelen]] gir oss
+> Vi viser at funksjonen vår er stigende ved å vise at den deriverte alltid er positiv. [[Kapittel 2 - derivasjon/defogteo/💡 Kvotientregelen|kvotientregelen]] gir oss
 > $$ 
 > \begin{aligned} f'(x) &= \frac{(x^2 + 1) \cdot 12x^2 - 4x^3 \cdot 2x}{(x^2 + 1)^2} \\ &= \frac{12x^2(x^2 + 1) - 8x^4}{(x^2 + 1)^2} \\ &= \frac{12x^4 + 12x^2 - 8x^4}{(x^2 + 1)^2} \\ &= \frac{4x^4 + 12x^2}{(x^2 + 1)^2} \\ &= \frac{4x^2(x^2 + 3)}{(x^2 + 1)^2}. \end{aligned} 
 > $$ 
-> Nevner er alltid positiv og teller er alltid positiv, bortsett fra når $x = 0$, da er teller lik $0$. Siden $f'(x) >0$ på det åpne intervallet $(-\infty,0)$ og $(0,\infty)$ kan vi konkludere med at $f$ er strengt stigende fra [[Kapittel 2 - derivasjon/defogteo/Teo Stigende og synkende funksjoner|teoremet om stigende og synkende funksjoner]], så $f$ er en-til-en og har derfor en invers.
+> Nevner er alltid positiv og teller er alltid positiv, bortsett fra når $x = 0$, da er teller lik $0$. Siden $f'(x) >0$ på det åpne intervallet $(-\infty,0)$ og $(0,\infty)$ kan vi konkludere med at $f$ er strengt stigende fra [[Kapittel 2 - derivasjon/defogteo/💡 Stigende og synkende funksjoner|teoremet om stigende og synkende funksjoner]], så $f$ er en-til-en og har derfor en invers.
 > Sammenhengen $\frac{d}{dx}f^{-1}(x) = \frac{1}{f'(f^{-1}(x))}$ forteller oss at vi må finne $f^{-1}(2)$, eller sagt med andre ord, finne en verdi $a$ slik at $f(a) = 2$  for da er $f^{-1}(2) = a$. Nå finner vi $a$ slik at $f(a) = 2$: 
 > $$ 
 > \begin{aligned} \frac{4a^3}{a^2 + 1} &= 2 \\ 4a^3 &= 2(a^2 + 1) \\ 2a^3 &= a^2 + 1 \\ 2a^3 - a^2 &= 1 \\ a^2(2a-1)= 1. \end{aligned} 
@@ -359,13 +359,13 @@
 >   3\ln(4)- 4\ln(3)  & \overset{ 1^* }{=   }\ln(4^3)-\ln(3^4) \overset{ 2^* }{=  } \ln\left( \frac{4^3}{3^4} \right) 
 > \end{aligned} 
 > $$ 
-> der $1^*$ er regel [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Logaritmeregler for den naturlige logaritme|punkt 3. av logaritmereglene]] brukt baklengs og $2^*$ er [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Logaritmeregler for den naturlige logaritme|punkt 2. av logaritmereglene]] brukt baklengs.
+> der $1^*$ er regel [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|punkt 3. av logaritmereglene]] brukt baklengs og $2^*$ er [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|punkt 2. av logaritmereglene]] brukt baklengs.
 
 > [!abstract] 8
 > Forenkle uttrykket $4\ln(\sqrt{x})+6\ln\left( \frac{x}{\frac{1}{3}} \right)$.
 
 > [!note]- Løsning 
-> Vi bruker [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Logaritmeregler for den naturlige logaritme|logaritmeregler]] og får 
+> Vi bruker [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|logaritmeregler]] og får 
 > $$
 > \begin{aligned} 
 >   & 4\ln(\sqrt{x})+ 6\ln(x^{1/3})  \\ && \text{bruker punkt 3. i reglene} \\ & \ln(\sqrt{x}^4) + \ln((x^{1/3})^6)  \\ & \ln(x^2)+\ln(x^2)  \\ && \text{bruker punkt 1. baklengs} \\ & \ln(x^2 \cdot x^2) = \ln(x^4) \\ && \text{bruker punkt 3.} \\ &4\ln(x).
@@ -377,7 +377,7 @@
 
 
 > [!note]- Løsning 
-> Vi bruker [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Logaritmeregler for den naturlige logaritme|logaritmeregler]] og får 
+> Vi bruker [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|logaritmeregler]] og får 
 > $$
 > \begin{aligned} 
 >   & 2\ln(x) + 5\ln(x-2)  \\ && \text{bruker punkt 3. baklengs} \\ & \ln(x^2)+\ln((x-2)^5) \\  && \text{bruker punkt 1. baklengs} \\ & \ln(x^2(x-2)^5).
@@ -388,7 +388,7 @@
 > Forenkle uttrykket $\ln(x^2+6x+9)$.
 
 > [!note]- Løsning 
-> Vi bruker [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Logaritmeregler for den naturlige logaritme|logaritmeregler]] og får
+> Vi bruker [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|logaritmeregler]] og får
 > $$
 > \begin{aligned} 
 >   & \ln(x^2+6x+9) \\ && \text{kvadratsetning baklengs} \\ & \ln((x+3)^2)  \\ && \text{regel 3.} \\ & 2\ln(x+3). 
@@ -400,7 +400,7 @@
 
 
 > [!note]- Løsning 
-> Vi bruker [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Logaritmeregler for den naturlige logaritme|logaritmeregler]] punkt 2. og får
+> Vi bruker [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|logaritmeregler]] punkt 2. og får
 > $$
 > \begin{aligned} 
 >   \ln\left( \frac{x}{2-x} \right)  &= \ln(x)-\ln(2-x).
@@ -413,7 +413,7 @@
 > Deriver $y=\ln(3x-2)$.
 
 > [!note]- Løsning 
-> Vi skal derivere $y= \ln(3x-2)$. Fra [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] får vi
+> Vi skal derivere $y= \ln(3x-2)$. Fra [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] får vi
 > $$
 > \frac{d}{dx} \ln(3x-2) = 3\cdot \frac{1}{3x-2}.
 > $$
@@ -429,7 +429,7 @@
 > \end{cases}
 > $$
 > 
-> Siden $\frac{d}{dx}\ln(f(x))  =f'(x)\frac{1}{\ln(f(x))}$ fra [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]]. 
+> Siden $\frac{d}{dx}\ln(f(x))  =f'(x)\frac{1}{\ln(f(x))}$ fra [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]]. 
 > 
 > Ser vi på tilfellet når $3x-2 >0$ får vi at $f(x) = 3x-2$ og $f'(x) = 3$. Det betyr $\frac{d}{dx}\ln(f(x))= 3\frac{1}{3x-2}$.
 > 
@@ -457,7 +457,7 @@
 > Deriver $y = x\ln(x)-x$.
 
 > [!note]- Løsning 
-> $y = x\ln (x)- x$. Vi bruker [[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|produktregelen]] og får
+> $y = x\ln (x)- x$. Vi bruker [[Kapittel 2 - derivasjon/defogteo/💡 Produktregelen|produktregelen]] og får
 > $$
 > \begin{aligned} 
 >  \frac{d}{dx} ( x\ln(x)-x ) & =\left(  1\cdot\ln(x)+x\cdot \frac{1}{x} \right)-1 \\ &= \ln(x)+1 -1 = \ln(x).
@@ -468,7 +468,7 @@
 > Deriver $y = x^2\ln(x)-\frac{x^2}{2}$.
 
 > [!note]- Løsning 
-> $y = x^2\ln(x)-\frac{x^2}{2}$. Vi bruker [[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|produktregelen]] og får
+> $y = x^2\ln(x)-\frac{x^2}{2}$. Vi bruker [[Kapittel 2 - derivasjon/defogteo/💡 Produktregelen|produktregelen]] og får
 > $$
 > \begin{aligned} 
 >   \frac{d}{dx} (y) &=  \frac{d}{dx} \left( x^2 \ln(x)-\frac{x^2}{2} \right)  \\ &= 2x\ln(x)+\frac{x^2}{x}-\frac{2x}{2} \\ &= 2x\ln(x)+x-x = 2x\ln(x). 

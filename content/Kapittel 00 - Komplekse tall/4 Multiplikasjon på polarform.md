@@ -13,7 +13,7 @@ title: 📄 Multiplikasjon på polarform
 > \begin{aligned} 
 >  &\cos\left( \frac{\pi}{3} \right)\cdot\cos\left( \frac{\pi}{6} \right)-\sin\left( \frac{\pi}{3} \right)\cdot\sin\left( \frac{\pi}{6} \right) \\ + & i\left( \cos\left( \frac{\pi}{3} \right)\cdot\sin\left( \frac{\pi}{6} \right)+\cos\left( \frac{\pi}{6} \right)\cdot\sin\left( \frac{\pi}{3} \right) \right)\end{aligned} 
 > $$
-> Fra [[Kapittel 0 - innledende kapittel/defogteo/Teo Addisjonsformlene|addisjonsformlene]] får vi
+> Fra [[Kapittel 0 - innledende kapittel/defogteo/💡Addisjonsformlene|addisjonsformlene]] får vi
 > $$
 > \begin{aligned} 
 >  & \cos\left( \frac{\pi}{3}+\frac{\pi}{6} \right)+i\left( \sin\left( \frac{\pi}{3}+\frac{\pi}{6} \right) \right)  \\ = & \cos\left( \frac{\pi}{2} \right)+i\sin\left( \frac{\pi}{2} \right)=0+i.
@@ -22,11 +22,11 @@ title: 📄 Multiplikasjon på polarform
 
 Det er ikke noe unikt med vinklene over. Vi har generelt at
 
-![[Kapittel 00 - Komplekse tall/defogteo/Teo Multiplikasjon på polarform|Teo Multiplikasjon på polarform]]
+![[Kapittel 00 - Komplekse tall/defogteo/💡 Multiplikasjon på polarform|💡 Multiplikasjon på polarform]]
 
 Gjentar vi multiplikasjonen ser vi at 
 
-![[Kapittel 00 - Komplekse tall/defogteo/Teo de Moivre's Theorem|Teo de Moivre's Theorem]]
+![[Kapittel 00 - Komplekse tall/defogteo/💡 de Moivre's Theorem|💡 de Moivre's Theorem]]
 
 Det blir kjedelig å skrive $\cos(\theta)+i\sin(\theta)$ i lengden. Det gis ikke begrunnelse for denne sammenhengen i MA-183, men [denne](https://www.youtube.com/watch?v=v0YEaeIClKY) og [denne](https://www.youtube.com/watch?v=-dhHrg-KbJ0) er kan være gode videoer å bruke dersom man kjenner til definisjonen av $e$ som grenseverdi og hvordan man deriverer $e^x$.
 

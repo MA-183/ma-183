@@ -24,7 +24,7 @@ Foreløpig innhold er
 - [[Ukesoppdrag og forelesningsnotat/Uke 46|Uke 46]]
     - Ta kontakt hvis det er oppgaver dere ønsker løsningsforslag til.
 
-## [Innledende kapittel](Kapittel-0---innledende-kapittel/)
+## [Innledende kapittel](Kapittel-0---innledende-kapittel/) om funksjoner
 
 %% - [[Kapittel 0 - innledende kapittel/1.1. Funksjoner|Funksjoner]]
 - [[Kapittel 0 - innledende kapittel/2.1 Lage funksjoner med regneartene|Lage funksjoner med regneartene]]
@@ -72,13 +72,17 @@ Foreløpig innhold er
 - [[Kapittel 2 - derivasjon/991 Den antideriverte|Den antideriverte]]
  %%
 
-## Kapittel 3 
+## [Transendentale funksjoner](Kapittel-3---transendentale-funksjoner/)
 
 %% 
 - [[Kapittel 3 - transendentale funksjoner/3.1.1 Inverse funksjoner|Inverse funksjoner]]
 
  %%
-Kapittel 4
-Kapittel 5
-Kapittel 6
-Kapittel 7
+## [Anvendelser av derivasjon](Kapittel-4---anvendelse-av-derivasjon/)
+
+
+## [Integrasjon](Kapittel-5---integrasjon/)
+
+## [Integrasjonsteknikker](Kapittel-6---Integrasjonsteknikker/)
+
+

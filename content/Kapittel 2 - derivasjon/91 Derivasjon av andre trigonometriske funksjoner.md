@@ -2,7 +2,7 @@
 tags: []
 title: 📄 Derivasjon av andre trigonometriske funksjoner
 ---
-Mange av de andre trigonometriske funksjonene vi møter på, kan defineres ved hjelp av $\cos (x)$ og $\sin (x)$. Siden vi kan [[Kapittel 2 - derivasjon/9 Sinus og cosinus derivert|derivere cos og sin]] og kan bruke [[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|produktregelen]], [[Kapittel 2 - derivasjon/defogteo/Teo Kvotientregelen|kvotientregelen]] og kjerneregelen, kan vi nå derivere andre trigonometriske funksjoner. 
+Mange av de andre trigonometriske funksjonene vi møter på, kan defineres ved hjelp av $\cos (x)$ og $\sin (x)$. Siden vi kan [[Kapittel 2 - derivasjon/9 Sinus og cosinus derivert|derivere cos og sin]] og kan bruke [[Kapittel 2 - derivasjon/defogteo/💡 Produktregelen|produktregelen]], [[Kapittel 2 - derivasjon/defogteo/💡 Kvotientregelen|kvotientregelen]] og kjerneregelen, kan vi nå derivere andre trigonometriske funksjoner. 
 
 > [!info] Eksempel 
 > 1. $\frac{d}{dx}\tan (x) = \frac{1}{\cos^2 (x)} = 1+ \tan^2(x)$

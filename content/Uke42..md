@@ -41,7 +41,7 @@ Trenger en måte å summere vilkårlig antall ledd.
 ## Summasjonsnotasjon
 
 
-![[Kapittel 5 - integrasjon/defogteo/Def Sigmanotasjon|Def Sigmanotasjon]]
+![[Kapittel 5 - integrasjon/defogteo/✍️ Sigmanotasjon|✍️ Sigmanotasjon]]
 
 > [!abstract] Eksempel 
 > Utvid 
@@ -89,7 +89,7 @@ Merk nå at hvis funksjonen er negativ sier vi at arealet også er negativt. Bil
 der det blå er negative areal og røde er positive.
 ## Integrasjon
 
-![[Kapittel 5 - integrasjon/defogteo/Def Øvre- og nedre Riemannsummer|Def Øvre- og nedre Riemannsummer]]
+![[Kapittel 5 - integrasjon/defogteo/✍️ Øvre- og nedre Riemannsummer|✍️ Øvre- og nedre Riemannsummer]]
 
 
 
@@ -109,7 +109,7 @@ $$
 
 ### AFT
 
-![[Kapittel 5 - integrasjon/defogteo/Teo Analysens fundamentalteorem|Teo Analysens fundamentalteorem]]
+![[Kapittel 5 - integrasjon/defogteo/💡 Analysens fundamentalteorem|💡 Analysens fundamentalteorem]]
 
 
 

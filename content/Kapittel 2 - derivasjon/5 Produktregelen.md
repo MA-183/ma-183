@@ -1,7 +1,7 @@
 ---
 title: 📄 Produktregelen
 ---
-![[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|Teo Produktregelen]]
+![[Kapittel 2 - derivasjon/defogteo/💡 Produktregelen|💡 Produktregelen]]
 
 
 > [!question] Spørsmål 

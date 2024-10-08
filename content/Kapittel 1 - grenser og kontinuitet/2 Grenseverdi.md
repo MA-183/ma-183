@@ -3,14 +3,14 @@ title: 📄 Grenseverdier
 ---
 Allerede tilbake til Arkimedes kan vi finne tilfeller der vi kan konkludere med noen litt upresise argumenter der vi bruker utsagn som *så nær vi bare vil*. Det er det som er opphavet til grenseverdier. Vi begynner med en litt mer uformell definisjon som får frem det viktige i definisjonen.  
 
-![[Kapittel 1 - grenser og kontinuitet/defogteo/Def Grenseverdi|Def Grenseverdi]]
+![[Kapittel 1 - grenser og kontinuitet/defogteo/✍️ Grenseverdi|✍️ Grenseverdi]]
 
 Vi kan tegne dette slik
 
 ![[Files/grenseverdi.svg]]
 Det gir oss den formelle definisjonen
 
-![[Kapittel 1 - grenser og kontinuitet/defogteo/Def Grenseverdi (formell)|Def Grenseverdi (formell)]]
+![[Kapittel 1 - grenser og kontinuitet/defogteo/✍️ Grenseverdi (formell)|✍️ Grenseverdi (formell)]]
 
 ### Eksempler
 
@@ -37,11 +37,11 @@ $$
 
 Når vi ser på grenser skal vi se at det er nyttig å undersøke hva som skjer når vi nærmer oss et punkt kun fra venstre eller høyre side. Det gir følgende definisjon
 
-![[Kapittel 1 - grenser og kontinuitet/defogteo/Def Ensidige grenser, uformell|Def Ensidige grenser, uformell]]
+![[Kapittel 1 - grenser og kontinuitet/defogteo/✍️ Ensidige grenser, uformell|✍️ Ensidige grenser, uformell]]
 
 I tillegg til vanlige grenser kan vi jo også tenke oss at en funksjon stabiliserer seg etter hvert, bare vi holder på *lenge nok*. Det er fører også til følgende definisjon.
 
-![[Kapittel 1 - grenser og kontinuitet/defogteo/Def Grenser i uendelig (uformell)|Def Grenser i uendelig (uformell)]]
+![[Kapittel 1 - grenser og kontinuitet/defogteo/✍️ Grenser i uendelig (uformell)|✍️ Grenser i uendelig (uformell)]]
 
 Kanskje litt forenklet kan vi forklare definisjonen over slik
 

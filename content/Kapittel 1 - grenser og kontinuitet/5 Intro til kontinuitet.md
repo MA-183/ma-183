@@ -25,15 +25,15 @@ Gjør vi det for eksempel $50$ ganger får vi et punkt $a$ der $f(a) = 0.0000000
 
 Jo, funksjonen bør jo være sammenhengende, altså at den ikke hopper eller har noen hull. Helt formelt må $f$ være kontinuerlig. For å definere en kontinuerlig funksjon begynner vi med å definere kontinuitet i et punkt.
 
-![[Kapittel 1 - grenser og kontinuitet/defogteo/Def Kontinuitet i et punkt|Def Kontinuitet i et punkt]]
+![[Kapittel 1 - grenser og kontinuitet/defogteo/✍️ Kontinuitet i et punkt|✍️ Kontinuitet i et punkt]]
 
 Nå er det enkelt å si hva en kontinuerlig funksjon skal bety, nemlig en som er kontinuerlig i alle punkter i sin definisjonsmengde.
 
-![[Kapittel 1 - grenser og kontinuitet/defogteo/Def Kontinuitet på et intervall|Def Kontinuitet på et intervall]]
+![[Kapittel 1 - grenser og kontinuitet/defogteo/✍️ Kontinuitet på et intervall|✍️ Kontinuitet på et intervall]]
 
 Så hva er de spesielle egenskapene som kontinuerlige funksjoner har? Jo, kontinuerlige funksjoner tar minimum og maksimumsverdier (på lukka intervaller)
 
-![[Kapittel 1 - grenser og kontinuitet/defogteo/Teo Min-maks teoremet|Teo Min-maks teoremet]]
+![[Kapittel 1 - grenser og kontinuitet/defogteo/💡 Min-maks teoremet|💡 Min-maks teoremet]]
 
 
 > [!question] Spørsmål 
@@ -43,7 +43,7 @@ Så hva er de spesielle egenskapene som kontinuerlige funksjoner har? Jo, kontin
 
 I tillegg har kontinuerlige funksjoner ingen *hull*, det vil si at de tar alle verdier mellom to punkter på et intervall.
 
-![[Kapittel 1 - grenser og kontinuitet/defogteo/Teo Skjæringssetningen|Teo Skjæringssetningen]]
+![[Kapittel 1 - grenser og kontinuitet/defogteo/💡 Skjæringssetningen|💡 Skjæringssetningen]]
 
 > [!question] Spørsmål 
 > Kan du skissere en graf som er definert på $[a,b]$ og kontinuerlig på $(a,b)$ der $f$ ikke tar alle verdier mellom $f(a)$ og $f(b)$? Hvorfor er dette ikke i strid med sjæringssetningen?

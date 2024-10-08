@@ -60,7 +60,7 @@
 
 
 > [!note]- Løsning
-> Finner de kritiske punktene ved å derivere $f(x)$ ved hjelp av [[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|produktregelen]]:
+> Finner de kritiske punktene ved å derivere $f(x)$ ved hjelp av [[Kapittel 2 - derivasjon/defogteo/💡 Produktregelen|produktregelen]]:
 > $$
 > f'(x) = (x-2)^2 + 2x(x-2) = 3x^2 - 8x + 4.
 > $$
@@ -68,13 +68,13 @@
 > $$
 > 3x^2 - 8x + 4 = 0.
 > $$
-> Bruker [[Kapittel 0 - innledende kapittel/defogteo/Teo abc-formelen|abc-formelen]]:
+> Bruker [[Kapittel 0 - innledende kapittel/defogteo/💡abc-formelen|abc-formelen]]:
 > $$
 > \begin{aligned} 
 > x  & = \frac{-(-8) \pm \sqrt{(-8)^2 - 4(3)(4)}}{2(3)} \\ &= \frac{8 \pm \sqrt{16}}{6} \\ &= \frac{8 \pm 4}{6}.
 > \end{aligned} 
 > $$
-> De kritiske punktene er $x = 2$ og $x = \frac{2}{3}$. Bruk [[Kapittel 4 - Anvendelse av derivasjon/defogteo/Teo Andrederiverttesten|andrederiverttesten]]:
+> De kritiske punktene er $x = 2$ og $x = \frac{2}{3}$. Bruk [[Kapittel 4 - Anvendelse av derivasjon/defogteo/💡 Andrederiverttesten|andrederiverttesten]]:
 > 
 > $$
 > f''(x) = 6x - 8.
@@ -98,7 +98,7 @@
 > $$
 > \ln(x) = -1 \quad \Rightarrow \quad x = e^{-1} = \frac{1}{e}.
 > $$
-> Bruk [[Kapittel 4 - Anvendelse av derivasjon/defogteo/Teo Andrederiverttesten|andrederiverttesten]] for å klassifisere punktet:
+> Bruk [[Kapittel 4 - Anvendelse av derivasjon/defogteo/💡 Andrederiverttesten|andrederiverttesten]] for å klassifisere punktet:
 > $$
 > f''(x) = \frac{1}{x}.
 > $$

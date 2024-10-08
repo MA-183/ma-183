@@ -2,7 +2,7 @@
 tags: []
 title: 📄 Den deriverte
 ---
-![[Kapittel 2 - derivasjon/defogteo/Def Derivasjon i et punkt|Def Derivasjon i et punkt]]
+![[Kapittel 2 - derivasjon/defogteo/✍️ Derivasjon i et punkt|✍️ Derivasjon i et punkt]]
 
 Det er verdt å merke seg at denne definisjonen også har en geometrisk tolkning når vi ser på reelle funksjoner. 
 ![[Files/shapes at 24-09-03 13.57.58.svg]]

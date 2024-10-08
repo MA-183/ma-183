@@ -5,7 +5,7 @@ title: 📄 Eksempler
 
 
 Under kommer noen eksempler der vi deriverer ved hjelp av produktregelen.
-![[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|Teo Produktregelen]]
+![[Kapittel 2 - derivasjon/defogteo/💡 Produktregelen|💡 Produktregelen]]
 
 
 > [!abstract] Eksempel 
@@ -69,7 +69,7 @@ Under kommer noen eksempler der vi deriverer ved hjelp av produktregelen.
 
 
 Under kommer noen eksempler der vi deriverer ved hjelp av kjerneregelen.
-![[Kapittel 2 - derivasjon/defogteo/Teo Kvotientregelen|Teo Kvotientregelen]]
+![[Kapittel 2 - derivasjon/defogteo/💡 Kvotientregelen|💡 Kvotientregelen]]
 
 > [!abstract] Eksempel 
 > Finn den deriverte til $\tan(x) = \frac{\sin(x)}{\cos(x)}$.
@@ -135,7 +135,7 @@ Under kommer noen eksempler der vi deriverer ved hjelp av kjerneregelen.
 ^6f125b
 
 Under kommer noen eksempler der vi deriverer ved hjelp av kjerneregelen.
-![[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|Teo Kjerneregelen]] 
+![[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|💡 Kjerneregelen]] 
 
 
 
@@ -183,7 +183,7 @@ Under kommer noen eksempler som kombinerer derivasjonsreglene for å komme deriv
 > 1. ${\color{#e796f5} f(x) = \sin(x) }$   og dermed ${\color{#f46f22} f'(x) = \cos(x) }$ og
 > 2. ${\color{#3cc15c} g(x) = \cos(x^2) }$. 
 > 
-> Ser at $g(x) = \cos(x^2)$. En sammensatt funksjoner $\longrightarrow$ [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]]. 
+> Ser at $g(x) = \cos(x^2)$. En sammensatt funksjoner $\longrightarrow$ [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]]. 
 > 
 > La $u = x^2$ og $\frac{du}{dx} = 2x$, da står det $g(u) = \cos(u)$ så
 > $$

@@ -76,7 +76,7 @@
 > [!note]- Løsning
 >
 > 
-> Vi løser ved å ta $\ln$ av begge sider og bruke [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Logaritmeregler for den naturlige logaritme|logaritmeregler]] for å forenkle. Siden funksjonen er [[Kapittel 3 - transendentale funksjoner/defogteo/Def En-til-en funksjoner|en-til-en funksjoner]] må løsningen være bevart ved å gjøre det.
+> Vi løser ved å ta $\ln$ av begge sider og bruke [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|logaritmeregler]] for å forenkle. Siden funksjonen er [[Kapittel 3 - transendentale funksjoner/defogteo/✍️ En-til-en funksjoner|en-til-en funksjoner]] må løsningen være bevart ved å gjøre det.
 > 
 > $$
 > \begin{aligned} 
@@ -102,7 +102,7 @@
 > Løs likningen $\frac{1}{2^x} = \frac{5}{8^{x+3}}$
 
 > [!note]- Løsning
-> Vi tar $\ln$ på begge sider av likningen og utnytter [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Logaritmeregler for den naturlige logaritme|logaritmeregler]]. Da får vi
+> Vi tar $\ln$ på begge sider av likningen og utnytter [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|logaritmeregler]]. Da får vi
 > $$
 > \begin{aligned} 
 > \ln\left( \frac{1}{2^x} \right) & = \ln\left( \frac{5}{8^{x+3}} \right) \\
@@ -121,7 +121,7 @@
 > 2^{x^2-3} = 2^{2x}.
 > \end{aligned}
 >  $$
-> Nå kan vi ta $\ln$ på begge sier, men vi kan også inne at siden eksponentialfunksjoner er [[Kapittel 3 - transendentale funksjoner/defogteo/Def En-til-en funksjoner|en-til-en]] kan vi bare sammenlikne eksponentene og si at
+> Nå kan vi ta $\ln$ på begge sier, men vi kan også inne at siden eksponentialfunksjoner er [[Kapittel 3 - transendentale funksjoner/defogteo/✍️ En-til-en funksjoner|en-til-en]] kan vi bare sammenlikne eksponentene og si at
 > $$
 > x^2-3 = 2x.
 > $$
@@ -149,7 +149,7 @@
 
 > [!note]- Løsning
 > Vi ser at første ledd ${\color{#e796f5} x } \cdot {\color{#3cc15c} e^x }$ er et produkt av to funksjoner.
-> [[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|Produktregelen]] sier at 
+> [[Kapittel 2 - derivasjon/defogteo/💡 Produktregelen|Produktregelen]] sier at 
 > $$
 > ({\color{#e796f5} f }\cdot {\color{#3cc15c} g })' = {\color{#f46f22} f' }{\color{#3cc15c} g }+{\color{#e796f5} f }{\color{#5ca6f4} g' }.
 > $$
@@ -170,7 +170,7 @@
 > Deriver funksjonen $y = \frac{x}{e^{2x}}$.
 
 > [!note]- Løsning
-> Vi bruker [[Kapittel 2 - derivasjon/defogteo/Teo Kvotientregelen|kvotientregelen]] (på hele uttrykket) og [[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|produktregelen]] (når vi deriver nevner) og får 
+> Vi bruker [[Kapittel 2 - derivasjon/defogteo/💡 Kvotientregelen|kvotientregelen]] (på hele uttrykket) og [[Kapittel 2 - derivasjon/defogteo/💡 Produktregelen|produktregelen]] (når vi deriver nevner) og får 
 > $$
 > \begin{aligned} 
 > \frac{dy}{dx} & = \frac{1\cdot e^{2x} - x \cdot 2e^{2x}}{(e^{2x})^2} \\ & =  \frac{ \cancel{ e^{2x} }- 2x \cdot \cancel{ e^{2x} }}{e^{2x} \cdot \cancel{ e^{2x} }} \\ &= \frac{1-2x}{e^{2x}} = \frac{1}{e^{2x}}-2 y
@@ -182,7 +182,7 @@
 > Deriver uttrykket $y = x^2 e^{x/2}$
 
 > [!note]- Løsning
->Vi bruker [[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|produktregelen]], der $x^2$ og $e^{\frac{x}{2}}$ er de to faktorene. I tillegg bruker vi [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] for å derivere $e^{\frac{x}{2}}$, der $e^x$ er ytre funksjon og $\frac{x}{2}$ er indre. Det gir oss
+>Vi bruker [[Kapittel 2 - derivasjon/defogteo/💡 Produktregelen|produktregelen]], der $x^2$ og $e^{\frac{x}{2}}$ er de to faktorene. I tillegg bruker vi [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] for å derivere $e^{\frac{x}{2}}$, der $e^x$ er ytre funksjon og $\frac{x}{2}$ er indre. Det gir oss
 > $$
 > \begin{aligned}
 > 2x e^{x/2} + x^2\cdot \left( \frac{1}{2} e^{x/2} \right) = e^{x/2}\left( 2x+\frac{x^2}{2} \right).
@@ -194,7 +194,7 @@
 > Deriver funksjonen $y =e^x \sin(x)$.
 
 > [!note]- Løsning
-> Uttrykket er et produkt av $e^x$ og $\sin(x)$. Derfor bruker vi [[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|produktregelen]] for å derivere disse. Det gir
+> Uttrykket er et produkt av $e^x$ og $\sin(x)$. Derfor bruker vi [[Kapittel 2 - derivasjon/defogteo/💡 Produktregelen|produktregelen]] for å derivere disse. Det gir
 > $$
 > y' = e^x \sin(x) + e^x\cos(x).
 > $$
@@ -204,13 +204,13 @@
 > Deriver funksjonen $y = e^{-x}\cos(x)$.
 
 > [!note]- Løsning
->Uttrykket er et produkt av $e^{-x}$ og $\cos(x)$. Derfor bruker vi [[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|produktregelen]] for å derivere disse. Det gir
+>Uttrykket er et produkt av $e^{-x}$ og $\cos(x)$. Derfor bruker vi [[Kapittel 2 - derivasjon/defogteo/💡 Produktregelen|produktregelen]] for å derivere disse. Det gir
 > $$
 > \begin{aligned} 
 > \frac{dy}{dx} & = -e^{-x} \sin(x) + e^{-x}(-\sin(x)) \\ & = -e^{-x}(\cos(x)+\sin(x)).
 > \end{aligned} 
 > $$
-> Merk at vi bruker [[Kapittel 2 - derivasjon/defogteo/Teo Kjerneregelen|kjerneregelen]] for å derivere $e^{-x}$, ved å betrakte $-x$ som indre funksjon og $e^x$ som ytre.
+> Merk at vi bruker [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] for å derivere $e^{-x}$, ved å betrakte $-x$ som indre funksjon og $e^x$ som ytre.
 > 
 ## 3.4
 
@@ -219,7 +219,7 @@
 > Avgjør verdien til $\lim_{x\longrightarrow \infty} x^3e^{-x}$.
 
 > [!note]- Løsning
-> Her trenger vi bare skrive om uttrykket som $\frac{x^3}{e^x}$ og se at dette bare et tilfelle av [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Eksponentiell vekst|punkt 2. her]]. Eksponentialfunksjoner vokser slår polynomer!
+> Her trenger vi bare skrive om uttrykket som $\frac{x^3}{e^x}$ og se at dette bare et tilfelle av [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Eksponentiell vekst|punkt 2. her]]. Eksponentialfunksjoner vokser slår polynomer!
 > 
 
 > [!abstract] 3
@@ -239,7 +239,7 @@
 > 
 
 > [!note]- Løsning
->Dette er ikke annet enn et spesialtilfelle der $a=1$ av punkt 3. i [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Eksponentiell vekst|teoremet om eksponentiell vekst]].
+>Dette er ikke annet enn et spesialtilfelle der $a=1$ av punkt 3. i [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Eksponentiell vekst|teoremet om eksponentiell vekst]].
 > 
 
 > [!abstract] 9
@@ -249,7 +249,7 @@
 
 > [!note]- Løsning
 > 
-> Hvis $B(t)$ er funksjonen som forteller antall bakterier i bakteriekulturen etter $t$ timer, så forteller [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Initialverdiproblem|initialverdiproblemet]] oss at $B(t)=100e^{kt}$. Videre får vi vite at når $t=1$ er $B(1)=200 = 100e^{k}$. Vi kan løse slik
+> Hvis $B(t)$ er funksjonen som forteller antall bakterier i bakteriekulturen etter $t$ timer, så forteller [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Initialverdiproblem|initialverdiproblemet]] oss at $B(t)=100e^{kt}$. Videre får vi vite at når $t=1$ er $B(1)=200 = 100e^{k}$. Vi kan løse slik
 > $$
 > \begin{aligned} 200 &= 100 e^{k} && \bigg| : 2 \\
 > 2  &= e^{k}  && \bigg| \ln() \\
@@ -273,7 +273,7 @@
 
 > [!note]- Løsning
 > 
-> La $S(t)$ være mengden sukker som ikke er løst opp etter $t$ timer. Fra informasjonen i oppgaven vet vi at oppløsningshastigheten er proporsjonal med mengden som ikke er løst opp, altså $S'(t) = -kS(t)$.  [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Initialverdiproblem|Initialverdiproblemet]] forteller oss $S(t) = 50 e^{kt}$  for en konstant $k > 0$. 
+> La $S(t)$ være mengden sukker som ikke er løst opp etter $t$ timer. Fra informasjonen i oppgaven vet vi at oppløsningshastigheten er proporsjonal med mengden som ikke er løst opp, altså $S'(t) = -kS(t)$.  [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Initialverdiproblem|Initialverdiproblemet]] forteller oss $S(t) = 50 e^{kt}$  for en konstant $k > 0$. 
 > 
 > hvor $S_0 = 50$ kg er startmengden sukker. Etter 5 timer er det 20 kg sukker igjen, så vi får:
 > 
@@ -319,7 +319,7 @@
 > [!note]- Løsning
 >
 > 
-> La $A(t)$ være mengden radioaktivt stoff som er igjen etter $t$ år. Siden stoffet brytes ned proporsjonalt med mengden, har vi $A'(t) = -kA(t)$ for en konstant $k$. Vi vet at løsningen på likningen over [[Kapittel 3 - transendentale funksjoner/defogteo/Teo Initialverdiproblem|er på formen]]:
+> La $A(t)$ være mengden radioaktivt stoff som er igjen etter $t$ år. Siden stoffet brytes ned proporsjonalt med mengden, har vi $A'(t) = -kA(t)$ for en konstant $k$. Vi vet at løsningen på likningen over [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Initialverdiproblem|er på formen]]:
 > 
 > $$
 > A(t) = A_0 e^{-kt},

@@ -1,2 +1,0 @@
-> [!info] Kontinuitet
-> En funksjon $f$ er *kontinuerlig på et intervall* $I$ hvis den er [[Kapittel 1 - grenser og kontinuitet/defogteo/Def Kontinuitet i et punkt|kontinuerlig]] i hvert punkt $c$ i $I$. Spesielt sier vi at $f$ er en kontinuerlig funksjon hvis den er kontinuerlig på sin definisjonsmengde.  
