@@ -110,6 +110,25 @@ $$
 ### AFT
 
 ![[Kapittel 5 - integrasjon/defogteo/Teo Analysens fundamentalteorem|Teo Analysens fundamentalteorem]]
+
+
+
+> [!warning] Oppgave 
+> Bruk AFT til å finne $\frac{dy}{dx}$ når
+> 
+> 1. $y = \int_{a}^{x}(t^2+3)dt$.
+> 2. $y = \int_{x}^{5}3t\cos(t)dt$.
+> 3. $y=\int_{1}^{x^2}\sin(t)dt$
+> 4. $y = \int_{1+3x^2}^{4} \frac{1}{1+e^t}dt$.
+
+> [!note] Argument 
+> 
+> 1. Her ser vi at $f(t) = (t^2+3)$. AFT sier da at 
+> $$
+> \frac{dy}{dx}= \frac{d}{dx} \int_{a}^{x}f(t)dt = f(x) = x^2+3.
+> $$
+> 
+> 2. 
 ## Teknikker
 
 ### Substitusjon

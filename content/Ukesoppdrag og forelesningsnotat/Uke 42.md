@@ -6,7 +6,7 @@
 > \sum_{i=1}^{4}i^3
 > $$
 
-> [!note]+ Løsning 
+> [!note]- Løsning 
 > Vi kan bare skrive ut og se at
 > $$
 > \sum_{i=1}^{4}i^3 = 1^3+2^3+3^3+4^3 = 1+8+27+64 = 100
@@ -18,7 +18,7 @@
 > \sum_{i=1}^{n}3^i.
 > $$
 
-> [!note]+ Løsning 
+> [!note]- Løsning 
 > Skriver vi dette på utvidet form får vi
 > $$
 > \sum_{i=1}^{n}3^i= 3^1+3^2 + 3^3 + \ldots + 3^{n-1}+ 3^n.
@@ -30,7 +30,7 @@
 > \sum_{i=0}^{n-1} \frac{(-1)^i}{i+1}.
 > $$
 
-> [!note]+ Løsning 
+> [!note]- Løsning 
 >Skriver vi dette på utvidet form får vi
 >$$
 > \sum_{i=0}^{n-1} \frac{(-1)^i}{i+1} = \frac{(-1)^0}{0+1}+\frac{(-1)^1}{1+1}+\frac{(-1)^2}{2+1}+\ldots + \frac{(-1)^{n-1}}{n-1+1}.
@@ -44,7 +44,7 @@
 > La $f(x) = x^2$ være definert på $[0,4]$. Ved å lage en partisjon $P_n$ av $[0,4]$ i $n$ like store deler avgjør hva nedre og øvre Riemannsumm $L(f,P_n)$ og $U(f,P_n)$
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > La $P_n$ være en partisjon av $[0,4]$ i $n$ like store intervaller. Hvert intervall vil ha bredde $\Delta x = \frac{4}{n}$. Funksjonen $f(x) = x^2$ er voksende, så den nedre Riemannsummen vil bruke funksjonsverdiene i starten av hvert delintervall, mens den øvre Riemannsummen vil bruke funksjonsverdiene i slutten av hvert delintervall.
 > 
 > Nedre Riemannsummen er:
@@ -70,7 +70,7 @@
 > \int_{a}^{b} f(x)dx+\int_{b}^{c}f(x)dx+\int_{c}^{a}f(x)dx.
 > $$
 
-> [!note]+ Løsning 
+> [!note]- Løsning 
 > Vi kan forenkle dette til
 > $$
 > \begin{aligned} 
@@ -85,7 +85,7 @@
 > \int_{0}^{2}3f(x)dx+\int_{1}^{3}3f(x)dx-\int_{0}^{3}2f(x)dx-\int_{1}^{2}3f(x)dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Bruk additivitet og konstantfaktorregelen for integraler:
 > $$
 > 3\left( \int_0^2 f(x) dx + {\color{#e796f5} \int_1^3 f(x) dx - \int_1^2 f(x) dx  }\right) - 2 \int_0^3 f(x) dx.
@@ -103,7 +103,7 @@
 > Finn gjennomsnittsverdien til $f(x)=x+2$ på intervallet $[0,4]$.
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Gjennomsnittsverdien av en funksjon på et intervall $[a, b]$ er gitt ved formelen:
 > $$
 > \frac{1}{b-a} \int_a^b f(x) dx.
@@ -116,7 +116,7 @@
 > [!abstract] 28
 > Finn gjennomsnittsverdien til $h(x)=x+2$ på intervallet $[a,b]$.
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Gjennomsnittsverdien av $h(x)$ på intervallet $[a,b]$ er:
 > $$
 > \frac{1}{b-a} \int_a^b (x+2) dx = \frac{1}{b-a} \left( \frac{x^2}{2} + 2x \right) \bigg|_a^b.
@@ -129,7 +129,7 @@
 > [!abstract] 29
 > Finn gjennomsnittsverdien til $g(x)=1+\sin(x)$ på intervallet $[-\pi,\pi]$.
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Gjennomsnittsverdien av $g(x) = 1 + \sin(x)$ på intervallet $[-\pi, \pi]$ er:
 > $$
 > \frac{1}{\pi - (-\pi)} \int_{-\pi}^{\pi} \left( 1 + \sin(x) \right) dx = \frac{1}{2\pi} \left( \int_{-\pi}^{\pi} 1 dx + \int_{-\pi}^{\pi} \sin(x) dx \right).
@@ -149,7 +149,7 @@
 > \int_0^2 x^3 dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer funksjonen $x^3$:
 > $$
 > \int x^3 dx = \frac{x^4}{4}.
@@ -167,7 +167,7 @@
 > \int_0^4 \sqrt{x} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi omskriver $\sqrt{x}$ som en potens av $x$: $\sqrt{x} = x^{1/2}$. Deretter integrerer vi:
 > $$
 > \int x^{1/2} dx = \frac{2}{3}x^{3/2}.
@@ -184,7 +184,7 @@
 > \int_{1/2}^{1} \frac{1}{x^2} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer $\frac{1}{x^2}$:
 > $$
 > \int \frac{1}{x^2} dx = -\frac{1}{x}.
@@ -201,7 +201,7 @@
 > \int_{-2}^{-1} \left( \frac{1}{x^2} - \frac{1}{x^3} \right) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer funksjonen term for term:
 > $$
 > \int \left( \frac{1}{x^2} - \frac{1}{x^3} \right) dx = -\frac{1}{x} + \frac{1}{2x^2}.
@@ -218,7 +218,7 @@
 > \int_{-1}^{2} \left( 3x^2 - 4x + 2 \right) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer funksjonen:
 > $$
 > \int \left( 3x^2 - 4x + 2 \right) dx = x^3 - 2x^2 + 2x.
@@ -234,7 +234,7 @@
 > \int_{1}^{2} \left( \frac{2}{x^3} - \frac{x^3}{2} \right) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer funksjonen term for term:
 > $$
 > \int \left( \frac{2}{x^3} - \frac{x^3}{2} \right) dx = -\frac{1}{x^2} - \frac{x^4}{8}.
@@ -251,7 +251,7 @@
 > \int_{-2}^{2} \left( x^2 + 3 \right)^2 dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Utvid $(x^2 + 3)^2$:
 > $$
 > (x^2 + 3)^2 = x^4 + 6x^2 + 9.
@@ -272,7 +272,7 @@
 > \int_{4}^{9} \left( \sqrt{x} - \frac{1}{\sqrt{x}} \right) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Omskriv $\sqrt{x}$ som $x^{1/2}$ og $\frac{1}{\sqrt{x}}$ som $x^{-1/2}$. Deretter integrerer vi:
 > $$
 > \int \left( x^{1/2} - x^{-1/2} \right) dx = \frac{2}{3}x^{3/2} - 2x^{1/2}.
@@ -289,7 +289,7 @@
 > \int_{-\pi/4}^{-\pi/6} \cos(x) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer funksjonen $\cos(x)$:
 > $$
 > \int \cos(x) dx = \sin(x).
@@ -307,7 +307,7 @@
 > \int_0^{\pi/3} \sec^2(\theta) d\theta.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi vet at den deriverte av $\tan(\theta)$ er $\sec^2(\theta)$, så:
 > $$
 > \int \sec^2(\theta) d\theta = \tan(\theta).
@@ -325,7 +325,7 @@
 > \int_{\pi/4}^{\pi/3} \sin(\theta) d\theta.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer funksjonen $\sin(\theta)$:
 > $$
 > \int \sin(\theta) d\theta = -\cos(\theta).
@@ -345,7 +345,7 @@
 > \int_0^{2\pi} (1 + \sin(u)) du.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer funksjonen $1 + \sin(u)$:
 > $$
 > \int (1 + \sin(u)) du = u - \cos(u).
@@ -363,7 +363,7 @@
 > \int_{-\pi}^{\pi} e^x dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer funksjonen $e^x$:
 > $$
 > \int e^x dx = e^x.
@@ -381,7 +381,7 @@
 > \int_{-2}^{2} \left( e^x - e^{-x} \right) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer funksjonene $e^x$ og $e^{-x}$:
 > $$
 > \int e^x dx = e^x, \quad \int e^{-x} dx = -e^{-x}.
@@ -400,7 +400,7 @@
 > \int_0^e a^x dx \quad (a > 0).
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer funksjonen $a^x$. Husk at den deriverte av $a^x$ er $\frac{a^x}{\ln(a)}$:
 > $$
 > \int a^x dx = \frac{a^x}{\ln(a)}.
@@ -417,7 +417,7 @@
 > \int_{-1}^{1} 2^x dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer funksjonen $2^x$:
 > $$
 > \int 2^x dx = \frac{2^x}{\ln(2)}.
@@ -435,7 +435,7 @@
 > \int_{-1}^{1} \frac{dx}{1 + x^2}.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Dette er et kjent integral som gir arcus tangens:
 > $$
 > \int \frac{dx}{1 + x^2} = \tan^{-1}(x).
@@ -453,7 +453,7 @@
 > \int_0^{1/2} \frac{dx}{\sqrt{1 - x^2}}.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Dette er et kjent integral som gir arcus sinus:
 > $$
 > \int \frac{dx}{\sqrt{1 - x^2}} = \sin^{-1}(x).

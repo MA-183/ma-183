@@ -5,7 +5,7 @@
 > Avgjør om $f(x) = |x-1|$ har noen lokale eller globale ekstremalpunktet på $[-2,2]$.
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Funksjonen $f(x) = |x-1|$ har et knekkpunkt ved $x = 1$, der den er kontinuerlig men ikke deriverbar. For å undersøke ekstreme verdier, sjekker vi endepunktene og knekkpunktet.
 > 
 > - $f(-2) = |(-2) - 1| = 3$
@@ -23,7 +23,7 @@
 > 2. Tegn grafen til $f$ ved hjelp av nullpunktene til funksjonen, samt informasjon fra $f'(x)$ og $f''(x)$. 
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Deriver funksjonen $f(x)$ for å finne de kritiske punktene:
 > $$
 > f'(x) = 3x^2 - 3 = 3(x^2 - 1) = 3(x-1)(x+1).
@@ -59,7 +59,7 @@
 > Klassifiser de kritiske punktene til $f(x) = x(x-2)^2+1$. Bruk andrederiverttesten hvis det er mulig.
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Finner de kritiske punktene ved å derivere $f(x)$ ved hjelp av [[Kapittel 2 - derivasjon/defogteo/Teo Produktregelen|produktregelen]]:
 > $$
 > f'(x) = (x-2)^2 + 2x(x-2) = 3x^2 - 8x + 4.
@@ -89,7 +89,7 @@
 
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Finner de kritiske punktene ved å derivere $f(x)$:
 > $$
 > f'(x) = \ln(x) + 1.
@@ -112,7 +112,7 @@
 > Tegn grafen $f(x) = (x^2-1)^3$ ved hjelp av all informasjon du bruke fra $f$, $f'$ og $f''$. 
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Deriverer $f(x)$ for å finne kritiske punkter og konkavitet:
 > 
 > $$
@@ -165,7 +165,7 @@
 > [!abstract] 1
 > To positive tall har sum $7$. Hva er den største mulige verdien av produktet deres?
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > La $x$ være det ene tallet, da er $7-x$ det andre. Produktet er:
 > $$
 > P(x) = x(7-x) = 7x - x^2.
@@ -183,7 +183,7 @@
 > [!abstract] 8
 > Et rektangel har areal $A$. Vis at hvis rektangelet er kvadratisk så har det minst mulig omkrets. 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > La lengden og bredden til rektangelet være $x$ og $y$. Da er $xy = A$. Siden $A$ er et tall, kan vi si at $y = \frac{A}{x}$ og omkretsen $O = 2x + 2y$ kan nå skrives om slik
 > $$
 > O(x) = 2x + 2\frac{A}{x}.
@@ -201,7 +201,7 @@
 > [!abstract] 9
 > En likebeint trekant har omkrets $O$. Vis at hvis trekanten er likesidet har den strøst mulig areal.
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > La lengden på en side av trekanten være $s$. Ved å betrakte en likesidet trekant kan vi finne høyden med Pytagoras slik som figuren viser
 > ![[Files/shapes at 24-10-01 09.43.07.svg]]
 > Omkretsen er da $O = 2x+2s$. Siden $O$ er en konstant kan vi løse for $s$ og få $s = \frac{O}{2}-x$  Hvis arealet er $A$ vet vi også at $A = x\cdot h$. Bruker vi Pytagoras kan vi løse for $h$ og få $h = \sqrt{s^2-x^2}$. Vi får derfor at
@@ -225,11 +225,41 @@
 > 
 > La $L$ være lengden på stolpen. Da er lengden gitt ved ligningen:
 > $$
-> \frac{a}{\sin(\theta)} + \frac{b}{\cos(\theta)} = L,
+> \frac{a}{\cos(\theta)}+\frac{b}{\sin(\theta)}  = L(\theta),
 > $$
-> hvor $\theta$ er vinkelen mellom gangen og stolpen. For å finne den maksimale lengden, optimaliser ved å derivere uttrykket og løse for $\theta$. Det lengste stolpen kan være er:
+> hvor $\theta$ er vinkelen mellom gangen og stolpen. Målet er å velge en stolpe som er så stor at den fortsatt kan komme seg rundt hjørnet. Derfor må vi finne den minste lengden $L$ tar. Hadde vi valgt en stolpe større enn dette vil vi komme til et punkt der den ikke kommer seg rundt hjørnet. 
+>
+> Vi deriverer med hensyn på $\theta$ og får
 > $$
-> L = \sqrt{a^2 + b^2}.
+> \begin{aligned} 
+> L'(\theta) & =  \frac{a\sin(\theta)}{\cos^2(\theta)} -\frac{b\cos\theta}{\sin^2(\theta)}.
+> \end{aligned} 
+> $$
+> Vi prøver å finne et kritisk punkt ved å finne når $L'(\theta) = 0$. Det gir
+> $$
+> \begin{aligned} 
+> 0 & =  \frac{a\sin(\theta)}{\cos^2(\theta)} -\frac{b\cos\theta}{\sin^2(\theta)} \\
+> 0 & = \frac{a\sin^3(\theta)- b\cos^3(\theta)}{\cos^2(\theta)\sin^2(\theta)} \\  0 & = a\sin^3(\theta) - b\cos^3(\theta) \\ 0 &  = \frac{\sin^3(\theta)}{\cos^3(\theta)} - b \\ b &= a \tan^3(\theta) \\ \left( \frac{b}{a} \right)^{1/3} &= \tan(\theta) \\ \frac{\sin(\theta)}{\cos(\theta)} &= \left( \frac{b}{a} \right)^{1/3}.
+> \end{aligned} 
+> $$
+> Siden $L(\theta)$ beregnes ved hjelp av $\cos(\theta)$ og $\sin(\theta)$ må vi finne $\cos(\theta)$ og $\sin(\theta)$. Merk først at vi har sammenhengen $\cos(\theta) = \sqrt{1-\sin^2(\theta)}$. Det er mulig nå å regne ut rent algebraisk hva $\cos(\theta)$ blir. Vi kan også gå trigonometrisk til verks og se at når vi vet forholdet mellom katetene, altså $\tan(\theta)$, kan vi kalle forholdet for $x$ og lage en trekant som ser slik ut. ${\color{grey} \text{Vi bruker } x\text{ fordi dette kan vi gjøre generelt} }$
+>  ![[Files/uke42trigtrekant.svg]]
+>  Vi vet at hvis hypotenusen er $1$ så kan vi lese av verdien for $\cos(\theta)$ ved å se på hosliggende katet. Vi skalerer derfor ned trekanten med $\sqrt{1-x^2}$ og får
+>  ![[Files/uke42trigtrekanttan.svg]]
+>  Siden vi vet at forholdet $x$ i dette tilfellet er $\frac{b^{\frac{1}{3}}}{a^{\frac{1}{3}}}$ kan vi nå sette inn og få
+> $$
+> \cos(\theta) =  \frac{1}{\sqrt{1-\frac{b^{\frac{2}{3}}}{a^{\frac{2}{3}}}}}
+> $$
+> og vi ser også at
+> $$
+> \sin(\theta)=  \frac{\frac{b^{1/3}}{a^{1/3}}}{\sqrt{1-\frac{b^{\frac{2}{3}}}{a^{\frac{2}{3}}}}}
+> $$
+> 
+> Setter vi dette inn i $L(\theta)$ får vi
+> $$
+> \begin{aligned} 
+>  L(\theta) & = \frac{a}{\cos(\theta)}+\frac{b}{\sin(\theta)} \\ &=   \frac{a}{\frac{1}{\sqrt{1-\frac{b^{\frac{2}{3}}}{a^{\frac{2}{3}}}}}}+\frac{b}{\frac{\frac{b^{1/3}}{a^{1/3}}}{\sqrt{1-\frac{b^{\frac{2}{3}}}{a^{\frac{2}{3}}}}}} \\ &= \sqrt{1-\frac{b^{\frac{2}{3}}}{a^{\frac{2}{3}}}}\left( a+\frac{b}{\frac{b^{1/3}}{a^{1/3}}} \right) \\ & = \sqrt{{\color{#e796f5} {\frac{1}{a^{\frac{2}{3}}}} }(a^{2/3}-b^{2/3})}\left( a+\frac{b}{\frac{b^{1/3}}{a^{1/3}}} \right) \\ &= {\color{#e796f5} \frac{1}{a^{1/3}} }\sqrt{a^{2/3}-b^{2/3}}\left( a+\frac{b}{\frac{b^{1/3}}{a^{1/3}}} \right) \\ &= \sqrt{b^{2/3}-a^{2/3}}\left( \frac{a}{a^{1/3}}+\frac{b}{b^{1/3}} \right) \\ &= \sqrt{b^{2/3}-a^{2/3}}\left( a^{2/3}+{b^{2/3}}\right) \\ &=\left( a^{2/3}+{b^{2/3}}\right)^{3/2}.
+> \end{aligned} 
 > $$
 ## 4.9
 
@@ -237,7 +267,7 @@
 > Gjør en passende lineær approksimasjon av $\sqrt{x}$ for å estimere $\sqrt{50}$. 
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi bruker lineær approksimasjon basert på punktet $x_0 = 49$, der $\sqrt{49} = 7$. Deriver funksjonen $f(x) = \sqrt{x}$:
 > $$
 > f'(x) = \frac{1}{2\sqrt{x}}.
@@ -259,7 +289,7 @@
 > [!abstract] 17 
 > Gjør en passende lineær approksimasjon av $\sqrt[4]{x}$ for å estimere $\sqrt{85}$. 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi bruker lineær approksimasjon basert på punktet $x_0 = 81$, der $\sqrt[4]{81} = 3$. Deriver funksjonen $f(x) = \sqrt[4]{x}$:
 > $$
 > f'(x) = \frac{1}{4x^{3/4}}.
@@ -282,7 +312,7 @@
 > [!abstract] 3
 > Finn Taylorpolynomet av grad 4 til $\ln(x)$ rundt $x=2$.
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > For $\ln(x)$ rundt $x = 2$, bruker vi Taylor-rekkefølger:
 > $$
 > \begin{aligned} 
@@ -306,7 +336,7 @@
 > [!abstract] 5
 > Finn Taylorpolynomet av grad 3 til $\sqrt{x}$ rundt $x=4$.
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > For $\sqrt{x}$ rundt $x = 4$, deriver funksjonen:
 > $$
 > \begin{aligned} 
@@ -327,7 +357,7 @@
 > [!abstract] 10
 > Finn Taylorpolynomet av grad 2 til $\sqrt{x}$ rundt $x=64$. Bruk Taylorpolynomet til å estimere $\sqrt{61}$.
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi finner de første to deriverte av $\sqrt{x}$ rundt $x = 64$:
 > $$
 > f(x) = \sqrt{x}, \quad f'(x) = \frac{1}{2\sqrt{x}}, \quad f''(x) = -\frac{1}{4x^{3/2}}.
@@ -344,7 +374,7 @@
 > [!abstract] 15
 > Finn Taylorpolynomet av grad 7 til $\sin{(x)}$ rundt $a=0$. Hva er Lagrange resten til Taylorpolynomet?
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Taylorpolynomet til $\sin(x)$ rundt $x = 0$ er:
 > $$
 > P_7(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!}.
@@ -358,7 +388,7 @@
 > Finn Taylorpolynomet av grad 6 til $\frac{1}{1-x}$ rundt $a=0$. Hva er Lagrange resten til Taylorpolynomet?
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Taylorpolynomet til $\frac{1}{1-x}$ rundt $x = 0$ er den geometriske rekken:
 > $$
 > P_6(x) = 1 + x + x^2 + x^3 + x^4 + x^5 + x^6.
@@ -373,7 +403,7 @@
 > Finn Taylorpolynomet av grad 6 til $\ln(x)$ rundt $a=1$. Hva er Lagrange resten til Taylorpolynomet?
 
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Taylorpolynomet til $\ln(x)$ rundt $x = 1$ er:
 > $$
 > P_6(x) = (x-1) - \frac{(x-1)^2}{2} + \frac{(x-1)^3}{3} - \frac{(x-1)^4}{4} + \frac{(x-1)^5}{5} - \frac{(x-1)^6}{6}.
