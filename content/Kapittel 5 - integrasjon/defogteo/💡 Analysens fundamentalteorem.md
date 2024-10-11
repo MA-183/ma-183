@@ -3,13 +3,22 @@
 >  
 > **Del 1**
 > La funksjonen $F$ være definert på $I$ ved at
-> $$\begin{aligned} F(x) = \int_{a }^{x } f(t)dt.  \end{aligned}$$
+> 
+> $$
+> \begin{aligned} F(x) = \int_{a }^{x } f(t)dt.  \end{aligned}
+> $$
 > Da er $F$ deriverbar på $I$ og $F'(x) = f(x)$. Dermed er $F$ en antiderivert til $f$ på $I$:
-> $$\begin{aligned} \frac{d}{dx} \int_{a }^{x } f(t)dt = f(x) . \end{aligned}$$ 
+> 
+> $$
+> \begin{aligned} \frac{d}{dx} \int_{a }^{x } f(t)dt = f(x) . \end{aligned}
+> $$ 
 > 
 > **Del 2**
 > Hvis $G(x)$ er en *hvilken som helst* antiderivert til $f(x)$ på $I$, slik at $G'(x) = f(x)$ på $I$, da har vi for alle $b$ i $I$ at
-> $$\begin{aligned} \int_{a }^{b } f(x)dx = G(b)-G(a) . \end{aligned}$$ 
+> 
+> $$
+> \begin{aligned} \int_{a }^{b } f(x)dx = G(b)-G(a) . \end{aligned}
+> $$ 
 
 > [!note]- Argument 
 > **Del 1**
@@ -34,9 +43,9 @@
 > Merk at vi antok at $h$ var positiv i argumentet om $x < l_h < x+h$. Dersom $h$ er negativ får vi samme konklusjon hvis $h$ er negativ, bare at $x+h < l_h < x$.
 > 
 > **Del 2**
-> Vi kan fort konkludere med at dette er sant fra ved å legge merke til at hvis $G(x)$ er en hvilken som helst antiderivert, altså at $G'(x) = f(x)$, så vil $\frac{d}{dx}(F(x)-G(x)) = 0$. Fra [[Kapittel 2 - derivasjon/defogteo/💡 Konstante funksjoner|teoremet om konstante funksjoner]] betyr det at $G(x)= F(x)+C$ for en konstant $C$. Dermed er 
+> Vi kan fort konkludere med at dette er sant fra ved å legge merke til at hvis $G(x)$ er en hvilken som helst antiderivert, altså at $G'(x) = f(x)$, så vil $\frac{d}{dx}(F(x)-G(x)) = 0$. Fra [[Kapittel 2 - derivasjon/defogteo/💡 Konstante funksjoner|teoremet om konstante funksjoner]] betyr det at $G(x)= F(x)+C = \int_{a}^{x}f(t)dt+C$ for en konstant $C$. Dermed er 
 > $$
-> G(b)-G(a)=F(b)-C-(F(a)-C) = F(b)-F(a)=\int_{a}^{b}f(t)dt,
+> G(b)-G(a)=F(b)-C-(F(a)-C) = F(b)-F(a)=\int_{a}^{b}f(t)dt- \int_{a}^{a}f(t)dt = \int_{a}^{b}f(t)dt,
 > $$
 > og vi er i mål.
 

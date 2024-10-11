@@ -1,6 +1,6 @@
 > [!tip] Substitusjon av bestemte integral
 >  
->   Anta at $g$ er en deriverbar funksjon på $[a,b]$ og at $g(a) = A$ og $g(b) =B$. Anta også at $f$ er kontinuerlig i verdimengden til $g$. Da
+>   Anta at $g$ er en deriverbar funksjon på $[a,b]$ og at $g(a) = A$ og $g(b) =B$. Anta også at $f$ er kontinuerlig i verdimengden til $g$. Da er
 >   $$\begin{aligned} \int_{a }^{b }f(g(x))g'(x)dx = \int_{A }^{B }f(u)du    \end{aligned}$$ 
 
 > [!note]- Argument 

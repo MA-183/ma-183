@@ -27,6 +27,6 @@ $$
   \lim_{x\longrightarrow   \infty} \frac{x^2}{\sqrt{x^4+x}} & = \lim_{x\longrightarrow  \infty}\frac{x^2}{\sqrt{x^4\left( 1+\frac{x}{x^4} \right)}} \\ &= \lim_{x\longrightarrow  \infty} \frac{\cancel{ x^2 }}{\cancel{ x^2 }\sqrt{1+\frac{1} {x^3}}} \\ &= \lim_{x\longrightarrow  \infty}\frac{1}{\sqrt{1+\frac{1}{x^3}}} = \frac{1}{\sqrt{1}}=1.
 \end{aligned}
 $$
-Flere eksempler kan dere finne ved å se på ukesoppdrag [[Ukesoppdrag og forelesningsnotat/Uke 36|Uke 36]].
+Flere eksempler kan dere finne ved å se på ukesoppdrag [[Ukesoppdrag og forelesningsnotat/🧠 Uke 36|🧠 Uke 36]].
 
 Grenseverdier er verktøyet som gjør oss i stand til å snakke presist om egenskaper vi ønsker i funksjoner når vi studerer de. Et nøkkelbegrep vi skal bruke er [[Kapittel 1 - grenser og kontinuitet/5 Intro til kontinuitet|kontinuitet]].

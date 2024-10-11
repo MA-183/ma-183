@@ -192,23 +192,19 @@
 <body>
     <div class="question-container">
         <div style="margin-bottom: 30px"><div class="callout-icon">  </div><div style="margin-left: 35px; top: 20px; color: #dba642; line-height: 24px">Spørsmål</div></div>
-        <div class="question"><p style="text-overflow:ellipsis ; white-space: nowrap;"> Se på summen under. $$(2-6)+(2+3)+(2-0)+(2-3)+(2+6)+(2-9).$$ Hvilke(t) av alternativene under representerer summen over?</p></div>
+        <div class="question"><p style="text-overflow:ellipsis ; white-space: nowrap;"> La \(f(x) = (x^3 + x)^5(3x^2+1)\). </p><p style="text-overflow:ellipsis ; white-space: nowrap;"></p>Avgjør hvilken substitusjon som kan være naturlig å gjøre for å evaluere </p><p style="text-overflow:ellipsis ; white-space: nowrap;"></p>\(\int f(x)dx\).</p></div>
         <ul class="options">
-            <li class="option" data-option="1">
-                <div class="hiddenTick"></div>
-                <div class="optionText">a. \(\displaystyle\sum_{i=-2}^{3}(2+(-1)^{1+i}\cdot3\cdot i)\)</div>
-            </li>
             <li class="option" data-option="2">
-                <div class="hiddenTick"></div>
-                <div class="optionText">b. \(\displaystyle\sum_{i=1}^{2}(2+3\cdot i) - \sum_{i=0}^{3}(2-3\cdot i)\)</div>
+                <div class="wrongTick"></div>
+                <div class="optionText">\(u = x^3\)</div>
             </li>
             <li class="option" data-option="3">
                 <div class="wrongTick"></div>
-                <div class="optionText">c. \(\displaystyle\sum_{i=-2}^{3}(2+(-1)^{i}\cdot3\cdot i)\)</div> <!-- Correct Answer -->
+                <div class="optionText">\(u = 3x^2+1\)</div> <!-- Correct Answer -->
             </li>
             <li class="option" data-option="4">
-                <div class="wrongTick"></div>
-                <div class="optionText">d. \(\displaystyle\sum_{i=-2}^{3}(2+3\cdot i)\)</div>
+                <div class="hiddenTick"></div>
+                <div class="optionText">\( u = x^3+x\)</div>
             </li>
         </ul>
         <button id="checkButton" disabled>Sjekk svaret</button>
@@ -233,8 +229,8 @@
 
         checkButton.addEventListener('click', () => {
             const selectedElement = document.querySelector('.option.selected');
-            if ((selectedOption === correctOption1) || (selectedOption === correctOption2)) { // Legg inn flere rette hvis flere her
-                selectedElement.classList.add('correct');s
+            if ((selectedOption === correctOption4)) { // Legg inn flere rette hvis flere her
+                selectedElement.classList.add('correct');
                 animateTickMark(selectedElement);
             } else {
                 selectedElement.classList.add('incorrect');

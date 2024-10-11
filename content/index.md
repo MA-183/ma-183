@@ -11,17 +11,17 @@ Foreløpig innhold er
  
 ## Løsningsforslag til  ukesoppdrag
 
-- [[Ukesoppdrag og forelesningsnotat/Uke 34|Uke 34]]
-- [[Ukesoppdrag og forelesningsnotat/Uke 35|Uke 35]]
-- [[Ukesoppdrag og forelesningsnotat/Uke 36|Uke 36]]
-- [[Ukesoppdrag og forelesningsnotat/Uke 37|Uke 37]]
-- [[Ukesoppdrag og forelesningsnotat/Uke 38|Uke 38]]
-- [[Ukesoppdrag og forelesningsnotat/Uke 39|Uke 39]]
-- [[Ukesoppdrag og forelesningsnotat/Uke 40|Uke 40]]
-- [[Ukesoppdrag og forelesningsnotat/Uke 41|Uke 41]]
-- [[Ukesoppdrag og forelesningsnotat/Uke 42|Uke 42]]
-- [[Ukesoppdrag og forelesningsnotat/Uke 45|Uke 45]]
-- [[Ukesoppdrag og forelesningsnotat/Uke 46|Uke 46]]
+- [[Ukesoppdrag og forelesningsnotat/🧠 Uke 34|🧠 Uke 34]]
+- [[Ukesoppdrag og forelesningsnotat/🧠 Uke 35|🧠 Uke 35]]
+- [[Ukesoppdrag og forelesningsnotat/🧠 Uke 36|🧠 Uke 36]]
+- [[Ukesoppdrag og forelesningsnotat/🧠 Uke 37|🧠 Uke 37]]
+- [[Ukesoppdrag og forelesningsnotat/🧠 Uke 38|🧠 Uke 38]]
+- [[Ukesoppdrag og forelesningsnotat/🧠 Uke 39|🧠 Uke 39]]
+- [[Ukesoppdrag og forelesningsnotat/🧠 Uke 40|🧠 Uke 40]]
+- [[Ukesoppdrag og forelesningsnotat/🧠 Uke 41|🧠 Uke 41]]
+- [[Ukesoppdrag og forelesningsnotat/🧠 Uke 42|🧠 Uke 42]]
+- [[Ukesoppdrag og forelesningsnotat/🧠 Uke 45|🧠 Uke 45]]
+- [[Ukesoppdrag og forelesningsnotat/🧠 Uke 46|🧠 Uke 46]]
     - Ta kontakt hvis det er oppgaver dere ønsker løsningsforslag til.
 
 ## [Innledende kapittel](Kapittel-0---innledende-kapittel/) om funksjoner
