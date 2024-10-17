@@ -1,9 +1,30 @@
 ---
 title: MA-183
 ---
-Her kan du finne notater fra forelesninger og oversettelser av deler av pensumlitteraturen. Hvis du leter etter noe spesielt bør du bruke `ctrl+k` for å søke og navigere seg på siden. Siden er ment for å bli brukt på pc, slik at du også kan navigere deg med menyen til venstre.
+# Velkommen til MA-183 og et kompendie i kalkulus
 
-Merk at dette er korte tekster satt sammen fra ulike notater og lite bearbeidede notater. Dermed kan det hende at det er noen feil her og der, eller at det er noe formattering av sidene som fungerer dårlig. Dersom du finner noe du er usikker på eller finner noen feil, blir André glad for beskjed om hva som er galt. Hvis du også har noen ønsker om ting som bør legges inn, kan du sende en epost til André og foreslå dette.
+Dette kompendiet inneholder notater som dekker de viktigste temaene i kalkulus. **Notatene er under bearbeiding og forsøker å gi deg en god forståelse av temaene ved å legge inn interaktive elementer underveis.** Bruk **Ctrl+K** for å søke etter spesifikke temaer, eller naviger via menyen til venstre.
+
+> **Viktig å merke seg:**  
+> Notatene er satt sammen fra tidligere forelesningsnotater, og mange notater er fortsatt bare utkast. Derfor kan de inneholde enkelte feil eller ufullstendige formatteringer. Hvis du oppdager noe, setter André pris på tilbakemeldinger. Har du forslag til forbedringer eller nytt innhold, kan du kontakte André direkte på epost.
+
+## Hva er kalkulus?
+
+Kalkulus er matematikken som hjelper oss å forstå endringer og hvordan vi kan beskrive dem nøyaktig. Det gir svar på spørsmål som: **Hvordan kan vi beregne den eksakte hastigheten til en bil i et gitt øyeblikk? Hvordan kan vi finne det nøyaktige arealet under en kurve med en kompleks form?** Dette er det vi kommer til å kalle derivasjon og integrasjon.
+
+### Grenseverdier: Nøkkelen til kalkulus
+
+Både derivasjon og integrasjon er bygget opp rundt konseptet om grenseverdier. De gir oss presise verktøy til å beskrive endringer, enten det er øyeblikkelig hastighet eller summen av små biter. Grenseverdier lar oss håndtere situasjoner hvor størrelser blir vilkårlig små eller store, og de er kjernen i kalkulusens anvendelser.
+### To sentrale verktøy i kalkulus: Derivasjon og integrasjon
+
+- **Derivasjon** lar oss finne den umiddelbare endringen eller hastigheten til en funksjon. Den svarer på spørsmål som: **Hvor raskt endrer en funksjon seg i øyeblikket? Hva er stigningen til grafen akkurat her?** Dette er nyttig i alt fra å forutsi bevegelsen til en planet, til å beregne akselerasjonen til en bil.
+    
+- **Integrasjon** lar oss finne arealer under grafer. Ved å integrere kan vi for eksempel beregne det totale arealet under en kurve eller den totale distansen en bil har kjørt, selv om hastigheten varierer.  Den svarer på spørsmål som: **Hvordan finner vi den totale distansen når hastigheten endrer seg kontinuerlig?**
+
+
+### Kalkulus i virkeligheten
+
+Kalkulus er essensielt i mange fagfelt – fra fysikk og ingeniørvitenskap til økonomi og biologi. **Når vi modellerer bevegelse, vekst, eller endringer i et system, er kalkulus verktøyet vi bruker for å gjøre presise beregninger.** Det har spilt en nøkkelrolle i teknologiske og vitenskapelige gjennombrudd, som å beregne banene til romskip eller optimalisere komplekse datasystemer.
 
 Alle notatene bygger på pensumboka "Adams/Essex: _Calculus_. Pearson, 10. edition."
 
@@ -43,7 +64,7 @@ Foreløpig innhold er
 - [[Kapittel 0 - innledende kapittel/5.6 Dobbeltvinkel-formlene|Dobbeltvinkel-formlene]]
 - [[Kapittel 0 - innledende kapittel/5.7 Halvvinkel formler|Halvvinkel formler]] %%
 
-## [Komplekse tall](Kapittel-0.5---Komplekse-tall/)
+## [Komplekse tall](Kapittel-00---Komplekse-tall/)
 
 %% [](Kapittel%2000%20-%20Komplekse%20tall/1%20Komplekse%20tall.md)]]
 - [[Kapittel 00 - Komplekse tall/2 Grunnleggende egenskaper|Grunnleggende egenskaper]]

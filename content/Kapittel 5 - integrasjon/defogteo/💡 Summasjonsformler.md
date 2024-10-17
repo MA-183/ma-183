@@ -23,3 +23,46 @@
 > >  S & = \frac{n(n+1) }{2 } 
 > >  \end{aligned} 
 > > $$
+> 
+> > [!abstract] 3
+> > Vi gjør dette med induksjon. Når $k=1$ er $\sum_{i=1}^{1}i^3=1^3 = 1 =\frac{1\cdot2\cdot3}{6}$. Anta nå at dette stemmer for en vilkårlig $k$. Det vil si at
+> > $$
+> > {\color{#e796f5} \sum_{i=1}^{k}i^2=\frac{k(k+1)(2k+1)}{6} }.
+> > $$
+> > Da har vi at
+> > $$
+> > \sum_{i=1}^{k+1}i^2 = \left( {\color{#e796f5} \sum_{i=1}^{k}i^2 } \right)+(k+1)^2.
+> > $$
+> > Fra antagelsen får vi at dette er 
+> > $$
+> > {\color{#e796f5} \frac{k(k+1)(2k+1)}{6} }+ (k+1)^2 
+> > $$
+> > Vi setter på felles nevner og faktoriserer ut en $k+1$ og får
+> > $$
+> > {\color{#e796f5} \frac{k(k+1)(2k+1)}{6} } + (k+1)^2 = (k+1)\frac{k(2k+1)+6(k+1)}{6}. 
+> > $$
+> > Vi ganger ut og får
+> > $$
+> >  (k+1)\frac{2k^2+k+6k+6}{6} = (k+1)\frac{2k^2+7k+6}{6} =  (k+1)\frac{(k+2)2k+3(k+2)}{6} . 
+> > $$
+> > Faktoriserer vi ut $k+2$ får vi til slutt at
+> > $$
+> > \sum_{i=1}^{k+1}i^2 = \frac{(k+1)(k+2)(2k+3)}{6} = \frac{(k+1)(k+2)(2(k+1)+1)}{6},
+> > $$
+> > og vi er i mål med induksjonsbeviset vårt.
+> 
+> > [!abstract] 4
+> > Her skal vi bruke et triks. Skriv $1+r+r^2+\ldots+r^n = S_n$. Se nå at $S_n+r^{n+1}$ kan skrives slik
+> > $$
+> > S_n+r^{n+1} = 1+r+r^2+\ldots+r^n+r^{n+1} = 1+r(1+r+r^2+\ldots+r^n) = 1+rS_n.
+> > $$
+> > Likningen forteller oss at
+> > $$
+> > \begin{aligned} 
+> > S_n + r^{n+1} &= 1+rS_n &&\bigg| - rS_n-r^{n+1} \\ 
+> > S_n-rS_n &= 1 - r^{n+1} && \bigg|\text{faktoriser } S_n\\
+> > S_n(1-r) &= 1-r^{n+1} && \bigg|:(1-r)\\
+> > S_n & = \frac{1-r^{n+1}}{1-r}.
+> > \end{aligned} 
+> > $$
+> > 

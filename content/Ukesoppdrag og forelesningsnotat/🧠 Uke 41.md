@@ -221,7 +221,7 @@
 > 
 
 > [!note]+ Løsning
-> Lengden på stolpen som kan bæres rundt hjørnet kan beskrives ved hypotenusen i en rettvinklet trekant med katetene $a$ og $b$. Bruk Pythagoras' setning:
+> Lengden på stolpen som kan bæres rundt hjørnet kan beskrives ved hypotenusen i to rettvinklede trekanter, en med kateten $a$ og en med kateten $b$. Bruk Pythagoras' setning:
 > 
 > La $L$ være lengden på stolpen. Da er lengden gitt ved ligningen:
 > $$
@@ -244,8 +244,8 @@
 > $$
 > Siden $L(\theta)$ beregnes ved hjelp av $\cos(\theta)$ og $\sin(\theta)$ må vi finne $\cos(\theta)$ og $\sin(\theta)$. Merk først at vi har sammenhengen $\cos(\theta) = \sqrt{1-\sin^2(\theta)}$. Det er mulig nå å regne ut rent algebraisk hva $\cos(\theta)$ blir. Vi kan også gå trigonometrisk til verks og se at når vi vet forholdet mellom katetene, altså $\tan(\theta)$, kan vi kalle forholdet for $x$ og lage en trekant som ser slik ut. ${\color{grey} \text{Vi bruker } x\text{ fordi dette kan vi gjøre generelt} }$
 >  ![[Files/uke42trigtrekant.svg]]
->  Vi vet at hvis hypotenusen er $1$ så kan vi lese av verdien for $\cos(\theta)$ ved å se på hosliggende katet. Vi skalerer derfor ned trekanten med $\sqrt{1-x^2}$ og får
->  ![[Files/uke42trigtrekanttan.svg]]
+>  Den trigonometriske definisjonen av $\cos(\theta)$ er hosliggende delt på hypotenus. Det vil si at $\cos(\theta)= \frac{1}{\sqrt{1-x^2}}$.
+>  
 >  Siden vi vet at forholdet $x$ i dette tilfellet er $\frac{b^{\frac{1}{3}}}{a^{\frac{1}{3}}}$ kan vi nå sette inn og få
 > $$
 > \cos(\theta) =  \frac{1}{\sqrt{1-\frac{b^{\frac{2}{3}}}{a^{\frac{2}{3}}}}}
@@ -364,11 +364,11 @@
 > $$
 > Taylorpolynomet av grad 2 er:
 > $$
-> P_2(x) = 8 + \frac{1}{16}(x - 64) - \frac{1}{512}(x - 64)^2.
+> P_2(x) = 8 + \frac{1}{16}(x - 64) - \frac{1}{4096}(x - 64)^2.
 > $$
 > For $x = 61$, estimerer vi:
 > $$
-> P_2(61) = 8 + \frac{1}{16}(-3) - \frac{1}{512}(9) = 8 - 0.1875 - 0.0176 \approx 7.7949.
+> P_2(61) = 8 + \frac{1}{16}(-3) - \frac{1}{4096}(9)  \approx 7.8103027344.
 > $$
 
 > [!abstract] 15
