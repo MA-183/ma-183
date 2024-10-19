@@ -9,6 +9,7 @@ import PageTitle from "./PageTitle"
 import ContentMeta from "./ContentMeta"
 import Spacer from "./Spacer"
 import TableOfContents from "./TableOfContents"
+import StaticText from "./StaticText"
 import Explorer from "./Explorer"
 import TagList from "./TagList"
 import Graph from "./Graph"
@@ -44,4 +45,5 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
+  StaticText
 }

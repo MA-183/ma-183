@@ -94,7 +94,7 @@ export const defaultContentPageLayout: PageLayout = {
     })),
   ],
   right: [
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(Component.TableOfContents()), Component.DesktopOnly(Component.StaticText())
   ],
 }
 
@@ -134,7 +134,7 @@ export const defaultListPageLayout: PageLayout = {
       },
       filterFn: (node) => {
         // set containing names of everything you want to filter out
-        const omit = new Set(["definisjoner og teoremer", "defogteo", "forelesningsnotat"])
+        const omit = new Set(["definisjoner og teoremer", "defogteo", "forelesningsnotat", "gjemt"])
         return !omit.has(node.name.toLowerCase())
       },
       order: ["filter", "sort", "map"],
@@ -142,5 +142,5 @@ export const defaultListPageLayout: PageLayout = {
   )),
     
   ],
-  right: [],
+  right: [Component.DesktopOnly(Component.StaticText())],
 }

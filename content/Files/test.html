@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Funksjonskomposisjon Quiz</title>
+</head>
+<body>
+
+<h2>Quiz: Sammensetningen av to funksjoner</h2>
+<p>Gitt funksjonene $f(x) = 2x + 3$ og $g(x) = x^2$, hva er $(f \circ g)(x)$?</p>
+
+<form id="quiz1">
+    <input type="radio" name="q1" value="1"> 2x^2 + 3<br>
+    <input type="radio" name="q1" value="2"> 2(x^2) + 3<br>
+    <input type="radio" name="q1" value="3"> (2x + 3)^2<br>
+    <input type="radio" name="q1" value="4"> 4x + 6<br>
+    <button type="button" onclick="checkAnswer()">Submit</button>
+</form>
+
+<p id="result"></p>
+
+<script>
+    function checkAnswer() {
+        var quiz = document.getElementById("quiz1");
+        var answer = quiz.q1.value;
+        var resultText = "";
+        
+        if (answer == "2") {
+            resultText = "Riktig! $(f \circ g)(x) = 2(x^2) + 3$";
+        } else {
+            resultText = "Feil. Husk at du setter $g(x)$ inn i $f(x)$, ikke omvendt.";
+        }
+
+        document.getElementById("result").innerHTML = resultText;
+    }
+</script>
+
+</body>
+</html>
