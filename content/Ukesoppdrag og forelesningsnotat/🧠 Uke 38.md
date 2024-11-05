@@ -359,13 +359,13 @@
 >   3\ln(4)- 4\ln(3)  & \overset{ 1^* }{=   }\ln(4^3)-\ln(3^4) \overset{ 2^* }{=  } \ln\left( \frac{4^3}{3^4} \right) 
 > \end{aligned} 
 > $$ 
-> der $1^*$ er regel [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|punkt 3. av logaritmereglene]] brukt baklengs og $2^*$ er [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|punkt 2. av logaritmereglene]] brukt baklengs.
+> der $1^*$ er regel [[Kapittel 3 - Inverse funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|punkt 3. av logaritmereglene]] brukt baklengs og $2^*$ er [[Kapittel 3 - Inverse funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|punkt 2. av logaritmereglene]] brukt baklengs.
 
 > [!abstract] 8
 > Forenkle uttrykket $4\ln(\sqrt{x})+6\ln\left( \frac{x}{\frac{1}{3}} \right)$.
 
 > [!note]- Løsning 
-> Vi bruker [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|logaritmeregler]] og får 
+> Vi bruker [[Kapittel 3 - Inverse funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|logaritmeregler]] og får 
 > $$
 > \begin{aligned} 
 >   & 4\ln(\sqrt{x})+ 6\ln(x^{1/3})  \\ && \text{bruker punkt 3. i reglene} \\ & \ln(\sqrt{x}^4) + \ln((x^{1/3})^6)  \\ & \ln(x^2)+\ln(x^2)  \\ && \text{bruker punkt 1. baklengs} \\ & \ln(x^2 \cdot x^2) = \ln(x^4) \\ && \text{bruker punkt 3.} \\ &4\ln(x).
@@ -377,7 +377,7 @@
 
 
 > [!note]- Løsning 
-> Vi bruker [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|logaritmeregler]] og får 
+> Vi bruker [[Kapittel 3 - Inverse funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|logaritmeregler]] og får 
 > $$
 > \begin{aligned} 
 >   & 2\ln(x) + 5\ln(x-2)  \\ && \text{bruker punkt 3. baklengs} \\ & \ln(x^2)+\ln((x-2)^5) \\  && \text{bruker punkt 1. baklengs} \\ & \ln(x^2(x-2)^5).
@@ -388,7 +388,7 @@
 > Forenkle uttrykket $\ln(x^2+6x+9)$.
 
 > [!note]- Løsning 
-> Vi bruker [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|logaritmeregler]] og får
+> Vi bruker [[Kapittel 3 - Inverse funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|logaritmeregler]] og får
 > $$
 > \begin{aligned} 
 >   & \ln(x^2+6x+9) \\ && \text{kvadratsetning baklengs} \\ & \ln((x+3)^2)  \\ && \text{regel 3.} \\ & 2\ln(x+3). 
@@ -400,7 +400,7 @@
 
 
 > [!note]- Løsning 
-> Vi bruker [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|logaritmeregler]] punkt 2. og får
+> Vi bruker [[Kapittel 3 - Inverse funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|logaritmeregler]] punkt 2. og får
 > $$
 > \begin{aligned} 
 >   \ln\left( \frac{x}{2-x} \right)  &= \ln(x)-\ln(2-x).

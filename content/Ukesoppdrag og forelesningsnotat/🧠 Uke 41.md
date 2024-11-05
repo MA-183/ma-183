@@ -68,7 +68,7 @@
 > $$
 > 3x^2 - 8x + 4 = 0.
 > $$
-> Bruker [[Kapittel 0 - innledende kapittel/defogteo/💡abc-formelen|abc-formelen]]:
+> Bruker [[Kapittel 0 - Elementære funksjoner/defogteo/💡abc-formelen|abc-formelen]]:
 > $$
 > \begin{aligned} 
 > x  & = \frac{-(-8) \pm \sqrt{(-8)^2 - 4(3)(4)}}{2(3)} \\ &= \frac{8 \pm \sqrt{16}}{6} \\ &= \frac{8 \pm 4}{6}.

@@ -62,7 +62,7 @@
 > Deriver funksjonen $y = \sin^{-1}\left( \frac{2x-1}{3} \right)$.
 
 > [!note]- Løsning
-> [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for ${\color{#e796f5} \sin^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] er 
+> [[Kapittel 3 - Inverse funksjoner/defogteo/💡 Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for ${\color{#e796f5} \sin^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] er 
 > $$
 > \frac{d}{dx} {\color{#e796f5} \sin^{-1}(u) } = {\color{#f46f22} \frac{1}{\sqrt{1 - u^2}} } \cdot {\color{#5ca6f4} \frac{du}{dx} }.
 > $$
@@ -80,7 +80,7 @@
 > Deriver funksjonen $y = \tan^{-1}\left( ax+b \right)$.
 
 > [!note]- Løsning
-> [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for ${\color{#e796f5} \tan^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] er $\frac{d}{dx} {\color{#e796f5} \tan^{-1}(u) } = {\color{#f46f22} \frac{1}{1 + u^2} } \cdot {\color{#5ca6f4} \frac{du}{dx} }$.
+> [[Kapittel 3 - Inverse funksjoner/defogteo/💡 Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for ${\color{#e796f5} \tan^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] er $\frac{d}{dx} {\color{#e796f5} \tan^{-1}(u) } = {\color{#f46f22} \frac{1}{1 + u^2} } \cdot {\color{#5ca6f4} \frac{du}{dx} }$.
 > 
 > La ${\color{#3cc15c} u = ax + b }$. Da er ${\color{#5ca6f4} \frac{du}{dx} = a }$.
 > 
@@ -96,7 +96,7 @@
 
 
 > [!note]- Løsning
-> [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for  ${\color{#e796f5} \cos^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]]  er $\frac{d}{dx} {\color{#e796f5} \cos^{-1}(u)  }= {\color{#f46f22} \frac{-1}{\sqrt{1 - u^2}} } \cdot {\color{#5ca6f4} \frac{du}{dx} }$.
+> [[Kapittel 3 - Inverse funksjoner/defogteo/💡 Derivasjon av inverse trigonometriske funksjoner|Derivasjonsregelen]] for  ${\color{#e796f5} \cos^{-1}(u) }$ kombinert med [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]]  er $\frac{d}{dx} {\color{#e796f5} \cos^{-1}(u)  }= {\color{#f46f22} \frac{-1}{\sqrt{1 - u^2}} } \cdot {\color{#5ca6f4} \frac{du}{dx} }$.
 > 
 > La ${\color{#3cc15c} u = \frac{x-b}{a} }$. Da er ${\color{#5ca6f4} \frac{du}{dx} = \frac{1}{a} }$.
 > 

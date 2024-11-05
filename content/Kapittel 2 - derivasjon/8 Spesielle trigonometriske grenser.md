@@ -57,7 +57,7 @@ Noe som faller rett ut av grensen over er følgende:
 
 > [!note]- Argument 
 >
->Vi [[Kapittel 0 - innledende kapittel/5.4 Viktige trigonometriske identiteter|bruker]] at $\cos^2(t)+\sin^2(t) = 1$ og utvider brøken med $\cos(h)+1$. Da omformes det slik som i neste ledd under: 
+>Vi [[Kapittel 0 - Elementære funksjoner/5.4 Grunnleggende trigonometriske identiteter|bruker]] at $\cos^2(t)+\sin^2(t) = 1$ og utvider brøken med $\cos(h)+1$. Da omformes det slik som i neste ledd under: 
 >
 >$$
 >\begin{aligned} \lim_{h \longrightarrow  0  } \frac{\cos(h)-1 }{h } &= \lim_{h \longrightarrow  0  } \frac{(\cos(h)-1 )}{h } \frac{(\cos(h)+1)}{(\cos(h)+1)} \\ & =\lim_{h\longrightarrow  0}\frac{\cos^2(h)-1}{h}\cdot \frac{1}{\cos(h)+1}\\ & = \lim_{h\longrightarrow  0} \frac{\sin^2(h)}{h} \\ &= \lim_{h\longrightarrow  0}{\color{#40c057}  \frac{\sin(h)}{h} } \cdot{\color{#e599f7}  \frac{\sin(h)}{\cos(h)+1}  } \\ &=   {\color{#40c057} 1 } \cdot {\color{#e599f7} \frac{0}{1+1}  =0}\end{aligned}

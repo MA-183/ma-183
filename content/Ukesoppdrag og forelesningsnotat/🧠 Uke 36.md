@@ -95,7 +95,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 >   \frac{x^2-6x+9}{x^2-9}=\frac{(x-3)\cancel{ (x-3) }}{\cancel{ (x-3) }(x+3)} \overset{ \text{når x ikke er 3} }{=  } \frac{x-3}{x+3}
 >   \end{aligned} 
 >   $$
->   Merk at vi bruker kunnskap om faktorisering av polynomer for å forenkle uttrykket, noe man kan lese om her [[Kapittel 0 - innledende kapittel/4.2 Faktorer, røtter og nullpunkt|4.2 Faktorer, røtter og nullpunkt]].
+>   Merk at vi bruker kunnskap om faktorisering av polynomer for å forenkle uttrykket, noe man kan lese om her [[Kapittel 0 - Elementære funksjoner/4.2 Faktorer, røtter og nullpunkt|4.2 Faktorer, røtter og nullpunkt]].
 >   
 >   Vi kan nå evaluere grensen slik
 >   
@@ -578,7 +578,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 >   \frac{1}{(x+2)^2}  & = 4 \\ \frac{1}{4}  & = (x+2)^2 \\ \frac{1}{4} &= x^2+4x+4 \\ x^2+4x+\frac{15}{4} &= 0.
 > \end{aligned} 
 > $$
-> Nå gir [[Kapittel 0 - innledende kapittel/defogteo/💡abc-formelen|abc-formelen]] at $x=-\frac{3}{2}$ eller $x = -\frac{5}{2}$. Siden vi skal finne koordinatene, må vi også ha $y$-verdi for disse $x-$verdiene. Det gir punktene.
+> Nå gir [[Kapittel 0 - Elementære funksjoner/defogteo/💡abc-formelen|abc-formelen]] at $x=-\frac{3}{2}$ eller $x = -\frac{5}{2}$. Siden vi skal finne koordinatene, må vi også ha $y$-verdi for disse $x-$verdiene. Det gir punktene.
 > $$
 > \left( -\frac{3}{2}, -1 \right) \quad \text{ og }\quad \left( -\frac{5}{2}, 3 \right).
 > $$

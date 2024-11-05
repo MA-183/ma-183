@@ -539,34 +539,196 @@
 
 ## 5.7
 
-> [!abstract] 1
+## Løsningsforslag
 
+> [!abstract] 1
+> Finn arealet mellom kurvene:
+> $$
+> y = x, \quad y = x^2.
+> $$
+
+> [!note]+ Løsning
+> Vi finner skjæringspunktene ved å sette $x = x^2$:
+> $$
+> x^2 - x = 0 \Rightarrow x(x - 1) = 0.
+> $$
+> Dette gir oss $x = 0$ og $x = 1$. Vi integrerer fra $x = 0$ til $x = 1$:
+> $$
+> \text{Areal} = \int_0^1 (x - x^2) \, dx.
+> $$
+> Beregning av integralet:
+> $$
+> = \left[ \frac{x^2}{2} - \frac{x^3}{3} \right]_0^1 = \frac{1}{2} - \frac{1}{3} = \frac{1}{6}.
+> $$
+> Arealet mellom kurvene er $\frac{1}{6}$ enheter kvadrat.
 
 > [!abstract] 2
+> Finn arealet mellom kurvene:
+> $$
+> y = \sqrt{x}, \quad y = x^2.
+> $$
 
+
+> [!note]- Løsning
+> Vi vet at $\sqrt{x}$ er definert for $x\geq0$ og der er funksjonene like. De skjærer også hverandre i $x=1$. 
+> 
+> Det gir oss at vi må finne arealet mellom kurvene og $x = 0$ og $x = 1$. Vi integrerer fra $x = 0$ til $x = 1$:
+> $$
+> \text{Areal} = \int_0^1 (\sqrt{x} - x^2) \, dx.
+> $$
+> Beregning av integralet:
+> $$
+> = \int_0^1 (x^{1/2} - x^2) \, dx = \left[ \frac{2}{3}x^{3/2} - \frac{x^3}{3} \right]_0^1 = \frac{2}{3} - \frac{1}{3} = \frac{1}{3}.
+> $$
+> Arealet mellom kurvene er $\frac{1}{3}$ enheter kvadrat.
 
 > [!abstract] 3
+> Finn arealet mellom kurvene:
+> $$
+> y = x^2 - 5, \quad y = 3 - x^2.
+> $$
 
+> [!note]+ Løsning
+> Vi finner skjæringspunktene ved å sette $x^2 - 5 = 3 - x^2$:
+> $$
+> 2x^2 = 8 \Rightarrow x^2 = 4 \Rightarrow x = \pm 2.
+> $$
+> Vi integrerer fra $x = -2$ til $x = 2$:
+> $$
+> \text{Areal} = \int_{-2}^2 \left[(3 - x^2) - (x^2 - 5)\right] dx.
+> $$
+> Forenkler integranden:
+> $$
+> = \int_{-2}^2 (8 - 2x^2) \, dx = 2 \int_0^2 (8 - 2x^2) \, dx.
+> $$
+> Beregning av integralet:
+> $$
+> = 2 \left[ 8x - \frac{2x^3}{3} \right]_0^2 = 2 \left( 16 - \frac{16}{3} \right) = 2 \cdot \frac{32}{3} = \frac{64}{3}.
+> $$
+> Arealet mellom kurvene er $\frac{64}{3}$ enheter kvadrat.
 
 > [!abstract] 4
+> Finn arealet mellom kurvene:
+> $$
+> y = x^2 - 2x, \quad y = 6x - x^2.
+> $$
+
+
+> [!note]- Løsning
+> Vi finner skjæringspunktene ved å sette $x^2 - 2x = 6x - x^2$:
+> $$
+> 2x^2 - 8x = 0 \Rightarrow 2x(x - 4) = 0.
+> $$
+> Dette gir oss $x = 0$ og $x = 4$. Vi integrerer fra $x = 0$ til $x = 4$:
+> $$
+> \text{Areal} = \int_0^4 \left[(6x - x^2) - (x^2 - 2x)\right] dx.
+> $$
+> Forenkler integranden:
+> $$
+> = \int_0^4 (8x - 2x^2) \, dx.
+> $$
+> Beregning av integralet:
+> $$
+> = \left[ 4x^2 - \frac{2x^3}{3} \right]_0^4 = \left( 4 \cdot 16 - \frac{2 \cdot 64}{3} \right) = 64 - \frac{128}{3} = \frac{64}{3}.
+> $$
+> Arealet mellom kurvene er $\frac{64}{3}$ enheter kvadrat.
 
 ## 6.1
+> [!abstract] 1  
+> Beregn integralet:
+> $$
+> \int x \cos x \, dx
+> $$
 
-> [!abstract] 1
+> [!note]- Løsning  
+> La $u = x$ og $dv = \cos x \, dx$.
+> Da er $du = dx$ og $v = \sin x$.
+> 
+> Bruk formelen for delvis integrasjon:
+> $$
+> \int u \, dv = uv - \int v \, du.
+> $$
+> Vi får:
+> $$
+> \int x \cos x \, dx = x \sin x - \int \sin x \, dx.
+> $$
+> Dette gir:
+> $$
+> = x \sin x + \cos x + C.
+> $$
+> **Svar:** $\int x \cos x \, dx = {x \sin x + \cos x + C}$.
 
-> [!abstract] 2
+
+> [!abstract] 2 
+> Beregn integralet:
+> $$
+> \int (x + 3)e^{2x} \, dx
+> $$
+
+> [!note]- Løsning  
+> **Løsning ved delvis integrasjon:**
+> Skriv integralet som:
+> $$
+> \int x e^{2x} \, dx + \int 3 e^{2x} \, dx.
+> $$
+> For $\int x e^{2x} \, dx$, la $u = x$ og $dv = e^{2x} \, dx$, som gir $du = dx$ og $v = \frac{e^{2x}}{2}$.
+> 
+> Da får vi:
+> $$
+> \int x e^{2x} \, dx = \frac{x e^{2x}}{2} - \int \frac{e^{2x}}{2} \, dx.
+> $$
+> Dette gir:
+> $$
+> = \frac{x e^{2x}}{2} - \frac{e^{2x}}{4}.
+> $$
+> Nå kan vi løse $\int 3 e^{2x} \, dx$ direkte:
+> $$
+> = \frac{3 e^{2x}}{2}.
+> $$
+> Derfor er:
+> $$
+> \int (x + 3) e^{2x} \, dx = {\frac{x e^{2x}}{2} - \frac{e^{2x}}{4} + \frac{3 e^{2x}}{2} + C}.
+> $$
 
 
-> [!abstract] 3
+> [!abstract] 3  
+> 
+> Beregn integralet:
+> $$
+> \int x^2 \cos (\pi x) \, dx
+> $$
+
+> [!note]- Løsning  
+>
 
 
-> [!abstract] 4
+> [!abstract] 4  
+> Beregn integralet:
+> $$
+> \int (x^2 - 2x)e^{kx} \, dx
+> $$
+
+> [!note]- Løsning  
 
 
-> [!abstract] 5
+> [!abstract] 5  
+> Beregn integralet:
+> $$
+> \int x^3 \ln x \, dx
+> $$
+
+> [!note]- Løsning  
 
 
-> [!abstract] 6
+> [!abstract] 6  
+> Beregn integralet:
+> $$
+> \int x (\ln x)^3 \, dx
+> $$
+
+> [!note]- Løsning  
+>
+
 
 
 > [!abstract] 13

@@ -155,7 +155,7 @@ $$
 $$
 
 
-![[Kapittel 3 - transendentale funksjoner/defogteo/💡 Potensreglene for derivasjon|💡 Potensreglene for derivasjon]]
+![[Kapittel 3 - Inverse funksjoner/defogteo/💡 Potensreglene for derivasjon|💡 Potensreglene for derivasjon]]
 
 
 > [!abstract] 3

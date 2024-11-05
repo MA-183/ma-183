@@ -13,7 +13,7 @@ title: 📄 Multiplikasjon på polarform
 > \begin{aligned} 
 >  &\cos\left( \frac{\pi}{3} \right)\cdot\cos\left( \frac{\pi}{6} \right)-\sin\left( \frac{\pi}{3} \right)\cdot\sin\left( \frac{\pi}{6} \right) \\ + & i\left( \cos\left( \frac{\pi}{3} \right)\cdot\sin\left( \frac{\pi}{6} \right)+\cos\left( \frac{\pi}{6} \right)\cdot\sin\left( \frac{\pi}{3} \right) \right)\end{aligned} 
 > $$
-> Fra [[Kapittel 0 - innledende kapittel/defogteo/💡Addisjonsformlene|addisjonsformlene]] får vi
+> Fra [[Kapittel 0 - Elementære funksjoner/defogteo/💡Addisjonsformlene|addisjonsformlene]] får vi
 > $$
 > \begin{aligned} 
 >  & \cos\left( \frac{\pi}{3}+\frac{\pi}{6} \right)+i\left( \sin\left( \frac{\pi}{3}+\frac{\pi}{6} \right) \right)  \\ = & \cos\left( \frac{\pi}{2} \right)+i\sin\left( \frac{\pi}{2} \right)=0+i.

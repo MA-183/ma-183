@@ -300,7 +300,7 @@
 > [!note]- Løsning
 > (du trenger ikke verifisere med induksjon)
 > 
-> Skriv $f(x)=\frac{1}{x}=x^{-1}$. Vi kan enkelt derivere ved å bruke [[Kapittel 3 - transendentale funksjoner/defogteo/💡 Potensreglene for derivasjon|potensreglene for derivasjon]].
+> Skriv $f(x)=\frac{1}{x}=x^{-1}$. Vi kan enkelt derivere ved å bruke [[Kapittel 3 - Inverse funksjoner/defogteo/💡 Potensreglene for derivasjon|potensreglene for derivasjon]].
 > 
 > $f'(x) = (-1)\cdot x^{-2} = -x^{-2}$.
 > 

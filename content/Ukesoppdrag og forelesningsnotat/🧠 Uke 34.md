@@ -127,7 +127,7 @@
 > [!note]- Løsning
 >abc-formelen  
 > 
-> Utledening av abc-formelen er her [4.3 Andregradsfunksjoner og abc-formelen](Kapittel%200%20-%20innledende%20kapittel/4.3%20Andregradsfunksjoner%20og%20abc-formelen.md).
+> Utledening av abc-formelen er her [4.3 Andregradsfunksjoner og abc-formelen](Kapittel%200%20-%20Elementære%20funksjoner/4.3%20Andregradsfunksjoner%20og%20abc-formelen.md).
 > 
 ## P.7
 

@@ -15,7 +15,7 @@
 > \begin{aligned} 
 >  z \cdot w = &{\color{#e796f5} \cos\left( s \right)\cdot\cos\left( t \right)-\sin\left( s \right)\cdot\sin\left( t \right) } \\ + & i{\color{#f46f22} \left( \cos\left( s \right)\cdot\sin\left( t \right)+\cos\left( t \right)\cdot\sin\left( s \right) \right) }\end{aligned} 
 > $$
-> Fra [[Kapittel 0 - innledende kapittel/defogteo/💡Addisjonsformlene|addisjonsformlene]] får vi
+> Fra [[Kapittel 0 - Elementære funksjoner/defogteo/💡Addisjonsformlene|addisjonsformlene]] får vi
 > $$
 > \begin{aligned} 
 >  & {\color{#e796f5} \cos\left( s+t \right) }+i{\color{#f46f22} \left( \sin\left( s+t \right) \right) }.

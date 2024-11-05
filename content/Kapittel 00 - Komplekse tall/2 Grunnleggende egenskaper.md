@@ -13,7 +13,7 @@ Noen opplagte eksempler er $1+0i$ og $0+1i$ eller $0-i$ fordi alle disse har avs
 ![](Files/shapes%20at%2024-08-12%2014.57.36.svg)
 ![[Kapittel 00 - Komplekse tall/defogteo/✍️ Vinkelen til et komplekst tall|✍️ Vinkelen til et komplekst tall]]
 
-Vi ser også at [det vi kan om trigonometri](Kapittel%200%20-%20innledende%20kapittel/5.1%20Vinkelmål.md) gir oss at vi kan veksle mellom den [kartesiske formen](Kapittel%2000%20-%20Komplekse%20tall/1%20Komplekse%20tall.md) $z=a+bi$ og det vi kaller komplekse tall på formen $z = r\cos(\theta)+i\sin(\theta)$ for komplekse tall på *polar form*. 
+Vi ser også at [det vi kan om trigonometri](Kapittel%200%20-%20Elementære%20funksjoner/5.1%20Vinkelmål.md) gir oss at vi kan veksle mellom den [kartesiske formen](Kapittel%2000%20-%20Komplekse%20tall/1%20Komplekse%20tall.md) $z=a+bi$ og det vi kaller komplekse tall på formen $z = r\cos(\theta)+i\sin(\theta)$ for komplekse tall på *polar form*. 
 
 > [!info] Eksempel 
 > 1. Gjør om tallet $z = 1+\sqrt 3 i$ til polar form,

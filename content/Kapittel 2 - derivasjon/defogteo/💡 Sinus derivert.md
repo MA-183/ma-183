@@ -16,5 +16,5 @@
 > \end{aligned} 
 > $$
 > 
-> Der 1. er [[Kapittel 0 - innledende kapittel/defogteo/💡Addisjonsformlene|addisjonsformlene for trigonometriske funksjoner]] og 2. bruker [[Kapittel 1 - grenser og kontinuitet/defogteo/💡 Grenseverdiregler|punkt 3. i grenseverdireglene]].
+> Der 1. er [[Kapittel 0 - Elementære funksjoner/defogteo/💡Addisjonsformlene|addisjonsformlene for trigonometriske funksjoner]] og 2. bruker [[Kapittel 1 - grenser og kontinuitet/defogteo/💡 Grenseverdiregler|punkt 3. i grenseverdireglene]].
 
