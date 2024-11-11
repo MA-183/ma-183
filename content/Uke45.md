@@ -34,8 +34,9 @@ I praksis løser vi ofte slik
 2. Avgjør hvor $f$ er størst og hvor $g$ er størst.
 3. Split integralet i bitene som man fant over.
 
-> [!abstract] Spørsmål 
-> Hva er arealet mellom grafene til $x^5-x^3$ og $x^3+x$ på intervallet $[-1,1]$? 
+> [!question] Spørsmål 
+> Hva er arealet av området mellom $y=x^2-2x$ og $y=4-x^2$?
+
 
 
 
@@ -70,6 +71,9 @@ Et naturlig spørsmål er hvor mange forskjellige antideriverte funksjoner som f
 
 ![[Kapittel 5 - integrasjon/defogteo/💡 Antideriverte funksjoner|💡 Antideriverte funksjoner]]
 
+Følger fra teorem 13 i kapittel 2.10
+
+
 ### Ubestemte integraler
 
 Siden vi nå forstår hva en antiderivert er, kan vi bruke dette til å systematisere integrasjon. 
@@ -84,12 +88,16 @@ Er ikke alltid så lett å bare "se" antideriverte.
 
 Vi skal prøve å reversere i kjerneregelen
 
-Husk at
+Husk at kjerneregelen sier
 
-![[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|💡 Kjerneregelen]]
+$$
+f(g(x))' ={\color{#f46f22}  f'(g(x)) }\cdot {\color{#e796f5} g'(x) }
+$$
+Eksempel er ${ {\color{#5ca6f4} f(x) = \cos(x) } }$, så er ${\color{#f46f22} f'(x) =  -\sin(x) }$ og ${\color{#e796f5} g(x) = e^x }$ og $g'(x)=e^x$, da er
+$f(g(x)) = {\color{#f46f22} f'(g(x)) } \cdot {\color{#e796f5} g'(x) } = {\color{#f46f22} -\sin }(g(x)) {\color{#e796f5} e^x } = -\sin(e^x)e^x$.
 
 
-Kan vi, når jeg sier at kjerneregelen er brukt, gjette antideriverte
+Kan vi, når jeg sier at kjerneregelen er brukt, gjette antideriverte?
 
 > [!question] Spørsmål 
 > Hva er
@@ -98,22 +106,12 @@ Kan vi, når jeg sier at kjerneregelen er brukt, gjette antideriverte
 > 3. $\int 2x \cdot \frac{1}{x^2+1}dx$.
 
 
-${\color{#f46f22} 2x}$ som faktor til $\cos(x^2)$ -tyder på kjerneregel ${\color{#e796f5} u = x^2}$, 
+1. Gjetter $e^{x^6}$.
+2. Gjetter $\sin(x^2)$
+3. Gjetter $\ln(x^2+1)$.
 
-Slik utfører vi substitusjonen:
-- La ${\color{#e796f5} u = x^2}$, da er ${\color{#f46f22} u'(x) = 2x}$.
-- Integralets form blir da
-  $$
-  \int \cos({\color{#e796f5} u}) \,{\color{#f46f22} u'(x)}dx,
-  $$
-  som er enklere å løse. Vi må altså bare finne en funksjon $F(u)$ slik at $F'(u) = \cos(u)$. Vi vet da at $F(u)=\sin(u)$. Det gir 
-$$
-\int \cos({\color{#e796f5} u}) \,{\color{#f46f22} u'(x)}dx = F(u)+C = \sin(u)+C.
-$$
-- Ved å tilbake-substituere ${\color{#e796f5} u = x^2}$, får vi den endelige løsningen:
-  $$
-  \sin(x^2) + C.
-  $$
+> [!question] Spørsmål 
+> Deriver selv for å sjekke om det stemmer.
 
 ### Eksempel 2: Mer komplekst uttrykk med kjerneregelen
 
@@ -163,6 +161,7 @@ $\frac{1}{2}\left( -\frac{1}{u} \right)+C = \frac{1}{-2} \frac{1}{x^2+1} +C$
 > $$
 > \int \frac{1}{\sqrt{e^{2x}-1}}dx
 > $$
+> IKKE gjør masse regning. Kun gjett substitusjon.
 
 Vi lar ${\color{#5ca6f4} u = \ln(x) }$, som også gir ${\color{#f46f22} du = \frac{1}{x}dx }$
 $$
@@ -212,12 +211,90 @@ $$
 $$
 
 
+Gjør nå 
 
+$$
+\int\tan(x)dx=\int\frac{\sin(x)}{\cos(x)}dx
+$$
 
 ### Delvis integrasjon
 
+Vet at
+$$
+(u\cdot v)' = u' \cdot v + u\cdot v'
+$$
 
-Nå skal vi se på hvordan vi kan *gå baklengs* i produktregelen. 
+Integralet av begge sider må være likt:
+$$
+\int (u\cdot v)'(x) dx = \int (u'\cdot v)(x)dx + \int (u \cdot v')(x) dx
+$$
+S<iden den venstre siden bare er funksjonen $u(x)v(x)$, kan vi skrive dette som:
+$$
+{\color{#e796f5} u(x) }{\color{#3cc15c} v(x) } = \int {\color{#f46f22} u'(x) }{\color{#3cc15c} v(x) } \, dx + \int {\color{#e796f5} u(x) }{\color{#5ca6f4} v'(x) } \, dx
+$$
 
-### Delbrøksoppspaltning
+Stokk om og få
 
+$$
+\int {\color{#f46f22} u'(x) }{\color{#3cc15c} v(x) } \, dx = {\color{#e796f5} u(x) }{\color{#3cc15c} v(x) } - \int {\color{#e796f5} u(x) }{\color{#5ca6f4} v'(x) } \, dx
+$$
+
+
+> [!abstract] Eksempel 
+> Finn $\int x e^x dx$.
+
+Ser at hvis ${\color{#3cc15c} x }$ er ${\color{#3cc15c} v(x) }$ så er ${\color{#5ca6f4} v'(x)=1 }$ som forenkler. Det betyr at ${\color{#f46f22} e^x = u'(x) }$ som igjen betyr at ${\color{#e796f5} u(x)=e^x }$. Setter vi inn får vi
+
+$$
+\begin{aligned} 
+& \int {\color{#f46f22} u'(x) }{\color{#3cc15c} v(x) } \, dx = {\color{#e796f5} u(x) }{\color{#3cc15c} v(x) } - \int {\color{#e796f5} u(x) }{\color{#5ca6f4} v'(x) } \, dx  
+\\ & \int {\color{#f46f22} e^x } {\color{#3cc15c} x } dx = {\color{#e796f5} e^x } {\color{#3cc15c} x } -  \int {\color{#e796f5} e^x } \cdot {\color{#5ca6f4} 1 } dx \\ 
+ & \int {\color{#f46f22} e^x } {\color{#3cc15c} x } dx = {\color{#e796f5} e^x } {\color{#3cc15c} x } -   (e^x+C) = e^x x -  e^x - C. 
+\end{aligned} 
+$$
+
+Teknikken over kalles **delvis integrasjon**.
+
+> [!question] Spørsmål 
+> Hvis du får vite at du skal bruke delvis integrasjon. Altså at 
+> $$
+> \int {\color{#f46f22} u'(x) }{\color{#3cc15c} v(x) } \, dx = {\color{#e796f5} u(x) }{\color{#3cc15c} v(x) } - \int {\color{#e796f5} u(x) }{\color{#5ca6f4} v'(x) } \, dx
+> $$
+> Hva er naturlig valg for $u'(x)$ og $v(x)$ hvis integralet er (IKKE RGN UT)
+> 
+
+1.
+$$
+\int x^2 e^x dx
+$$
+
+1.
+$$
+\int x^2 \sin(x) dx
+$$
+2. 
+$$
+\int \ln (x)  dx
+$$
+
+3. 
+   $$
+   \int x \tan^{-1}(x) dx
+   $$
+
+ IKKE REGN UT.
+$\tan^{-1}(x)' = \frac{1}{1+x^2}$
+
+## Delvis integrasjon der integranden gjentar seg
+
+Vis:
+$$
+\int \sin(x)e^x dx
+$$
+
+
+Prøv selv på 
+
+$$
+\int x^2 \sin(x)e^x dx
+$$
