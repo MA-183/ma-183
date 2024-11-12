@@ -1,4 +1,4 @@
-Husk NoA - Tavle her tinyurl.com/ma-183-05-11 \
+Husk NoA - Tavle her tinyurl.com/ma-183-12-11 \
 
 Studenten skal kunne
 

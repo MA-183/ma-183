@@ -462,7 +462,7 @@
 > [!abstract] Integral med substitusjon
 > Evaluer det ubestemte integralet:
 > $$
-> \int x^2 x^{x^3 + 1} dx.
+> \int x^2 e^{x^3 + 1} dx.
 > $$
 
 > [!note]+ Løsning
@@ -470,7 +470,7 @@
 > 
 > Nå kan vi skrive om integralet:
 > $$
-> \int x^2 x^{x^3 + 1} dx = \int x^{x^3 + 1} \cdot x^2 dx.
+> \int x^2 e^{x^3 + 1} dx = \int e^{x^3 + 1} \cdot x^2 dx.
 > $$
 > Substitusjonen gir:
 > $$
