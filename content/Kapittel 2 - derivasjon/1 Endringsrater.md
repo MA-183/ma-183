@@ -9,7 +9,7 @@ Lineære sammenhenger, det vil si funksjoner på formen $ax + b$, har vi også k
 
 Hva gjør vi da med generelle funksjoner? Kan vi gi en meningsfull definisjon av hva stigningstall skal være for dem? Vi går geometrisk til verks og undersøker en vilkårlig funksjon.
 
-<iframe src="Files\funksjonererlineærlokale.html" frameborder="0" scrolling="no" style="aspect-ratio: 600/500; width: 100%"></iframe>
+<iframe src="Files\funksjonererlineærlokale.html" frameborder="0" scrolling="no" style="aspect-ratio: 700/500; width: 130%"></iframe>
 
 Bruk glideren til å zoome inn rundt et punkt $x$, og klikk på punktet $(x, f(x))$ for å flytte det rundt.
 

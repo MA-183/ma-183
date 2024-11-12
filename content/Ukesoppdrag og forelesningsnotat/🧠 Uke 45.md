@@ -560,7 +560,7 @@
 > $$
 > = \left[ \frac{x^2}{2} - \frac{x^3}{3} \right]_0^1 = \frac{1}{2} - \frac{1}{3} = \frac{1}{6}.
 > $$
-> Arealet mellom kurvene er $\frac{1}{6}$ enheter kvadrat.
+> Arealet mellom kurvene er $\frac{1}{6}$.
 
 > [!abstract] 2
 > Finn arealet mellom kurvene:
@@ -580,7 +580,7 @@
 > $$
 > = \int_0^1 (x^{1/2} - x^2) \, dx = \left[ \frac{2}{3}x^{3/2} - \frac{x^3}{3} \right]_0^1 = \frac{2}{3} - \frac{1}{3} = \frac{1}{3}.
 > $$
-> Arealet mellom kurvene er $\frac{1}{3}$ enheter kvadrat.
+> Arealet mellom kurvene er $\frac{1}{3}$.
 
 > [!abstract] 3
 > Finn arealet mellom kurvene:
@@ -605,7 +605,7 @@
 > $$
 > = 2 \left[ 8x - \frac{2x^3}{3} \right]_0^2 = 2 \left( 16 - \frac{16}{3} \right) = 2 \cdot \frac{32}{3} = \frac{64}{3}.
 > $$
-> Arealet mellom kurvene er $\frac{64}{3}$ enheter kvadrat.
+> Arealet mellom kurvene er $\frac{64}{3}$.
 
 > [!abstract] 4
 > Finn arealet mellom kurvene:
@@ -631,7 +631,7 @@
 > $$
 > = \left[ 4x^2 - \frac{2x^3}{3} \right]_0^4 = \left( 4 \cdot 16 - \frac{2 \cdot 64}{3} \right) = 64 - \frac{128}{3} = \frac{64}{3}.
 > $$
-> Arealet mellom kurvene er $\frac{64}{3}$ enheter kvadrat.
+> Arealet mellom kurvene er $\frac{64}{3}$.
 
 ## 6.1
 > [!abstract] 1  
@@ -671,7 +671,7 @@
 > $$
 > \int x e^{2x} \, dx + \int 3 e^{2x} \, dx.
 > $$
-> For $\int x e^{2x} \, dx$, la $u = x$ og $dv = e^{2x} \, dx$, som gir $du = dx$ og $v = \frac{e^{2x}}{2}$.
+> For $\int x e^{2x} \, dx$, la $u = x$ og $\frac{dv}{dx} = e^{2x}$, som gir $du = dx$ og $v = \frac{e^{2x}}{2}$.
 > 
 > Da får vi:
 > $$
