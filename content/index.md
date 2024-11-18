@@ -1,9 +1,9 @@
 ---
-title: MA-183
+title: Kalkulus
 ---
-# Velkommen til MA-183 og et kompendium i kalkulus
 
-Dette kompendiet inneholder notater som dekker de viktigste temaene i kalkulus. **Notatene er under bearbeiding.** Bruk **Ctrl+K** for å søke etter spesifikke temaer, eller naviger via menyen til venstre.
+
+Dette kompendiet inneholder notater som dekker de viktigste temaene i kalkulus. **Notatene er under bearbeiding.** Bruk **Ctrl + K** for å søke etter spesifikke temaer, eller naviger via menyen til venstre.
 
 > **Viktig å merke seg:**  
 > Notatene er satt sammen fra tidligere forelesningsnotater, og mange notater er fortsatt bare utkast. Derfor kan de inneholde enkelte feil eller ufullstendige formatteringer. Hvis du oppdager noe, setter André pris på tilbakemeldinger. Har du forslag til forbedringer eller nytt innhold, kan du kontakte André direkte på epost.
