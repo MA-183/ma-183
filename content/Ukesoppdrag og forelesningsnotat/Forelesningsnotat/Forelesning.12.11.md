@@ -114,8 +114,21 @@ $$
 > \int \frac{1}{x^2-1}dx = \int \frac{1}{(x-1)(x+1)}dx?
 > $$
 
+Kan gjette at $\ln|x^2-1|$ bør være del av integralet. Deriverer vi får vi $\frac{2x}{x^2-1}$, så vi må trikse litt for å få det til. Gjør vi det blir det seende slik ut.
+![[Files/shapes at 24-11-13 10.16.19.svg]]
 
-![[Files/shapes at 24-11-12 15.39.06.svg]]
+Vi ser at det lar seg nå gjøre. La oss også se en annen strategi. Delbrøksoppspalting. Ideen er slik: Legger vi sammen to brøker med polynomer som nevner gjør vi det slik
+
+![[Files/shapes at 24-11-13 10.18.01.svg]]
+
+Vi ser at vi altså får produktet av nevnere som fellesnevner. Vi kan nå spørre oss. Kan vi gå baklengs? La oss prøve med problemet over.
+
+![[Files/shapes at 24-11-13 10.19.17.svg]]
+
+
+Vi ser at det går. Derfor kan vi nå skrive
+
+![[Files/shapes at 24-11-13 10.19.41.svg]]
 
 
 > [!tip] Rasjonale funksjoner med kvadratiske nevnere
@@ -277,40 +290,6 @@ Resten ble gjort på tavla:
 > \int \frac{1}{x^3+1} dx & = \frac{1}{3}\ln|x+1|-\frac{1}{6}\ln(x^2-x+1)+ \frac{3}{6}\frac{2}{\sqrt{3}} \tan^{-1}\left( 2\frac{x-\frac{1}{2}}{\sqrt{3}} \right)+C \\ &= \frac{1}{3}\ln|x+1|-\frac{1}{6}\ln(x^2-x+1)+\frac{1}{\sqrt{3}} \tan^{-1}\left( \frac{2x-1}{\sqrt{3}} \right) +C.
 > \end{aligned} 
 > $$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
