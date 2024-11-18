@@ -7,7 +7,7 @@
 > $$
 > 
 
-> [!note]+ Løsning 
+> [!note]- Løsning 
 > Med litt erfaring kan vi se at $\ln|2x-3|$ bør være nær hva vi leter etter. Faktisk, når vi deriverer med [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] får vi $\frac{d}{dx} \ln|2x-3|= \frac{2}{2x-3}$. Vi har altså en antiderivert og vi er nå vi mål.
 > 
 > Alternativt må vi innse at vi bør bruke substitusjonen $2x-3$ for å komme i mål.
@@ -19,7 +19,7 @@
 > \int \frac{x}{\pi x+2}dx.
 > $$ 
 
-> [!note]+ Løsning 
+> [!note]- Løsning 
 > Siden teller og nevner har lik grad, trikser vi (vi bruker i praksis [[Kapittel 0 - Elementære funksjoner/defogteo/💡divisjonsalgoritmen|divisjonsalgoritmen]]) og får
 > $$
 > \begin{aligned} 
@@ -46,7 +46,7 @@
 > 
 
 
-> [!note]+ Løsning 
+> [!note]- Løsning 
 > Siden teller har grad større enn nevner kan vi bruke [[Kapittel 0 - Elementære funksjoner/defogteo/💡divisjonsalgoritmen|divisjonsalgoritmen]] og polynomdivisjon til å skrive
 > $$
 > \begin{aligned} 
@@ -69,7 +69,7 @@
 > 
 
 
-> [!note]+ Løsning 
+> [!note]- Løsning 
 > Vi prøver å skrive $x^2-9$ faktorisert. Vi ser at dette enkelt kan gjøres som $(x-3)(x+3)$ ved hjelp av konjugatsetningen. Målet er nå å bruke delbrøksoppspalting. Det vil si at vi ønsker å finne $A$ og $B$ slik at
 > $$
 > \begin{aligned} 
@@ -97,7 +97,7 @@
 > \int \frac{1}{5-x^2}dx.
 > $$ 
 
-> [!note]+ Løsning 
+> [!note]- Løsning 
 > Vi kjenner igjen nevneren som en differanse mellom kvadrater: $5 - x^2 = (\sqrt{5} - x)(\sqrt{5} + x)$. Dette tillater oss å bruke delbrøksoppspalting. Vi antar at
 > $$
 > \frac{1}{5-x^2} = \frac{A}{\sqrt{5} - x} + \frac{B}{\sqrt{5} + x},
@@ -142,7 +142,7 @@
 > \int \frac{x^2}{x^2+x-2}dx.
 > $$ 
 
-> [!note]+ Løsning 
+> [!note]- Løsning 
 > Vi skriver om for integranden slik
 > $$
 > \begin{aligned} 
@@ -181,7 +181,7 @@
 > \int \frac{x-2}{x^2+x}dx.
 > $$ 
 
-> [!note]+ Løsning 
+> [!note]- Løsning 
 > Vi faktoriserer nevneren som $x^2 + x = x(x+1)$. Dermed kan brøken skrives som
 > $$
 > \frac{x-2}{x^2+x} = \frac{A}{x} + \frac{B}{x+1}.
@@ -219,7 +219,7 @@
 > \int \frac{1}{x^3+9x}dx.
 > $$ 
 
-> [!note]+ Løsning 
+> [!note]- Løsning 
 > Vi faktoriserer nevneren som $x^3 + 9x = x(x^2 + 9)$. Dermed blir brøken:
 > $$
 > \begin{aligned} 

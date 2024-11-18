@@ -6,7 +6,7 @@
 > \int 5 dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Integralet av en konstant $c$ er $cx$, så:
 > $$
 > \int 5 dx = 5x + C.
@@ -20,7 +20,7 @@
 > \int x^2 dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi bruker potensregelen for integrasjon:
 > $$
 > \int x^2 dx = \frac{x^3}{3} + C.
@@ -34,7 +34,7 @@
 > \int \sqrt{x} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Skriv $\sqrt{x}$ som $x^{1/2}$ og bruk potensregelen:
 > $$
 > \int x^{1/2} dx = \frac{x^{3/2}}{3/2} = \frac{2}{3}x^{3/2} + C.
@@ -49,7 +49,7 @@
 > \int x^{12} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi bruker potensregelen:
 > $$
 > \int x^{12} dx = \frac{x^{13}}{13} + C.
@@ -63,7 +63,7 @@
 > \int x^3 dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi bruker potensregelen:
 > $$
 > \int x^3 dx = \frac{x^4}{4} + C.
@@ -77,7 +77,7 @@
 > \int (x + \cos x) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer hver del separat:
 > $$
 > \int (x + \cos x) dx = \int x dx + \int \cos x dx = \frac{x^2}{2} + \sin x + C.
@@ -91,7 +91,7 @@
 > \int \tan (x) \cos (x) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi skriver $\tan( x) \cos (x)$ om til $\sin (x)$ ved å bruke identiteten $\tan (x) = \frac{\sin (x)}{\cos (x)}$:
 > $$
 > \int \tan (x) \cos (x) dx = \int \sin (x) dx = -\cos (x )+ C.
@@ -105,7 +105,7 @@
 > \int \frac{1 + \cos^3( x)}{\cos^2 (x)} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi deler opp brøken:
 > $$
 > \int \left( \frac{1}{\cos^2 (x)} + \frac{\cos^3 (x)}{\cos^2 (x)} \right) dx = \int \frac{1}{\cos^2(x)} dx + \int \cos (x) dx.
@@ -124,7 +124,7 @@
 > \int (a^2 - x^2) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi bruker potensregelen for hvert ledd:
 > $$
 > \int (a^2 - x^2) dx = a^2 x - \frac{x^3}{3} + C.
@@ -138,7 +138,7 @@
 > \int (A + Bx + Cx^2) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer hvert ledd separat:
 > $$
 > \int A dx + \int Bx dx + \int Cx^2 dx = Ax + \frac{Bx^2}{2} + \frac{Cx^3}{3} + C.
@@ -152,7 +152,7 @@
 > \int \left( 2x^{1/2} + 3x^{1/3} \right) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi bruker potensregelen:
 > $$
 > \int 2x^{1/2} dx = \frac{2x^{3/2}}{3/2} = \frac{4x^{3/2}}{3}, \quad \int 3x^{1/3} dx = \frac{3x^{4/3}}{4/3} = \frac{9x^{4/3}}{4}.
@@ -170,7 +170,7 @@
 > \int \frac{6(x - 1)}{x^{4/3}} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi deler opp brøken:
 > $$
 > \int \frac{6x}{x^{4/3}} dx - \int \frac{6}{x^{4/3}} dx = 6 \int x^{-1/3} dx - 6 \int x^{-4/3} dx.
@@ -188,7 +188,7 @@
 > \int \left( \frac{x^3}{3} - \frac{x^2}{2} + x - 1 \right) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer hvert ledd separat:
 > $$
 > \int \frac{x^3}{3} dx = \frac{x^4}{12}, \quad \int \frac{x^2}{2} dx = \frac{x^3}{6}, \quad \int x dx = \frac{x^2}{2}, \quad \int -1 dx = -x.
@@ -206,7 +206,7 @@
 > \int 105 (1 + t^2 + t^4 + t^6) dt.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi integrerer hvert ledd separat:
 > $$
 > \begin{aligned} 
@@ -221,7 +221,7 @@
 > \int \sqrt{2x + 3} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Siden $\sqrt{x}$ har en antiderivert som ligner på $x^{3/2}$, kan vi gjette at $\sqrt{2x + 3}$ har en antiderivert som ligner på $(2x + 3)^{3/2}$. 
 > 
 > La oss prøve $(2x + 3)^{3/2}$ som en antiderivert, og derivere for å sjekke:
@@ -246,7 +246,7 @@
 > \int \frac{4}{\sqrt{x + 1}} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi ser at $\frac{1}{\sqrt{x}}$ har en antiderivert som minner om $2\sqrt{x}$. Det får oss til å gjette at en antiderivert av $\frac{4}{\sqrt{x + 1}}$ kanskje har formen $8\sqrt{x + 1}$.
 > 
 > La oss sjekke:
@@ -267,7 +267,7 @@
 > \int 2x \sin(x^2) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Med litt erfaring fra derivasjon er det naturlig å tenke at hvis vi skal ende opp med $\sin(x^2)$ så må $\cos(x^2)$ være involvert i den antideriverte. 
 > 
 > La oss sjekke ved å derivere:
@@ -288,7 +288,7 @@
 > \int \frac{2x}{\sqrt{x^2 + 1}} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi gjetter at en antiderivert kan ha formen $2\sqrt{x^2 + 1}$, fordi $\sqrt{x^2 + 1}$ minner om $\sqrt{x}$ som vi vet har antiderivert $\frac{2x^{3/2}}{3}$.
 > 
 > La oss sjekke ved å derivere:
@@ -318,7 +318,7 @@
 > \int e^{5 - 2x} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi ser at hvis vi lar ${\color{#e796f5} u = 5 - 2x}$, får vi at ${\color{#f46f22} du = -2 dx}$ eller ${\color{#f46f22} dx = -\frac{1}{2} du}$.
 > 
 > Integralene blir da:
@@ -339,7 +339,7 @@
 > \int \cos(a x + b) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > La oss bruke substitusjonen ${\color{#e796f5} u = a x + b}$, som gir ${\color{#f46f22} du = a dx}$ eller ${\color{#f46f22} dx = \frac{1}{a} du}$.
 > 
 > Integralene blir:
@@ -360,7 +360,7 @@
 > \int \sqrt{3x + 4} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > La oss prøve substitusjonen ${\color{#e796f5} u = 3x + 4}$. Da får vi ${\color{#f46f22} du = 3 dx}$, eller ${\color{#f46f22} dx = \frac{1}{3} du}$.
 > 
 > Vi kan omskrive integralet som:
@@ -381,7 +381,7 @@
 > \int e^{2x} \sin(e^{2x}) dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi kan prøve substitusjonen ${\color{#e796f5} u = e^{2x}}$, som gir ${\color{#f46f22} du = 2e^{2x} dx}$ eller ${\color{#f46f22} dx = \frac{1}{2e^{2x}} du}$.
 > 
 > Integralene kan skrives som:
@@ -403,7 +403,7 @@
 > \int \frac{x dx}{(4x^2 + 1)^5}.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > La ${\color{#e796f5} u = 4x^2 + 1}$. Da får vi ${\color{#f46f22} du = 8x dx}$, eller ${\color{#f46f22} \frac{1}{8} du = x dx}$.
 > 
 > Integralene blir:
@@ -424,7 +424,7 @@
 > \int \frac{\sin \sqrt{x}}{\sqrt{x}} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi bruker substitusjonen ${\color{#e796f5} u = \sqrt{x}}$, som gir ${\color{#f46f22} du = \frac{1}{2\sqrt{x}} dx}$ eller ${\color{#f46f22} dx = 2u du}$.
 > 
 > Integralene blir:
@@ -445,7 +445,7 @@
 > \int x e^{x^2} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > La ${\color{#e796f5} u = x^2}$, som gir ${\color{#f46f22} du = 2x dx}$ eller ${\color{#f46f22} \frac{1}{2} du = x dx}$.
 > 
 > Integralene blir:
@@ -465,7 +465,7 @@
 > \int x^2 e^{x^3 + 1} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi starter med substitusjonen ${\color{#e796f5} u = x^3 + 1}$. Da får vi at ${\color{#f46f22} du = 3x^2 dx}$, eller ${\color{#f46f22} \frac{1}{3} du = x^2 dx}$.
 > 
 > Nå kan vi skrive om integralet:
@@ -492,7 +492,7 @@
 > \int \frac{\cos (x)}{4 + \sin^2 (x)} dx.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi kan bruke substitusjonen ${\color{#e796f5} u = \sin (x)}$, som gir ${\color{#f46f22} du = \cos (x)dx}$.
 > 
 > Dette gjør at integralet blir:
@@ -520,7 +520,7 @@
 > \int \frac{\ln t}{t} dt.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > La oss prøve substitusjonen ${\color{#e796f5} u = \ln t}$. Da får vi ${\color{#f46f22} du = \frac{1}{t} dt}$, som betyr at ${\color{#f46f22} t dt}$ erstattes av ${\color{#f46f22} du}$.
 > 
 > Integralene kan skrives som:
@@ -547,7 +547,7 @@
 > y = x, \quad y = x^2.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi finner skjæringspunktene ved å sette $x = x^2$:
 > $$
 > x^2 - x = 0 \Rightarrow x(x - 1) = 0.
@@ -588,7 +588,7 @@
 > y = x^2 - 5, \quad y = 3 - x^2.
 > $$
 
-> [!note]+ Løsning
+> [!note]- Løsning
 > Vi finner skjæringspunktene ved å sette $x^2 - 5 = 3 - x^2$:
 > $$
 > 2x^2 = 8 \Rightarrow x^2 = 4 \Rightarrow x = \pm 2.

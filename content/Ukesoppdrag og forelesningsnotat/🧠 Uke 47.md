@@ -21,7 +21,7 @@
 > $$
 > Hint. Det kan være nyttig å bruke [[Kapittel 0 - Elementære funksjoner/defogteo/💡Halvvinkelformlene|halvvinkelformlene]] og [[Kapittel 0 - Elementære funksjoner/defogteo/💡Dobbeltvinkelformlene|dobbeltvinkelformlene]] samt de [[Kapittel 0 - Elementære funksjoner/defogteo/💡Trigonometriske identiteter|grunnleggende identitetene]].
 
-> [!note]+ Løsning 
+> [!note]- Løsning 
 > Vi kan ikke lenger innse integralet som en antiderivert til en invers trigonometrisk funksjon, slik som i forrige oppgave. Det ligner likevel så vi setter ${\color{#e796f5} 2x = \sin(u) }$. Da er ${\color{#5ca6f4} dx= \frac{1}{2}\cos(u)du }$.  Vi kan da omforme integralet slik
 > $$
 > \begin{aligned} 
