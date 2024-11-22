@@ -1,5 +1,44 @@
 ## 6.3
 
+I disse oppgavene kan det være nyttig å ha disse to teknikkene i bakhodet.
+
+> [!tip] Invers sinussubstitusjon
+> Integraler som inneholder $\sqrt{a^2-x^2}$ kan (noen ganger) bli forenklet dersom man gjør substitusjonen 
+> $$
+> x = a \sin(\theta),
+> $$ 
+> som betyr at
+> $$
+> \theta = \sin^{-1}\left( \frac{x}{a} \right).
+> $$
+> 
+
+> [!tip] Invers tangenssubstitusjon
+> Integraler som inneholder $\sqrt{a^2+x^2}$ eller $a^2+x^2$ kan (noen ganger) bli forenklet dersom man gjør substitusjonen 
+> $$
+> x = a \tan(\theta),
+> $$ 
+> som betyr at
+> $$
+> \theta = \tan^{-1}\left( \frac{x}{a} \right).
+> $$
+
+> [!warning] Merk 
+> Vi gjør substitusjonen fordi 
+> $$
+> \sqrt{a^2\pm x^2}= \sqrt{a^2\left( 1\pm \left( \frac{x}{a} \right)^2 \right)} = a\sqrt{1\pm \left( \frac{x}{a} \right)^2}.
+> $$
+> Merk at vi kan få til samme struktur dersom vi jobber med
+> $$
+> \sqrt{a+bx^2}
+> $$
+> fordi
+> $$
+> \sqrt{a+bx^2} = \sqrt{a\left( 1+\frac{b}{a}x^2 \right)} = \sqrt{a}\sqrt{1+\left( \frac{\sqrt{b}x}{\sqrt{a}} \right)^2}.
+> $$
+
+
+
 > [!abstract] 1
 > Avgjør integralet
 > $$
@@ -58,21 +97,81 @@
 > $$
 
 > [!abstract] 7
-> 
+> Finn
+> $$
+> \int \frac{1+x}{\sqrt{9-x^2}}dx
+> $$
 
+> [!note]+ Løsning 
+> Først splitter vi brøken. Da får vi
+> $$
+> \int \frac{1+x}{\sqrt{9-x^2}}dx = \int \frac{1}{\sqrt{9-x^2}}dx+\int \frac{x}{\sqrt{9-x^2}}dx.
+> $$
+> Vi ser at $\sqrt{9-x^2}$ sin deriverte er $-2x\cdot \frac{1}{2}\frac{1}{\sqrt{9-x^2}} = \frac{2x}{\sqrt{9-x^2}}$  som er andre ledd som vi skal integrere, bare skalert med $-1$. Vi fokuserer derfor kun på
+> $$
+> I = \int \frac{1}{\sqrt{9-x^2}}.
+> $$
+> Nå ser vi at det kan være naturlig å la ${\color{#e796f5} x = 3\sin(\theta) }$, som betyr at ${\color{#5ca6f4} dx = \cos(\theta)d\theta }$. Merk at $\theta$ kun kan gå fra $-\frac{\pi}{2}$ til $\frac{\pi}{2}$. Det gir dermed
+> $$
+> I = \int \frac{{\color{#5ca6f4} \cos(\theta) }}{\sqrt{{\color{#e796f5} 3^2 }(1-{\color{#e796f5} \sin^2(\theta) })}}{\color{#5ca6f4} d\theta } = \int \frac{\cos(\theta)}{3\sqrt{\cos^2(\theta)}}d\theta +C= \int \frac{1}{3}d\theta +C
+> $$
+> Vi har altså at $I = \frac{\theta}{3}=\frac{\sin^{-1}(x)}{3}$. (Merk at vi bruker at $\cos(\theta)>0$ for alle verdier $\theta$ er definert for.)
+> Totalt sett får vi 
+> $$
+> \int \frac{1+x}{\sqrt{9-x^2}}= \frac{\sin^{-1}(x)}{3}-\sqrt{9-x^2}+C
+> $$
 
 > [!abstract] 11
-> 
+> Finn
+> $$
+> \int \frac{1}{(a^2-x^2)^{3/2}}  dx
+> $$
 > 
 
+> [!note]+ Løsning 
+> Her har vi $a^2-x^2$ i nevner, så vi setter ${\color{#e796f5} x= a\sin(u) }$ som betyr at ${\color{#5ca6f4} dx = a\cos(u)du }$. Vi får da
+> $$
+> \int \frac{1}{({\color{#e796f5} a }^2(1-{\color{#e796f5} \sin }^2(u)))^{3/2}}\cdot {\color{#5ca6f4} a\sin(u)du }
+> $$
+> Vi kan nå bruke at $\cos^2(u)=1-\sin^2(u)$. Det gir
+> $$
+> \begin{aligned} 
+> & \int \frac{1}{({\color{#e796f5} a }^2(1-{\color{#e796f5} \sin}^2(u)))^{3/2}}\cdot {\color{#5ca6f4} a\cos(u)du } \\ = & \int \frac{1}{a^3\left( \cos^2(u))^{3/2} \right)} a\cos(u)du \\ =& \frac{1}{a^2}\int \frac{\cos(u)}{\cos^3(u)}du \\ = & \frac{1}{a^2}\int \frac{1}{\cos^2(u)}du \\ & = \frac{1}{a^2}\tan(u)+C.
+> \end{aligned} 
+> $$
+> Siden $x=a\sin(u)$ kan vi sette opp en rettvinklet trekant med hosliggende side lik $x$ og hypotenus lik $a$. Da har vi trekanten med vinkelen $u$. Vi får da at hosliggende er $\sqrt{a^2-x^2}$ og da er $\tan(u)= \frac{x}{\sqrt{a^2-x^2}}$. Vi får dermed
+> $$
+> \int \frac{1}{(a^2-x^2)^{3/2}}dx = \frac{x}{a^2\sqrt{a^2-x^2}}+C
+> $$
 
 > [!abstract] 12
-> 
+> Finn
+> $$
+> \int \frac{1}{(a^2+x^2)^{3/2}}  dx
+> $$
 > 
 
+> [!note]+ Løsning 
+> Her har vi $a^2-x^2$ i nevner, så vi setter ${\color{#e796f5} x= a\tan(u) }$ som betyr at ${\color{#5ca6f4} dx = \frac{a}{\cos^2(u)}du }$. Vi får da
+> $$
+> \int \frac{1}{({\color{#e796f5} a }^2(1-{\color{#e796f5} \tan }^2(u)))^{3/2}}\cdot {\color{#5ca6f4} \frac{a}{\cos^2(u)}du }
+> $$
+> Vi kan nå bruke at $\tan(u)=\frac{\sin(u)}{\cos(u)}$ og faktorisere ut $\frac{1}{\cos^2(u)}$ i kvadratroten. Det gir
+> $$
+> \begin{aligned} 
+> & \int \frac{1}{({\color{#e796f5} a }^2(1-{\color{#e796f5} \tan }^2(u)))^{3/2}}\cdot {\color{#5ca6f4} \frac{a}{\cos^2(u)}du } \\ = & \int \frac{1}{a^3\left( \frac{1}{\cos^2(u)}(\cos^2(u)+\sin^2(u))^{3/2} \right)} \frac{a}{\cos^2(u)}du \\  = & \int \frac{1}{a^3 \frac{1}{\cos^3(u)}}\cdot \frac{a}{\cos^2(u)}du \\ =& \frac{1}{a^2}\int \cos(u)du = \frac{1}{a^2}\sin(u)+C.
+> \end{aligned} 
+> $$
+> Siden $x=\tan(u)$ kan vi sette opp en rettvinklet trekant med hosliggende side lik $a$ og motstående lik $x$. Da har vi trekanten med vinkelen $u$. Vi får da at hypotenusen er $\sqrt{a^2+x^2}$ og da er $\sin(u)= \frac{x}{\sqrt{a^2+x^2}}$. Vi får dermed
+> $$
+> \int \frac{1}{(a^2+x^2)^{3/2}}dx = \frac{x}{a^2\sqrt{a^2+x^2}}+C
+> $$
 
 > [!abstract] 14
-> 
+> Finn
+> $$
+> \int \frac{1}{(1+2x^2)^{5/2}}dx
+> $$
 > 
 
 ## 7.1

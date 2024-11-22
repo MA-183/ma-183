@@ -6,7 +6,7 @@ import path from 'path';
     const page = await browser.newPage();
 
     // Construct the file URL for the local HTML file
-    const filePath = path.resolve(process.cwd(), 'public/Ukesoppdrag-og-forelesningsnotat/Forelesningsnotat/Forelesning.19.11.html');
+    const filePath = path.resolve(process.cwd(), 'public/Ukesoppdrag-og-forelesningsnotat/Forelesningsnotat/Forelesning.21.11.html');
     const fileUrl = `file://${filePath}`;
 
     // Navigate to the local HTML file
@@ -38,7 +38,7 @@ import path from 'path';
     });
 
     // Define the output path for the PDF
-    const outputPath = path.resolve(process.cwd(), 'C:\\Users\\andrem\\OneDrive - Universitetet i Agder\\Undervisning\\MA-183\\2024\\Forelesning.19.11.pdf');
+    const outputPath = path.resolve(process.cwd(), 'C:\\Users\\andrem\\OneDrive - Universitetet i Agder\\Undervisning\\MA-183\\2024\\Forelesning.21.11.pdf');
 
     // Save as a single-page PDF with custom height based on content
     await page.pdf({

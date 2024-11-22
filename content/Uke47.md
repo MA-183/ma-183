@@ -34,6 +34,7 @@ Det er halvsirkel. Så hel sirkel med radius $1$ har areal $\pi$.
 > [!warning] Merk 
 > Når vi regner faktisk areal må vi holde styr på områdene vi integrerer over. For eksempel kunne vi også brukt $x= \sin(\theta)$ med $-\frac{\pi}{2}\leq \theta\leq \frac{\pi}{2}$ i eksempelet over.
 
+
 > [!tip] Invers sinussubstitusjon
 > Integraler som inneholder $\sqrt{a^2-x^2}$ kan (noen ganger) bli forenklet dersom man gjør substitusjonen 
 > $$
@@ -57,12 +58,12 @@ Det er halvsirkel. Så hel sirkel med radius $1$ har areal $\pi$.
 > [!warning] Merk 
 > Vet egentlig at antiderivert er $\sin^{-1}(x)$.
 
-> [!abstract]- 1 - Velg substitusjonen
+> [!abstract] 1 - Velg substitusjonen
 > 
 > Her kan vi bruke $x = \sin(\theta)$, som gir $dx = \cos(\theta) \, d\theta$. Da kan vi erstatte $\sqrt{1 - x^2}$ med $\cos(\theta)$.
 > 
 
-> [!abstract]-  2 - Utfør substitusjonen
+> [!abstract]  2 - Utfør substitusjonen
 > 
 > Ved å erstatte $x$ med $\sin(\theta)$, får vi:
 > $$
@@ -70,14 +71,14 @@ Det er halvsirkel. Så hel sirkel med radius $1$ har areal $\pi$.
 > $$
 > 
 
-> [!abstract]- 3 - Beregn integralet
+> [!abstract] 3 - Beregn integralet
 > 
 > Det integrerte uttrykket er:
 > $$
 > \theta + C
 > $$
 
-> [!abstract]- 4 - Substituer tilbake
+> [!abstract] 4 - Substituer tilbake
 > 
 > Substituerer vi tilbake $x = \sin(\theta)$, får vi den endelige løsningen:
 > $$
@@ -130,6 +131,16 @@ Det er halvsirkel. Så hel sirkel med radius $1$ har areal $\pi$.
 > \theta = \tan^{-1}\left( \frac{x}{a} \right).
 > $$
 
+
+> [!abstract] Eksempel 
+> Vis at 
+> $$
+> \int \frac{1}{1+x^2}dx = \tan^{-1}(x)+C
+> $$
+> ved å gjøre substitusjonen $x = \tan(\theta)$.
+
+
+
 > [!warning] Merk 
 > Merk at hvis $x = a\tan(\theta)$ så vil 
 > $$
@@ -159,7 +170,32 @@ Det er halvsirkel. Så hel sirkel med radius $1$ har areal $\pi$.
 > $$
 > \int \frac{1}{\frac{1}{\cos(\theta)}}\cdot \frac{1}{\cos^2(\theta)}d\theta = \int \frac{1}{\cos(\theta)}d\theta
 > $$
-> Skriv nå $\cos(\theta)=\sqrt{1-\sin^2(\theta)}$ og la $u = \sin(\theta)$. Da ender vi i delbrøksoppspalting. 
+> Vi gjør et lite triks
+> $$
+> \frac{1}{\cos(\theta)}= \frac{\cos(\theta)}{\cos^2(\theta)} = \frac{\cos(\theta)}{1-\sin^2(\theta)}.
+> $$
+> Nå er teller den deriverte til noe i nevner. Substitusjonen ${\color{#5ca6f4} u = \sin(\theta) }$ er derfor naturlig. Det vil si ${\color{#e796f5} du = \cos(\theta)d\theta }$ som gir
+> $$
+> \begin{aligned} 
+> \int \frac{1}{\cos(\theta)}d\theta &= \int \frac{{\cos( \theta)}}{1-{\color{#5ca6f4} \sin }^2(\theta)}{d\theta} \\ &= \int \frac{1}{1-u^2}du \\ &= \int \frac{1}{(1-u)(1+u)}du.
+> \end{aligned} 
+> $$
+> Delbrøksoppspalting gir nå at $\frac{1}{2}\left( \frac{1}{1-u} + \frac{1}{1+u} \right)$. Det vil si at
+> $$
+> \begin{aligned} 
+> \int \frac{1}{\cos(\theta)} d\theta& =\frac{1}{2} \int \frac{1}{1+u}+ \frac{1}{1-u}du \\ &= \frac{1}{2}(\ln|1+u|-\ln|1-u|)+C \\ &= \frac{1}{2}(\ln(1+\sin(\theta))-\ln(1-\sin(\theta)))+C
+> \end{aligned} 
+> $$
+> Vi vet at $x = \tan(\theta)$. Sett opp en rettvinklet trekant med motstående side lik $x$ og hosliggende $1$. Da er dette trekanten med vinkel $\theta$. Dermed må $\sin(\theta) = \frac{1}{\sqrt{1+x^2}}$. Setter vi inn får vi
+> $$
+> \begin{aligned} 
+>  \int \frac{1}{\sqrt{1+x^2}}dx & = \frac{1}{2}\left( \ln\left| 1+\frac{1}{\sqrt{1+x^2}} \right|-\ln\left|1-\frac{1}{\sqrt{1+x^2}}\right| \right)+C \\ &= \frac{1}{2}\left( \ln|\frac{\sqrt{1+x^2}+1}{1-\sqrt{1+x^2}}| \right)+C
+> \end{aligned} 
+> $$
+> Vi kan forenkle. Ganger vi gjennom med $1+\sqrt{1+x^2}$ får vi
+> $$
+> \frac{1}{2}\left( \ln|\frac{1^2+1+x^2+2\sqrt{1+x^2}}{1-1-x^2}| \right)+C
+> $$
 
 > [!note] Argument 2.
 > Lar vi $x = 3\tan(\theta)$ får vi $dx = \frac{3}{\cos^2(\theta)}d\theta$. 
@@ -180,6 +216,8 @@ Det er halvsirkel. Så hel sirkel med radius $1$ har areal $\pi$.
 
 ### Volum ved hjelp av omdreining
 
+Mange figurer 
+
 > [!tip] Volum når man dreier om $x-$aksen
 > Hvis vi har en funksjon $f(x)$ kan vi dreie den om $x-$aksen for å lage et omdreiningslegeme. Volumet til denne er
 > $$
@@ -187,13 +225,45 @@ Det er halvsirkel. Så hel sirkel med radius $1$ har areal $\pi$.
 > $$ 
 >
 
-
-> [!abstract] Eksempel 
-> Volum av kule.
-
-> [!abstract] Eksempel 
-> Volum av kjegle
+TEGN HER
 
 
+> [!question] Spørsmål 
+> Dersom vi har en kule med radius $r$ (HUSK TEGNING). Hva er $f(x)$, $a$ og $b$ slik at volumet er 
+> $$
+> \pi \int_a^b (f(x))^2 dx?
+> $$
+
+> [!note] Argument 
+> Vi ser at dette bare er en sirkel. Dermed er $f(x) = \sqrt{r-x^2}$ og integralet blir
+> $$
+> \pi \int_{-r}^{r} \sqrt{r^2-x^2}^2dx = \pi \int_{-r}^{r}r^2-x^2 dx = 2\pi \int_0^r r^2-x^2dx.
+> $$
+> Vi kan evaluere dette enkelt som
+> $$
+> \begin{aligned} 
+> 2\pi\left( r^2x-\frac{x^3}{3} \right)\bigg|_{0}^r & = 2\pi\left( r^3-\frac{r^3}{3} \right) \\ &= 2\pi \frac{2r^3}{3} =\frac{4r^3}{3}\pi
+> \end{aligned} 
+> $$
+
+> [!question] Spørsmål 
+> TEGN: Hva er volumet til kjegla når $y= 3x$ høyden er 3.
+
+> [!note] Argument 
+> Vi vet nå at det er
+> $$
+> \pi \int_{0}^{3} (3x)^2dx = \frac{9x^3}{3}\bigg|_0^3 = 3\cdot 3^3 = 81.
+> $$
 
 
+
+> [!question] Spørsmål 
+> Gjør substitusjonen $x= \tan(\theta)$ i 
+> $$
+> \int \frac{1}{\sqrt{1+x^2}}dx
+> $$
+> og $x=3\tan(\theta)$ i
+> $$
+> \int \frac{1}{(9+x^2)^2}
+> $$
+> IKKE regn ut mer enn substitusjonen.
