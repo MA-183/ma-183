@@ -1,7 +1,7 @@
 
 ## Appendix 1
 
-> [!abstract] 1-4
+> [!abstract]- 1-4
 > Avgjør den reelle delen og den imaginære delen av $z$ når
 > 1. $z = -5+2i$
 > 2. $z = 4-i$
@@ -19,7 +19,7 @@
 > 4. Reell del er -6 og imaginær del 0
 > 
 
-> [!abstract] 5
+> [!abstract]- 5
 > Avgjør størrelsen og argumentet til $z$ når $z =-1+i$.
 
 > [!note]- Løsning
@@ -33,7 +33,7 @@
 > $$
 > 
 
-> [!abstract] 6
+> [!abstract]- 6
 > Avgjør størrelsen og argumentet til $z$ når $z =-2$.
 
 > [!note]- Løsning
@@ -47,7 +47,7 @@
 > $$
 > 
 
-> [!abstract] 7
+> [!abstract]- 7
 > Avgjør størrelsen og argumentet til $z$ når $z =3i$.
 
 > [!note]- Løsning
@@ -59,7 +59,7 @@
 > 
 > 
 
-> [!abstract] 8
+> [!abstract]- 8
 > Avgjør størrelsen og argumentet til $z$ når $z =-5i$.
 
 > [!note]- Løsning
@@ -71,7 +71,7 @@
 > 
 > 
 
-> [!abstract] 9
+> [!abstract]- 9
 > Avgjør størrelsen og argumentet til $z$ når $z =1+2i$.
 
 > [!note]- Løsning
@@ -84,7 +84,7 @@
 > $z = \sqrt{5}e^{i\arctan(2)}$.
 > 
 
-> [!abstract] 13
+> [!abstract]- 13
 > Avgjør størrelsen og argumentet til $z$ når $z =\sqrt{3}-i$.
 
 > [!note]- Løsning
@@ -95,7 +95,7 @@
 > Da er $|z| = \sqrt{\sqrt{3}^2+1^2}=\sqrt{4}=2$. Dermed er $z = 2\left( \frac{\sqrt{3}}{2}+\frac{i}{2} \right)$. Vi kjenner igjen dette punktet og ser at det korresponderer til vinkelen $\frac{\pi}{6}$, så $z = 2e^{i\cdot \frac{\pi}{6}}$
 > 
 
-> [!abstract] 15
+> [!abstract]- 15
 > Avgjør størrelsen og argumentet til $z$ når $z =3\cos\left( \frac{3\pi}{5} \right)+3i\sin\left( \frac{4\pi}{5} \right)$.
 
 > [!note]- Løsning
@@ -104,7 +104,7 @@
 > Siden $z = 3\left( \cos\left( \frac{4\pi}{5}\right) +i\sin\left( \frac{4\pi}{5} \right) \right)$, faller både vinkel og lengde rett ut. $|z| = 3$ og $\text{Arg}(z)= \frac{4\pi}{5}$.
 > 
 
-> [!abstract] 16
+> [!abstract]- 16
 > Hvis $\text{arg}(z) = \frac{3\pi}{4}$ og $\text{arg}(w)= \frac{\pi}{2}$. Avgjør $\text{arg}(zw)$.
 
 > [!note]- Løsning
@@ -114,7 +114,7 @@
 >  
 >  
 
-> [!abstract] 18
+> [!abstract]- 18
 > Uttrykk $z$ på kartesisk form når $|z| = 2$ og $\text{arg}(z)= \pi$.
 
 > [!note]- Løsning
@@ -129,7 +129,7 @@
 > Vi har at $z = 2e^{i\pi} = 2\cdot(-1) = -2$.
 > 
 
-> [!abstract] 19
+> [!abstract]- 19
 > Uttrykk $z$ på kartesisk form når $|z| = 5$ og $\text{arg}(z) = \tan^{-1}\left( \frac{3}{4} \right)$.
 
 > [!note]- Løsning
@@ -147,7 +147,7 @@
 > 
 > 
 
-> [!abstract] 20
+> [!abstract]- 20
 > Uttrykk $z$ på kartesisk form når $|z| = 1$ og $\text{arg}(z) = \frac{3\pi}{4}$.
 
 > [!note]- Løsning
@@ -158,7 +158,7 @@
 > ![[Files/løsningsforslagkompleksetall.svg]]
 > 
 
-> [!abstract] 21
+> [!abstract]- 21
 > Uttrykk $z$ på kartesisk form når $|z| = \pi$ og $\text{arg}(z) = \frac{\pi}{6}$.
 
 > [!note]- Løsning
@@ -170,7 +170,7 @@
 > 
 > 
 
-> [!abstract] 28
+> [!abstract]- 28
 > Gi en geometrisk beskrivelse, eller lag en skisse av punktene $z$ i det komplekse planet som tilfredsstiller likningen $|z| = 2$.
 
 > [!note]- Løsning
@@ -179,7 +179,7 @@
 > ![[Files/shapes at 24-08-23 13.26.34.svg]]
 > 
 
-> [!abstract] 29
+> [!abstract]- 29
 > Gi en geometrisk beskrivelse, eller lag en skisse av punktene $z$ i det komplekse planet som tilfredsstiller ulikheten $|z| \leq2$.
 
 > [!note]- Løsning
@@ -188,7 +188,7 @@
 > Alle tall på og innenfor sirkelen i oppgave 28
 > 
 
-> [!abstract] 31
+> [!abstract]- 31
 > Gi en geometrisk beskrivelse, eller lag en skisse av punktene $z$ i det komplekse planet som tilfredsstiller ulikheten $|z| \leq 5$.
 
 > [!note]- Løsning
@@ -199,7 +199,7 @@
 > ![[Files/shapes at 24-08-23 13.32.37.svg]]
 >  
 
-> [!abstract] 32
+> [!abstract]- 32
 > Gi en geometrisk beskrivelse, eller lag en skisse av punktene $z$ i det komplekse planet som tilfredsstiller likningen $\text{arg}(z)= \frac{\pi}{3}$.
 
 > [!note]- Løsning
@@ -210,7 +210,7 @@
 > ![[Files/løsningsforslagstråleavkomplekslikning.svg]]
 > 
 
-> [!abstract] 34
+> [!abstract]- 34
 > Forenkle uttrykket $(2+5i)+ (3-i)$.
 
 > [!note]- Løsning
@@ -221,7 +221,7 @@
 > $$
 > 
 
-> [!abstract] 35
+> [!abstract]- 35
 > Forenkle uttrykket $i-(3-2i)+(7-3i)$.
 
 > [!note]- Løsning
@@ -234,7 +234,7 @@
 > $$
 > 
 
-> [!abstract] 36
+> [!abstract]- 36
 > Forenkle uttrykket $(4+i)(4-i)$.
 
 > [!note]- Løsning
@@ -246,7 +246,7 @@
 > $$
 > 
 
-> [!abstract] 37
+> [!abstract]- 37
 > Forenkle uttrykket $(1+i)(2-3i)$
 
 > [!note]- Løsning
@@ -259,7 +259,7 @@
 > $$
 > 
 
-> [!abstract] 38
+> [!abstract]- 38
 > Forenkle uttrykket $(a+bi)\overline{(2a-bi)}$.
 
 > [!note]- Løsning
@@ -273,7 +273,7 @@
 > $$
 > 
 
-> [!abstract] 40
+> [!abstract]- 40
 > Forenkle uttrykket $\displaystyle \frac{2-i}{2+i}$
 
 > [!note]- Løsning
@@ -286,7 +286,7 @@
 > $$
 > 
 
-> [!abstract] 41
+> [!abstract]- 41
 > Forenkle uttrykket $\displaystyle \frac{1+3i}{2-i}$
 
 > [!note]- Løsning
@@ -299,7 +299,7 @@
 > $$
 > 
 
-> [!abstract] 42
+> [!abstract]- 42
 > Forenkle uttrykket $\displaystyle \frac{1+i}{i(2+3i)}$
 
 > [!note]- Løsning
@@ -312,7 +312,7 @@
 > $$
 > 
 
-> [!abstract] 44
+> [!abstract]- 44
 > Bevis at $\overline{z+w}=\overline z+\overline w$.
 
 > [!note]- Løsning
@@ -331,7 +331,7 @@
 > $$
 > 
 
-> [!abstract] 45
+> [!abstract]- 45
 > Bevis at $\overline{\frac{z}{w}} = \frac{\overline z}{\overline w}$.
 
 > [!note]- Løsning
@@ -342,7 +342,7 @@
 > Videre har vi at $\frac{z }{w }=e^{i(\theta-\phi)}$, så $\overline{\left( \frac{z }{w } \right)} = e^{i(\phi-\theta)} = \frac{e^{-i\theta} }{e^{-i\phi} }=\frac{\overline{z} }{\overline{w} }$.
 > 
 
-> [!abstract] 46
+> [!abstract]- 46
 > Uttrykk $z = 3 + \sqrt{3}i$ og $w = -1+\sqrt{3}i$ på polarform/eksponentialform.
 > Bruk de til til å regne ut
 > 
@@ -382,7 +382,7 @@
 > 
 > 
 
-> [!abstract] 47
+> [!abstract]- 47
 > Uttrykk $z = -1 + i$ og $w = {3}i$ på polarform/eksponentialform.
 > Bruk de til til å regne ut
 > 
@@ -431,7 +431,7 @@
 > 
 > 
 
-> [!abstract] 51
+> [!abstract]- 51
 > Avgjør hva $z$ er når $z^3 = -1$.
 
 > [!note]- Løsning
@@ -450,7 +450,7 @@
 > 3. $z_2 = 1\cdot e^{i \frac{5\pi }{3 }}$.
 > 
 
-> [!abstract] 52
+> [!abstract]- 52
 > Avgjør hva $z$ er når $z^3 = -8i$.
 
 > [!note]- Løsning
@@ -471,7 +471,7 @@
 > 3. $z_2 = 2\cdot e^{i \frac{11\pi}{6}}$
 > 
 
-> [!abstract] 53
+> [!abstract]- 53
 > Avgjør hva $z$ er når $z^3 = -1+i$.
 
 > [!note]- Løsning
@@ -493,7 +493,7 @@
 > 
 > 
 
-> [!abstract] 54
+> [!abstract]- 54
 > Avgjør hva $z$ er når $z^4 = 4$.
 
 > [!note]- Løsning
@@ -515,7 +515,7 @@
 > 
 > 
 
-> [!abstract] 55
+> [!abstract]- 55
 > Avgjør hva $z$ er når $z^4 + 1 - \sqrt{3}i = 0$.
 
 > [!note]- Løsning

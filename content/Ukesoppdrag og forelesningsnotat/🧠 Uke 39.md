@@ -1,6 +1,6 @@
 ## 3.3
 
-> [!abstract] 1
+> [!abstract]- 1
 > Forenkle uttrykket $\frac{e^3}{\sqrt{e^5}}$
 
 > [!note]- Løsning
@@ -13,7 +13,7 @@
 > $$
 > 
 
-> [!abstract] 2
+> [!abstract]- 2
 > Forenkle uttrykket $\ln(e^{1/2}e^{2/3})$.
 
 > [!note]- Løsning
@@ -26,7 +26,7 @@
 > $$
 > 
 
-> [!abstract] 3
+> [!abstract]- 3
 > Forenkle uttrykket $e^{5\ln(x)}$.
 
 > [!note]- Løsning
@@ -35,7 +35,7 @@
 > $$e^{5\ln(x)} = (e^{\ln(x)})^5 =x^5$$
 > 
 
-> [!abstract] 4
+> [!abstract]- 4
 > Forenkle uttrykket $e^{\frac{3\ln(9)}{2}}$.
 
 > [!note]- Løsning
@@ -46,7 +46,7 @@
 > $$
 > 
 
-> [!abstract] 5
+> [!abstract]- 5
 > Forenkle uttrykket $\ln\left( \frac{1}{e^{3x}} \right)$
 
 > [!note]- Løsning
@@ -57,7 +57,7 @@
 > $$
 > 
 
-> [!abstract] 6
+> [!abstract]- 6
 > Forenkle uttrykket $e^{2\ln(\cos(x))}+(\ln(e^{\sin(x)}))^2$.
 
 > [!note]- Løsning
@@ -70,7 +70,7 @@
 > $$
 > 
 
-> [!abstract] 11
+> [!abstract]- 11
 > Løs likningen $2^{x+1} = 3^x$.
 
 > [!note]- Løsning
@@ -85,7 +85,7 @@
 > $$
 > 
 
-> [!abstract] 12
+> [!abstract]- 12
 > Løs likningen $3^x = 9^{1-x}$. 
 
 > [!note]- Løsning
@@ -98,7 +98,7 @@
 
 
 
-> [!abstract] 13
+> [!abstract]- 13
 > Løs likningen $\frac{1}{2^x} = \frac{5}{8^{x+3}}$
 
 > [!note]- Løsning
@@ -111,7 +111,7 @@
 > $$
 > 
 
-> [!abstract] 14
+> [!abstract]- 14
 > Løs likningen $2^{x^2-3} = 4^x$
 
 > [!note]- Løsning
@@ -127,7 +127,7 @@
 > $$
 > Bruker vi abc-formelen får vi løsningene $x = -1$ og $x = 3$.
 
-> [!abstract] 19
+> [!abstract]- 19
 > Deriver funksjonen $y=e^{5x}$.
 
 > [!note]- Løsning
@@ -144,7 +144,7 @@
 > $$
 > 
 
-> [!abstract] 20
+> [!abstract]- 20
 > Deriver funksjonen $y = xe^x -x$.
 
 > [!note]- Løsning
@@ -166,7 +166,7 @@
 > $$ 
 > 
 
-> [!abstract] 21
+> [!abstract]- 21
 > Deriver funksjonen $y = \frac{x}{e^{2x}}$.
 
 > [!note]- Løsning
@@ -178,7 +178,7 @@
 > $$
 > 
 
-> [!abstract] 22
+> [!abstract]- 22
 > Deriver uttrykket $y = x^2 e^{x/2}$
 
 > [!note]- Løsning
@@ -190,7 +190,7 @@
 > $$
 > 
 
-> [!abstract] 31
+> [!abstract]- 31
 > Deriver funksjonen $y =e^x \sin(x)$.
 
 > [!note]- Løsning
@@ -200,7 +200,7 @@
 > $$
 > 
 
-> [!abstract] 32
+> [!abstract]- 32
 > Deriver funksjonen $y = e^{-x}\cos(x)$.
 
 > [!note]- Løsning
@@ -215,14 +215,14 @@
 ## 3.4
 
 
-> [!abstract] 1
+> [!abstract]- 1
 > Avgjør verdien til $\lim_{x\longrightarrow \infty} x^3e^{-x}$.
 
 > [!note]- Løsning
 > Her trenger vi bare skrive om uttrykket som $\frac{x^3}{e^x}$ og se at dette bare et tilfelle av [[Kapittel 3 - Inverse funksjoner/defogteo/💡 Eksponentiell vekst|punkt 2. her]]. Eksponentialfunksjoner vokser slår polynomer!
 > 
 
-> [!abstract] 3
+> [!abstract]- 3
 > Avgjør verdien $\lim_{x\longrightarrow \infty}\frac{2e^x-3}{e^x +5}.$
 
 > [!note]- Løsning
@@ -234,7 +234,7 @@
 > $$
 > 
 
-> [!abstract] 5
+> [!abstract]- 5
 > Avgjør verdien til $\lim_{(x)\longrightarrow 0+} x\ln(x)$.
 > 
 
@@ -242,7 +242,7 @@
 >Dette er ikke annet enn et spesialtilfelle der $a=1$ av punkt 3. i [[Kapittel 3 - Inverse funksjoner/defogteo/💡 Eksponentiell vekst|teoremet om eksponentiell vekst]].
 > 
 
-> [!abstract] 9
+> [!abstract]- 9
 > En bakteriekultur vokser i en hastighet proporsjonalt med størrelsen på bakteriekulturen. Hvis det er $100$ bakterier i kulturen når $t=0$ vil antall bakterie dobles hver time. Hvor mange bakterier er det når $t = \frac{5}{2}$?
 
 
@@ -266,7 +266,7 @@
 > *Alternativt*
 > Med litt innsikt i eksponentiell vekst får vi at $B(t) = 100\cdot2^t$, så $B\left( \frac{5}{2} \right)= 100\cdot 2^{5/2}$.
 
-> [!abstract] 10
+> [!abstract]- 10
 > Sukker løser seg opp i vann med en hastighet som er proporsjonal med mengden som fremdeles ikke er løst opp. 
 > 
 > Hvis det var 50 kg sukker til å begynne med, og etter 5 timer er det kun 20 kg igjen, hvor mye lenger tid vil det ta før 90% av sukkeret er løst opp?
@@ -309,7 +309,7 @@
 > 
 > Det vil ta omtrent 12.56 timer til før 90% av sukkeret er løst opp.
 
-> [!abstract] 11
+> [!abstract]- 11
 > Et radioaktivt stoff brytes ned med en hastighet proporsjonal med mengden som er til stede. 
 > 
 > Hvis 30% av stoffet brytes ned på 15 år, hva er halveringstiden til stoffet?
@@ -358,7 +358,7 @@
 > 
 > Halveringstiden til stoffet er omtrent 29.15 år.
 
-> [!abstract] 12
+> [!abstract]- 12
 > Hvis halveringstiden til radium er 1,690 år, hvor mange prosent av mengden som er til stede nå vil være igjen etter 
 > 
 > 1. 100 år?
@@ -405,7 +405,7 @@
 
 
 
-> [!abstract] 1
+> [!abstract]- 1
 > Regn ut 
 > $$
 > \lim_{x\longrightarrow  0}\frac{3x}{\tan(4x)}.
@@ -420,7 +420,7 @@
 > \end{aligned} 
 > $$
 
-> [!abstract] 3
+> [!abstract]- 3
 >  Regn ut
 >  $$
 > \lim_{x\longrightarrow  0}\frac{\sin(ax)}{\sin(bx)}.
@@ -431,7 +431,7 @@
 > 
 > Vi ser at grensen går mot den ubestemte formen $\left[ \frac{0}{0} \right]$. Da tenker vi l'Hôpitals regel og deriverer teller og nevner hver for seg og får $\frac{a\cos(ax)}{b\cos(bx)}$.
 
-> [!abstract] 5
+> [!abstract]- 5
 > Regn ut
 >  $$
 > \lim_{x\longrightarrow  0}\frac{\sin^{-1}(x)}{\tan^{-1}(x)}. 
@@ -456,7 +456,7 @@
 
 
 
-> [!abstract] 9
+> [!abstract]- 9
 > Regn ut
 > $$
 > \lim_{t\longrightarrow  \pi} \frac{\sin^2(t)}{t-\pi}.
@@ -480,7 +480,7 @@
 > $$
 
 
-> [!abstract] 13
+> [!abstract]- 13
 > Regn ut
 > $$
 > \lim_{x\longrightarrow  \infty} x \sin\left( \frac{1}{x} \right).
@@ -497,7 +497,7 @@
 > Vi ser at omformingen går mot  $\left[ \frac{0}{0} \right]$, så vi kan undersøke om vi kan bruke l'H. Vi vil da får samme konklusjon. 
 
 
-> [!abstract] 19
+> [!abstract]- 19
 > $$
 > \lim_{t\longrightarrow  \frac{\pi}{2}} \frac{\sin(t)}{t}
 > $$
@@ -506,7 +506,7 @@
 >
 > Siden $\frac{\sin(t)}{t}$ er en kontinuerlig funksjon rundt $t=\frac{\pi}{2}$ kan vi bare sette inn verdien og få $\lim_{t\longrightarrow \frac{\pi}{2}} \frac{\sin(t)}{t} = \frac{1}{\frac{\pi}{2}}=\frac{2}{\pi}$. 
 
-> [!abstract] 24
+> [!abstract]- 24
 > $$
 > \lim_{x\longrightarrow 0+}x^{\sqrt{x}}.
 > $$

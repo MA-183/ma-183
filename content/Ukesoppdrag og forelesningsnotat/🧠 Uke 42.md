@@ -1,6 +1,6 @@
 ## 5.1
 
-> [!abstract] 1
+> [!abstract]- 1
 > Regn ut summen 
 > $$
 > \sum_{i=1}^{4}i^3
@@ -12,7 +12,7 @@
 > \sum_{i=1}^{4}i^3 = 1^3+2^3+3^3+4^3 = 1+8+27+64 = 100
 > $$
 
-> [!abstract] 3
+> [!abstract]- 3
 > Utvid summen
 > $$
 > \sum_{i=1}^{n}3^i.
@@ -24,7 +24,7 @@
 > \sum_{i=1}^{n}3^i= 3^1+3^2 + 3^3 + \ldots + 3^{n-1}+ 3^n.
 > $$
 
-> [!abstract] 4
+> [!abstract]- 4
 > Utvid summen
 > $$
 > \sum_{i=0}^{n-1} \frac{(-1)^i}{i+1}.
@@ -40,7 +40,7 @@
 
 ## 5.3
 
-> [!abstract] 2
+> [!abstract]- 2
 > La $f(x) = x^2$ være definert på $[0,4]$. Ved å lage en partisjon $P_n$ av $[0,4]$ i $n$ like store deler avgjør hva nedre og øvre Riemannsumm $L(f,P_n)$ og $U(f,P_n)$
 
 
@@ -64,7 +64,7 @@
 
 ## 5.4
 
-> [!abstract] 1
+> [!abstract]- 1
 > Forenkle 
 > $$
 > \int_{a}^{b} f(x)dx+\int_{b}^{c}f(x)dx+\int_{c}^{a}f(x)dx.
@@ -79,7 +79,7 @@
 > $$
 
 
-> [!abstract] 2
+> [!abstract]- 2
 > Forenkle uttrykket
 > $$
 > \int_{0}^{2}3f(x)dx+\int_{1}^{3}3f(x)dx-\int_{0}^{3}2f(x)dx-\int_{1}^{2}3f(x)dx.
@@ -99,7 +99,7 @@
 > $$
 
 
-> [!abstract] 27
+> [!abstract]- 27
 > Finn gjennomsnittsverdien til $f(x)=x+2$ på intervallet $[0,4]$.
 
 
@@ -113,7 +113,7 @@
 > \frac{1}{4-0} \int_0^4 (x + 2) dx = \frac{1}{4} \left( \frac{x^2}{2} + 2x \right) \bigg|_0^4 = \frac{1}{4} \left( \frac{16}{2} + 8 \right) = \frac{12}{4} = 3.
 > $$
 
-> [!abstract] 28
+> [!abstract]- 28
 > Finn gjennomsnittsverdien til $h(x)=x+2$ på intervallet $[a,b]$.
 
 > [!note]- Løsning
@@ -126,7 +126,7 @@
 > \frac{1}{b-a} \left( \frac{b^2}{2} + 2b - \frac{a^2}{2} - 2a \right).
 > $$
 
-> [!abstract] 29
+> [!abstract]- 29
 > Finn gjennomsnittsverdien til $g(x)=1+\sin(x)$ på intervallet $[-\pi,\pi]$.
 
 > [!note]- Løsning
@@ -143,7 +143,7 @@
 
 ## 5.5
 
-> [!abstract] 1
+> [!abstract]- 1
 > Evaluer det bestemte integralet:
 > $$
 > \int_0^2 x^3 dx.
@@ -161,7 +161,7 @@
 
 
 
-> [!abstract] 2
+> [!abstract]- 2
 > Evaluer det bestemte integralet:
 > $$
 > \int_0^4 \sqrt{x} dx.
@@ -178,7 +178,7 @@
 > $$
 
 
-> [!abstract] 3
+> [!abstract]- 3
 > Evaluer det bestemte integralet:
 > $$
 > \int_{1/2}^{1} \frac{1}{x^2} dx.
@@ -195,7 +195,7 @@
 > $$
 
 
-> [!abstract] 4
+> [!abstract]- 4
 > Evaluer det bestemte integralet:
 > $$
 > \int_{-2}^{-1} \left( \frac{1}{x^2} - \frac{1}{x^3} \right) dx.
@@ -212,7 +212,7 @@
 > $$
 
 
-> [!abstract] 5
+> [!abstract]- 5
 > Evaluer det bestemte integralet:
 > $$
 > \int_{-1}^{2} \left( 3x^2 - 4x + 2 \right) dx.
@@ -228,7 +228,7 @@
 > \left[ x^3 - 2x^2 + 2x \right]_{-1}^{2} = \left( 8 - 8 + 4 \right) - \left( -1 - 2 - 2 \right) = 4 + 5 = 9.
 > $$
 
-> [!abstract] 6
+> [!abstract]- 6
 > Evaluer det bestemte integralet:
 > $$
 > \int_{1}^{2} \left( \frac{2}{x^3} - \frac{x^3}{2} \right) dx.
@@ -245,7 +245,7 @@
 > $$
 
 
-> [!abstract] 7
+> [!abstract]- 7
 > Evaluer det bestemte integralet:
 > $$
 > \int_{-2}^{2} \left( x^2 + 3 \right)^2 dx.
@@ -266,7 +266,7 @@
 > $$
 
 
-> [!abstract] 8
+> [!abstract]- 8
 > Evaluer det bestemte integralet:
 > $$
 > \int_{4}^{9} \left( \sqrt{x} - \frac{1}{\sqrt{x}} \right) dx.
@@ -283,7 +283,7 @@
 > $$
 
 
-> [!abstract] 9
+> [!abstract]- 9
 > Evaluer det bestemte integralet:
 > $$
 > \int_{-\pi/4}^{-\pi/6} \cos(x) dx.
@@ -301,7 +301,7 @@
 
 
 
-> [!abstract] 10
+> [!abstract]- 10
 > Evaluer det bestemte integralet:
 > $$
 > \int_0^{\pi/3} \sec^2(\theta) d\theta.
@@ -319,7 +319,7 @@
 
 
 
-> [!abstract] 11
+> [!abstract]- 11
 > Evaluer det bestemte integralet:
 > $$
 > \int_{\pi/4}^{\pi/3} \sin(\theta) d\theta.
@@ -339,7 +339,7 @@
 
 
 
-> [!abstract] 12
+> [!abstract]- 12
 > Evaluer det bestemte integralet:
 > $$
 > \int_0^{2\pi} (1 + \sin(u)) du.
@@ -357,7 +357,7 @@
 
 
 
-> [!abstract] 13
+> [!abstract]- 13
 > Evaluer det bestemte integralet:
 > $$
 > \int_{-\pi}^{\pi} e^x dx.
@@ -375,7 +375,7 @@
 
 
 
-> [!abstract] 14
+> [!abstract]- 14
 > Evaluer det bestemte integralet:
 > $$
 > \int_{-2}^{2} \left( e^x - e^{-x} \right) dx.
@@ -394,7 +394,7 @@
 
 
 
-> [!abstract] 15
+> [!abstract]- 15
 > Evaluer det bestemte integralet:
 > $$
 > \int_0^e a^x dx \quad (a > 0).
@@ -411,7 +411,7 @@
 > $$
 
 
-> [!abstract] 16
+> [!abstract]- 16
 > Evaluer det bestemte integralet:
 > $$
 > \int_{-1}^{1} 2^x dx.
@@ -429,7 +429,7 @@
 
 
 
-> [!abstract] 17
+> [!abstract]- 17
 > Evaluer det bestemte integralet:
 > $$
 > \int_{-1}^{1} \frac{dx}{1 + x^2}.
@@ -447,7 +447,7 @@
 
 
 
-> [!abstract] 18
+> [!abstract]- 18
 > Evaluer det bestemte integralet:
 > $$
 > \int_0^{1/2} \frac{dx}{\sqrt{1 - x^2}}.

@@ -1,6 +1,6 @@
 ## 6.2
 
-> [!abstract] 1
+> [!abstract]- 1
 > Finn
 > $$
 > \int \frac{2}{2x-3}dx.
@@ -13,7 +13,7 @@
 > Alternativt må vi innse at vi bør bruke substitusjonen $2x-3$ for å komme i mål.
 
 
-> [!abstract] 3
+> [!abstract]- 3
 > Finn 
 > $$
 > \int \frac{x}{\pi x+2}dx.
@@ -38,7 +38,7 @@
 > $$
 
 
-> [!abstract] 4
+> [!abstract]- 4
 > Finn
 > $$
 > \int \frac{x^2}{x-4}dx.
@@ -61,7 +61,7 @@
 > $$
 
 
-> [!abstract] 5
+> [!abstract]- 5
 > Finn
 > $$
 > \int \frac{1}{x^2-9}dx.
@@ -91,7 +91,7 @@
 > \end{aligned} 
 > $$
  
-> [!abstract] 6
+> [!abstract]- 6
 > Finn 
 > $$
 > \int \frac{1}{5-x^2}dx.
@@ -136,7 +136,7 @@
 > $$
 
 
-> [!abstract] 9
+> [!abstract]- 9
 > Finn 
 > $$
 > \int \frac{x^2}{x^2+x-2}dx.
@@ -175,7 +175,7 @@
 > $$
 
 
-> [!abstract] 11
+> [!abstract]- 11
 > Finn
 > $$
 > \int \frac{x-2}{x^2+x}dx.
@@ -213,7 +213,7 @@
 
 
 
-> [!abstract] 12
+> [!abstract]- 12
 > Finn
 > $$
 > \int \frac{1}{x^3+9x}dx.

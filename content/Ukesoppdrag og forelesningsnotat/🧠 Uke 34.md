@@ -1,7 +1,7 @@
 ## P.4
 
 
-> [!abstract] 5
+> [!abstract]- 5
 > Avgjør definisjonsmengde og verdimengde for $h(t) = \frac{t}{\sqrt{2-t}}.$
 
 > [!note]- Løsning
@@ -18,7 +18,7 @@
 > Vi ser at uansett hva $a$ er, så finnes $t$ som løser likningen. Dermed må rekkevidden være $\mathbb{R}$.
 > 
 
-> [!abstract] 11
+> [!abstract]- 11
 > Avgjør om funksjonen $f(x) = x^2+1$ har noen symmetrier. Er den jevn eller odde?
 
 > [!note]- Løsning
@@ -28,7 +28,7 @@
 > Dette er funksjonen $x^2$ løfta 1 oppover på andreaksen. Det betyr at den har en symmetri rundt linjen $x=0$, og funksjonen er derfor jevn.
 > 
 
-> [!abstract] 31
+> [!abstract]- 31
 > Skisser grafen $f(x) = -|x|$.
 
 > [!note]- Løsning
@@ -39,7 +39,7 @@
 
 
 
-> [!abstract] 33
+> [!abstract]- 33
 > Skisser grafen $f(x) = |x-2|$
 
 > [!note]- Løsning
@@ -52,7 +52,7 @@
 ## P.6
 
 
-> [!abstract] 7
+> [!abstract]- 7
 > Finn de reelle røttene til polynomet $x^3+1$. Skriv polynomet som et produkt av faktorene sine.
 
 > [!note]- Løsning
@@ -66,7 +66,7 @@
 > som betyr at vi ikke har flere røtter. 
 > 
 
-> [!abstract] 8
+> [!abstract]- 8
 > Finn de reelle røttene til polynomet $x^4-1$. Skriv polynomet som et produkt av faktorene sine.
 
 > [!note]- Løsning
@@ -76,7 +76,7 @@
 > Vi bruker konjugatsetningen (to ganger) og får $x^4-1 = (x^2+1)(x^2-1) =(x^2+1)(x-1)(x+1)$.
 > 
 
-> [!abstract] 12
+> [!abstract]- 12
 > Finn de reelle røttene til polynomet $x^9-4x^7-x^6+4x^4$. Skriv polynomet som et produkt av faktorene sine.
 
 > [!note]- Løsning
@@ -89,7 +89,7 @@
 > $$
 > 
 
-> [!abstract] 17
+> [!abstract]- 17
 > Skriv $\frac{x^3-1}{x^2-2}$ som en sum av et polynom og en rasjonal funksjon der graden til telleren er lavere enn graden til nevneren i den rasjonale funksjonen.
 
 
@@ -97,7 +97,7 @@
 > ![[Files/polydi.svg]]
 
 
-> [!abstract] 18
+> [!abstract]- 18
 > Skriv $\frac{x^2}{x^2+5x+3}$ som en sum av et polynom og en rasjonal funksjon der graden til telleren er lavere enn graden til nevneren i den rasjonale funksjonen.
 
 
@@ -105,7 +105,7 @@
 > 
 ![[Files/uke34polydiv.svg]]
 
-> [!abstract] 19
+> [!abstract]- 19
 > Skriv $\frac{x^3}{x^2+2x+3}$ som en sum av et polynom og en rasjonal funksjon der graden til telleren er lavere enn graden til nevneren i den rasjonale funksjonen.
 
 
@@ -114,14 +114,14 @@
 
 
 
-> [!abstract] 20
+> [!abstract]- 20
 > Skriv $\frac{x^4+x^2}{x^3+x^2+1}$ som en sum av et polynom og en rasjonal funksjon der graden til telleren er lavere enn graden til nevneren i den rasjonale funksjonen.
 
 > [!note]- Løsning
 ![[Files/polydivisjo.svg]]
 
 
-> [!abstract] abc-formelen
+> [!abstract]- abc-formelen
 > Utled abc-formelen.
 
 > [!note]- Løsning
@@ -132,7 +132,7 @@
 ## P.7
 
 
-> [!abstract] 7
+> [!abstract]- 7
 > Uttrykk $\cos(\pi+x)$ ved hjelp av $\sin(x)$ og $\cos(x)$.
 
 > [!note]- Løsning
@@ -142,7 +142,7 @@
 > Vet at $\cos(\pi-x) = \cos (x)$, så $\cos(\pi-(x))=\cos(-x)=\cos (x)$.
 > 
 
-> [!abstract] 8
+> [!abstract]- 8
 > Uttrykk $\sin(2\pi-x)$ ved hjelp av $\sin(x)$ og $\cos(x)$.
 
 > [!note]- Løsning
@@ -152,7 +152,7 @@
 > Rotasjon med $2\pi$ gir $\sin(2\pi-x)=\sin(-x)=-\sin (x)$.
 > 
 
-> [!abstract] 12
+> [!abstract]- 12
 > Uttrykk $\frac{\tan(x)-\frac{1}{\tan(x)}}{\tan(x)+\frac{1}{\tan(x)}}$ ved hjelp av $\sin(x)$ og $\cos(x)$.
 
 > [!note]- Løsning
@@ -167,7 +167,7 @@
 > $$
 > 
 
-> [!abstract]  Utvidelse av $\cos(x)$ og $\tan(x)$.
+> [!abstract]-  Utvidelse av $\cos(x)$ og $\tan(x)$.
 > Forklar den naturlige utvidelsen av $\cos(x)$ sin definisjonsmengde til $\mathbb{R}$  og hvorfor $\tan(x)$ sin naturlige utvidelse e 
 
 > [!note]- Løsning
@@ -176,7 +176,7 @@
 > Tegn selv. Utvidelsen kommer ved å bruke enhetssirkelen. Da ser vi at funksjonene er periodiske med periode $2\pi$.
 > 
 
-> [!abstract] Definisjon av $\tan(x)$.
+> [!abstract]- Definisjon av $\tan(x)$.
 > Gi et argument for hvorfor den geometriske definisjonen av $\tan(x)$ er forenelig med definisjonen $\tan(x) = \frac{\sin(x)}{\cos(x)}$.
 
 > [!note]- Løsning
@@ -185,7 +185,7 @@
 > Tegn opp med trekant med hypotenus lik $1$. Se at de andre sidene er $\cos(\theta)$ og $\sin(\theta)$. Nå er det opplagt fra den geometriske definisjonen av $\tan(\theta)$.
 > 
 
-> [!abstract] $\tan(x)$ som en tangent.
+> [!abstract]- $\tan(x)$ som en tangent.
 > Tegn en vinkel $x$ (i grunnstilling) inn i enhetssirkelen, og tegn en linje som tangerer sirkelen i punktet $(1,0)$. Hvor høyt opp på denne tangenten skjærer vinkelen (hvis vi utvider vinkelbeinet)?
 
 > [!note]- Løsning

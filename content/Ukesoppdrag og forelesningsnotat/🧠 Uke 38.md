@@ -1,6 +1,6 @@
 ## 3.1
 
-> [!abstract] 2
+> [!abstract]- 2
 > La $f = 2x-1$. Vis at $f$ er en-til-en. Avgjør $f^{-1}$ og spesifiser definisjonsmengde og verdimengde. 
 
 > [!note]- Løsning 
@@ -27,7 +27,7 @@
 > Det betyr at $f^{-1}(y) = \frac{y-1}{2}$.
 
 
-> [!abstract] 4
+> [!abstract]- 4
 > La $f(x) = -\sqrt{x-1}$. Vis at $f$ er en-til-en. Avgjør $f^{-1}$ og spesifiser definisjonsmengde og verdimengde. 
 
 > [!note]- Løsning 
@@ -51,7 +51,7 @@
 > 
 > Dermed er $f^{-1}(x) = x^2+1$
 
-> [!abstract] 6
+> [!abstract]- 6
 > La $f(x) = 1 + x^{1/3}$. Vis at $f$ er en-til-en. Avgjør $f^{-1}$ og spesifiser definisjonsmengde og verdimengde. 
 
 > [!note]- Løsning 
@@ -81,7 +81,7 @@
 
 
 
-> [!abstract] 8
+> [!abstract]- 8
 > La $f(x)= (1-2x)^3$. Vis at $f$ er en-til-en. Avgjør $f^{-1}$ og spesifiser definisjonsmengde og verdimengde. 
 
 > [!note]- Løsning 
@@ -100,7 +100,7 @@
 > Derfor er $f^{-1}(y) = \frac{1 - \sqrt[3]{y}}{2}$. Siden både definisjonsmengden og verdimengden for $f(x)$ er hele $\mathbb{R}$, gjelder det samme for $f^{-1}$.
 
 
-> [!abstract] 9
+> [!abstract]- 9
 > La $f(x) = \frac{1}{x+1}$. Vis at $f$ er en-til-en. Avgjør $f^{-1}$ og spesifiser definisjonsmengde og verdimengde. 
 
 > [!note]- Løsning 
@@ -116,7 +116,7 @@
 >  Derfor er $f^{-1}(y) = \frac{1 - y}{y}$. Siden $x \neq -1$ for $f(x)$, og $y \neq 0$ for $f^{-1}(y)$, har vi $D(f) = \mathbb{R} \setminus \{-1\}$ og $V(f) = \mathbb{R} \setminus \{0\}$.
 
 
-> [!abstract] 10
+> [!abstract]- 10
 > La $f(x) = \frac{x}{1+x}$. Vis at $f$ er en-til-en. Avgjør $f^{-1}$ og spesifiser definisjonsmengde og verdimengde. 
 
 > [!note]- Løsning 
@@ -140,7 +140,7 @@
 > Nå har vi at $V(f)= D(f^{-1}) = (-\infty, 1)\cup(1,\infty)$.
 
 
-> [!abstract] 11
+> [!abstract]- 11
 > La $f(x) = \frac{1-2x}{1+x}$. Vis at $f$ er en-til-en. Avgjør $f^{-1}$ og spesifiser definisjonsmengde og verdimengde. 
 
 > [!note]- Løsning 
@@ -155,7 +155,7 @@
 > $$ 
 > Derfor er $f^{-1}(y) = \frac{1 - y}{y + 2}$.
 
-> [!abstract] 13
+> [!abstract]- 13
 > La $g(x) = f(x) -2$. Der $f(x)$ er en en-til-en funksjon med invers $f^{-1}$. Avgjør inversfunksjonen $g^{-1}$ til $g$ uttrykt ved hjelp av $f^{-1}$.
 
 > [!note]- Løsning 
@@ -173,7 +173,7 @@
 > $$
 > Derfor er $g^{-1}(y) = f^{-1}(y + 2)$.
 
-> [!abstract] 28
+> [!abstract]- 28
 > Finn $(f^{-1})'(x)$ hvis $f(x) = 1+2x^3$.
 
 > [!note]- Løsning 
@@ -202,7 +202,7 @@
 > $$
 > Løser vi for $g = f^{-1}$ slik over, får vi samme konklusjon.
 
-> [!abstract] 29
+> [!abstract]- 29
 > Vis at $f(x) = \frac{4x^3}{x^2+1}$ har en invers og finn $(f^{-1})'(2)$.
 
 > [!note]- Løsning 
@@ -231,7 +231,7 @@
 > $$
 
 
-> [!abstract] 30
+> [!abstract]- 30
 > Finn $(f^{-1})'(-2)$ hvis $f(x) = x\sqrt{3+x^2}$.
 
 > [!note]- Løsning 
@@ -261,7 +261,7 @@
 
 ## 3.2
 
-> [!abstract] 1
+> [!abstract]- 1
 > Forenkle uttrykket $\frac{3^3}{\sqrt{3}^5}$.
 
 > [!note]- Løsning 
@@ -273,7 +273,7 @@
 > \end{aligned} 
 > $$
 
-> [!abstract] 2
+> [!abstract]- 2
 > Forenkle uttrykket $2^{\frac{1}{2}}\cdot 8^{1/2}$.
 
 > [!note]- Løsning 
@@ -284,7 +284,7 @@
 > $$
 
 
-> [!abstract] 3
+> [!abstract]- 3
 > Forenkle uttrykket $(x^{-3})^{-2}$.
 
 > [!note]- Løsning 
@@ -296,7 +296,7 @@
 
 
 
-> [!abstract] 4
+> [!abstract]- 4
 > Forenkle uttrykket $\left( \frac{1}{2} \right)^x\cdot 4^{\frac{x}{2}}$.
 
 > [!note]- Løsning 
@@ -306,7 +306,7 @@
 > \end{aligned} 
 > $$
 
-> [!abstract] 5
+> [!abstract]- 5
 > Forenkle uttrykket $\log_5(125)$.
 
 > [!note]- Løsning 
@@ -317,7 +317,7 @@
 > \end{aligned} 
 > $$
 
-> [!abstract] 6
+> [!abstract]- 6
 > Forenkle uttrykket $\log_4\left( \frac{1}{8} \right)$.
 
 > [!note]- Løsning 
@@ -328,7 +328,7 @@
 > \end{aligned} 
 > $$
 
-> [!abstract] 7
+> [!abstract]- 7
 > Forenkle uttrykket $\log_{\frac{1}{3}}(3^{2x})$.
 
 > [!note]- Løsning 
@@ -339,7 +339,7 @@
 > \end{aligned} 
 > $$
 
-> [!abstract] 8
+> [!abstract]- 8
 > Forenkle uttrykket $2^{\log_4(8)}$.
 
 > [!note]- Løsning 
@@ -349,7 +349,7 @@
 > $$
 ## 3.3
 
-> [!abstract] 7
+> [!abstract]- 7
 > Forenkle uttrykket $3\ln(4)-4\ln(3)$.
 
 > [!note]- Løsning 
@@ -361,7 +361,7 @@
 > $$ 
 > der $1^*$ er regel [[Kapittel 3 - Inverse funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|punkt 3. av logaritmereglene]] brukt baklengs og $2^*$ er [[Kapittel 3 - Inverse funksjoner/defogteo/💡 Logaritmeregler for den naturlige logaritme|punkt 2. av logaritmereglene]] brukt baklengs.
 
-> [!abstract] 8
+> [!abstract]- 8
 > Forenkle uttrykket $4\ln(\sqrt{x})+6\ln\left( \frac{x}{\frac{1}{3}} \right)$.
 
 > [!note]- Løsning 
@@ -372,7 +372,7 @@
 > \end{aligned} 
 > $$
 
-> [!abstract] 9
+> [!abstract]- 9
 > Forenkle uttrykket $2\ln(x)+5\ln(x-2)$.
 
 
@@ -384,7 +384,7 @@
 > \end{aligned} 
 > $$
 
-> [!abstract] 10
+> [!abstract]- 10
 > Forenkle uttrykket $\ln(x^2+6x+9)$.
 
 > [!note]- Løsning 
@@ -395,7 +395,7 @@
 > \end{aligned} 
 > $$
 
-> [!abstract] 15
+> [!abstract]- 15
 > Finn definisjonsmengden til $\ln\left( \frac{x}{2-x} \right)$.
 
 
@@ -409,7 +409,7 @@
 > Siden $\ln$ kun er definert for positive verdier får vi fra første ledd, $\ln(x)$ at $x> 0$. Fra det andre leddes må $2-x >0$.som betyr $2>x$. Til sammen gir det $0<x<2$, som er definisjonsmengden. 
 
 
-> [!abstract] 23
+> [!abstract]- 23
 > Deriver $y=\ln(3x-2)$.
 
 > [!note]- Løsning 
@@ -418,7 +418,7 @@
 > \frac{d}{dx} \ln(3x-2) = 3\cdot \frac{1}{3x-2}.
 > $$
 
-> [!abstract] 24
+> [!abstract]- 24
 > Deriver $y = \ln|3x-2|$.
 
 > [!note]- Løsning 
@@ -442,7 +442,7 @@
 
 
 
-> [!abstract] 33
+> [!abstract]- 33
 > Deriver $y=\ln(\ln(x))$.
 
 > [!note]- Løsning 
@@ -453,7 +453,7 @@
 > \end{aligned} 
 > $$
 
-> [!abstract] 34
+> [!abstract]- 34
 > Deriver $y = x\ln(x)-x$.
 
 > [!note]- Løsning 
@@ -464,7 +464,7 @@
 > \end{aligned} 
 > $$
 
-> [!abstract] 35
+> [!abstract]- 35
 > Deriver $y = x^2\ln(x)-\frac{x^2}{2}$.
 
 > [!note]- Løsning 
@@ -475,7 +475,7 @@
 > \end{aligned} 
 > $$
 
-> [!abstract] 36
+> [!abstract]- 36
 > Deriver $y = \ln|\sin(x)|$.
 
 > [!note]- Løsning 

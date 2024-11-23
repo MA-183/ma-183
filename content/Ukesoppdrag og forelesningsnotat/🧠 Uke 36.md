@@ -5,7 +5,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 ![[Files/shapes at 24-09-09 10.24.55.svg]]
 
 
-> [!abstract] 3
+> [!abstract]- 3
 > Ved å se på grafen over, avgjør $\lim_{x\longrightarrow 1-}g(x)$.
 > 
 
@@ -15,7 +15,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > ![[Files/shapes at 24-08-26 08.51.32.svg]]
 > 
 
-> [!abstract] 4
+> [!abstract]- 4
 >  Ved å se på grafen over, avgjør $\lim_{x\longrightarrow 1+}g(x)$.
 > 
 
@@ -24,7 +24,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > ![[Files/shapes at 24-08-26 08.52.28.svg]]
 > 
 
-> [!abstract] 5
+> [!abstract]- 5
 >  Ved å se på grafen over, avgjør $\lim_{x\longrightarrow 3+}g(x)$.
 > 
 
@@ -34,7 +34,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > ![[Files/shapes at 24-08-26 08.52.36.svg]]
 > 
 
-> [!abstract] 6
+> [!abstract]- 6
 >  Ved å se på grafen over, avgjør $\lim_{x\longrightarrow 3-}g(x)$.
 > 
 
@@ -44,7 +44,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > ![[Files/shapes at 24-08-26 08.53.22.svg]]
 > 
 
-> [!abstract] 10
+> [!abstract]- 10
 > Se på $\lim_{t\longrightarrow -4}\frac{t^2}{4-t}$ og avgjør grensen eller forklar hvorfor den ikke eksisterer.
 > 
 
@@ -56,7 +56,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > $$
 > 
 
-> [!abstract] 11
+> [!abstract]- 11
 > Se på $\lim_{x\longrightarrow  1}\frac{x^2-1}{x+1}$ og avgjør grensen eller forklar hvorfor den ikke eksisterer.
 > 
 
@@ -68,7 +68,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > $$
 > 
 
-> [!abstract] 12
+> [!abstract]- 12
 > Se på $\lim_{x\longrightarrow  -1}\frac{x^2-1}{x+1}$ og avgjør grensen eller forklar hvorfor den ikke eksisterer.
 > 
 
@@ -82,7 +82,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 >   $$
 > 
 
-> [!abstract] 13
+> [!abstract]- 13
 > Se på $\lim_{x\longrightarrow   3} \frac{x^2-6x+9}{x^2-9}$ og avgjør grensen eller forklar hvorfor den ikke eksisterer.
 > 
 
@@ -105,7 +105,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 >   
 > 
 
-> [!abstract] 14
+> [!abstract]- 14
 > Se på $\lim_{x\longrightarrow  -2}\frac{x^2+2x}{x^2-4}$ og avgjør grensen eller forklar hvorfor den ikke eksisterer.
 > 
 
@@ -123,7 +123,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > 
 > 
 
-> [!abstract] 17
+> [!abstract]- 17
 > Se på $\lim_{x\longrightarrow  9}\frac{\sqrt{x}-3}{x-9}$ og avgjør grensen eller forklar hvorfor den ikke eksisterer.
 > 
 
@@ -137,7 +137,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > $$
 > 
 
-> [!abstract] 25
+> [!abstract]- 25
 > Se på $\lim_{t\longrightarrow  0}\frac{t}{\sqrt{4+t}-\sqrt{4-t}}$ og avgjør grensen eller forklar hvorfor den ikke eksisterer.
 > 
 
@@ -161,7 +161,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 ## 1.3
 
 
-> [!abstract] 3
+> [!abstract]- 3
 > Avgjør grensen $\lim_{x\longrightarrow  \infty} \frac{3x^3-5x^2+7}{8+2x-5x^3}$.
 > 
 
@@ -175,7 +175,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > $$
 > 
 
-> [!abstract] 11
+> [!abstract]- 11
 > Avgjør grensen $\lim_{x\longrightarrow  3}\frac{1}{3-x}$. Dersom den ikke eksisterer, er den $-\infty$, $\infty$ eller ingen av de?
 > 
 
@@ -188,7 +188,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > Nå ser vi at venstre grense går mot $-\infty$ og høyre grense går mot $\infty$, så grensen eksisterer ikke.
 > 
 
-> [!abstract] 19
+> [!abstract]- 19
 > Avgjør grensen $\lim_{x\longrightarrow  2+}\frac{x}{(2-x)^3}$. Dersom den ikke eksisterer, er den $-\infty$, $\infty$ eller ingen av de?
 > 
 
@@ -207,7 +207,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > 
 > 
 
-> [!abstract] 20
+> [!abstract]- 20
 > Avgjør grensen $\lim_{x\longrightarrow  1-}\frac{x}{\sqrt{1-x^2}}$. Dersom den ikke eksisterer, er den $-\infty$, $\infty$ eller ingen av de?
 > 
 
@@ -224,7 +224,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > $$
 > 
 
-> [!abstract] 28
+> [!abstract]- 28
 > Avgjør grensen $\lim_{x\longrightarrow  \infty}\frac{x^2}{x+1}-\frac{x^2}{x-1}$. Dersom den ikke eksisterer, er den $-\infty$, $\infty$ eller ingen av de?
 > 
 
@@ -246,7 +246,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 ## 1.4
 
 
-> [!abstract] 4
+> [!abstract]- 4
 > ![[Files/uke36 løsning.svg]]
 > Avgjør i hvilke av punktene i grafen under der $f$ er diskontinuerlig. Der $f$ er diskontinuerlig, avgjør om den er kontinuerlig fra venstre side? Høyre side?.
 > 
@@ -256,7 +256,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 >  Vi ser at $f$ hopper når $x$ er $1$, $2$, $3$, $4$ og $5$. Vi ser at $f$ er kontinuerlig fra høyre side i $x=2$ og i $x=5$. I $x=4$ er $f$ kontinuerlig fra venstre.
 > 
 
-> [!abstract] 5
+> [!abstract]- 5
 > ![[Files/uke36 løsning.svg]]
 > Avgjør og begrunn om $f$ kan redefineres i $x = 1$ slik at den blir kontinuerlig der.
 > 
@@ -267,7 +267,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > 
 > 
 
-> [!abstract] 17
+> [!abstract]- 17
 > Finn en verdi for $k$ slik at funksjonen $f$ blir kontinuerlig der
 > $f(x) = \begin{cases} x^2, & \text{ hvis } x \leq 2 \\ k-x^2, & \text{ hvis } x>2.\end{cases}$
 > 
@@ -286,7 +286,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > 
 > 
 
-> [!abstract] 29
+> [!abstract]- 29
 > Vis at $f(x)=x^3+x-1$ har et nullpunkt mellom $x=0$ og $x=1$.
 > 
 
@@ -296,7 +296,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > 
 > 
 
-> [!abstract] 31
+> [!abstract]- 31
 > Vis at $F(x) = (x-a)^2(x-b)^2+x$ tar verdien $\frac{a+b}{2}$ for et punkt $x$.
 > 
 
@@ -307,7 +307,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 ## 1.5
 
 
-> [!abstract] 13
+> [!abstract]- 13
 > Vis at $\lim_{x\longrightarrow  0}x^2 = 0$ ved å bruke den formelle definisjonen av grenser.
 > 
 
@@ -330,7 +330,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > 
 > 
 
-> [!abstract] 19
+> [!abstract]- 19
 > Vis at $\lim_{x\longrightarrow  1} \sqrt{x}= 1$ ved å bruke den formelle definisjonen av grenser.
 > 
 
@@ -367,7 +367,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 ## A.3
 
 
-> [!abstract] 4
+> [!abstract]- 4
 > Bevis at $f(x) = C$, der $C$ er en konstant, og $g(x) = x$ begge er kontinuerlige på hele $\mathbb{R}$ ved hjelp av den formelle definisjonen av kontinuitet.
 
 > [!note]- Løsning 
@@ -381,7 +381,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > La oss bevise at $g(x)=x$ er kontinuerlig på $\mathbb{R}$. Velg $a\in\mathbb{R}$ og $\varepsilon>0$. Da er $|g(x)-g(a)|=|x-a|$, så hvis $\delta<\varepsilon$ får vi at når $|x-a|<\delta <\varepsilon$ så er $|g(x)-g(a)|<\varepsilon$. Siden $a$ og $\varepsilon$ var vilkårlig valgt, ser vi at $g(x)$ er kontinuerlig for alle $a$ så $g(x)$ er kontinuerlig på $\mathbb{R}$.
 > 
 
-> [!abstract] 5
+> [!abstract]- 5
 > Bevis at alle polynomer er kontinuerlig på $\mathbb{R}$.
 
 > [!note]- Løsning 
@@ -404,7 +404,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 ## 2.2
 
 
-> [!abstract] 1
+> [!abstract]- 1
 > Skisser den deriverte til grafen under
 > 
 > ![[Files/ue36losn.svg]]
@@ -418,7 +418,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > Merk at der funksjonen *knekker* er der den deriverte hopper, markert i hvite ringer. Der er ikke den deriverte definert.
 > 
 
-> [!abstract] 2
+> [!abstract]- 2
 > Skisser den deriverte til grafen under
 > 
 > ![[Files/uke36losn.svg]]
@@ -434,7 +434,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > Merk at der funksjonen *knekker* er der den deriverte hopper, markert i hvite ringer. Der er ikke den deriverte definert.
 > 
 
-> [!abstract] 3
+> [!abstract]- 3
 > Skisser den deriverte til grafen under
 > 
 > ![[Files/uke36løsninger.svg]]
@@ -448,7 +448,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > ![[Files/shapes at 24-08-30 12.04.42.svg]]
 > 
 
-> [!abstract] 4
+> [!abstract]- 4
 > Skisser den deriverte til grafen under
 > 
 > ![[Files/uke36losning.svg]]
@@ -461,7 +461,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > ![[Files/shapes at 24-08-30 12.04.26.svg]]
 > 
 
-> [!abstract] 5
+> [!abstract]- 5
 > Avgjør hvor grafen under er deriverbar
 > 
 > ![[Files/ue36losn.svg]]
@@ -476,7 +476,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > Ved å se på skissen fra 1. ser vi at der funksjonen *knekker* er der den deriverte hopper, markert i hvite ringer. Der er ikke den deriverte definert. Vi får ikke oppgitt enheter, men er det kan se ut som den er definert på $(-2,2)\setminus\{-1, 1\}$, altså alle punkter mellom $-2$ og $2$ bortsett fra $1$ og $-1$. 
 > 
 
-> [!abstract] 11
+> [!abstract]- 11
 > Avgjør den deriverte til $y=x^2-3x$ ved å bruke definisjonen for den deriverte.
 
 > [!note]- Løsning 
@@ -496,7 +496,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 ## 2.3
 
 
-> [!abstract] 17
+> [!abstract]- 17
 > Deriver $f(x)=\frac{1-4x^2}{x^3}$. Forenkle uttrykket hvis mulig.
 
 > [!note]- Løsning 
@@ -514,7 +514,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > $$
 > 
 
-> [!abstract] 23
+> [!abstract]- 23
 > Deriver $s = \frac{1+\sqrt{t}}{1-\sqrt{t}}$. Forenkle uttrykket hvis mulig.
 
 > [!note]- Løsning 
@@ -531,7 +531,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > $$
 > 
 
-> [!abstract] 36
+> [!abstract]- 36
 > Avgjør verdien til uttrykket 
 > $$
 > \frac{d}{dx}\left( \frac{f(x)}{x^2+f(x)} \right) \Bigg|_{x=2}
@@ -557,7 +557,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > $$
 > 
 
-> [!abstract] 46
+> [!abstract]- 46
 > Finn koordinatene til punktene på kurven $y=\frac{x+1}{x+2}$ der tangentlinjen er parallell med linjen $4x$.
 
 > [!note]- Løsning 
