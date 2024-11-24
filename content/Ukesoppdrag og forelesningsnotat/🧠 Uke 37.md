@@ -1,6 +1,6 @@
 ## 2.4 
 
-> [!abstract]- 1
+> [!abstract] 1
 > Avgjør den deriverte til $y=(2x+3)^6$
 
 > [!note]- Løsning
@@ -14,7 +14,7 @@
 > 
 > 
 
-> [!abstract]- 3
+> [!abstract] 3
 > Avgjør den deriverte til $f(x) = (4-x^2)^{10}$
 
 > [!note]- Løsning
@@ -39,7 +39,7 @@
 > 
 > 
 
-> [!abstract]- 6
+> [!abstract] 6
 > Avgjør den deriverte til $(1+x^{2/3})^{\frac{3}{2}}$.
 
 > [!note]- Løsning
@@ -59,7 +59,7 @@
 > 
 > 
 
-> [!abstract]- 31
+> [!abstract] 31
 > Avgjør verdien $\frac{d}{dt}\sqrt{3t-7}\bigg|_{t=3}$.
 
 > [!note]- Løsning
@@ -83,7 +83,7 @@
 ## 2.5
 
 
-> [!abstract]- 3
+> [!abstract] 3
 > Avgjør den deriverte til $\cos(3x)$ og forenkle uttrykket hvis det lar seg gjøre. 
 
 > [!note]- Løsning
@@ -94,7 +94,7 @@
 > Vi får da at $\frac{d}{dx} y = 3\cdot(-\sin(3x))=-3\sin(3x)$.
 > 
 
-> [!abstract]- 5
+> [!abstract] 5
 > Avgjør den deriverte til $\tan(\pi x)$ og forenkle uttrykket hvis det lar seg gjøre. 
 
 > [!note]- Løsning
@@ -106,7 +106,7 @@
 > $$
 > 
 
-> [!abstract]- 11
+> [!abstract] 11
 > Avgjør den deriverte til $\sin(\pi x^2)$ og forenkle uttrykket hvis det lar seg gjøre. 
 
 > [!note]- Løsning
@@ -119,7 +119,7 @@
 > 
 > 
 
-> [!abstract]- 13
+> [!abstract] 13
 > Avgjør den deriverte til $y = \sqrt{1+\cos(x)}$ og forenkle uttrykket hvis det lar seg gjøre. 
 
 > [!note]- Løsning
@@ -131,7 +131,7 @@
 > $$
 > 
 
-> [!abstract]- 15
+> [!abstract] 15
 > Avgjør den deriverte til $\cos(x+\sin(x))$ og forenkle uttrykket hvis det lar seg gjøre. 
 
 > [!note]- Løsning
@@ -150,7 +150,7 @@
 > 
 > 
 
-> [!abstract]- 26
+> [!abstract] 26
 > Avgjør den deriverte til $\tan(3x)\cdot \frac{\cos(3x)}{\sin(3x)}$ og forenkle uttrykket hvis det lar seg gjøre. 
 
 > [!note]- Løsning
@@ -164,7 +164,7 @@
 > Dermed er den deriverte helt åpenbar, nemlig 0.
 > 
 
-> [!abstract]- 27
+> [!abstract] 27
 > Avgjør den deriverte til $t\cos(t)-\sin(t)$ og forenkle uttrykket hvis det lar seg gjøre. 
 
 > [!note]- Løsning
@@ -178,7 +178,7 @@
 > $$
 > 
 
-> [!abstract]- 28
+> [!abstract] 28
 > Avgjør den deriverte til $t\sin(t)+\cos(t)$ og forenkle uttrykket hvis det lar seg gjøre. 
 
 > [!note]- Løsning
@@ -192,7 +192,7 @@
 > $$
 > 
 
-> [!abstract]- 29
+> [!abstract] 29
 > Avgjør den deriverte til $\frac{\sin(x)}{1+\cos(x)}$ og forenkle uttrykket hvis det lar seg gjøre. 
 
 > [!note]- Løsning
@@ -206,7 +206,7 @@
 > $$
 > 
 
-> [!abstract]- 30
+> [!abstract] 30
 > Avgjør den deriverte til $\frac{\cos(x)}{1+\sin(x)}$ og forenkle uttrykket hvis det lar seg gjøre. 
 
 > [!note]- Løsning
@@ -225,7 +225,7 @@
 > Merk at vi bruker identiteten $\cos^2(x)+\sin^2(x)=1$ i den markerte utregningen over.
 > 
 
-> [!abstract]- 53
+> [!abstract] 53
 > Bestem verdien til $\lim_{x\longrightarrow 0}\frac{\tan(2x)}{x}$.
 
 > [!note]- Løsning
@@ -254,7 +254,7 @@
 ## 2.6
 
 
-> [!abstract]- 3
+> [!abstract] 3
 > Avgjør $y'$, $y''$ og $y'''$  når $y = \frac{6}{(x-1)^2}$
 
 > [!note]- Løsning
@@ -269,7 +269,7 @@
 > 
 > 
 
-> [!abstract]- 9
+> [!abstract] 9
 > Avgjør $y'$, $y''$ og $y'''$  når $y=\tan(x)$.
 
 > [!note]- Løsning
@@ -294,7 +294,7 @@
 > 
 > 
 
-> [!abstract]- 13
+> [!abstract] 13
 > La $f(x) = \frac{1}{x}$. Finn nok høyere ordens deriverte til $f$ slik at du kan gjette et generelt formel for $f^{(n)}(x)$.
 
 > [!note]- Løsning
@@ -338,7 +338,7 @@
 > 
 > 
 
-> [!abstract]- 17
+> [!abstract] 17
 > La $f(x) = \frac{1}{a+bx}$. Finn nok høyere ordens deriverte til $f$ slik at du kan gjette et generelt formel for $f^{(n)}(x)$.
 
 > [!note]- Løsning
@@ -382,7 +382,7 @@
 ## 2.8
 
 
-> [!abstract]- 3
+> [!abstract] 3
 > La $f(x) = x^3-3x+1$ på $[-2,2]$.
 > 1. Forklar hva middelverdisetningen sier for $f$.
 > 2. Avgjør punktet $c$ slik at $f'(c)$ er lik $\frac{f(b)-f(a)}{b-a}$. 

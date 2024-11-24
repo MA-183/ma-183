@@ -1,7 +1,7 @@
 ## 4.4
 
 
-> [!abstract]-  13
+> [!abstract]  13
 > Avgjør om $f(x) = |x-1|$ har noen lokale eller globale ekstremalpunktet på $[-2,2]$.
 
 
@@ -16,7 +16,7 @@
 
 
 
-> [!abstract]- 19
+> [!abstract] 19
 > Gitt funksjonen $f(x) = x^3 -3x-2$.
 > 
 > 1. Avgjør og klassifiser alle ekstremalpunkter til funksjonen $f$.
@@ -55,7 +55,7 @@
 ## 4.5
 
 
-> [!abstract]- 25
+> [!abstract] 25
 > Klassifiser de kritiske punktene til $f(x) = x(x-2)^2+1$. Bruk andrederiverttesten hvis det er mulig.
 
 
@@ -84,7 +84,7 @@
 
 
 
-> [!abstract]- 31
+> [!abstract] 31
 > Klassifiser de kritiske punktene til $f(x) = x\ln(x)$. Bruk andrederiverttesten hvis det er mulig.
 
 
@@ -108,7 +108,7 @@
 ## 4.6
 
 
-> [!abstract]- 7
+> [!abstract] 7
 > Tegn grafen $f(x) = (x^2-1)^3$ ved hjelp av all informasjon du bruke fra $f$, $f'$ og $f''$. 
 
 
@@ -145,15 +145,15 @@
 > 
 > ![[Files/shapes at 24-09-24 15.10.05.svg]]
 
-> [!abstract]- 11
+> [!abstract] 11
 > Tegn grafen $g(x) = \frac{x^3}{1+x}$ ved hjelp av all informasjon du bruke fra $g$, $g'$ og $g''$. 
 
 
-> [!abstract]- 15
+> [!abstract] 15
 > Tegn grafen $h(x) = \frac{x^2}{x^2-1}$ ved hjelp av all informasjon du bruke fra $h$, $h'$ og $h''$. 
 
 
-> [!abstract]- 30
+> [!abstract] 30
 > Tegn grafen $f(x) = e^{-2x}$ ved hjelp av all informasjon du bruke fra $f$, $f'$ og $f''$. 
 
 
@@ -162,7 +162,7 @@
 ## 4.8
 
 
-> [!abstract]- 1
+> [!abstract] 1
 > To positive tall har sum $7$. Hva er den største mulige verdien av produktet deres?
 
 > [!note]- Løsning
@@ -180,7 +180,7 @@
 > $$
 > Merk at dette er en andregradsfunksjon, så vi vet at denne må ha et toppunkt når koeffisienten foran $x^2$ er negativ.
 
-> [!abstract]- 8
+> [!abstract] 8
 > Et rektangel har areal $A$. Vis at hvis rektangelet er kvadratisk så har det minst mulig omkrets. 
 
 > [!note]- Løsning
@@ -198,7 +198,7 @@
 > $$ 
 > Derfor har et kvadratisk rektangel minst mulig omkrets.
 
-> [!abstract]- 9
+> [!abstract] 9
 > En likebeint trekant har omkrets $O$. Vis at hvis trekanten er likesidet har den strøst mulig areal.
 
 > [!note]- Løsning
@@ -214,7 +214,7 @@
 > Vi kan nå se at $A$ er størst når $f(x) =\frac{O^2x^2 }{4}-Ox^3$ er størst. Deriverer vi $f$ får vi $f'(x)=\frac{O^2\cdot x}{2}-3\cdot O\cdot x^2=x\cdot O\left( \frac{O}{2}-3x \right)$. Det kritiske punktet er når $\frac{O}{2}-3x = 0$ eller $x = \frac{O}{6}$. Vi ser også at dette må være et toppunkt siden arealet er 0 når $x$ er 0 eller $x$ er like stor som $s$.
 
 
-> [!abstract]- 28
+> [!abstract] 28
 > Find lengden av den lengste stolpen som kan bæres horisontalt fra en gang med bredde $a$ meter rundt et hjørne til en gang som har bredde $b$ meter. Se figur og anta at stolpen har 0 i bredde.
 > 
 > ![[Files/shapes at 24-09-24 13.21.04.svg]]
@@ -263,7 +263,7 @@
 > $$
 ## 4.9
 
-> [!abstract]- 15 
+> [!abstract] 15 
 > Gjør en passende lineær approksimasjon av $\sqrt{x}$ for å estimere $\sqrt{50}$. 
 
 
@@ -286,7 +286,7 @@
 > $$
 > Estimert verdi for $\sqrt{50}$ er omtrent $7.071$.
 
-> [!abstract]- 17 
+> [!abstract] 17 
 > Gjør en passende lineær approksimasjon av $\sqrt[4]{x}$ for å estimere $\sqrt{85}$. 
 
 > [!note]- Løsning
@@ -309,7 +309,7 @@
 > Estimert verdi for $\sqrt[4]{85}$ er omtrent $3.037$.
 ## 4.10
 
-> [!abstract]- 3
+> [!abstract] 3
 > Finn Taylorpolynomet av grad 4 til $\ln(x)$ rundt $x=2$.
 
 > [!note]- Løsning
@@ -333,7 +333,7 @@
 > $$
 
 
-> [!abstract]- 5
+> [!abstract] 5
 > Finn Taylorpolynomet av grad 3 til $\sqrt{x}$ rundt $x=4$.
 
 > [!note]- Løsning
@@ -354,7 +354,7 @@
 > P_3(x) = 2 + \frac{1}{4}(x-4) - \frac{1}{64}(x-4)^2 + \frac{1}{512}(x-4)^3.
 > $$
 
-> [!abstract]- 10
+> [!abstract] 10
 > Finn Taylorpolynomet av grad 2 til $\sqrt{x}$ rundt $x=64$. Bruk Taylorpolynomet til å estimere $\sqrt{61}$.
 
 > [!note]- Løsning
@@ -371,7 +371,7 @@
 > P_2(61) = 8 + \frac{1}{16}(-3) - \frac{1}{4096}(9)  \approx 7.8103027344.
 > $$
 
-> [!abstract]- 15
+> [!abstract] 15
 > Finn Taylorpolynomet av grad 7 til $\sin{(x)}$ rundt $a=0$. Hva er Lagrange resten til Taylorpolynomet?
 
 > [!note]- Løsning
@@ -384,7 +384,7 @@
 > E_7(x) = \frac{\sin(s)}{8!} x^8 \quad \text{for} \quad s \in (0, x).
 > $$
 
-> [!abstract]- 18
+> [!abstract] 18
 > Finn Taylorpolynomet av grad 6 til $\frac{1}{1-x}$ rundt $a=0$. Hva er Lagrange resten til Taylorpolynomet?
 
 
@@ -399,7 +399,7 @@
 > $$
 
 
-> [!abstract]- 19
+> [!abstract] 19
 > Finn Taylorpolynomet av grad 6 til $\ln(x)$ rundt $a=1$. Hva er Lagrange resten til Taylorpolynomet?
 
 

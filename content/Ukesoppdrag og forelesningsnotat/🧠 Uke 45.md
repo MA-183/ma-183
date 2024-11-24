@@ -1,6 +1,6 @@
 ## 2.10
 
-> [!abstract]- 1
+> [!abstract] 1
 > Finn det ubestemte integralet:
 > $$
 > \int 5 dx.
@@ -14,7 +14,7 @@
 
 ---
 
-> [!abstract]- 2
+> [!abstract] 2
 > Finn det ubestemte integralet:
 > $$
 > \int x^2 dx.
@@ -28,7 +28,7 @@
 
 ---
 
-> [!abstract]- 3
+> [!abstract] 3
 > Finn det ubestemte integralet:
 > $$
 > \int \sqrt{x} dx.
@@ -43,7 +43,7 @@
 ---
 
 
-> [!abstract]- 4
+> [!abstract] 4
 > Finn det ubestemte integralet:
 > $$
 > \int x^{12} dx.
@@ -57,7 +57,7 @@
 
 ---
 
-> [!abstract]- 5
+> [!abstract] 5
 > Finn det ubestemte integralet:
 > $$
 > \int x^3 dx.
@@ -71,7 +71,7 @@
 
 ---
 
-> [!abstract]- 6
+> [!abstract] 6
 > Finn det ubestemte integralet:
 > $$
 > \int (x + \cos x) dx.
@@ -85,7 +85,7 @@
 
 ---
 
-> [!abstract]- 7
+> [!abstract] 7
 > Finn det ubestemte integralet:
 > $$
 > \int \tan (x) \cos (x) dx.
@@ -99,7 +99,7 @@
 
 ---
 
-> [!abstract]- 8
+> [!abstract] 8
 > Finn det ubestemte integralet:
 > $$
 > \int \frac{1 + \cos^3( x)}{\cos^2 (x)} dx.
@@ -118,7 +118,7 @@
 ---
 
 
-> [!abstract]- 9
+> [!abstract] 9
 > Finn det ubestemte integralet:
 > $$
 > \int (a^2 - x^2) dx.
@@ -132,7 +132,7 @@
 
 ---
 
-> [!abstract]- 10
+> [!abstract] 10
 > Finn det ubestemte integralet:
 > $$
 > \int (A + Bx + Cx^2) dx.
@@ -146,7 +146,7 @@
 
 ---
 
-> [!abstract]- 11
+> [!abstract] 11
 > Finn det ubestemte integralet:
 > $$
 > \int \left( 2x^{1/2} + 3x^{1/3} \right) dx.
@@ -164,7 +164,7 @@
 
 ---
 
-> [!abstract]- 12
+> [!abstract] 12
 > Finn det ubestemte integralet:
 > $$
 > \int \frac{6(x - 1)}{x^{4/3}} dx.
@@ -182,7 +182,7 @@
 
 ---
 
-> [!abstract]- 13
+> [!abstract] 13
 > Finn det ubestemte integralet:
 > $$
 > \int \left( \frac{x^3}{3} - \frac{x^2}{2} + x - 1 \right) dx.
@@ -200,7 +200,7 @@
 
 ---
 
-> [!abstract]- 14
+> [!abstract] 14
 > Finn det ubestemte integralet:
 > $$
 > \int 105 (1 + t^2 + t^4 + t^6) dt.
@@ -215,7 +215,7 @@
 > $$
 
 
-> [!abstract]- 19
+> [!abstract] 19
 > Finn det ubestemte integralet:
 > $$
 > \int \sqrt{2x + 3} dx.
@@ -240,7 +240,7 @@
 
 ---
 
-> [!abstract]- 20
+> [!abstract] 20
 > Finn det ubestemte integralet:
 > $$
 > \int \frac{4}{\sqrt{x + 1}} dx.
@@ -261,7 +261,7 @@
 
 ---
 
-> [!abstract]- 21
+> [!abstract] 21
 > Finn det ubestemte integralet:
 > $$
 > \int 2x \sin(x^2) dx.
@@ -282,7 +282,7 @@
 
 ---
 
-> [!abstract]- 22
+> [!abstract] 22
 > Finn det ubestemte integralet:
 > $$
 > \int \frac{2x}{\sqrt{x^2 + 1}} dx.
@@ -301,18 +301,18 @@
 > \int \frac{2x}{\sqrt{x^2 + 1}} dx = 2\sqrt{x^2 + 1} + C.
 > $$
 
-> [!abstract]- Middelverditeoremet
+> [!abstract] Middelverditeoremet
 > Funksjonen $f(x) = \sqrt{x}$ oppfyller betingelsene i middelverditeoremet på intervallet $[0,b]$. Se på sekanten gjennom $(0,0)$ og $(b,\sqrt{b})$. Hvor, i intervallet $(0,b)$, er tangenten til grafen parallell med sekanten?
 
 
-> [!abstract]- Tenkeoppgave
+> [!abstract] Tenkeoppgave
 > Hvor mange prosent øker volumet av en kule med dersom radiusen øker med $2\%$?
 
 
 ## 5.6
 
 
-> [!abstract]- 1
+> [!abstract] 1
 > Evaluer det ubestemte integralet:
 > $$
 > \int e^{5 - 2x} dx.
@@ -333,7 +333,7 @@
 
 ---
 
-> [!abstract]- 2
+> [!abstract] 2
 > Evaluer det ubestemte integralet:
 > $$
 > \int \cos(a x + b) dx.
@@ -354,7 +354,7 @@
 
 ---
 
-> [!abstract]- 3
+> [!abstract] 3
 > Evaluer det ubestemte integralet:
 > $$
 > \int \sqrt{3x + 4} dx.
@@ -375,7 +375,7 @@
 
 ---
 
-> [!abstract]- 4
+> [!abstract] 4
 > Evaluer det ubestemte integralet:
 > $$
 > \int e^{2x} \sin(e^{2x}) dx.
@@ -397,7 +397,7 @@
 
 ---
 
-> [!abstract]- 5
+> [!abstract] 5
 > Evaluer det ubestemte integralet:
 > $$
 > \int \frac{x dx}{(4x^2 + 1)^5}.
@@ -418,7 +418,7 @@
 
 ---
 
-> [!abstract]- 6
+> [!abstract] 6
 > Evaluer det ubestemte integralet:
 > $$
 > \int \frac{\sin \sqrt{x}}{\sqrt{x}} dx.
@@ -439,7 +439,7 @@
 
 ---
 
-> [!abstract]- 7
+> [!abstract] 7
 > Evaluer det ubestemte integralet:
 > $$
 > \int x e^{x^2} dx.
@@ -459,7 +459,7 @@
 > $$
 
 ---
-> [!abstract]- Integral med substitusjon
+> [!abstract] Integral med substitusjon
 > Evaluer det ubestemte integralet:
 > $$
 > \int x^2 e^{x^3 + 1} dx.
@@ -486,7 +486,7 @@
 > $$
 
 
-> [!abstract]- 9
+> [!abstract] 9
 > Evaluer det ubestemte integralet:
 > $$
 > \int \frac{\cos (x)}{4 + \sin^2 (x)} dx.
@@ -514,7 +514,7 @@
 > $$
 
 
-> [!abstract]- 12
+> [!abstract] 12
 > Evaluer det ubestemte integralet:
 > $$
 > \int \frac{\ln t}{t} dt.
@@ -535,13 +535,13 @@
 ---
 
 
-> [!abstract]- 46
+> [!abstract] 46
 
 ## 5.7
 
 ## Løsningsforslag
 
-> [!abstract]- 1
+> [!abstract] 1
 > Finn arealet mellom kurvene:
 > $$
 > y = x, \quad y = x^2.
@@ -562,7 +562,7 @@
 > $$
 > Arealet mellom kurvene er $\frac{1}{6}$.
 
-> [!abstract]- 2
+> [!abstract] 2
 > Finn arealet mellom kurvene:
 > $$
 > y = \sqrt{x}, \quad y = x^2.
@@ -582,7 +582,7 @@
 > $$
 > Arealet mellom kurvene er $\frac{1}{3}$.
 
-> [!abstract]- 3
+> [!abstract] 3
 > Finn arealet mellom kurvene:
 > $$
 > y = x^2 - 5, \quad y = 3 - x^2.
@@ -607,7 +607,7 @@
 > $$
 > Arealet mellom kurvene er $\frac{64}{3}$.
 
-> [!abstract]- 4
+> [!abstract] 4
 > Finn arealet mellom kurvene:
 > $$
 > y = x^2 - 2x, \quad y = 6x - x^2.
@@ -634,7 +634,7 @@
 > Arealet mellom kurvene er $\frac{64}{3}$.
 
 ## 6.1
-> [!abstract]- 1  
+> [!abstract] 1  
 > Beregn integralet:
 > $$
 > \int x \cos x \, dx
@@ -659,7 +659,7 @@
 > **Svar:** $\int x \cos x \, dx = {x \sin x + \cos x + C}$.
 
 
-> [!abstract]- 2 
+> [!abstract] 2 
 > Beregn integralet:
 > $$
 > \int (x + 3)e^{2x} \, dx
@@ -691,7 +691,7 @@
 > $$
 
 
-> [!abstract]- 3  
+> [!abstract] 3  
 > 
 > Beregn integralet:
 > $$
@@ -702,7 +702,7 @@
 >
 
 
-> [!abstract]- 4  
+> [!abstract] 4  
 > Beregn integralet:
 > $$
 > \int (x^2 - 2x)e^{kx} \, dx
@@ -711,7 +711,7 @@
 > [!note]- Løsning  
 
 
-> [!abstract]- 5  
+> [!abstract] 5  
 > Beregn integralet:
 > $$
 > \int x^3 \ln x \, dx
@@ -720,7 +720,7 @@
 > [!note]- Løsning  
 
 
-> [!abstract]- 6  
+> [!abstract] 6  
 > Beregn integralet:
 > $$
 > \int x (\ln x)^3 \, dx
@@ -731,12 +731,12 @@
 
 
 
-> [!abstract]- 13
+> [!abstract] 13
 
-> [!abstract]- 14
+> [!abstract] 14
 
-> [!abstract]- 20
+> [!abstract] 20
 
 
-> [!abstract]- 22
+> [!abstract] 22
 

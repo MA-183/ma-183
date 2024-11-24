@@ -1,6 +1,6 @@
 ## 3.5
 
-> [!abstract]- 1
+> [!abstract] 1
 > Avgjør verdien til $\sin^{-1}\left( \frac{\sqrt{3}}{2} \right)$.
 
 
@@ -11,7 +11,7 @@
 
 
 
-> [!abstract]- 2
+> [!abstract] 2
 > Avgjør verdien til $\cos^{-1}\left( \frac{-1}{2} \right)$.
 
 
@@ -21,7 +21,7 @@
 > Derfor er $\cos^{-1}\left( \frac{-1}{2} \right) = \frac{2\pi}{3}$.
 
 
-> [!abstract]- 3
+> [!abstract] 3
 > Avgjør verdien til $\tan^{-1}\left( -1 \right)$.
 
 
@@ -31,7 +31,7 @@
 > Derfor er $\tan^{-1}\left( -1 \right) = \frac{-\pi}{4}$.
 
 
-> [!abstract]- 5
+> [!abstract] 5
 > Avgjør verdien til $\sin\left( \sin^{-1}\left( 0.7 \right) \right)$.
 
 
@@ -39,7 +39,7 @@
 > Siden $\sin^{-1}(x)$ gir vinkelen der sinus av vinkelen er lik $x$. Derfor er $\sin\left( \sin^{-1}(0.7) \right) = 0.7$.
 
 
-> [!abstract]- 6
+> [!abstract] 6
 > Avgjør verdien til $\cos\left( \sin^{-1}\left( 0.7 \right) \right)$.
 
 
@@ -58,7 +58,7 @@
 > Så, $\cos\left( \sin^{-1}(0.7) \right) = \sqrt{0.51}$.
 
 
-> [!abstract]- 19
+> [!abstract] 19
 > Deriver funksjonen $y = \sin^{-1}\left( \frac{2x-1}{3} \right)$.
 
 > [!note]- Løsning
@@ -76,7 +76,7 @@
 > $$
 
 
-> [!abstract]- 20
+> [!abstract] 20
 > Deriver funksjonen $y = \tan^{-1}\left( ax+b \right)$.
 
 > [!note]- Løsning
@@ -91,7 +91,7 @@
 
 
 
-> [!abstract]- 21
+> [!abstract] 21
 > Deriver funksjonen $y = \cos^{-1}\left( \frac{x-b}{a} \right)$.
 
 
@@ -107,7 +107,7 @@
 
 
 
-> [!abstract]- 22
+> [!abstract] 22
 > Deriver funksjonen $y =x \sin^{-1}\left(x\right)$.
 
 
@@ -131,7 +131,7 @@
 
 ## 4.1
 
-> [!abstract]- 1
+> [!abstract] 1
 > Avgjør endringsraten til arealet av et kvadrat med sidelengde $8$cm som øker med $2$cm/min.
 
 
@@ -149,7 +149,7 @@
 > $$
 
 
-> [!abstract]- 2
+> [!abstract] 2
 > Arealet til et kvadrat minker med $2$cm${}^2$/s. Hvor fort endrer sidelengden seg når sidelengden er $8$cm. 
 
 > [!note]- Løsning
@@ -166,7 +166,7 @@
 > $$
 
 
-> [!abstract]- 9
+> [!abstract] 9
 > Hvor fort endrer overflatearealet til en kube når volumet av kuben er $64\text{cm}^3$ og den øker med $2\text{cm}^3/s$.
 
 
@@ -201,7 +201,7 @@
 > \frac{dA}{dt} = {\color{#3cc15c} 12 \cdot 4  }\cdot{\color{#5ca6f4}  \frac{1}{24}  }= 2 \text{ cm}^2/\text{s}.
 > $$
 
-> [!abstract]- 13
+> [!abstract] 13
 > Et punkt beveger seg langs kurven $y=x^2$. Hvor fort endrer punktet seg i $y$-retning når $x = -2$ og $x$ synker i en rate på $3$?
 
 
@@ -219,7 +219,7 @@
 > {\color{#e796f5} \frac{dy}{dt} } = {{\color{#3cc15c}  2 } } \cdot {\color{#5ca6f4} (-2) } \cdot{\color{#f46f22}  (-3) } = 12.
 > $$
 
-> [!abstract]- 16 (Radar-pistoler) 
+> [!abstract] 16 (Radar-pistoler) 
 > En politibetjent står nær en motorvei og bruker en radar-pistol for å ta fartssyndere. Han sikter mot en bil som akkurat har passert posisjonen hans, og når pistolen peker i en vinkel på $45^\circ$ til veiretningen, ser han at avstanden mellom bilen og radarpistolen øker med en hastighet på $100 \text{ km/t}$. Hvor raskt kjører bilen?
 
 
@@ -234,7 +234,7 @@
 > \frac{dx}{dt} = \frac{{\sqrt{2}}}{2} {\color{#5ca6f4} \frac{ds}{dt} } = \frac{\sqrt{2}}{2}{\color{#5ca6f4} 100\text{ km/t} } \approx 141 \text{ km/t}.
 > $$
 
-> [!abstract]- 17 
+> [!abstract] 17 
 > Hvis radar-pistolen i oppgave 16 er rettet mot en bil som kjører i $90 \text{ km/t}$ langs en rett vei, hva vil radarpistolens avlesning være når pistolen peker i en vinkel på $30^\circ$ i forhold til veien?
 
 > [!note]- Løsning
@@ -250,7 +250,7 @@
 > 
 
 
-> [!abstract]- 18 
+> [!abstract] 18 
 > En stige på $5 \text{ m}$ hviler mot en loddrett vegg. Hvis stigefoten beveger seg bort fra veggen med en hastighet på $1/3 \text{ m/s}$, hvor raskt glir toppen av stigen ned langs veggen når den er $3 \text{ m}$ over bakken?
 
 
@@ -267,7 +267,7 @@
 > {\color{#e796f5} 2 \cdot 4 } \cdot {\color{#3cc15c} \frac{1}{3} } + {\color{#f46f22} 2 \cdot 3 } \cdot {\color{#5ca6f4} \frac{dy}{dt} } = 0 \quad \Rightarrow \quad {\color{#5ca6f4} \frac{dy}{dt} } = -\frac{4}{9} \text{ m/s}.
 > $$
 
-> [!abstract]- 26 (Kjegleformet tank) 
+> [!abstract] 26 (Kjegleformet tank) 
 > En vanntank er formet som en omvendt rett sirkulær kjegle med toppradius på $10 \text{ m}$ og dybde $8 \text{ m}$. Vann strømmer inn i en rate av $1/10 \text{ m}^3/\text{min}$. Hvor raskt øker dybden av vannet når vannstanden er $4 \text{ m}$ dyp?
 
 > [!note]- Løsning
@@ -300,7 +300,7 @@
 I oppgavene her oppfordres du til å både øve deg på algebra ved å løse oppgavene manuelt, og øve deg på å løse oppgavene med programmering. 
 
 
-> [!abstract]- 7
+> [!abstract] 7
 > Finn $\sqrt{2}$ ved å løse likningen $x^2 - 2 = 0$ ved å Newtons metode.
 
 
@@ -335,7 +335,7 @@ I oppgavene her oppfordres du til å både øve deg på algebra ved å løse opp
 
 
 
-> [!abstract]- 9
+> [!abstract] 9
 > Estimer roten av $x^3 + 2x - 1 = 0$ mellom $0$ og $1$ ved å bruke Newtons metode til å finne $x_2$.
 
 
@@ -364,7 +364,7 @@ I oppgavene her oppfordres du til å både øve deg på algebra ved å løse opp
 
 
 
-> [!abstract]- 13
+> [!abstract] 13
 > Bruk Newtons metode til å løse $\sin(x) = 1 - x$. Gjør 2 iterasjoner.
 > *Hint* En skisse kan hjelpe deg med å gjøre et godt gjett for $x_0$. Her må du også finne tilnærminger for de trigonometriske funksjonene underveis. 
 

@@ -40,7 +40,7 @@ I disse oppgavene kan det være nyttig å ha disse to teknikkene i bakhodet.
 > Hvis vi nå skal lage en tilsvarende substitusjon setter vi nå $\frac{\sqrt{a}}{\sqrt{b}}x$ lik $\sin(u)$ hvis det er $-$ eller $\tan(u)$ hvis det er $+$.
 
 
-> [!abstract]- 1
+> [!abstract] 1
 > Avgjør integralet
 > $$
 > \int \frac{dx}{\sqrt{1-4x^2}}.
@@ -58,7 +58,7 @@ I disse oppgavene kan det være nyttig å ha disse to teknikkene i bakhodet.
 > 
 
 
-> [!abstract]- 2
+> [!abstract] 2
 > Avgjør integralet
 > $$
 > \int \frac{x^2dx}{\sqrt{1-4x^2}}.
@@ -88,7 +88,7 @@ I disse oppgavene kan det være nyttig å ha disse to teknikkene i bakhodet.
 > 
 
 
-> [!abstract]- 3
+> [!abstract] 3
 >  Avgjør integralet
 > $$
 > \int \frac{x^2dx}{\sqrt{9-x^2}}.
@@ -101,7 +101,7 @@ I disse oppgavene kan det være nyttig å ha disse to teknikkene i bakhodet.
 > \frac{9}{2}\sin^{-1}\left( \frac{x}{3} \right) - \frac{1}{2}x\sqrt{9-x^2}+ C
 > $$
 
-> [!abstract]- 7
+> [!abstract] 7
 > Finn
 > $$
 > \int \frac{1+x}{\sqrt{9-x^2}}dx
@@ -126,7 +126,7 @@ I disse oppgavene kan det være nyttig å ha disse to teknikkene i bakhodet.
 > \int \frac{1+x}{\sqrt{9-x^2}}= \frac{\sin^{-1}(x)}{3}-\sqrt{9-x^2}+C
 > $$
 
-> [!abstract]- 11
+> [!abstract] 11
 > Finn
 > $$
 > \int \frac{1}{(a^2-x^2)^{3/2}}  dx
@@ -149,7 +149,7 @@ I disse oppgavene kan det være nyttig å ha disse to teknikkene i bakhodet.
 > \int \frac{1}{(a^2-x^2)^{3/2}}dx = \frac{x}{a^2\sqrt{a^2-x^2}}+C
 > $$
 
-> [!abstract]- 12
+> [!abstract] 12
 > Finn
 > $$
 > \int \frac{1}{(a^2+x^2)^{3/2}}  dx
@@ -172,7 +172,7 @@ I disse oppgavene kan det være nyttig å ha disse to teknikkene i bakhodet.
 > \int \frac{1}{(a^2+x^2)^{3/2}}dx = \frac{x}{a^2\sqrt{a^2+x^2}}+C
 > $$
 
-> [!abstract]- 14
+> [!abstract] 14
 > Finn
 > $$
 > \int \frac{1}{(1+2x^2)^{5/2}}dx
@@ -221,7 +221,7 @@ I disse oppgavene kan det være nyttig å ha disse to teknikkene i bakhodet.
 
 Kun skrivemetoden for 1-4
 
-> [!abstract]- 1
+> [!abstract] 1
 > Avgjør størrelsen på volumet $S$ når $S$ er generert ved å rotere $y=x^2$ om $x-$aksen begrenset av området $y=0$ og $x=1$.
 
 > [!note]- Løsning 
@@ -231,7 +231,7 @@ Kun skrivemetoden for 1-4
 > $$
 
 
-> [!abstract]- 2
+> [!abstract] 2
 > Avgjør størrelsen på volumet $S$ når $S$ er generert ved å rotere $y=x^2$ om $y-$aksen og begrenset til $y=0$ og $x=1$.
 
 > [!note]- Løsning 
@@ -242,7 +242,7 @@ Kun skrivemetoden for 1-4
 > S = \pi\int_0^1 1^2 dx - \pi \int_0^1 \sqrt{x}^2dx = \pi\left( x-\frac{x^2}{2} \right)\Bigg|_0^1 =\frac{\pi}{2}.
 > $$
 
-> [!abstract]- 3
+> [!abstract] 3
 > Avgjør størrelsen på volumet $S$ når $S$ er generert ved å rotere området begrenset mellom $y=x^2$ og $y=\sqrt{x}$ mellom $x=0$ og $x=1$ om $x-$aksen.
 
 
@@ -253,7 +253,7 @@ Kun skrivemetoden for 1-4
 > $$
 
 
-> [!abstract]- 4
+> [!abstract] 4
 > Avgjør størrelsen på volumet $S$ når $S$ er generert ved å rotere området begrenset mellom $y=x^2$ og $y=\sqrt{x}$ mellom $x=0$ og $x=1$ om $y$-aksen.
 > 
 
@@ -261,7 +261,7 @@ Kun skrivemetoden for 1-4
 > [!note]- Løsning 
 > På grunn av symmetrien i til $x^2$ og $\sqrt{x}$, altså at de er hverandres invers. Så er dette problemet nøyaktig det samme som i oppgave 3.
 
-> [!abstract]- 5
+> [!abstract] 5
 > Hvis $R$ er området begrenset av $y=2x-x^2$ og $y=0$ mellom $x=0$ og $x=2$. Avgjør volumet $S$ som man får når man  lager omdreiningslegemet ved å rotere om $x-$aksen
 
 > [!note]- Løsning 
@@ -276,7 +276,7 @@ Kun skrivemetoden for 1-4
 > 
 
 
-> [!abstract]- 6
+> [!abstract] 6
 > Hvis $R$ er området begrenset av $y=x$ og $y=x^2$. Avgjør volumet $S$ som man får når man  lager omdreiningslegemet ved å rotere $R$ om $x-$aksen.
 
 > [!note]- Løsning 
@@ -288,7 +288,7 @@ Kun skrivemetoden for 1-4
 
 
 
-> [!abstract]- 8
+> [!abstract] 8
 > Hvis $R$ er området begrenset av $y=1+\sin(x)$ og $y=1$ fra $x=0$ til $x=\pi$. Avgjør volumet $S$ som man får når man  lager omdreiningslegemet ved å rotere $R$ om $x-$aksen.
 
 
