@@ -170,7 +170,7 @@
 > Totalt sett kan vi altså skrive
 > $$
 > \begin{aligned} 
-> \int \frac{x^2}{x^2+x-2}dx & = \int 1 -\frac{4}{3}\cdot\frac{1}{x+2}+\frac{1}{3}\cdot\frac{1}{x-1}dx \\ &= x-\frac{4}{3}\ln|x+2|+\frac{1}{3}\ln|x-1|+\C
+> \int \frac{x^2}{x^2+x-2}dx & = \int 1 -\frac{4}{3}\cdot\frac{1}{x+2}+\frac{1}{3}\cdot\frac{1}{x-1}dx \\ &= x-\frac{4}{3}\ln|x+2|+\frac{1}{3}\ln|x-1|+C
 > \end{aligned} 
 > $$
 

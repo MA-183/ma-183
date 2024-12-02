@@ -64,7 +64,7 @@ I oppgave 3 til 6 tar vi utgangspunkt i følgende graf.
 > 
 > Vi ser at $x^2-1=(x-1)(x+1)$, så vi kan forkorte. Men vi ser også at vi bare kan sette $x=1$ rett inn uten problemer
 > $$
-> \lim_{x\longrightarrow  1}\frac{x^2-1}{x+1} = \frac{1^2-1}{1+1} = \frac{0}{2}=0
+> \lim_{x\longrightarrow  1}\frac{x^2-1}{x+1} = \frac{1^2-1}{1+1} = \frac{0}{2}=0.
 > $$
 > 
 

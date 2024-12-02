@@ -74,7 +74,7 @@
 > [!abstract] 6
 > Finn det ubestemte integralet:
 > $$
-> \int (x + \cos x) dx.
+> \int (x + \cos (x)) dx.
 > $$
 
 > [!note]- Løsning
@@ -421,7 +421,7 @@
 > [!abstract] 6
 > Evaluer det ubestemte integralet:
 > $$
-> \int \frac{\sin \sqrt{x}}{\sqrt{x}} dx.
+> \int \frac{\sin (\sqrt{x})}{\sqrt{x}} dx.
 > $$
 
 > [!note]- Løsning
@@ -530,7 +530,7 @@
 > Dette er et enkelt polynomisk integral, og vi får:
 > $$
 > \frac{{\color{#e796f5} u}^2}{2} + C = \frac{(\ln t)^2}{2} + C.
-> $$
+> $$ 
 
 ---
 
@@ -637,7 +637,7 @@
 > [!abstract] 1  
 > Beregn integralet:
 > $$
-> \int x \cos x \, dx
+> \int x \cos (x) \, dx
 > $$
 
 > [!note]- Løsning  
@@ -714,7 +714,7 @@
 > [!abstract] 5  
 > Beregn integralet:
 > $$
-> \int x^3 \ln x \, dx
+> \int x^3 \ln (x) \, dx
 > $$
 
 > [!note]- Løsning  
@@ -723,7 +723,7 @@
 > [!abstract] 6  
 > Beregn integralet:
 > $$
-> \int x (\ln x)^3 \, dx
+> \int x (\ln (x))^3 \, dx
 > $$
 
 > [!note]- Løsning  

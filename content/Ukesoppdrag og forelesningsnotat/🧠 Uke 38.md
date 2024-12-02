@@ -45,7 +45,7 @@
 > Vi har at $f(x) = -\sqrt{x-1}$. Vi løser for $f$ og får at 
 > $$
 > \begin{aligned} 
->   f(x)  &= -\sqrt{x-1} \\ (f(x))^2 & = x-1 \\ (f(x))^2+1 &= x.
+> f(x)  &= -\sqrt{x-1} \\ (f(x))^2 & = x-1 \\ (f(x))^2+1 &= x.
 > \end{aligned} 
 > $$
 > 

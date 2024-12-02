@@ -354,7 +354,7 @@
 > 
 > Vi skal uttrykke $z = 3 + \sqrt{3}i$ og $w = -1+\sqrt{3}i$ på polarform/eksponentialform. 
 > 
-> Lengen til $z$ er $|z| = \sqrt{3+\sqrt{3}^2}=\sqrt{9+3}=\sqrt{3\cdot4}=2\sqrt{3}$.
+> Lengden til $z$ er $|z| = \sqrt{3+\sqrt{3}^2}=\sqrt{9+3}=\sqrt{3\cdot4}=2\sqrt{3}$.
 > 
 > Dermed er $z =2\sqrt{3}\left( \frac{3}{2\sqrt{3}}+\frac{\sqrt{3}}{2\sqrt{3}}i \right).$ Vi forenkler dette med å utvide brøkene med $\sqrt{3}$ og får
 > $$

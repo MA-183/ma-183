@@ -57,5 +57,12 @@ Studenten skal kunne
 > BARE gjør substitusjonen. 
 
 
-![[Files/shapes at 24-11-21 09.57.05.svg]]
+![[Files/shapes at 24-12-02 09.07.28.svg]]
 
+![[Files/shapes at 24-12-02 09.10.13 1.svg]]
+
+![[Files/shapes at 24-12-02 09.06.39.svg]]
+
+
+![[Files/shapes at 24-12-02 09.05.22.svg]]
+![[Files/shapes at 24-12-02 09.04.59.svg]]

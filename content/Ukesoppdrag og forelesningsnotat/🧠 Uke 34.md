@@ -103,7 +103,7 @@
 
 > [!note]- Løsning
 > 
-![[Files/uke34polydiv.svg]]
+> ![[Files/uke34polydiv.svg]]
 
 > [!abstract] 19
 > Skriv $\frac{x^3}{x^2+2x+3}$ som en sum av et polynom og en rasjonal funksjon der graden til telleren er lavere enn graden til nevneren i den rasjonale funksjonen.
@@ -118,7 +118,7 @@
 > Skriv $\frac{x^4+x^2}{x^3+x^2+1}$ som en sum av et polynom og en rasjonal funksjon der graden til telleren er lavere enn graden til nevneren i den rasjonale funksjonen.
 
 > [!note]- Løsning
-![[Files/polydivisjo.svg]]
+> ![[Files/polydivisjo.svg]]
 
 
 > [!abstract] abc-formelen
