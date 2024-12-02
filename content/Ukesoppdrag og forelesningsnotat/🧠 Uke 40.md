@@ -226,27 +226,53 @@
 > [!note]- Løsning
 > La $s$ være avstanden mellom radarpistolen og bilen. Vi får vite at ${\color{#5ca6f4} \frac{ds}{dt} = 100 \text{ km/t} }$ er radarpistolens avlesning. Bilens hastighet $\frac{dx}{dt}$ kan vi finne ved å utnytte at vi får en likebeint trekant slik som figuren under viser. 
 > 
-> ![[Files/shapes at 24-09-24 14.03.02.svg]]
+> ![[Files/shapes at 24-12-02 11.41.52.svg]]
 > 
-> Når bilen danner en 45 graders vinkel med veiretningen ser vi at sammenhengen mellom avstanden til bilen $s$ og avstanden til veien er $2x^2 = s^2$, eller at ${ x = \frac{\sqrt{2}}{2}s }$
+> 
+> Når bilen danner en 45 graders vinkel med veiretningen ser vi at sammenhengen mellom avstanden til bilen $s$ og avstanden til veien er $x^2+k^2 = s^2$. Merk nå at alle avstandene avhenger av $t$, men $k$ er alltid konstant, så $\frac{dk}{dt}= 0$.
 > Deriverer vi med hensyn på $t$ får vi
 > $$
-> \frac{dx}{dt} = \frac{{\sqrt{2}}}{2} {\color{#5ca6f4} \frac{ds}{dt} } = \frac{\sqrt{2}}{2}{\color{#5ca6f4} 100\text{ km/t} } \approx 141 \text{ km/t}.
+> 2x\cdot\frac{dx}{dt}+ 2k \cdot 0 = 2s \cdot \frac{ds}{dt},
+> $$
+> eller at 
+> $$
+> \frac{dx}{dt} = \frac{s}{x} {\color{#5ca6f4} \frac{ds}{dt} }.
+> $$
+> Vi kan nå bruke at vi får vite at bilen danner en $45$ graders vinkel, så $x=k$ som betyr at $s=\sqrt{2}x$ som betyr at
+> $$
+> \frac{dx}{dt} = \frac{\sqrt{2}\cancel{ x }}{\cancel{ x }} {\color{#5ca6f4} \frac{ds}{dt} } = \sqrt{2} 100 \text{ km/t}  \approx 141 \text{ km/t} 
 > $$
 
 > [!abstract] 17 
 > Hvis radar-pistolen i oppgave 16 er rettet mot en bil som kjører i $90 \text{ km/t}$ langs en rett vei, hva vil radarpistolens avlesning være når pistolen peker i en vinkel på $30^\circ$ i forhold til veien?
 
 > [!note]- Løsning
-> La $s$ være avstanden mellom radarpistolen og bilen. Vi får vite at ${\color{#5ca6f4} \frac{ds}{dt} = 90 \text{ km/t} }$ er radarpistolens avlesning. Bilens hastighet $\frac{dx}{dt}$ kan vi finne ved å utnytte at vi får en likebeint trekant slik som figuren under viser. 
+> La $s$ være avstanden mellom radarpistolen og bilen. Vi får vite at ${\color{#f46f22} \frac{dx}{dt} = 90 \text{ km/t} }$ er bilens hastighet. Vi blir bedt om å finne $\frac{ds}{dt}$, hvor fort avstanden mellom bilen og radaren øker. Vi setter opp en skisse: 
 > 
-> ![[Files/shapes at 24-09-24 14.02.54.svg]]
+> ![[Files/shapes at 24-12-02 11.41.52.svg]]
 > 
-> Når bilen danner en 30 graders vinkel med veiretningen får vi sammenhengen $x^2 = s^2-\left( \frac{1}{2}s \right)^2 = \frac{3s^2}{4}$ eller at $x =\frac{\sqrt{3}}{2} s$. Deriverer vi med hensyn på $t$ får vi
+> Merk at $k$ er konstant. Trekanten gir oss en kobla sammenheng mellom sidelengdene, nemlig
 > $$
-> \frac{dx}{dt} = \frac{\sqrt{3}}{2}{\color{#5ca6f4} \frac{ds}{dt} } = \frac{\sqrt{3}}{2} {\color{#5ca6f4} 90 \text{ km/t}}.
+> x^2 + k^2 = s^2.
 > $$
-> Det tilsvarer omrent $79\text{ km/t}$.
+> Deriverer vi med hensyn på tid kan vi bruke [[Kapittel 2 - derivasjon/defogteo/💡 Kjerneregelen|kjerneregelen]] for å få
+> $$
+> 2x\cdot \frac{dx}{dt} + 2k\cdot \frac{dk}{dt} = 2s\cdot \frac{ds}{dt}.
+> $$
+> Siden $\frac{dk}{dt}= 0$, så har vi at
+> $$
+> {\color{#f46f22} \frac{dx}{dt} } = \frac{s}{x} \frac{ds}{dt}.
+> $$
+> Oppgaven forteller oss at bilen danner en 30 graders vinkel med veiretningen, som betyr at vinkelen mellom linjene med lengde $x$ og $s$ er $30^\circ$. 
+> Det gir oss sammenhengen $x^2 = s^2-\left( \frac{1}{2}s \right)^2 = \frac{3s^2}{4}$ eller at $x =\frac{\sqrt{3}}{2} s$ eller at $s = \frac{2}{\sqrt{3}}x$. Setter vi det inn, får vi
+> $$
+> {\color{#f46f22} \frac{dx}{dt} } = \frac{s}{x} \frac{ds}{dt} = \frac{\frac{2}{\sqrt{3}}\cancel{ x }}{\cancel{ x }} \frac{ds}{dt}
+> $$
+> Ganger vi gjennom med $\frac{\sqrt{3}}{2}$ får vi
+> $$
+> \frac{ds}{dt}=  \frac{\sqrt{3}}{2}{\color{#f46f22} \frac{dx}{dt} } = \frac{\sqrt{3}}{2} 90 \text{ km/t} \approx 78\text{ km/t}
+> $$
+> 
 > 
 
 
