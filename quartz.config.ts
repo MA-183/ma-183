@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       tagId: 'GTM-KQDBMZG9'
     },
     locale: "en-US",
-    baseUrl: "ma-183.github.io/MA-183",
+    baseUrl: "Andremartiny.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
