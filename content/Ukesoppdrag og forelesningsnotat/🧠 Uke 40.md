@@ -240,7 +240,7 @@
 > $$
 > Vi kan nå bruke at vi får vite at bilen danner en $45$ graders vinkel, så $x=k$ som betyr at $s=\sqrt{2}x$ som betyr at
 > $$
-> \frac{dx}{dt} = \frac{\sqrt{2}\cancel{ x }}{\cancel{ x }} {\color{#5ca6f4} \frac{ds}{dt} } = \sqrt{2} 100 \text{ km/t}  \approx 141 \text{ km/t} 
+> \frac{dx}{dt} = \frac{\sqrt{2}\cancel{ x }}{\cancel{ x }} {\color{#5ca6f4} \frac{ds}{dt} } = \sqrt{2} \cdot 100 \text{ km/t}  \approx 141 \text{ km/t} 
 > $$
 
 > [!abstract] 17 

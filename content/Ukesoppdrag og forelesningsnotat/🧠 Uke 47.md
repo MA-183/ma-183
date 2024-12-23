@@ -157,14 +157,14 @@ I disse oppgavene kan det være nyttig å ha disse to teknikkene i bakhodet.
 > 
 
 > [!note]- Løsning 
-> Her har vi $a^2-x^2$ i nevner, så vi setter ${\color{#e796f5} x= a\tan(u) }$ som betyr at ${\color{#5ca6f4} dx = \frac{a}{\cos^2(u)}du }$. Vi får da
+> Her har vi $a^2+x^2$ i nevner, så vi setter ${\color{#e796f5} x= a\tan(u) }$ som betyr at ${\color{#5ca6f4} dx = \frac{a}{\cos^2(u)}du }$. Vi får da
 > $$
-> \int \frac{1}{({\color{#e796f5} a }^2(1-{\color{#e796f5} \tan }^2(u)))^{3/2}}\cdot {\color{#5ca6f4} \frac{a}{\cos^2(u)}du }
+> \int \frac{1}{({\color{#e796f5} a }^2(1+{\color{#e796f5} \tan }^2(u)))^{3/2}}\cdot {\color{#5ca6f4} \frac{a}{\cos^2(u)}du }
 > $$
 > Vi kan nå bruke at $\tan(u)=\frac{\sin(u)}{\cos(u)}$ og faktorisere ut $\frac{1}{\cos^2(u)}$ i kvadratroten. Det gir
 > $$
 > \begin{aligned} 
-> & \int \frac{1}{({\color{#e796f5} a }^2(1-{\color{#e796f5} \tan }^2(u)))^{3/2}}\cdot {\color{#5ca6f4} \frac{a}{\cos^2(u)}du } \\ = & \int \frac{1}{a^3\left( \frac{1}{\cos^2(u)}(\cos^2(u)+\sin^2(u))^{3/2} \right)} \frac{a}{\cos^2(u)}du \\  = & \int \frac{1}{a^3 \frac{1}{\cos^3(u)}}\cdot \frac{a}{\cos^2(u)}du \\ =& \frac{1}{a^2}\int \cos(u)du = \frac{1}{a^2}\sin(u)+C.
+> & \int \frac{1}{({\color{#e796f5} a }^2(1+{\color{#e796f5} \tan }^2(u)))^{3/2}}\cdot {\color{#5ca6f4} \frac{a}{\cos^2(u)}du } \\ = & \int \frac{1}{a^3\left( \frac{1}{\cos^2(u)}(\cos^2(u)+\sin^2(u))^{3/2} \right)} \frac{a}{\cos^2(u)}du \\  = & \int \frac{1}{a^3 \frac{1}{\cos^3(u)}}\cdot \frac{a}{\cos^2(u)}du \\ =& \frac{1}{a^2}\int \cos(u)du = \frac{1}{a^2}\sin(u)+C.
 > \end{aligned} 
 > $$
 > Siden $x=\tan(u)$ kan vi sette opp en rettvinklet trekant med hosliggende side lik $a$ og motstående lik $x$. Da har vi trekanten med vinkelen $u$. Vi får da at hypotenusen er $\sqrt{a^2+x^2}$ og da er $\sin(u)= \frac{x}{\sqrt{a^2+x^2}}$. Vi får dermed
